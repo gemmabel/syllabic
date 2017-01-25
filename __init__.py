@@ -31,9 +31,8 @@ if generate_corpus: # Corpus of children stories
             
             with open(res_path, "w") as f:
                 f.write(story_parser.title)
-                f.write("\n\n")
                 for line in story_parser.result:
-                    f.write("\n\n")
+                    f.write(" ")
                     f.write(line)
                 f.flush()
                 

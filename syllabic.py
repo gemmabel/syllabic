@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 import re
 import os
+import string
 import pyphen
 
 
@@ -29,10 +30,14 @@ class SyllableStatistics(object):
                 continue
             import ipdb;ipdb.set_trace()
     
+    def remove_punctuation(self, text):
+        return re.sub('[%s]' % re.escape(string.punctuation), ' ', text)
+    
     def tokenize(self, text):
+        temp_text = self.remove_punctuation(text)
         temp_text = re.sub(r'[^\w\s]', 
                            '', 
-                           text, 
+                           temp_text, 
                            re.UNICODE).lower()
         temp = temp_text.split(" ")
         while '' in temp:

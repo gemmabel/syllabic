@@ -45,7 +45,7 @@ class StoryParser(HTMLParser):
                     pass
                 else:
                     if stripped_data != '':
-                        self.result.append(data.strip())
+                        self.result.append(stripped_data)
                     # print(stripped_data)
     
     def handle_endtag(self, tag):
