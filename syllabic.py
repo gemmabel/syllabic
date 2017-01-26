@@ -19,7 +19,8 @@ class SyllableStatistics(object):
                 with open(root + "/" + filepath, "r") as f:
                     content = f.read()
                 
-                tokens = self.tokenize(content)
+                tokens = self.tokenize(self.remove_punctuation(content))
+                #chars = self.unique_chars(content)
                 for token in tokens:
                     result = self.dic.inserted(token).split("-")
                     for syllable in result:
@@ -30,8 +31,13 @@ class SyllableStatistics(object):
                 continue
             import ipdb;ipdb.set_trace()
     
+    def unique_chars(self, text):
+        chars = set(list(text))
+        return chars
+    
     def remove_punctuation(self, text):
-        return re.sub('[%s]' % re.escape(string.punctuation), ' ', text)
+        spanish_punctuation = "!“-,¿.?"
+        return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
     
     def tokenize(self, text):
         temp_text = self.remove_punctuation(text)
