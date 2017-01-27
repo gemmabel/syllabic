@@ -73,7 +73,9 @@ class Syllabicator(object):
     
     def __init__(self):
         '''http://ponce.inter.edu/acad/cursos/ciencia/lasvi/modulo2.htm'''
+        
         # Una consonante entre dos vocales se agrupa con la vocal de la derecha:
+        self.vcv = re.compile("")
         
         # Dos consonantes entre dos vocales se separan y cada consonante se queda con una vocal:
         
@@ -86,8 +88,7 @@ class Syllabicator(object):
         # Cuando hay cuatro consonantes entre vocales, las primeras dos se unen a la primera vocal y las otras dos se unen a la segunda vocal.
         
         # Recuerda que las consonantes dobles: ch, ll, rr representan un solo fonema, por lo que para efectos de la división silábica cuentan como una sola consonante (no se separan). Se aplica entonces la regla #1.
-        
-        
+    
         pass
         
     
