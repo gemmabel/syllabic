@@ -9,9 +9,9 @@ source_dir = "./corpus/raw/"
 res_dir = "./corpus/clean/"
 generate_corpus = False
 
-if generate_corpus: # Corpus of children stories
-    story_parser = StoryParser()
-    for root, _, files in os.walk(source_dir):
+if generate_corpus: # Generate corpus of children stories
+    story_parser = StoryParser() # Get the corpus parser 
+    for root, _, files in os.walk(source_dir): # Read all raw files
         for fl in files:
             with open(root + "/" + fl, "r") as f:
                 try:
@@ -19,8 +19,10 @@ if generate_corpus: # Corpus of children stories
                 except:
                     continue
             
+            # Parse the content of the current file
             story_parser.feed(content)
             
+            # Save results in a "clean" folder
             res_path = root.replace("raw", "clean")
             if "." in fl: # no es folder
                 temp_fname = "".join(fl.split(".")[0:-1]) + ".txt"
@@ -36,6 +38,8 @@ if generate_corpus: # Corpus of children stories
                     f.write(line)
                 f.flush()
                 
+            # Reset the parser before continuing
             story_parser.reset()
 
+# Send the complete corpus to analysis
 stats = SyllableStatistics(res_dir)
