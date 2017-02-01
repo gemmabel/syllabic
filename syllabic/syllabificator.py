@@ -2,6 +2,8 @@
 # Based on Mabodo's ipython notebook (https://github.com/mabodo/sibilizador)
 # (c) Mabodo
 
+import re
+
 class char():
     def __init__(self):
         pass
