@@ -76,6 +76,30 @@ class Syllabicator(object):
     def __init__(self):
         '''http://ponce.inter.edu/acad/cursos/ciencia/lasvi/modulo2.htm'''
         
+        vocal_fuerte = ["a", "e", "o", "í", "ú"]
+        vocal_debil = ["i", "u"]
+        
+        diptongos_crecientes = ["ie", "ia", "io", "ua", "ue", "uo"]
+        diptongos_decrecientes = ["ai", "ei", "oi", "ay", "ey", "oy", "au", 
+                                  "eu", "ou"]
+        diptongos_homogeneos = ["iu", "ui"]
+        diptongos = diptongos_crecientes + \
+                    diptongos_decrecientes + \
+                    diptongos_homogeneos
+        self.v_diptongo = re.compile(r"|".join(diptongos))
+        
+        triptongos_i = ["iau", "iai", "uai", "uau", "ieu", "iei", "iay", 
+                        "uay", "iey"]
+        triptongos_u = ["uei", "ueu", "iou", "ioi", "uoi", "uou", "uey", 
+                        "ioy", "uoy"]
+        triptongos = triptongos_i + triptongos_u
+        self.v_triptongo = re.compile(r"|".join(triptongos))
+        
+        grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
+                               "cl", "gl", "fl", "kl", "pl", "tl"]
+        self.c_inseparables = re.compile(r"|".join(grupos_inseparables))
+        
+                            
         # Una consonante entre dos vocales se agrupa con la vocal de la derecha:
         self.vcv = re.compile("")
         
@@ -95,4 +119,5 @@ class Syllabicator(object):
         
     
     def __call__(self, word):
+        lower_word = word.lower()
         

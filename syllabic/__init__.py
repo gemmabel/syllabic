@@ -3,6 +3,7 @@ import os
 
 from cleaner import StoryParser
 from syllabic import SyllableStatistics
+from syllabificator import Syllabicator
 
 
 source_dir = "./corpus/raw/"
@@ -41,5 +42,7 @@ if generate_corpus: # Generate corpus of children stories
             # Reset the parser before continuing
             story_parser.reset()
 
+syl = Syllabicator()
+import ipdb;ipdb.set_trace()
 # Send the complete corpus to analysis
-stats = SyllableStatistics(res_dir)
+#stats = SyllableStatistics(res_dir)
