@@ -4,120 +4,212 @@
 
 import re
 
-class char():
-    def __init__(self):
-        pass
+class Char(object):
     
-class char_line():
-    def __init__(self, word):
-        self.word = word
-        self.char_line = [(char, self.char_type(char)) for char in word]
-        self.type_line = ''.join(chartype for char, chartype in self.char_line)
+    def __init__(self, pattern, char_type, interval):
+        self.char_type = char_type
+        self.pattern = pattern
+        self.interval = interval
         
-    def char_type(self, char):
-        if char in set(['a', 'á', 'e', 'é','o', 'ó', 'í', 'ú']):
-            return 'V' #strong vowel
-        if char in set(['i', 'u', 'ü']):
-            return 'v' #week vowel
-        if char=='x':
-            return 'x'
-        if char=='s':
-            return 's'
-        else:
-            return 'c'
-            
-    def find(self, finder):
-        return self.type_line.find(finder)
-        
-    def split(self, pos, where):
-        return char_line(self.word[0:pos+where]), char_line(self.word[pos+where:])
-    
-    def split_by(self, finder, where):
-        split_point = self.find(finder)
-        if split_point!=-1:
-            chl1, chl2 = self.split(split_point, where)
-            return chl1, chl2
-        return self, False
-     
-    def __str__(self):
-        return self.word
-    
-    def __repr__(self):
-        return repr(self.word)
 
-class Syllabificator():
-    def __init__(self):
-        self.grammar = []
-        
-    def split(self, chars):
-        rules  = [('VV',1), ('cccc',2), ('xcc',1), ('ccx',2), ('csc',2), ('xc',1), ('cc',1), ('vcc',2), ('Vcc',2), ('sc',1), ('cs',1),('Vc',1), ('vc',1), ('Vs',1), ('vs',1)]
-        for split_rule, where in rules:
-            first, second = chars.split_by(split_rule,where)
-            if second:
-                if first.type_line in set(['c','s','x','cs']) or second.type_line in set(['c','s','x','cs']):
-                    #print 'skip1', first.word, second.word, split_rule, chars.type_line
-                    continue
-                if first.type_line[-1]=='c' and second.word[0] in set(['l','r']):
-                    continue
-                if first.word[-1]=='l' and second.word[-1]=='l':
-                    continue
-                if first.word[-1]=='r' and second.word[-1]=='r':
-                    continue
-                if first.word[-1]=='c' and second.word[-1]=='h':
-                    continue
-                return self.split(first)+self.split(second)
-        return [chars]
-        
-    def __call__(self, word):
-        return self.split(char_line(word))
+class CharArray(object):
     
-class Syllabicator(object):
-    
-    def __init__(self):
-        '''http://ponce.inter.edu/acad/cursos/ciencia/lasvi/modulo2.htm'''
+    def __init__(self, word):
+        if not isinstance(word, str):
+            raise TypeError("No the correct type for a char array")
         
-        vocal_fuerte = ["a", "e", "o", "í", "ú"]
-        vocal_debil = ["i", "u"]
-        
+        self.vocales_fuertes = ["a", "e", "o", "á", "é", "ó", "í", "ú"]
+        self.vocales_debiles = ["i", "u"]
+        self.vocales = self.vocales_debiles + self.vocales_fuertes
+
+        self.consontant_y = ["y" + vowel for vowel in self.vocales]
+
         diptongos_crecientes = ["ie", "ia", "io", "ua", "ue", "uo"]
         diptongos_decrecientes = ["ai", "ei", "oi", "ay", "ey", "oy", "au", 
                                   "eu", "ou"]
         diptongos_homogeneos = ["iu", "ui"]
-        diptongos = diptongos_crecientes + \
-                    diptongos_decrecientes + \
-                    diptongos_homogeneos
-        self.v_diptongo = re.compile(r"|".join(diptongos))
+        self.diptongos = diptongos_crecientes + \
+                         diptongos_decrecientes + \
+                         diptongos_homogeneos
         
         triptongos_i = ["iau", "iai", "uai", "uau", "ieu", "iei", "iay", 
                         "uay", "iey"]
         triptongos_u = ["uei", "ueu", "iou", "ioi", "uoi", "uou", "uey", 
                         "ioy", "uoy"]
-        triptongos = triptongos_i + triptongos_u
-        self.v_triptongo = re.compile(r"|".join(triptongos))
+        self.triptongos = triptongos_i + triptongos_u
         
-        grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
-                               "cl", "gl", "fl", "kl", "pl", "tl"]
-        self.c_inseparables = re.compile(r"|".join(grupos_inseparables))
+        self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
+                                    "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
+                                    "rr"]
         
-                            
-        # Una consonante entre dos vocales se agrupa con la vocal de la derecha:
-        self.vcv = re.compile("")
+        self.word = word
+        self.vocal_representation = self.build_abstract_representation(word)
         
-        # Dos consonantes entre dos vocales se separan y cada consonante se queda con una vocal:
+    def build_abstract_representation(self, word):
+        representation = {}
         
-        # ¡Atención! Si la segunda consonante es r o l, las dos consonantes se agrupan con la segunda vocal.
+        for consonant_y in self.consontant_y:
+            while consonant_y in word:
+                word = word.replace("y", "#", 1)
         
-        # Cuando hay tres consonantes entre vocales, las primeras dos se unen con la primera vocal y la tercera se une a la segunda vocal.
-        
-        # Excepción: Si la tercera consonante es r o l, la primera consonante se une con la primera vocal y las otras dos con la siguiente.
-        
-        # Cuando hay cuatro consonantes entre vocales, las primeras dos se unen a la primera vocal y las otras dos se unen a la segunda vocal.
-        
-        # Recuerda que las consonantes dobles: ch, ll, rr representan un solo fonema, por lo que para efectos de la división silábica cuentan como una sola consonante (no se separan). Se aplica entonces la regla #1.
+        for triptongo in self.triptongos:
+            while triptongo in word:
+                beginning = word.index(triptongo)
+                end = beginning + len(word)
+                interval = (beginning, end)
+                representation[triptongo] = representation.get(triptongo, 
+                                                               []).append(
+                                                                   interval)
+                word = word.replace(triptongo, "@", 1)
+                
+        for diptongo in self.diptongos:
+            while diptongo in word:
+                beginning = word.index(diptongo)
+                end = beginning + len(word)
+                interval = (beginning, end)
+                representation[diptongo] = representation.get(diptongo, 
+                                                               []).append(
+                                                                   interval)
+                word = word.replace(diptongo, "@", 1)
+                
+        for grupo_c in self.grupos_inseparables:
+            while grupo_c in word:
+                beginning = word.index(grupo_c)
+                end = beginning + len(word)
+                interval = (beginning, end)
+                representation[grupo_c] = representation.get(grupo_c, 
+                                                             []).append(
+                                                                   interval)
+                word = word.replace(grupo_c, "#", 1)
+                
+        for vowel in self.vocales_debiles:
+            while vowel in word:
+                word = word.replace(vowel, "|", 1)
+                
+        for vowel in self.vocales_fuertes:
+            while vowel in word:
+                word = word.replace(vowel, "@", 1)
+                
+        for consonant in list("bcdfghjklmnñpqrstvwxyz"):
+            while consonant in word:
+                word = word.replace(consonant, "#", 1)
+                
+        word = word.replace("#", "C").replace("@", "V").replace("|", "V")
+        return word
     
-        pass
-        
+    def unmask(self, pattern):
+        result = []
+        word = self.word
+        import ipdb;ipdb.set_trace()
+        for syllable in pattern:
+            subsyl = ""
+            for character in syllable:
+                if character == "C":
+                    if word[1] in "bcdfghjklmnñpqrstvwxyz":
+                        for grupo_c in self.grupos_inseparables:
+                            if word.startswith(grupo_c):
+                                subsyl += grupo_c
+                                word = word[2:]
+                                break
+                    else:
+                        subsyl += word[0]
+                        word = word[1:]
+                elif character == "V":
+                    found = False
+                    if word[1] in self.vocales and word[2] in self.vocales:
+                        for triptongo in self.triptongos:
+                            if word.startswith(triptongo):
+                                subsyl += triptongo
+                                word = word[3:]
+                                found = True
+                                break
+                    if word[1] in self.vocales and not found:
+                        for diptongo in self.diptongos:
+                            if word.startswith(diptongo):
+                                subsyl += diptongo
+                                word = word[2:]
+                                found = True
+                                break
+                    if not found:
+                        subsyl += word[0]
+                        word = word[1:]
+            result.append(subsyl)
+    
+    def __str__(self, *args, **kwargs):
+        return str(self.vocal_representation)
+    
+    def __repr__(self, *args, **kwargs):
+        return str(self)
+    
+class Silabicador(object):
     
     def __call__(self, word):
-        lower_word = word.lower()
+        '''http://ponce.inter.edu/acad/cursos/ciencia/lasvi/modulo2.htm'''
         
+        res = []
+        lower_word = word.lower()
+        char_array = CharArray(lower_word)
+        abstract_word = list(str(char_array))
+        while len(abstract_word) != 0:
+            if abstract_word[0] == "V":
+                if len(abstract_word) == 1:
+                    res += ["V"]
+                    abstract_word = []
+                elif len(abstract_word) == 2:
+                    res += ["CV"]
+                    abstract_word = []
+                elif len(abstract_word) == 3:
+                    res += ["V", "CV"]
+                    abstract_word = []
+                else:
+                    # Una consonante entre dos vocales
+                    if abstract_word[1] == "C" and\
+                       abstract_word[2] == "V":
+                        res += ["V", "CV"]
+                        del abstract_word[2]
+                        del abstract_word[1]
+                        del abstract_word[0]
+                    # Dos consonantes entre dos vocales se separan y cada consonante se queda con una vocal:
+                    elif abstract_word[1] == "C" and\
+                       abstract_word[2] == "C" and\
+                       abstract_word[3] == "V":
+                        res += ["VC", "CV"]
+                        del abstract_word[3]
+                        del abstract_word[2]
+                        del abstract_word[1]
+                        del abstract_word[0]
+                        
+                    # Cuando hay tres consonantes entre vocales, las primeras dos se unen con la primera vocal y la tercera se une a la segunda vocal.
+                    elif abstract_word[1] == "C" and\
+                         abstract_word[2] == "C" and\
+                         abstract_word[3] == "C" and\
+                         abstract_word[4] == "V":
+                        res += ["VC", "CV"]
+                        del abstract_word[4]
+                        del abstract_word[3]
+                        del abstract_word[2]
+                        del abstract_word[1]
+                        del abstract_word[0]
+                    # Cuando hay cuatro consonantes entre vocales, las primeras dos se unen a la primera vocal y las otras dos se unen a la segunda vocal.
+                    elif abstract_word[1] == "C" and\
+                         abstract_word[2] == "C" and\
+                         abstract_word[3] == "C" and\
+                         abstract_word[4] == "C" and\
+                         abstract_word[5] == "V":
+                        res += ["VCC", "CV"]
+                        del abstract_word[5]
+                        del abstract_word[4]
+                        del abstract_word[3]
+                        del abstract_word[2]
+                        del abstract_word[1]
+                        del abstract_word[0]
+            elif abstract_word[0] == "C":
+                res.append(abstract_word.pop(0))
+        
+        i=0
+        while i<len(res):
+            if res[i] == "C":
+                res[i] = res[i] + res[i+1]
+                del res[i+1]
+            i += 1
+        return char_array.unmask(res)

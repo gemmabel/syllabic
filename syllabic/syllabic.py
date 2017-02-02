@@ -4,7 +4,7 @@ import os
 import string
 import pyphen
 import nltk
-from syllabificator import Syllabificator
+from syllabificator import Silabicador
 from unidecode import unidecode
 
 
