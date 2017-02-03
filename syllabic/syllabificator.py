@@ -127,7 +127,7 @@ class CharArray(object):
                         word = word[1:]
                 elif character == "V":
                     if len(word) > 2 and \
-                       word[1] in self.vocales and word[2] in self.vocales:
+                       word[1] in self.vocales and word[2] in self.vocales + ["y"]:
                         for triptongo in self.triptongos:
                             if word.startswith(triptongo):
                                 subsyl += triptongo
@@ -135,7 +135,7 @@ class CharArray(object):
                                 found = True
                                 break
                     if len(word) > 1 and \
-                       word[1] in self.vocales and not found:
+                       word[1] in self.vocales + ["y"] and not found:
                         for diptongo in self.diptongos:
                             if word.startswith(diptongo):
                                 subsyl += diptongo
