@@ -23,21 +23,30 @@ class CharArray(object):
         self.vocales = self.vocales_debiles + self.vocales_fuertes
 
         self.consontant_y = ["y" + vowel for vowel in self.vocales]
-
-        diptongos_crecientes = ["ie", "ia", "io", "ua", "ue", "uo"]
-        diptongos_decrecientes = ["ai", "ei", "oi", "ay", "ey", "oy", "au", 
-                                  "eu", "ou"]
+        
+        diptongos_crecientes = [d + f for d in self.vocales_debiles\
+                                      for f in self.vocales_fuertes]
+        #diptongos_crecientes = ["ie", "ia", "io", "ua", "ue", "uo",
+        #                        "ié", "iá", "ió", "uá", "ué", "uó"]
+        #diptongos_decrecientes = ["ai", "ei", "oi", "ay", "ey", "oy", "au", 
+        #                          "eu", "ou", "ái", "éi", "ói", "áy", "éy", 
+        #                          "óy", "áu", "éu", "óu"]
+        diptongos_decrecientes = [f + d for d in self.vocales_debiles\
+                                        for f in self.vocales_fuertes] + \
+                                 [f + "y" for f in self.vocales_fuertes]
         diptongos_homogeneos = ["iu", "ui"]
         self.diptongos = diptongos_crecientes + \
                          diptongos_decrecientes + \
                          diptongos_homogeneos
         
-        triptongos_i = ["iau", "iai", "uai", "uau", "ieu", "iei", "iay", 
-                        "uay", "iey"]
-        triptongos_u = ["uei", "ueu", "iou", "ioi", "uoi", "uou", "uey", 
-                        "ioy", "uoy"]
-        self.triptongos = triptongos_i + triptongos_u
-        
+        #triptongos_i = set({"iau", "iai", "uai", "uau", "ieu", "iei", "iay", 
+        #                "uay", "iey"})
+        #triptongos_u = set({"uei", "ueu", "iou", "ioi", "uoi", "uou", "uey", 
+        #                "ioy", "uoy"})
+        self.triptongos = [dip + d for dip in diptongos_crecientes \
+                                   for d in self.vocales_debiles] +\
+                          [dip + "y" for dip in diptongos_crecientes]
+                
         self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
                                     "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
                                     "rr"]
@@ -154,21 +163,23 @@ class Silabicador(object):
         lower_word = word.lower()
         char_array = CharArray(lower_word)
         abstract_word = list(str(char_array))
-        if lower_word == "esperandonos":
-            import ipdb;ipdb.set_trace()
+        
         while len(abstract_word) != 0:
             if abstract_word[0] == "V":
                 if len(abstract_word) == 1:
                     res += ["V"]
                     abstract_word = []
                 elif len(abstract_word) == 2:
-                    res += ["VC"]
+                    if abstract_word[1] == "C":
+                        res += ["VC"]
+                    else:
+                        res += ["V", "V"]
                     abstract_word = []
                 elif len(abstract_word) == 3:
                     res += ["V", "CV"]
                     abstract_word = []
                 else:
-                    # Una consonante entre dos vocales
+                    # Una consonante entre dos vocales se agrupa con la vocal de la derecha:
                     if abstract_word[1] == "C" and\
                        abstract_word[2] == "V":
                         res += ["V", "CV"]
@@ -211,15 +222,20 @@ class Silabicador(object):
                         del abstract_word[0]
             elif abstract_word[0] == "C":
                 res.append(abstract_word.pop(0))
+
+        final_grouping = []
+        while len(res)>0:
+            if res[0] == "C" and \
+               len(res) != 1 and \
+               res[1].startswith("V"):
+                final_grouping.append(res[0] + res[1])
+                del res[1]
+                del res[0]
+            elif res[0] == "C": # La consonante pega con la silaba anterior
+                final_grouping[-1] = final_grouping[-1] + res[0]
+                del res[0]
+            else:
+                final_grouping.append(res[0])
+                del res[0]
         
-        i=0
-        while i<len(res):
-            if res[i] == "C" and i+1 != len(res):
-                res[i] = res[i] + res[i+1]
-                del res[i+1]
-            elif res[i] == "C": # La consonante pega con la silaba anterior
-                res[i-1] = res[i-1] + res[i]
-                del res[i]
-            i += 1
-            
-        return char_array.unmask(res), res
+        return char_array.unmask(final_grouping), final_grouping
