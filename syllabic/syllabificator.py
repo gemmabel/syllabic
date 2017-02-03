@@ -100,30 +100,33 @@ class CharArray(object):
     def unmask(self, pattern):
         result = []
         word = self.word
-        import ipdb;ipdb.set_trace()
         for syllable in pattern:
             subsyl = ""
             for character in syllable:
+                found = False
                 if character == "C":
-                    if word[1] in "bcdfghjklmnñpqrstvwxyz":
+                    if len(word) > 1 and\
+                       word[1] in "bcdfghjklmnñpqrstvwxyz" and not found:
                         for grupo_c in self.grupos_inseparables:
                             if word.startswith(grupo_c):
                                 subsyl += grupo_c
                                 word = word[2:]
+                                found = True
                                 break
-                    else:
+                    if not found:
                         subsyl += word[0]
                         word = word[1:]
                 elif character == "V":
-                    found = False
-                    if word[1] in self.vocales and word[2] in self.vocales:
+                    if len(word) > 2 and \
+                       word[1] in self.vocales and word[2] in self.vocales:
                         for triptongo in self.triptongos:
                             if word.startswith(triptongo):
                                 subsyl += triptongo
                                 word = word[3:]
                                 found = True
                                 break
-                    if word[1] in self.vocales and not found:
+                    if len(word) > 1 and \
+                       word[1] in self.vocales and not found:
                         for diptongo in self.diptongos:
                             if word.startswith(diptongo):
                                 subsyl += diptongo
@@ -134,6 +137,7 @@ class CharArray(object):
                         subsyl += word[0]
                         word = word[1:]
             result.append(subsyl)
+        return result
     
     def __str__(self, *args, **kwargs):
         return str(self.vocal_representation)
@@ -150,13 +154,15 @@ class Silabicador(object):
         lower_word = word.lower()
         char_array = CharArray(lower_word)
         abstract_word = list(str(char_array))
+        if lower_word == "esperandonos":
+            import ipdb;ipdb.set_trace()
         while len(abstract_word) != 0:
             if abstract_word[0] == "V":
                 if len(abstract_word) == 1:
                     res += ["V"]
                     abstract_word = []
                 elif len(abstract_word) == 2:
-                    res += ["CV"]
+                    res += ["VC"]
                     abstract_word = []
                 elif len(abstract_word) == 3:
                     res += ["V", "CV"]
@@ -184,7 +190,7 @@ class Silabicador(object):
                          abstract_word[2] == "C" and\
                          abstract_word[3] == "C" and\
                          abstract_word[4] == "V":
-                        res += ["VC", "CV"]
+                        res += ["VCC", "CV"]
                         del abstract_word[4]
                         del abstract_word[3]
                         del abstract_word[2]
@@ -196,7 +202,7 @@ class Silabicador(object):
                          abstract_word[3] == "C" and\
                          abstract_word[4] == "C" and\
                          abstract_word[5] == "V":
-                        res += ["VCC", "CV"]
+                        res += ["VCC", "CCV"]
                         del abstract_word[5]
                         del abstract_word[4]
                         del abstract_word[3]
@@ -208,8 +214,12 @@ class Silabicador(object):
         
         i=0
         while i<len(res):
-            if res[i] == "C":
+            if res[i] == "C" and i+1 != len(res):
                 res[i] = res[i] + res[i+1]
                 del res[i+1]
+            elif res[i] == "C": # La consonante pega con la silaba anterior
+                res[i-1] = res[i-1] + res[i]
+                del res[i]
             i += 1
-        return char_array.unmask(res)
+            
+        return char_array.unmask(res), res
