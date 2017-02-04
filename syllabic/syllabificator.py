@@ -1,16 +1,5 @@
-#!/usr/bin/env python3
-# Based on Mabodo's ipython notebook (https://github.com/mabodo/sibilizador)
-# (c) Mabodo
+# -*- coding:utf-8 -*-
 
-import re
-
-class Char(object):
-    
-    def __init__(self, pattern, char_type, interval):
-        self.char_type = char_type
-        self.pattern = pattern
-        self.interval = interval
-        
 
 class CharArray(object):
     
@@ -26,11 +15,6 @@ class CharArray(object):
         
         diptongos_crecientes = [d + f for d in self.vocales_debiles\
                                       for f in self.vocales_fuertes]
-        #diptongos_crecientes = ["ie", "ia", "io", "ua", "ue", "uo",
-        #                        "ié", "iá", "ió", "uá", "ué", "uó"]
-        #diptongos_decrecientes = ["ai", "ei", "oi", "ay", "ey", "oy", "au", 
-        #                          "eu", "ou", "ái", "éi", "ói", "áy", "éy", 
-        #                          "óy", "áu", "éu", "óu"]
         diptongos_decrecientes = [f + d for d in self.vocales_debiles\
                                         for f in self.vocales_fuertes] + \
                                  [f + "y" for f in self.vocales_fuertes]
@@ -39,23 +23,22 @@ class CharArray(object):
                          diptongos_decrecientes + \
                          diptongos_homogeneos
         
-        #triptongos_i = set({"iau", "iai", "uai", "uau", "ieu", "iei", "iay", 
-        #                "uay", "iey"})
-        #triptongos_u = set({"uei", "ueu", "iou", "ioi", "uoi", "uou", "uey", 
-        #                "ioy", "uoy"})
         self.triptongos = [dip + d for dip in diptongos_crecientes \
                                    for d in self.vocales_debiles] +\
                           [dip + "y" for dip in diptongos_crecientes]
                 
         self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
                                     "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
-                                    "rr"]
+                                    "rr", "pr"]
         
         self.word = word
         self.vocal_representation = self.build_abstract_representation(word)
         
     def build_abstract_representation(self, word):
         representation = {}
+        
+        if word == "y":
+            word = "|"
         
         for consonant_y in self.consontant_y:
             while consonant_y in word:
@@ -127,17 +110,36 @@ class CharArray(object):
                         word = word[1:]
                 elif character == "V":
                     if len(word) > 2 and \
-                       word[1] in self.vocales and word[2] in self.vocales + ["y"]:
+                       word[1] in self.vocales and \
+                       word[2] in self.vocales + ["y"]:
                         for triptongo in self.triptongos:
                             if word.startswith(triptongo):
+                                if triptongo.endswith("y"):
+                                    is_consonant_y = False
+                                    if len(word) != 3: # Not end of word
+                                        is_consonant_y = True
+                                    elif len(word) > 3:
+                                        if word[3] in self.vocales: #y is consonant
+                                            is_consonant_y = True
+                                    if is_consonant_y:
+                                        break
                                 subsyl += triptongo
                                 word = word[3:]
                                 found = True
-                                break
+                                break 
                     if len(word) > 1 and \
                        word[1] in self.vocales + ["y"] and not found:
                         for diptongo in self.diptongos:
                             if word.startswith(diptongo):
+                                if diptongo.endswith("y"):
+                                    is_consonant_y = False
+                                    if len(word) == 2: # Not end of word
+                                        is_consonant_y = True
+                                    elif len(word) > 2:
+                                        if word[2] in self.vocales: #y is consonant
+                                            is_consonant_y = True
+                                    if is_consonant_y:
+                                        break
                                 subsyl += diptongo
                                 word = word[2:]
                                 found = True
@@ -153,6 +155,7 @@ class CharArray(object):
     
     def __repr__(self, *args, **kwargs):
         return str(self)
+    
     
 class Silabicador(object):
     
@@ -237,5 +240,5 @@ class Silabicador(object):
             else:
                 final_grouping.append(res[0])
                 del res[0]
-        
-        return char_array.unmask(final_grouping), final_grouping
+
+        return char_array.unmask(final_grouping)

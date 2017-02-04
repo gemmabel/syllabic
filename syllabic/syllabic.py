@@ -2,7 +2,6 @@
 import re
 import os
 import string
-import pyphen
 import nltk
 from syllabificator import Silabicador
 from unidecode import unidecode
@@ -10,14 +9,11 @@ from unidecode import unidecode
 
 class SyllableStatistics(object):
     
-    def __init__(self, corpus_path, lang_code='es_MX'):
+    def __init__(self, corpus_path):
         
-        lang = pyphen.language_fallback(lang_code)
-        
-        self.dic = pyphen.Pyphen(lang=lang)
         self.freqs = {}
         
-        self.syllabificator = Syllabificator()
+        self.syllabificator = Silabicador()
 
         for root, _, files in os.walk(corpus_path):
             for filepath in files:
@@ -36,15 +32,13 @@ class SyllableStatistics(object):
 #                         exit(0)
                     for syllable in result:
                         syllable = unidecode(str(syllable))
-                        if syllable == "rnu":
-                            import ipdb;ipdb.set_trace()
                         try:
                             self.freqs[syllable] += 1
                         except:
                             self.freqs[syllable] = 1
                 continue
             
-            import ipdb;ipdb.set_trace()
+        import ipdb;ipdb.set_trace()
     
     def readability(self, text):
         # Lecturabilidad / Índice Fernández Huerta = 206,84-(60 x (S / P) – (1,02 x (P / F)
@@ -108,6 +102,3 @@ class SyllableStatistics(object):
         res = []
         for sentence in sentences:
             res.append(self.tokenize(sentence))
-            
-#lang = pyphen.language_fallback('es_MX')
-#dic = pyphen.Pyphen(lang=lang)
