@@ -7,7 +7,7 @@ class CharArray(object):
         if not isinstance(word, str):
             raise TypeError("No the correct type for a char array")
         
-        self.vocales_fuertes = ["a", "e", "o", "á", "é", "ó", "í", "ú"]
+        self.vocales_fuertes = ["a", "e", "o", "á", "é", "ó", "í", "ú", "ä"]
         self.vocales_debiles = ["i", "u"]
         self.vocales = self.vocales_debiles + self.vocales_fuertes
 
@@ -29,7 +29,7 @@ class CharArray(object):
                 
         self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
                                     "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
-                                    "rr", "pr", "qu"]
+                                    "rr", "pr", "qu", "gü"]
         
         self.word = word
         self.vocal_representation = self.build_abstract_representation(word)
@@ -71,7 +71,7 @@ class CharArray(object):
                 representation[grupo_c].append(interval)
                 word = word.replace(grupo_c, "#", 1)
                 
-        for vowel in self.vocales_debiles:
+        for vowel in self.vocales_debiles + ["y"]:
             while vowel in word:
                 word = word.replace(vowel, "|", 1)
                 
@@ -79,11 +79,15 @@ class CharArray(object):
             while vowel in word:
                 word = word.replace(vowel, "@", 1)
                 
-        for consonant in list("bcdfghjklmnñpqrstvwxyz"):
+        for consonant in list("bcdfghjklmnñpqrstvwxz"):
             while consonant in word:
                 word = word.replace(consonant, "#", 1)
                 
         word = word.replace("#", "C").replace("@", "V").replace("|", "V")
+        extra_chars = word.replace("C", "").replace("V", "").replace("v", "")
+        if extra_chars != "":
+            for extra_char in list(extra_chars):
+                word = word.replace(extra_char, "C")
         return word
     
     def unmask(self, pattern):
@@ -95,7 +99,7 @@ class CharArray(object):
                 found = False
                 if character == "C":
                     if len(word) > 1 and\
-                       word[1] in "bcdfghjklmnñpqrstvwxyz" and not found:
+                       word[1] in "bcdfghjklmnñpqrstvwxz" and not found:
                         for grupo_c in self.grupos_inseparables:
                             if word.startswith(grupo_c):
                                 subsyl += grupo_c
@@ -158,12 +162,10 @@ class Silabicador(object):
     
     def __call__(self, word):
         '''http://ponce.inter.edu/acad/cursos/ciencia/lasvi/modulo2.htm'''
-        
         res = []
         lower_word = word.lower()
         char_array = CharArray(lower_word)
         abstract_word = list(str(char_array))
-
         while len(abstract_word) != 0:
             if abstract_word[0] == "V":
                 if len(abstract_word) == 1:
@@ -176,11 +178,15 @@ class Silabicador(object):
                         res += ["V", "V"]
                     abstract_word = []
                 elif len(abstract_word) == 3:
-                    res += ["V", "CV"]
+                    res += ["V", abstract_word[1] + abstract_word[2]]
                     abstract_word = []
                 else:
+                    # No hay consonantes en frente, sino otra vocal
+                    if abstract_word[1] == "V":
+                        res += ["V"]
+                        del abstract_word[0]
                     # Una consonante entre dos vocales se agrupa con la vocal de la derecha:
-                    if abstract_word[1] == "C" and\
+                    elif abstract_word[1] == "C" and\
                        abstract_word[2] == "V":
                         res += ["V", "CV"]
                         del abstract_word[2]
@@ -197,7 +203,8 @@ class Silabicador(object):
                         del abstract_word[0]
                         
                     # Cuando hay tres consonantes entre vocales, las primeras dos se unen con la primera vocal y la tercera se une a la segunda vocal.
-                    elif abstract_word[1] == "C" and\
+                    elif len(abstract_word) > 4 and\
+                         abstract_word[1] == "C" and\
                          abstract_word[2] == "C" and\
                          abstract_word[3] == "C" and\
                          abstract_word[4] == "V":
@@ -208,7 +215,8 @@ class Silabicador(object):
                         del abstract_word[1]
                         del abstract_word[0]
                     # Cuando hay cuatro consonantes entre vocales, las primeras dos se unen a la primera vocal y las otras dos se unen a la segunda vocal.
-                    elif abstract_word[1] == "C" and\
+                    elif len(abstract_word) > 5 and\
+                         abstract_word[1] == "C" and\
                          abstract_word[2] == "C" and\
                          abstract_word[3] == "C" and\
                          abstract_word[4] == "C" and\
@@ -220,13 +228,17 @@ class Silabicador(object):
                         del abstract_word[2]
                         del abstract_word[1]
                         del abstract_word[0]
-                    # No hay consonantes en frente, sino otra vocal
+                    # Chain of consonants
                     else:
-                        res += ["V"]
-                        del abstract_word[0]
+                        consonant_chain = ""
+                        for _ in range(len(abstract_word) - 2):
+                            consonant_chain += "C" 
+                        res += ["VC", consonant_chain]
+                        abstract_word = []
+                    
             elif abstract_word[0] == "C":
                 res.append(abstract_word.pop(0))
-
+        
         final_grouping = []
         while len(res)>0:
             if res[0] == "C" and \
@@ -235,9 +247,13 @@ class Silabicador(object):
                 final_grouping.append(res[0] + res[1])
                 del res[1]
                 del res[0]
-            elif res[0] == "C": # La consonante pega con la silaba anterior
+            # Si existe la consonante pega con la silaba anterior
+            elif res[0] == "C" and\
+                 len(final_grouping)>0 and\
+                 final_grouping[-1].endswith("V"): 
                 final_grouping[-1] = final_grouping[-1] + res[0]
                 del res[0]
+            # Else, assume it is a valid syllable
             else:
                 final_grouping.append(res[0])
                 del res[0]

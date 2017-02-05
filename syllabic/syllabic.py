@@ -22,7 +22,7 @@ class SyllableStatistics(object):
                 
                 tokens = self.tokenize(content)
                 sentences = self.sentences(content)
-                readability = self.readability(content)
+                #readability = self.readability(content)
                 for token in tokens:
                     result = self.syllabificator(token)
 #                     try:

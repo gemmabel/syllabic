@@ -108,4 +108,4 @@ print("%s" % result)
 #import ipdb;ipdb.set_trace()
 
 # Send the complete corpus to analysis
-#stats = SyllableStatistics(res_dir)
+stats = SyllableStatistics(res_dir)
