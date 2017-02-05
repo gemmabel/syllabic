@@ -29,7 +29,7 @@ class CharArray(object):
                 
         self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
                                     "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
-                                    "rr", "pr"]
+                                    "rr", "pr", "qu"]
         
         self.word = word
         self.vocal_representation = self.build_abstract_representation(word)
@@ -49,9 +49,8 @@ class CharArray(object):
                 beginning = word.index(triptongo)
                 end = beginning + len(word)
                 interval = (beginning, end)
-                representation[triptongo] = representation.get(triptongo, 
-                                                               []).append(
-                                                                   interval)
+                representation[triptongo] = representation.get(triptongo, [])
+                representation[triptongo].append(interval)
                 word = word.replace(triptongo, "@", 1)
                 
         for diptongo in self.diptongos:
@@ -59,9 +58,8 @@ class CharArray(object):
                 beginning = word.index(diptongo)
                 end = beginning + len(word)
                 interval = (beginning, end)
-                representation[diptongo] = representation.get(diptongo, 
-                                                               []).append(
-                                                                   interval)
+                representation[diptongo] = representation.get(diptongo, [])
+                representation[diptongo].append(interval)
                 word = word.replace(diptongo, "@", 1)
                 
         for grupo_c in self.grupos_inseparables:
@@ -69,9 +67,8 @@ class CharArray(object):
                 beginning = word.index(grupo_c)
                 end = beginning + len(word)
                 interval = (beginning, end)
-                representation[grupo_c] = representation.get(grupo_c, 
-                                                             []).append(
-                                                                   interval)
+                representation[grupo_c] = representation.get(grupo_c, [])
+                representation[grupo_c].append(interval)
                 word = word.replace(grupo_c, "#", 1)
                 
         for vowel in self.vocales_debiles:
