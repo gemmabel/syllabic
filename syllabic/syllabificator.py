@@ -163,7 +163,7 @@ class Silabicador(object):
         lower_word = word.lower()
         char_array = CharArray(lower_word)
         abstract_word = list(str(char_array))
-        
+
         while len(abstract_word) != 0:
             if abstract_word[0] == "V":
                 if len(abstract_word) == 1:
@@ -219,6 +219,10 @@ class Silabicador(object):
                         del abstract_word[3]
                         del abstract_word[2]
                         del abstract_word[1]
+                        del abstract_word[0]
+                    # No hay consonantes en frente, sino otra vocal
+                    else:
+                        res += ["V"]
                         del abstract_word[0]
             elif abstract_word[0] == "C":
                 res.append(abstract_word.pop(0))

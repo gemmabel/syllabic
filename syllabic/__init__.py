@@ -103,8 +103,8 @@ result = syl("mano")
 print("%s" % result)
 result = syl("pena")
 print("%s" % result)
-result, pattern = syl("supercalifragilisticoespiralidoso")
-print("%s, %s" % (result, pattern))
+result = syl("supercalifragilisticoespiralidoso")
+print("%s" % result)
 #import ipdb;ipdb.set_trace()
 
 # Send the complete corpus to analysis
