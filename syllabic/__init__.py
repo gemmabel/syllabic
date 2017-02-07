@@ -105,7 +105,7 @@ result = syl("pena")
 print("%s" % result)
 result = syl("supercalifragilisticoespiralidoso")
 print("%s" % result)
-#import ipdb;ipdb.set_trace()
 
 # Send the complete corpus to analysis
 stats = SyllableStatistics(res_dir)
+import ipdb;ipdb.set_trace()

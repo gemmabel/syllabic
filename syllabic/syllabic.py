@@ -5,6 +5,7 @@ import string
 import nltk
 from syllabificator import Silabicador
 from unidecode import unidecode
+from collections import OrderedDict
 
 
 class SyllableStatistics(object):
@@ -12,7 +13,7 @@ class SyllableStatistics(object):
     def __init__(self, corpus_path):
         
         self.freqs = {}
-        
+        self.readable = {}
         self.syllabificator = Silabicador()
 
         for root, _, files in os.walk(corpus_path):
@@ -22,7 +23,7 @@ class SyllableStatistics(object):
                 
                 tokens = self.tokenize(content)
                 sentences = self.sentences(content)
-                #readability = self.readability(content)
+                self.readable[filepath] = self.readability(content)
                 for token in tokens:
                     result = self.syllabificator(token)
 #                     try:
@@ -36,9 +37,17 @@ class SyllableStatistics(object):
                             self.freqs[syllable] += 1
                         except:
                             self.freqs[syllable] = 1
-                continue
-            
-        import ipdb;ipdb.set_trace()
+                print(filepath)
+        
+        self.freqs = OrderedDict(sorted(self.freqs.items(), 
+                                        key=lambda x:x[1],
+                                        reverse=True)
+                                 )
+        
+        self.readable = OrderedDict(sorted(self.readable.items(),
+                                           key=lambda x:x[1],
+                                           reverse=True)
+                                    )
     
     def readability(self, text):
         # Lecturabilidad / Índice Fernández Huerta = 206,84-(60 x (S / P) – (1,02 x (P / F)
