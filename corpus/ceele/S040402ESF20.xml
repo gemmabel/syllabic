@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="76" permisos="todos">
+	<titulo>S040402ESF20</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ESTAGUDAI"/>
+
+	<referencia id="ESTAGUDAI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESF20.txt"/>
+	<imagen archivo="S040402ESF20.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>soy</g><e/>
+<r c="Fs">...</r><e/>
+<g n="Daisy">D<mayNP/>e<sus tipo="axe"/>isy</g><e/>
+<g n="Casandra">c<sus tipo="Cxc"/>asandra</g><e/>
+<g>E<mayNP/>strada</g><e/>
+<g>A<mayNP/>guir<tachado>r</tachado><correccion tipo="susti"/>e</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="2"/><g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g n="en">E<sus tipo="exE"/>n<hiposeg/></g><g n="Tepic">t<sus tipo="Txt"/>epic</g><e/>
+<g>y</g><e/>
+<g n="tengo">ten<e/><hiperseg/>go</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="3"/><g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/>
+<g>mi</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g>bonita</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>muchos</g><e/>
+<g>jardines</g><e/>
+<g>y</g><e/>
+<g>con</g><e/>
+<l/>
+<nl num="4"/><g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>muy</g><e/>
+<g>pintadita</g><e/>
+<g>y</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>ladrillos</g><e/>
+<g>y</g><e/>
+<g>los</g><e/>
+<g>salones</g><e/>
+<g><tachado>s</tachado>on<correccion tipo="susti"/></g><e/>
+<g>muy</g><e/>
+<l/>
+<nl num="5"/><g>bonitos</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>una</g><e/>
+<g>tiendita</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g>biblioteca</g><e/>
+<g>y</g><e/>
+<g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g>me</g><e/>
+<g n="vengo">b<sus tipo="vxb"/>engo</g><e/>
+<g>a</g><e/>
+<l/>
+<nl num="6"/><g>pie</g><e/>
+<g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>me</g><e/>
+<g n="trae">trai<sus tipo="exi"/></g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>prima</g><e/>
+<g n="viene">b<sus tipo="vxb"/>iene</g><e/>
+<g>por</g><e/>
+<g n="mí">mi<omi tipo="acento"/></g><e/>
+<g n="con">co<omi tipo="n"/></g><e/>
+<g>su<hiposeg/></g><g n="bebé">bebe<omi tipo="acento"/></g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="hora"><omi tipo="h"/>ora</g><e/>
+<g>del</g><e/>
+<g>recreo</g><e/>
+<g n="jugamos">juga<e/><hiperseg/>
+mos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>rueda</g><e/>
+<g>de</g><e/>
+<g n="San">s<sus tipo="Sxs"/>a</g>
+<g n="Miguel">m<sus tipo="Mxm"/>iguel</g><e/>
+<g>y</g><e/>
+<g>cuando</g><e/>
+<l/>
+<nl num="8"/><g>acabamos</g><e/>
+<g>de<hiposeg/></g><g>jugar</g><e/>
+<g n="vamos">b<sus tipo="vxb"/>amos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>tiendita</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>compro</g><e/>
+<g>un</g><e/>
+<g>bolis</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="9"/><g>compro</g><e/>
+<g>muchas</g><e/>
+<g>cosas</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Para">p<sus tipo="Pxp"/>ara</g><e/>
+<g n="Fátima">f<sus tipo="Fxf"/>a<omi tipo="acento"/>tima</g><e/>
+<g>de<hiposeg/></g><g>parte</g><e/>
+<g>de</g><e/>
+<g n="Daisy">d<sus tipo="Dxd"/>e<sus tipo="axe"/>isi<sus tipo="yxi"/></g><e/>
+<g n="Casandra">c<sus tipo="Cxc"/>asandra</g><e/>
+<g>y</g><e/>
+<g n="adiós">adio<omi tipo="acento"/>s</g><l/>
+<nl num="10"/><g>que</g><e/>
+<g><tachado>t</tachado><correccion tipo="susti"/>e</g><e/>
+<g n="diviertas">dib<sus tipo="vxb"/>iertas</g><e/>
+<g>en<hiposeg/></g><g>tu</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g n="adiós">adio<omi tipo="acento"/>s</g><e/>
+<g>te</g><e/>
+<g>quiero</g><e/>
+<g>mucho</g><e/>
+<g>me</g><e/>
+<g>saludas</g><e/>
+<g>a</g><e/>
+<l/>
+<nl num="11"/><g>tu</g><e/>
+<g>maestro</g><e/>
+<g>o</g><e/>
+<g>a</g><e/>
+<g>tu</g><e/>
+<g>maestra</g><e/>
+<g>o</g><e/>
+<g n="lo"><tachado>o</tachado><correccion tipo="susti"/>l<per tipo="l"/></g><e/>
+<g n="que">gue<hiposeg/></g><g n="tú">tu<omi tipo="acento"/></g><e/>
+<g>tengas</g><e/>
+<g n="adiós">adio<omi tipo="acento"/>s</g><r c="Fp" punto="final">.</r><e/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. Encima Decía"t"</com>
+<com>4. Encima</com>
+<com>10. Encima</com>
+<com>11. No se entiende, parece que invirtió el orden de las letras</com>
+<com>Escribe todo muy pegado</com>
+</comentarios>
+</documento>

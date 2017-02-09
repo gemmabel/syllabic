@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="254" permisos="todos">
+
+	<titulo>S015302ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ACOAYORUB"/>
+
+	<referencia id="ACOAYORUB">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>
+
+	<archivo nombre="S015302ESM02.txt"/>
+	<imagen archivo="S015302ESM02a.jpg"/>
+	<imagen archivo="S015302ESM02b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>R<mayNP/>ubén</g><e/>
+<g>S<mayNP/>alvador</g><e/>
+<g>A<mayNP/>costa</g><e/>
+<g>A<mayNP/>yón</g><l/>
+<nl num="2"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g n="escuela">es<hiperseg/><e/>cueL<mayInter/>a<hiperseg/></g><e/>
+<g n="Título">T<mayIni/>i<omi tipo="acento"/>tuL<mayInter/><omi tipo="o"/></g><l/>
+<nl num="3"/><g n="Hola"><omi tipo="h"/>oL<mayInter/>a</g><e/>
+<g n="yo">yo<hiposeg/></g><g n="soy">soy<hiposeg/></g><e/>
+<g>R<mayNP/>ubén</g><e/>
+<g n="tengo">T<sus tipo="txT"/>engo</g><e/>
+<g n="ocho">ochos<agre tipo="s" error="concord"/><e/></g><r c="Fgs">-</r><e/><g>años</g><l/>
+<nl num="4"/><g>yo</g><e/>
+<g n="vivo">b<sus tipo="vxb"/>ivo</g><e/>
+<g>en</g><e/>
+<g n="Acaponeta">a<sus tipo="axA"/>caPoneta</g><e/>
+<g>mi</g><e/>
+<g n="papá">PaPá</g><l/>
+<nl num="5"/><g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><e/>
+<g n="Oscar">o<sus tipo="Oxo"/>scar</g><e/>
+<g n="Rubén">R<mayNP/>ube<omi tipo="acento"/>n</g><e/>
+<g>A<mayNP/>costa</g><e/>
+<g>J<mayNP/>assoz</g><l/>
+<nl num="6"/><g>y</g><e/>
+<g>mi</g><e/>
+<g n="mamá">ma<hiperseg/><e/>má<hiperseg/></g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><e/>
+<g n="Mayra">m<sus tipo="Mxm"/>ayra</g><l/>
+<nl num="7"/><g>A<mayNP/>yón</g><e/>
+<g n="López">L<mayNP/>o<omi tipo="acento"/>pes<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>un</g><e/><r c="Fgs">-</r><e/><g>hermanos<omi tipo="s" error="concord"/></g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g>dos</g><e/>
+<g n="primas">Primas</g><e/>
+<g>y</g><e/>
+<g>un</g><e/>
+<g n="primo">Primo</g><l/>
+<nl num="9"/><g>y</g><e/>
+<g n="mi">m<tachado>i</tachado><correccion tipo="susti"/></g><e/><r c="Fgs">-</r><e/><g>hermano</g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><e/>
+<g n="Oscar">o<sus tipo="Oxo"/>scar</g><e/>
+<g n="Rubén">R<mayNP/>ube<omi tipo="acento"/>n</g><l/>
+<nl num="10"/><g>A<mayNP/>costa</g><e/>
+<g>A<mayNP/>yón</g><e/>
+<g>una</g><e/>
+<g n="prima">Prima</g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/><hiposeg/>ama</g><l/>
+<nl num="11"/><g>M<mayNP/>arta</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/><r c="Fgs">-</r><e/><g>otra</g><e/>
+<g n="prima">Prima</g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama</g><l/>
+<nl num="12"/><g n="Luz">L<mayNP/>us<sus tipo="zxs"/></g><e/>
+<g n="María">m<sus tipo="Mxm"/>aría</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g n="primo">Primo</g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><l/>
+<nl num="13"/><g n="Daniel">d<sus tipo="Dxd"/>aniel</g><e/>
+<g n="Valentín">b<sus tipo="Vxv"/><sus tipo="vxV"/>aL<mayInter/>enti<omi tipo="acento"/><omi tipo="n"/></g><e/>
+<g n="Aguilar">a<sus tipo="Axa"/>giL<mayInter/>ar</g><e/>
+<g>y</g><e/>
+<g>mi</g><l/>
+<nl num="14"/><g n="maestra">ma<hiperseg/><e/>estra<hiperseg/></g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><e/>
+<g n="Leticia">L<mayNP/>eti<tachado>s</tachado><correccion tipo="susti"/>ia</g><l/>
+<nl num="15"/><g>yo</g><e/>
+<g>me</g><e/>
+<g n="vengo">b<sus tipo="vxb"/>eng<omi tipo="o"/></g><e/>
+<g n="a">a<hiposeg/></g><g n="las">las<hiposeg/></g><e/>
+<g tipo="otra">7<e/><r c="Fd">:</r><e/>0</g><e/>
+<g>de</g><e/>
+<g n="la">La</g><e/>
+<g>mañana</g><e/>
+<g>y</g><l/>
+<nl num="16"/><g>vivo</g><e/>
+<g n="lejos">leg<sus tipo="jxg"/>os</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>tardo</g><e/>
+<g>3</g><e/>
+<g n="minutos"><tachado>m</tachado><correccion tipo="susti"/>i<hiperseg/><e/>nutos<hiperseg/></g><e/>
+<g>y</g><e/>
+<g>el</g><l/>
+<nl num="17"/><g n="toque">to<hiperseg/><e/>que<hiperseg/></g><e/>
+<g>es</g><e/>
+<g n="a">a<hiposeg/></g><g n="las">L<mayInter/>as<hiposeg/></g><e/>
+<g>8</g><e/>
+<g>de</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="mañana">maña<tachado>n</tachado><correccion tipo="susti"/>a</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="18"/><g n="vengo">b<sus tipo="vxb"/>engo</g><e/>
+<g>en</g><e/>
+<g>carro</g><e/>
+<g>mi</g><e/>
+<g n="escuela">es<hiperseg/><e/>cueL<mayInter/>a<hiperseg/></g><e/>
+<g>es</g><e/>
+<g>grande</g><l/>
+<nl num="19"/><g>y</g><e/>
+<g>bonita</g><e/>
+<g n="y">y</g><e/>
+<g n="tiene">tiene</g><e/>
+<g n="muchos">muy<sus tipo="chxy"/>os</g><e/>
+<g n="salones">saL<mayInter/>ones</g><e/>
+<g>y</g><e/>
+<g n="se">se<hiposeg/></g>
+<g n="llama">y<sus tipo="llxy"/>ama<hiposeg/></g><l/>
+<nl num="20"/><g>Juan</g><e/>
+<g n="Espinosa">e<sus tipo="Exe"/>sPinosa</g><e/>
+<g n="Bávara">B<mayNP/>a<omi tipo="acento"/>vara</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g n="muchos">muy<sus tipo="chxy"/>os</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboL<mayInter/>es</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="21"/><g>y</g><e/>
+<g n="hay"><omi tipo="h"/>all<sus tipo="yxll"/></g><e/>
+<g>dos</g><e/>
+<g n="canchas"><tachado>c</tachado><correccion tipo="susti"/>anchas</g><e/>
+<g>y</g><e/>
+<g n="salón">saL<mayInter/>ón</g><e/>
+<g>de</g><e/>
+<g n="apoyo">apoch<sus tipo="yxch"/>o</g><l/>
+<nl num="22"/><g n="llegando">lle<hiperseg/><e/>gan<hiperseg/><e/><r c="Fgs">-</r><e/>do<hiperseg/></g><e/>
+<g n="leemos">L<sus tipo="lxL"/><tachado>e</tachado><correccion tipo="susti"/>l<sus tipo="exll"/>emos</g><e/>
+<g>un</g><e/>
+<g n="libro">L<sus tipo="lxL"/>ibro</g><e/>
+<g>y</g><e/>
+<g n="escribimos">esq<sus tipo="cxq"/>ribimos</g><l/>
+<nl num="23"/><g>y</g><e/>
+<g n="leemos">L<sus tipo="lxL"/>e<hiperseg/><e/><r c="Fgs">-</r><e/>emos<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="jugamos"><tachado>J</tachado><correccion tipo="susti"/>uga<hiperseg/><e/>mos<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="estudiamos">estudia<hiperseg/><e/>mos<hiperseg/></g><e/>
+<g>y</g><l/>
+<nl num="24"/><g n="contestamos">cont<hiperseg/><e/>es<hiperseg/><e/>ta<hiperseg/><e/>mos<hiperseg/></g><e/>
+<g n="los"><tachado>los</tachado><correccion tipo="cambiapal"/></g><e/>
+<g n="libros">L<sus tipo="lxL"/>ibros</g><e/>
+<g>y</g><e/>
+<g n="recortamos">re<hiperseg/><e/>cortamos<hiperseg/></g><l/>
+<nl num="25"/><g n="yo"><tachado>y</tachado><correccion tipo="susti"/>o</g><e/><r c="Fgs">-</r><e/><g>como</g><e/>
+<g n="carne">car<tachado>n</tachado><correccion tipo="susti"/>e</g><e/>
+<g>y</g><e/>
+<g n="chilaquiles">chiL<mayInter/>a<hiperseg/><e/>quiL<mayInter/>es<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="arroz">arros<sus tipo="zxs"/></g><l/>
+<nl num="26"/><g>y</g><e/>
+<g n="frijoles">b<sus tipo="fxb"/>ri<hiperseg/><e/>g<sus tipo="jxg"/>o<hiperseg/><e/>L<mayInter/>es<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="tacos">ta<hiperseg/><e/>cos<hiperseg/></g><e/>
+<g>de</g><e/>
+<g n="frijoles">b<sus tipo="fxb"/>ri<hiperseg/><e/>g<sus tipo="jxg"/>oles<hiperseg/></g><l/>
+<nl num="27"/><g>te</g><e/>
+<g>mando</g><e/>
+<g n="saludos">saL<mayInter/>ub<rotac tipo="d"/>os</g><e/>
+<g>y</g><e/>
+<g n="quiero">qui<hiperseg/><e/>ero<hiperseg/></g><e/>
+<g n="visitar">b<sus tipo="vxb"/>isitar<l tipo="singuion"/>
+<nl num="28"/>te</g>
+<e/><g>y</g><e/>
+<g>te</g><e/>
+<g>mando</g><e/>
+<g>una</g><e/>
+<g>carta</g><l/>
+<nl num="29"/><firma tipo="a"><g>R<mayNP/>ubén</g><e/>
+<g>S<mayNP/>alvador</g><e/>
+<g>A<mayNP/>costa</g><e/>
+<g>A<mayNP/>yón</g></firma><l/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general: </com>
+<com>El niño consistentemente hace la "l", excepto por una en la línea 16 "el" en "el toque".</com>
+<com>El niño consistentemente hace la "p" minúscula como mayúscula.</com>
+<com>Las grafías a las que les cuelga la "colita" están escritas al mismo nivel que las demás minúsculas, en este caso se transliteró "P", como tal pero no se considera mayúscula porque es de esas grafías. </com>
+<com>En los renglones 3., 7., 11., 22., 23., 25,  hay unos guiones de separación. Se dejaron en la transliteración porque son pocos.</com>
+<com>En la renglón 18. se termina la idea con "vengo en carro", hay una línea que separa la respuesta a la pregunta ¿Cómo llegamos a la escuela? de la respuesta a la pregunta ¿Cómo es nuestra escuela?. Sin embargo, espacialmente están en el mismo renglón "...carro" y "mi escuela...".</com>
+<com> </com>
+<com>2. Mayúsculas intermedias en "escuela" y el "título". </com>
+<com>3. Mayúscula intermedia en "hola". Hiposegmentación en "yo soy". </com>
+<com>5. Hiposegmentación en "se llama". </com>
+<com>6. Hipersegmentación en "mamá". Hiposegmentación en "se llama". ra</com>
+<com>9. Corrección: "i" por "e". Hiposegmentación en "se llama". </com>
+<com>11. Hiposegmentación en "se llama". </com>
+<com>12. Hiposegmentación en "se llama". </com>
+<com>13. Mayúsculas intermedias en "Valentín" y "Aguilar". </com>
+<com>14. Hipersegmentación en "maestra". Corrección en la "s", no se distingue lo anterior. </com>
+<com>15. Hiposegmentación en "a las". Mayúscula inicial en "la". </com>
+<com>16. Corrección "m" por "n". Hipersegmentación en "minutos".</com>
+<com>17. Hipersegmentación en "toque". Hiposegmentación en "a las". Mayúscula inical en "la". Corrección "n" por "ñ". a mña<tachado>n</tachado>a y me </com>
+<com>18. Hipersegmentación y mayúscula intermedia en "escuela".</com>
+<com>19. Hiposegmentación en "y tiene". Sustitución de "ch" por "y" (palatales). Mayúscula intermedia en "salones". Hiposegmentación en "se llama". </com>
+<com>20. Sustitución de "ch" por "y" (palatales) (ver 21.).  Mayúscula intermedia en "árboles".  </com>
+<com>21. Corrección en "canchas", parece haber una "o" bajo la "c". Mayúscula intermedia en "salón". Sustitución de "y" por "ch" (palatales). </com>
+<com>22. Mayúscula inicial y corrección de "l" por "e" en "leemos" (lellemos). Mayúscula inicial en "libro".</com>
+<com>23. Mayúscula inicial en "leejos". Sustitución de "j" por "g".  Hipersegmentación en "estudiamos". </com>
+<com>24. Hipersegmentación en "contestamos". Corrección sobre "los". Mayúscula inicial en "libros".  Hipersegmentación en "recortamos".</com>
+<com>25. Corrección "y" por algo que no se distingue bien. Corrección: "n" por "t". Hiposegmentación y mayúsculas intermedias en "chilaquiles" (chiLa quiLes). </com>
+<com>26. Sustitución de "b" por "f" y de "g" por "j" en las dos veces que escribe "frijoles". Hipersegmentación en el primer "frijoles" (bri goLes). Hipersegmentación en "tacos". </com>
+<com>27. Mayúscula intermedia y rotación de "d" en "saludos". </com>
+<com>29. Firma tipo a.</com>
+
+</comentarios>
+</documento>

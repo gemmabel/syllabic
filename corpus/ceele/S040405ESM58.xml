@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="8" permisos="todos">
+
+		<titulo>S040405ESM58</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="CORMONEDW"/>
+
+		<referencia id="CORMONEDW">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+		
+	<archivo nombre="S040405ESM58.txt"/>
+	<imagen archivo="S040405ESM58.jpg"/>
+	<vista tipo="T"/>	
+	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g n="se"><tachado>S</tachado><correccion tipo="susti"/><sus tipo="sxS"/>e</g><e/>
+<g n="llama">ñ<sus tipo="llxñ"/>ama</g><e/>
+<g n="Lázaro">l<sus tipo="Lxl"/>a<omi tipo="acento"/>s<sus tipo="zxs"/>aro</g><e/>
+<g n="Cárdenas">c<sus tipo="Cxc"/>a<omi tipo="acento"/>n<sus tipo="rxn"/>denas</g><e/>
+<r c="Fit">?</r><l tipo="compac"/>
+<nl num="3"/><g>L<mayNP/>edwin</g><e/>
+<e/>
+<g n="Ricardo">r<sus tipo="Rxr"/>icar<e/><hiperseg/>do</g><e/>
+<g n="Cortez">c<sus tipo="Cxc"/>orte<omi tipo="z"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Monroy">m<sus tipo="Mxm"/>onroy</g><l/>
+<nl num="4"/><g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<l/>
+<nl num="5"/><g>es</g><e/>
+<g>grande</g><e/>
+<g>con</g><e/>
+<g>dirección</g><e/>
+<g>con</g><e/>
+<g>muchos</g><l/>
+<nl num="6"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>muchos</g><e/>
+<g>salones</g><l/>
+<nl num="7"/><g>me</g><e/>
+<g n="trae">tray<sus tipo="exy"/></g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>o</g><e/>
+<g>mi<hiposeg/></g><g>papá</g><l/>
+<nl num="8"/><g>en</g><e/>
+<g>carro</g><e/>
+<l/>
+<nl num="9"/><g>jugamos</g><e/>
+<g n="platicamos">P<sus tipo="pxP"/>laticamos</g><e/>
+<g>nos</g><e/>
+<g>formamos</g><e/>
+<l/>
+<nl num="10"/><g>salir</g><e/>
+<g>a</g><e/>
+<g n="computación">computacio<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g n="física">fi<omi tipo="acento"/>sico<sus tipo="axo"/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2 Encima</com>
+<com>2 Chorizo</com>
+<com>3 encima</com>
+<com>3 Tacha</com>
+<com>6 Tacha</com>
+<com>Diseño: título centrado</com>
+</comentarios>
+</documento>

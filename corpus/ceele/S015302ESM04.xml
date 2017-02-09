@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="255" permisos="todos">
+
+	<titulo>S015302ESM04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="RODHERJOS"/>
+
+	<referencia id="RODHERJOS">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>
+	
+	<archivo nombre="S015302ESM04.txt"/>
+	<imagen archivo="S015302ESM04a.jpg"/>
+	<imagen archivo="S015302ESM04b.jpg"/>
+	<vista tipo="T"/>
+	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>J<mayNP/>osé</g><e/>
+<g n="Raúl">R<mayNP/>au<omi tipo="acento"/>l</g><e/>
+<g n="Rodríguez">R<mayNP/>odri<omi tipo="acento"/>guez</g><e/>
+<g n="Hernández">H<mayNP/>erna<omi tipo="acento"/>n<omi tipo="dez"/></g><l/>
+<nl num="2"/><g n="título">ti<omi tipo="acento"/>tulo</g><l/>
+<nl num="3"/><g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="4"/><g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g n="soy">soi<sus tipo="yxi"/></g><l/>
+<nl num="5"/><g n="soy">soi<sus tipo="yxi"/></g><e/>
+<g n="José">Jose<omi tipo="acento"/></g><e/>
+<g n="Raúl">Rau<omi tipo="acento"/>l</g><l/>
+<nl num="6"/><g>tengo</g><l/>
+<nl num="7"/><g>siete</g><e/>
+<g>años</g><l/>
+<nl num="8"/><g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/><omi tipo="o"/></g><e/>
+<g>en</g><l/>
+<nl num="9"/><g n="Acaponeta">a<sus tipo="Axa"/>caPoneta</g><l/>
+<nl num="10"/><g n="Nayarit">n<sus tipo="Nxn"/>all<sus tipo="yxll"/>ari<omi tipo="t"/></g><l/>
+<nl num="11"/><g>mi</g><e/>
+<g n="papá">PaPa<omi tipo="acento"/></g><l/>
+<nl num="12"/><g n="se">se<hiposeg/></g><g n="llama">llama<hiposeg/></g><l/>
+<nl num="13"/><g n="Raúl">Rau<omi tipo="acento"/>l</g><l/>
+<nl num="14"/><g n="mi">mi<hiposeg/></g><g n="mamá">ma<omi tipo="má"/><hiposeg/></g><l/>
+<nl num="15"/><g n="Elba">e<sus tipo="Exe"/>lba</g><l/>
+<nl num="16"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="17"/><g n="está">esta<omi tipo="acento"/></g><e/>
+<g>muy</g><e/>
+<g>grandota</g><l/>
+<nl num="18"/><g>tiene</g><e/>
+<g n="tiendita">tiend<omi tipo="i"/>ta</g><l/>
+<nl num="19"/><g>tiene</g><e/>
+<g>muchos</g><l/>
+<nl num="20"/><g>salones</g><e/>
+<g>y</g><e/>
+<g n="está">est<omi tipo="a"/><omi tipo="acento"/></g><l/>
+<nl num="21"/><g>muy</g><e/>
+<g>bonita</g><l/>
+<l/>
+<nl num="22"/><g>jugamos</g><e/>
+<g>estudiamos</g><l/>
+<nl num="23"/><g n="leemos"><tachado>l</tachado><correccion tipo="susti"/>e<hiperseg/><e/>emos<hiperseg/></g><e/>
+<g>un</g><e/>
+<g>libro</g><l/>
+<nl num="24"/><g>de</g><e/>
+<g>la</g><e/>
+<g n="videoteca">b<sus tipo="vxb"/>idi<omi tipo="e"/>oteca</g><l/>
+<nl num="25"/><g>salimos</g><e/>
+<g>a</g><e/>
+<g>recreo</g><l/>
+<nl num="26"/><g>para</g><e/>
+<g n="comprar">con<sus tipo="mxn"/>Prar</g><l/>
+<nl num="27"/><g n="José">Jose<omi tipo="acento"/></g><e/>
+<g n="Raúl">Rau<omi tipo="acento"/>l</g><e/>
+<g n="Rodríguez">Rodri<omi tipo="acento"/>guez</g><e/>
+<g n="Hernández">Herna<omi tipo="acento"/>ndez</g><l/>
+<nl num="28"/><g n="título">t<sus tipo="Txt"/>i<omi tipo="acento"/><omi tipo="tu"/>lo</g><e/><r c="Fgs">-</r><e/>
+<g n="yo">ll<sus tipo="yxll"/>o</g><e/><r c="Fgs">-</r><e/>
+<g n="me">me<hiposeg/></g><g n="llamo">llam<omi tipo="o"/><hiposeg/></g><e/>
+<g n="José">J<mayNP/>ose<omi tipo="acento"/></g><e/>
+<g n="Raúl">R<mayNP/>au<omi tipo="acento"/>l</g><l/>
+<nl num="29"/><g>mi</g><e/><r c="Fgs">-</r><e/>
+<g n="papá">P<sus tipo="pxP"/>aPa<omi tipo="acento"/></g><e/><r c="Fgs">-</r><e/><g>se<hiposeg/></g><g n="llamo">llam<omi tipo="o"/><hiposeg/></g><e/>
+<g n="Raúl">R<mayNP/>au<omi tipo="acento"/>l</g><e/>
+<g n="Rodríguez">R<mayNP/>odri<omi tipo="acento"/>guez</g><l/>
+<nl num="30"/><g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g n="se">se<hiposeg/></g><g n="llama">llama<hiposeg/></g><e/>
+<g n="Elaba">e<sus tipo="Exe"/>lba</g><l/>
+<nl num="31"/><g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g n="tengo">teng<omi tipo="o"/></g><e/>
+<g>siete</g><e/>
+<g>años</g><e/>
+<g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g>en</g><l/>
+<nl num="32"/><g n="Acaponeta">a<sus tipo="Axa"/>caPonet</g><e/>
+<g n="Nayarit">n<sus tipo="Nxn"/>all<sus tipo="yxll"/>ari<omi tipo="t"/></g><l/>
+<l/>
+<nl num="33"/><g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g>llego</g><e/>
+<g n="porque">Porque</g><e/>
+<g n="me">me</g><g n="lleva">lleb<sus tipo="vxb"/>a</g><e/>
+<g>mi</g><e/>
+<l/>
+<nl num="34"/><g n="papá">PaPa<omi tipo="acento"/></g><e/>
+<g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="viene">b<sus tipo="vxb"/>iene</g><e/>
+<g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g n="por">Por</g><l/>
+<nl num="35"/><g>mi</g><e/>
+<g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g n="bien">bie<omi tipo="n"/></g><e/>
+<g>lejos</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="36"/><g>mi</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="37"/><g>me</g><e/><r c="Fg">-</r><e/>
+<g>gustaria</g><r c="Fg">-</r><e/>
+<g n="conocerlo">conos<sus tipo="cxs"/>e<omi tipo="r"/>lo<omi tipo="s" error="concord"/></g><l/>
+<nl num="38"/><g n="mandarías">mandari<omi tipo="acento"/>e<sus tipo="axe"/>s</g><e/>
+<g>una</g><l/>
+<nl num="39"/><firma tipo="c"></firma>
+<l/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>La primera hoja está como dividida en dos, en la parte izquierda, el niño escribió y luego borró todo. Sin embargo es distinguible y lo transliteré en el siguiente orden: parte izquierda borrada primero (2-15), parte derecha segundo (16-21), y tercero el reverso de la hoja (22-39).</com>
+
+<com>Entre las líneas 21 y 22 hay una línea como separando párrafo.</com>
+<com>Entre las líneas 32 y 33 hay una línea como separando párrafo.</com>
+<com>Entre las líneas 36 y 37 hay una línea como separando párrafo.</com>
+
+<com>Las grafías con "colita" no están colgando del renglón. La única que se puede transliterar es la "p" y se hizo con "P". </com>
+<com>1. "Hernández" quedó incompleto porque se le acabó la hoja al niño.</com>
+<com>23. Corrección: no se entiende lo que hay abajo. </com>
+<com>24. El niño pone "bidioteca" lo corregí como "videoteca" en la versión normalizada porque el niños no rota las "b" en ninguna otra parte del texto, por ello, aunque los libros no se lean en la videoteca no me atreví a a hacer tal suposición. Esto es, la palabra no parece ser "bibioteca" con una omisión del "l", otra vez, porque el niño no rota ni "b" ni "d" en ninguna otra parte del texto.</com>
+</comentarios>
+</documento>

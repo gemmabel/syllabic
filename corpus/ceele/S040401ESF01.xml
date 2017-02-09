@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="62" permisos="todos">
+	<titulo>S040401ESF01</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GONSANAND"/>
+
+	<referencia id="GONSANAND">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+	
+	<archivo nombre="S040401ESF01.txt"/>
+	<imagen archivo="S040401ESF01.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>soy</g><e/>
+<g>A<mayNP/>ndrea</g><e/>
+<g>G<mayNP/>onzález</g><e/>
+<g n="Sánchez">S<mayNP/>a<omi tipo="acento"/>nchez</g><e/>
+<g n="tengo">teng<omi tipo="o"/></g><l/>
+<nl num="3"/><g>7</g><e/><g>años</g><e/>
+<g>yo</g><e/>
+<g>voy</g><e/>
+<g><tachado>y</tachado></g><e/>
+<g><tachado>voy<e/>
+</tachado><correccion tipo="elimi"/></g><g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>para</g><e/>
+<g>estudiar</g><l/>
+<nl num="4"/><g>y</g><e/>
+<g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g>M<mayNP/>éxico</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<l/>
+<nl num="5"/><g>es</g><e/>
+<g>de</g><e/>
+<g n="ladrillos">ladriy<sus tipo="llxy"/>os</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="6"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="ladrillo">ladri<tachado>yo</tachado><correccion tipo="susti"/><sus tipo="llxy"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="7"/><g>tiene</g><e/>
+<g>gradas</g><e/>
+<g>cancha</g><e/>
+<g>de</g><e/>
+<g>basquet</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>de</g><e/>
+<g>futbol</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="9"/><g n="Yo">Ll<mayIni/><sus tipo="YxLl"/>o</g><e/>
+<g n="llego">y<sus tipo="llxy"/>ego</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>en</g><e/>
+<l/>
+<nl num="10"/><g>carro</g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>y</g><e/>
+<g>mis</g><e/>
+<l/>
+<nl num="11"/><g n="hermanos"><tachado>er</tachado><omi tipo="h"/><correccion tipo="susti"/>manos</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="12"/><g>Yo<mayIni/></g><e/>
+<g>estudio</g><e/>
+<g>trabajo</g><e/>
+<g>juego</g><l/>
+<nl num="13"/><g>leo</g><e/>
+<g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g>deporte</g><l/>
+<nl num="14"/><g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g n="honores"><omi tipo="h"/>onores</g><e/>
+<g>los</g><e/>
+<g>lu<tachado>n</tachado><correccion tipo="susti"/>es</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="15"/><g n="trabajamos">t<sus tipo="Txt"/>rabajamos</g><e/>
+<g n="matemática">matema<omi tipo="acento"/>tica</g><l/>
+<nl num="16"/><g>español</g><e/>
+<g n="conocimiento">conos<sus tipo="cxs"/>imiento</g><l/>
+<nl num="17"/><g>del</g><e/>
+<g>medio</g><e/>
+<g>me</g><e/>
+<g>despido</g><l/>
+<nl num="18"/><g>de</g><e/>
+<g>ti</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>con</g><e/>
+<g>mucho</g><e/>
+<g>cariño</g><l/>
+<l/>
+<nl num="19"/><firma tipo="a"><g>Andrea</g><e/>
+<g>onzález</g><e/>
+<g>Sanchez</g></firma><l/><dibujo/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3 Borra.Texto agregado que se sale del renglón. Decía: "y voy a", estas palabras están entre el renglón 3 y 4 a la altura que marcan los pico parentesis</com>
+<com>6 Tacha </com>
+<com>6 Borra. Decía: " ll "</com>
+<com>11 Borró</com>
+<com>14 Encima</com>
+<com>18 Tacha</com>
+<com>Hay diseño de texto</com>
+<com>Hay firma:  escribe su nombre sin alterar la letra</com>
+<com>Hace dibujos al final del texto</com>
+<com>		</com>
+</comentarios>
+</documento>

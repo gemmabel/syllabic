@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="202" permisos="todos">
+
+	<titulo>N015303ESF06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="DUEMARSTE"/>
+
+	<referencia id="DUEMARSTE">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015303ESF06.txt"/>
+	<imagen archivo="N015303ESF06.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Fanny">F<mayNP/>aN<mayInter/>N<mayInter/>y</g><e/>
+<g>D<mayNP/>ueñas</g><e/>
+<g n="Martínez">M<mayNP/>arti<omi tipo="acdento"/>nez</g><l/>
+<nl num="2"/><pi><g n="Quién">Q<mayNP/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><g n="Hola"><omi tipo="H"/>o<sus tipo="Oxo"/>la</g><e/>
+<g>soy</g><e/>
+<g n="Fanny">F<mayNP/>aN<mayInter/>N<mayInter/>y</g><e/>
+<g>tengo</g><e/>
+<g>de</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>años</g><e/>
+<g>siete</g><e/>
+<g n="tengo">N<sus tipo="nxN"/><sus tipo="Nxt"/>engo</g><e/>
+<g>un</g><e/>
+<g n="hermano"><omi tipo="h"/>er<hiperseg/><e/>mane<sus tipo="oxe"/><hiperseg/></g><l/>
+<nl num="4"/><g>se<hiposeg/></g><g>llama<hiposeg/></g><e/>
+<g n="Benjamín">B<mayNP/>enJ<mayInter/>ami<omi tipo="acento"/>n</g><e/>
+<g>de</g><e/>
+<g>años</g><e/>
+<g>tiene</g><e/>
+<g n="cinco">s<sus tipo="cxs"/>inco</g><e/>
+<g>tengo</g><e/>
+<g>un</g><e/>
+<g n="papá">P<sus tipo="PxP"/>aP<mayInter/>a<omi tipo="acento"/></g><l/>
+<nl num="5"/><g>se<hiposeg/></g><g>llama<hiposeg/></g><e/>
+<g>J<mayNP/>aime</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<g n="también">tambie<omi tipo="acento"/>n</g><e/>
+<g>una</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/><r c="Fgs">-</r><g n="Edith"><tachado>E</tachado><mayNP/><correccion tipo="susti"/>dith</g><l/>
+<nl num="6"/><g>mi<hiposeg/></g><g>es<hiposeg/><e/>cuela<hiperseg/></g><e/>
+<g>tiene</g><e/>
+<g>seis</g><e/>
+<g>salones</g><l/>
+<nl num="7"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="8"/><g n="Nuestra">n<sus tipo="Nxn"/>u<e/>es<e/>tra<hiperseg/></g><e/>
+<g n="escuela">es<e/>cuela<hiperseg/></g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>tiene</g><e/>
+<g>seis</g><e/>
+<g>salones</g><l/>
+<nl num="9"/><g n="está">es<hiperseg/><e/>ta<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="hecha"><omi tipo="h"/>echa</g><e/>
+<g>de</g><e/>
+<g>material</g><l/>
+<nl num="10"/><g n="está">es<hiperseg/><e/>ta<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="pintada">P<sus tipo="pxP"/>intada</g><e/>
+<g>de</g><e/>
+<g>color</g><e/>
+<g>verde</g><l/>
+<nl num="11"/><g>y</g><e/>
+<g>tiene</g><e/>
+<g>cancha</g><e/>
+<g n="para">P<sus tipo="pxP"/>ara</g><e/>
+<g n="jugar">J<sus tipo="jxJ"/>ugar</g><l/>
+<nl num="12"/><g>tiene</g><e/>
+<g>tiendita</g><e/>
+<g n="para">P<sus tipo="pxP"/>ara</g><e/>
+<g n="comprar">comP<mayInter/>rar</g><l/>
+<nl num="13"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/><hiperseg/><e/></g><r c="Fgs">-</r><g n="escuela">es<hiperseg/><e/>cuela<hiperseg/></g></pi><l/>
+<nl num="14"/><g n="Llegamos">l<sus tipo="Lxl"/>legamo<omi tipo="s"/></g><e/>
+<g>en</g><e/>
+<g n="bicicleta">bis<sus tipo="cxs"/>icleta</g><l/>
+<nl num="15"/><g>de</g><e/>
+<g>mi<hiposeg/></g>
+<g n="casa">ca<omi tipo="sa"/><hiposeg/></g><e/>
+<g>me<hiposeg/></g>
+<g n="vengo">b<sus tipo="vxb"/>engo<hiposeg/></g><e/>
+<g>a<hiposeg/></g><g n="las">la<omi tipo="s" error="concord"/><hiposeg/></g><e/>
+<g tipo="otra">ocho</g><l/>
+<nl num="16"/><g n="yo">llo<sus tipo="yxll"/><hiposeg/></g>
+<g n="sí">si<omi tipo="acento"/><hiposeg/></g><e/>
+<g n="desayuno">de<hiperseg/><e/>sall<sus tipo="yxll"/>una<sus tipo="oxa"/><hiperseg/></g><e/>
+<g>en</g><e/><r c="Fg">-</r><e/><g>la</g><e/>
+<g>casa</g><e/>
+<g>y</g><e/>
+<g>me</g><g n="vengo">b<sus tipo="vxb"/>engo<hiposeg/></g>
+<g n="puntual">P<sus tipo="pxP"/>untual<hiposeg/></g><l/>
+<nl num="17"/><pi><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>en</g><g>la<hiposeg/></g><e/>
+<g>escuela</g></pi><l/>
+<nl num="18"/><g n="trabajamos">trabaJ<mayInter/>amos</g><e/>
+<g n="escribimos">es<tachado>c</tachado><correccion tipo="susti"/>ribimos</g><l/>
+<nl num="19"/><g n="leemos">le<hiperseg/><r c="Fg">-</r>emos<hiperseg/></g><r c="Fg">-</r><g n="hacemos"><omi tipo="h"/>a<hiperseg/><e/>s<sus tipo="cxs"/>emos<hiperseg/></g><e/>
+<g>cuentos</g><l/>
+<nl num="20"/><g n="copiamos">coP<mayInter/>iamos</g><e/><r c="Fg">-</r><g>cuentos</g><l/>
+<nl num="21"/><g>y</g><e/>
+<g n="dibujamos"><tachado>dibuJ<mayInter/>amos</tachado><correccion tipo="cambiapal"/></g><e/>
+<g n="dibujos">dibuJ<mayInter/>os</g><l/>
+<nl num="22"/><g>atentamente</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>La niña no cuelga la "colita" de "p" y la "j" la hace consistentemente como mayúscula. Se transliteraron como están</com>
+
+
+<com>2. La pregunta "¿Quién soy?" está circulada.</com>
+<com>3. No termina de trazar una grafía antes de "años".</com>
+<com>5. Corrección: "E" por algo que no se distingue.</com>
+<com>7. La pregunta "¿Cómo es nuestra escuela?" está circulada.</com>
+<com>13. La pregunta "¿Cómo llegamos a la escuela?" está circulada.</com>
+<com>17. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+<com>18. Corrección: "c" por un trazo que parece la primera parte de una "r" (sílaba trabada).</com>
+<com>22. Toda la palabra "dibujamos" está sobre algo que se borró.</com>
+</comentarios>
+</documento>

@@ -3,14 +3,50 @@ import re
 import os
 import string
 import nltk
-from syllabificator import Silabicador
+from syllabicator import Silabicador
 from unidecode import unidecode
 from collections import OrderedDict
 
 
-class SyllableStatistics(object):
+class Tokenizer(object):
     
-    def __init__(self, corpus_path):
+    def unique_chars(self, text):
+        chars = set(list(text))
+        return chars
+    
+    def remove_punctuation(self, text):
+        spanish_punctuation = "¡!“-,¿.?,…\xa0\xad–—\n«»”"
+        return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
+    
+    def sentences(self, text):
+        spanish_tokenizer = nltk.data.load('tokenizers/punkt/spanish.pickle')
+        return spanish_tokenizer.tokenize(text)
+    
+    def tokenize(self, text):
+        temp_text = self.remove_punctuation(text)
+        temp_text = re.sub('\d+', # No numbers
+                           '',
+                           temp_text,
+                           re.UNICODE).lower()
+        temp_text = re.sub(r'[^\w\s]', 
+                           '', 
+                           temp_text, 
+                           re.UNICODE).lower()
+        
+        temp = temp_text.split(" ")
+        while '' in temp:
+            temp.remove('')
+        return temp
+    
+    def tokenize_sentences(self, sentences):
+        res = []
+        for sentence in sentences:
+            res.append(self.tokenize(sentence))
+
+
+class SyllableStatistics(Tokenizer):
+    
+    def __init__(self, corpus_path, with_accents=False):
         
         self.freqs = {}
         self.readable = {}
@@ -32,7 +68,10 @@ class SyllableStatistics(object):
 #                         import ipdb;ipdb.set_trace()
 #                         exit(0)
                     for syllable in result:
-                        syllable = unidecode(str(syllable))
+                        syllable = str(syllable)
+                        if not with_accents:
+                            syllable = unidecode(syllable)
+                            
                         try:
                             self.freqs[syllable] += 1
                         except:
@@ -78,36 +117,3 @@ class SyllableStatistics(object):
         P = len(tokens)
         F = len(sentences)
         return 206.835 - (62.3 * (S/P)) - (P/F)
-    
-    def unique_chars(self, text):
-        chars = set(list(text))
-        return chars
-    
-    def remove_punctuation(self, text):
-        spanish_punctuation = "¡!“-,¿.?,…\xa0\xad–—\n«»”"
-        return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
-    
-    def sentences(self, text):
-        spanish_tokenizer = nltk.data.load('tokenizers/punkt/spanish.pickle')
-        return spanish_tokenizer.tokenize(text)
-    
-    def tokenize(self, text):
-        temp_text = self.remove_punctuation(text)
-        temp_text = re.sub('\d+', # No numbers
-                           '',
-                           temp_text,
-                           re.UNICODE).lower()
-        temp_text = re.sub(r'[^\w\s]', 
-                           '', 
-                           temp_text, 
-                           re.UNICODE).lower()
-        
-        temp = temp_text.split(" ")
-        while '' in temp:
-            temp.remove('')
-        return temp
-    
-    def tokenize_sentences(self, sentences):
-        res = []
-        for sentence in sentences:
-            res.append(self.tokenize(sentence))

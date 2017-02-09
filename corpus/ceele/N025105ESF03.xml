@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+
+<encabezado id="117" permisos="todos">
+
+	<titulo>N025105ESF03</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MELJASFAB"/>
+
+	<referencia id="MELJASFAB">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025105ESF03.txt"/>
+	<imagen archivo="N025105ESF03a.jpg"/>
+	<imagen archivo="N025105ESF03b.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>F<mayNP/>abiola</g><e/>
+<r c="Fg">-</r><e/>
+<g>M<mayNP/>elgar</g><e/>
+<r c="Fg">-</r><e/>
+<g n="Jasso">j<sus tipo="Jxj"/>asso</g><l/>
+<nl num="2"/><g>M<mayIni/>i</g><e/>
+<r c="Fg">-</r><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quié">Quie<omi tipo="acento"/>n</g><e/>
+<r c="Fg">-</r><e/>
+<g>soy</g></pi><l/>
+<nl num="4"/><r c="Faa">¡</r><g n="Hola">h<sus tipo="Hxh"/>ola</g><r c="Fat">!</r><e/>
+<r c="Fg">-</r><e/>
+<g>soy&gt;</g><e/>
+<r c="Fg">-</r><e/>
+<g n="Fabiola">f<sus tipo="Fxf"/>abiola</g><e/>
+<r c="Fg">-</r><e/>
+<g>Melgar</g><e/>
+<r c="Fg">-</r><e/>
+<g>estoy</g><e/>
+<r c="Fg">-</r><e/>
+<g>en</g><e/>
+<r c="Fg">-</r><e/>
+<g>la</g><e/>
+<r c="Fg">-</r><e/>
+<g>escuela</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g n="vivo"><tachado>v</tachado><correccion tipo="susti"/>i<tachado>v</tachado><correccion tipo="susti"/>o</g><e/>
+<r c="Fg">-</r><e/>
+<g>en</g><l/>
+<nl num="5"/><g n="San">s<sus tipo="Sxs"/>an</g><e/>
+<r c="Fg">-</r><e/>
+<g n="Vicente">v<sus tipo="Vxv"/>icente</g><e/>
+<r c="Fg">-</r><e/>
+<g tipo="abrev" n="Nay.">Nay<omi tipo="punto"/></g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g>tengo</g><e/>
+<r c="Fg">-</r><e/>
+<g>7</g><e/>
+<r c="Fg">-</r><e/>
+<g>años</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g>estudio</g><e/>
+<r c="Fg">-</r><e/>
+<g>en</g><e/>
+<r c="Fg">-</r><e/>
+<g n="Las">l<sus tipo="Lxl"/>as</g><e/>
+<r c="Fg">-</r><l/>
+<nl num="6"/><g n="Américas">Ame<omi tipo="acento"/>ricas</g><e/>
+<r c="Fg">-</r><e/>
+<g>mi</g><e/>
+<r c="Fg">-</r><e/>
+<g>escuela</g><e/>
+<r c="Fg">-</r><e/>
+<g>tiene</g><e/>
+<r c="Fg">-</r><e/>
+<g><tachado>(baño)tiene<e/><r c="Fg">-</r><e/>(co)</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>tiene</g><l/>
+<nl num="7"/><g>baños</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g n="aire">air<tachado>e</tachado><correccion tipo="susti"/></g><e/>
+<g>acondicionado</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g>comedor</g><e/>
+<g>y</g><e/>
+<g>nos</g><e/>
+<l/>
+<nl num="8"/><g>dan</g><e/>
+<g><tachado>fisica</tachado><correccion tipo="elimi"/></g><e/>
+<g n="física">fi<omi tipo="acento"/>sica</g><e/>
+<g>y</g><e/>
+<g>comemos</g><e/>
+<g>tortas</g><e/>
+<g n="hamburguesas"><omi tipo="h"/>amburguesas</g><l/>
+<nl num="9"/><g>y</g><e/>
+<g>tenemos</g><e/>
+<g>escobas</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g>el</g><e/>
+<g>que</g><e/>
+<g>nos</g><e/>
+<g>manda</g><e/>
+<g>cuadernos</g><l/>
+<nl num="10"/><g>es</g><e/>
+<g>el</g><e/>
+<g>gobierno</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<r c="Fg">-</r><e/>
+<g>hay</g><e/>
+<r c="Fg">-</r><e/>
+<g>sillas</g><e/>
+<g>y</g><e/>
+<g n="lápices">la<omi tipo="acento"/>pis<sus tipo="zxs"/><sus tipo="cesxs" error="concord"/></g><l/>
+<nl num="11"/><g n="quién">qu<tachado>i</tachado><correccion tipo="susti"/>e<omi tipo="acento"/>n</g><e/>
+<r c="Fg">-</r><e/>
+<g n="construyó">con<omi tipo="s"/>trull<sus tipo="yxll"/><tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<r c="Fg">-</r><e/>
+<g>la</g><e/>
+<r c="Fg">-</r><e/>
+<g n="escuela">escuela<tachado>(no)</tachado><correccion tipo="elimi"/></g><e/>
+<g>la</g><e/>
+<g n="hizo"><omi tipo="h"/>is<sus tipo="zxs"/>o</g><l/>
+<nl num="12"/><g>el</g><e/>
+<g>gobierno</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="13"/><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/>
+<g><tachado>(me)</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>(vengo)</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="14"/><g><tachado>(en)</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>(visicleta)</tachado><correccion tipo="elimi"/></g><e/>
+<g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="15"/><g>escuela</g><e/>
+<g><tachado>(en)</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>(visicleta)</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="16"/><g n="bicicleta">v<sus tipo="bxv"/>icicleta</g><e/>
+<g>en</g><e/>
+<g><tachado>(cenco)</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="17"/><g><tachado>(minutso)</tachado><correccion tipo="elimi"/></g><e/>
+<g>cinco</g><e/>
+<g>minutos</g><l/>
+<nl num="18"/><pi><g n="qué">que<omi tipo="acento"/></g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><e/>
+<g>estudiamos</g><l/>
+<nl num="19"/><g n="matemáticas">matema<omi tipo="acento"/>ticas</g><e/>
+<g><tachado>(x)</tachado><correccion tipo="elimi"/></g><r c="Fc">,</r><e/>
+<g>la</g><e/>
+<g>maestra</g><e/>
+<g>no</g><e/>
+<g>es</g><l/>
+<nl num="20"/><g>regañona</g><e/>
+<g>la</g><e/>
+<g>maestra</g><e/>
+<g n="nos">no<omi tipo="s"/></g><e/>
+<g n="explica">es<sus tipo="xxs"/>plica</g><e/>
+<g>bien</g><l/>
+<nl num="21"/><g>escribimos</g><e/>
+<g><tachado>(lam)</tachado><correccion tipo="elimi"/></g><e/>
+<g>la</g><e/>
+<g>maestra</g><l/>
+<nl num="22"/><g>juega</g><e/>
+<g>con</g><e/>
+<g><tachado>(los)(otros)</tachado><correccion tipo="elimi"/></g><e/>
+<g>nos</g><l/>
+<nl num="23"/><g n="sacan">saco<sus tipo="axo"/>n</g><e/>
+<g>del</g><e/>
+<g n="salón">salo<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>juega</g><l/>
+<nl num="24"/><g>y</g><e/>
+<g n="con">com<sus tipo="nxm"/></g><e/>
+<g><tachado>(nos)(otros)</tachado><correccion tipo="elimi"/></g><e/>
+<l/>
+<nl num="25"/><g>con</g><e/>
+<g>nosotros</g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>cantar</g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g n="educación">educacio<omi tipo="acento"/>n</g><e/>
+<g n="física">fi<omi tipo="acento"/>c<sus tipo="sxc"/>ica</g><e/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general: la niña separa las palabras con guiones y los errores se encierran en paréntesis.</com>
+<com>6. Corrección: Lo que se quiere eliminar se pone entre paréntesis.</com>
+<com>8. Corrección: circula la primera vez que pone "física" y la pone con la correccion que hace inmediatamente después.</com>
+<com>11. Dos correcciones una sin paréntesis, otra con paréntesis.  </com>
+<com>12. Correciones en paréntesis.</com>
+</comentarios>
+</documento>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="142" permisos="todos">
+
+	<titulo>N040401ESF32</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ARJCORNOR"/>
+
+	<referencia id="ARJCORNOR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N040401ESF32.txt"/>
+	<imagen archivo="N040401ESF32.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">escue<e/><hiperseg/>la</g><e/>
+<g n="Maestro">M<mayNP/>aE<mayInter/>stro</g><e/>
+<g n="Rafael">R<mayNP/>aF<mayInter/>ael</g><l/>
+<l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<g n="Norma">N<mayNP/>oR<mayInter/>ma</g><e/>
+<g>E<mayNP/>lizabeth<hiposeg/></g><g n="Arjona">a<sus tipo="Axa"/>rjoN<mayInter/>a</g><l/>
+<nl num="3"/><g>8</g><e/>
+<g>años</g><e/>
+<g><tachado>a</tachado></g><e/>
+<g><tachado>las</tachado><correccion tipo="susti"/></g><e/>
+<g>8</g><e/>
+<g n="en">em<sus tipo="nxm"/><hiposeg/></g><g>punto</g><l/>
+<nl num="4"/><g>juego</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>divierto</g><l/>
+<nl num="5"/><g n="bailo">v<sus tipo="bxv"/>ailo</g><e/>
+<g n="danza">dans<sus tipo="zxs"/>a</g><e/>
+<g>y</g><e/>
+<g>leo</g><l/>
+<nl num="6"/><g>cuentos</g><e/>
+<g>y</g><e/>
+<g n="así">asi<omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<l/>
+<nl num="7"/><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>me</g><e/>
+<g>divierto</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3 Borra</com>
+<com>Nota: escribe en letra imprenta y cursiva, intercala las mayúsculas de imprenta con las minúsculas y las letras tipo imprenta con las letras tipo cursiva</com>
+</comentarios>
+</documento>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="134" permisos="todos">
+
+	<titulo>N025106ESF84</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ZAMROMCIT"/>
+
+	<referencia id="ZAMROMCIT">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESF84.txt"/>
+	<imagen archivo="N025106ESF84A.jpg"/>
+	<imagen archivo="N025106ESF84B.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>C<mayNP/>itlali</g><e/>
+<g n="Yuztzilh">y<sus tipo="Yxy"/>utziL<mayInter/>h</g><e/>
+<g>Z<mayNP/>amorano</g><e/>
+<g>R<mayNP/>omero</g><l/>
+<nl num="2"/><g>M<mayIni/>i<tachado>e</tachado><correccion tipo="elimi"/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g>Q<mayIni/>uién</g><e/>
+<g>soy</g></pi><l/>
+<l/>
+<nl num="4"/><g>1</g><r c="Fg">-</r><e/>
+<g n="Hola">h<sus tipo="Hxh"/>ola</g><e/>
+<g>me</g><e/>
+<g n="llamo">y<sus tipo="llxy"/>amo</g><e/>
+<g>C<mayNP/>itlali</g><e/>
+<g n="Yutzilh">y<sus tipo="Yxy"/>utziL<mayInter/>h</g><e/>
+<g>y</g><e/>
+<g n="vivo">viVo<mayInter/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="5"/><g>R<mayNP/>ancho</g><e/>
+<g>de</g><e/>
+<g>T<mayNP/>uxpan</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="6"/><r c="Fe">"</r><e/>
+<g>L<mayNP/>as</g><e/>
+<g n="Américas">A<mayNP/>me<omi tipo="acento"/>ricas</g><e/>
+<r c="Fe">"</r><e/>
+<g>y</g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>grado</g><e/>
+<g>de</g><e/>
+<g tipo="grado"><r c="Fe">"</r>2<r c="Fgr">°</r><e/>
+A<r c="Fe">"</r></g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>mi</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>L<mayNP/>aura</g><e/>
+<g>E<mayNP/>lena</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>vengo</g><e/>
+<g>a</g><e/>
+<l/>
+<nl num="8"/><g>la</g><e/>
+<g>escuela</g><e/>
+<g>diario</g><e/>
+<g>con</g><e/>
+<g>el</g><e/>
+<g n="uniforme">uniF<mayInter/>orme</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="9"/><g>2</g><r c="Fg">-</r><e/>
+<pi><g>C<mayIni/>ómo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/>
+<r c="Fp" punto="seguido">.<sus tipo="?xpunto"/></r></pi><e/>
+<g><tachado>E</tachado>n<mayIni/><correccion tipo="susti"/></g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>hay</g><l/>
+<nl num="10"/><g n="pizarrones">Pizarrones</g><e/>
+<r c="Fc">,</r><e/>
+<g>tele</g><e/>
+<r c="Fc">,</r><e/>
+<g>gis</g><e/>
+<r c="Fc">,</r><e/>
+<g>hay</g><e/>
+<g>maestros</g><e/>
+<r c="Fc">,</r><e/>
+<g>maestras</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="11"/><g>canchas</g><e/>
+<r c="Fc">,</r><e/>
+<g>aires</g><e/>
+<g>acondicionados</g><e/>
+<r c="Fc">,</r><e/>
+<g>luz</g><e/>
+<r c="Fc">,</r><e/>
+<g n="salones">saló<agre tipo="acento"/>nes</g><e/>
+<r c="Fc">,</r><e/>
+<g>baños</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="12"/><g>tienditas</g><e/>
+<g n="escolares">escolar<omi tipo="e"/><omi tipo="s" error="concord"/></g><e/>
+<r c="Fc">,</r><e/>
+<g>dibujos</g><e/>
+<r c="Fc">,</r><e/>
+<g>árboles</g><e/>
+<r c="Fc">,</r><e/>
+<g n="útiles">u<omi tipo="acento"/>tiles</g><e/>
+<r c="Fc">,</r><e/>
+<g>bancas</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="13"/><g>agua</g><e/>
+<r c="Fc">,</r><e/>
+<g n="escritorios">E<sus tipo="exE"/>scritorios</g><e/>
+<g>y</g><e/>
+<g>libros</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="14"/><g>3</g><r c="Fg">-</r><e/>
+<pi><g n="Cómo">c<sus tipo="Cxc"/>ómo</g><e/>
+<g>llegas</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><r c="Fp" punto="seguido">.<sus tipo="?xpunto"/></r></pi><e/>
+<g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>a</g><e/>
+<g n="pie">a<agre tipo="a"/>Pie</g><l/>
+<nl num="15"/><g>y</g><e/>
+<g>duro</g><e/>
+<g>una</g><e/>
+<g n="hora"><omi tipo="h"/>ora</g><e/>
+<g>y</g><e/>
+<g n="paso">Paso</g><e/>
+<g>4</g><e/>
+<g n="cuadras">cuadra<omi tipo="s" error="concord"/></g><e/>
+<g n="para">Para</g><e/>
+<g>llegar</g><l/>
+<l/>
+<nl num="16"/><g>4</g><r c="Fg">-</r><e/>
+<pi><g>Q<mayIni/>ué</g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fp" punto="seguido">.<sus tipo="?xpunto"/></r></pi><e/>
+<g n="Leemos">l<sus tipo="Lxl"/>eemos</g><e/>
+<r c="Fc">,</r><e/>
+<g>nos</g><e/>
+<g n="formamos">F<sus tipo="fxF"/>ormamos</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="17"/><g>hacemos</g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>atemáticas</g><e/>
+<r c="Fc">,</r><e/>
+<g>escribimos</g><e/>
+<r c="Fc">,</r><e/>
+<g n="recortamos">R<sus tipo="Rxr"/>ecortamos</g><l/>
+<nl num="18"/><g>hacemos</g><e/>
+<g>cuentas</g><e/>
+<r c="Fc">,</r><e/>
+<g n="problemas">Problemas</g><e/>
+<r c="Fc">,</r><e/>
+<g>dibujamos</g><e/>
+<r c="Fc">,</r><e/>
+<g>y</g><e/>
+<g>hacemos</g><e/>
+<l/>
+<nl num="19"/><g n="trabalenguas">trav<sus tipo="bxv"/>alenguas</g><l/>
+<l/><l/>
+<nl num="20"/><g n="Citlali">c<sus tipo="Cxc"/>itlali</g><e/>
+<g n="Yutzzilh">y<sus tipo="Yxy"/>utziL<mayInter/>h</g><e/>
+<g><tachado>R</tachado><mayNP/><correccion tipo="susti"/>omero</g><l/>
+<nl num="21"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><l/>
+<nl num="22"/><pi><g>Q<mayIni/>uién</g><e/>
+<g>soy</g></pi><l/>
+</cuerpo>
+<comentarios>
+<com>1. Abandona la letra que iba a escribir.</com>
+<com>9. Encima. Había puesto "e"</com>
+<com>Diseño: Título centrado, subraya las preguntas que dan pie a los bloques temáticos, numéra las preguntas y alinea el texto.</com>
+<com>Las líneas 20, 21, 22, están al reverso del documento.</com>
+<com>Hace la misma forma gráfica "P" para mayúscula y minúscula.</com>
+</comentarios>
+</documento>

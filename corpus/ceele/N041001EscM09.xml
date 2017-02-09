@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="170" permisos="todos">
+
+		<titulo>N041001EscM09</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="RODROMJOS"/>
+
+		<referencia id="RODROMJOS">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>									
+
+	<archivo nombre="N041001EscM09.txt"/>
+	<imagen archivo="N041001EscM09.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><e/>
+<g n="José">[Jose<mayNP/><omi tipo="acento"/></g><e/>
+<g n="María">m]aria<sus tipo="Mxm"/><omi tipo="acento"/></g><e/>
+<g>Romero<mayNP/></g><e/>
+<g n="Rodríguez">Rodrrigues<mayNP/><agre tipo="r"/><omi tipo="acento"/><sus tipo="zxs"/></g><l/>
+<nl num="3"/><e/>
+<g>el</g><e/>
+<g n="Refugio">ReFijio<mayNP/><mayInter/><sus tipo="fxF"/><sus tipo="uxi"/><sus tipo="gxj"/></g><e/>
+<g n="Nay" tipo="abrev">nay<sus tipo="Nxn"/></g><e/>
+<g n="calle">colle<sus tipo="axo"/></g><e/>
+<g n="Emiliano">emiliano<sus tipo="Exe"/></g><e/>
+<g n="Zapata">sapata<sus tipo="Zxs"/></g><l/>
+<l/>
+<nl num="4"/><e/>
+<g>tengo<hiposeg/></g>
+<g>una<hiposeg/></g>
+<g>hermanita</g><e/>
+<g>y</g><e/>
+<g>un</g><e/>
+<g n="caballo">Caballo<sus tipo="cxC"/></g><e/>
+<g n="se">Se<sus tipo="sxS"/></g><e/>
+<g>llama</g><e/>
+<g n="Bailarín">bainlarin<sus tipo="Bxb"/><agre tipo="n"/><omi tipo="acento"/></g><l/>
+<l/>
+<nl num="5"/><e/>
+<g>me<hiposeg/></g>
+<g>gusta</g><e/>
+<g>comer</g><e/>
+<g n="frijoles">Fijoles<sus tipo="fxF"/><omi tipo="r"/></g><e/>
+<g>aguaditos</g><e/>
+<g>y</g><e/>
+<g>sopa<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g n="arroz">aros<omi tipo="r"/><sus tipo="zxs"/></g><l/>
+<nl num="6"/><e/>
+<g n="vivo">bibo<sus tipo="vxb"/><hiposeg/></g>
+<g>con</g><e/>
+<g>mi<hiposeg/></g>
+<g>papá<hiposeg/></g>
+<g>y</g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g n="abuelito">ahuelito<sus tipo="bxh"/><hiposeg/></g>
+<g>y</g><e/>
+<g>una</g><e/>
+<g>hermanita</g><l/>
+<nl num="7"/><e/>
+<g>tengo</g><e/>
+<g n="rancho">rallo<omi tipo="n"/><sus tipo="chxll"/></g><e/>
+<g>de</g><e/>
+<g n="vaca">Vaca<sus tipo="vxV"/></g><e/>
+<g>y</g><e/>
+<g>un<hiposeg/></g>
+<g>perrito<hiposeg/></g>
+<g>y</g><e/>
+<g>una</g><e/>
+<g>potranquita</g><e/>
+<g>y<hiposeg/></g>
+<g>una</g><e/>
+<g n="yegua">llegua<sus tipo="yxll"/></g><l/>
+<nl num="8"/><e/>
+<g>y</g><e/>
+<g>un<hiposeg/></g>
+<g>caballo<hiposeg/></g>
+<g>1<hiposeg/></g>
+<g>y<hiposeg/></g>
+<g>un<hiposeg/></g>
+<g>caballo<hiposeg/></g>
+<g>2</g><r c="Fp" punto="aparte">.</r><l/>
+<nl num="9"/><e/>
+<g>mi<hiposeg/></g>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g n="ladrillo">Ladrillo<sus tipo="lxL"/><hiposeg/></g>
+<g>y<hiposeg/></g>
+<g>de</g><e/>
+<g n="cemento">semeto<sus tipo="cxs"/></g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>piso</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g n="un">U<sus tipo="uxU"/><omi tipo="n"/><hiposeg/></g>
+<g n="baño">ballo<sus tipo="ñxll"/></g><l/>
+<nl num="10"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/><hiposeg/></g>
+<g n="llegamos">lle<hiperseg/><e/>gamo<omi tipo="s"/><hiposeg/></g>
+<g>de<hiposeg/></g>
+<g n="la">La<sus tipo="lxL"/><hiposeg/></g>
+<g n="escuela">eJcuela<sus tipo="sxJ"/></g></pi><e/>
+<g>a<hiposeg/></g>
+<g>pie</g><r c="Fp" punto="aparte">.</r><l/>
+<nl num="11"/><g><tachado>c</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Juego">juego<sus tipo="Jxj"/></g><e/>
+<g>al</g><e/>
+<g n="futbol">fusbol<sus tipo="txs"/></g><e/>
+<g>en<hiposeg/></g>
+<g n="física">fisica<omi tipo="acento"/></g><l/>
+<nl num="12"/><pi><g n="Cómo">co<sus tipo="Cxc"/><omi tipo="acento"/><omi tipo="mo"/><hiposeg/></g>
+<g>es<hiposeg/></g>
+<g>mi<hiposeg/></g>
+<g>escuela</g></pi><e/>
+<g>bonita</g><e/>
+<g>tiene</g><e/>
+<g n="techo">tello<sus tipo="chxll"/></g><e/>
+<g>y</g><e/>
+<g>piso</g><r c="Fp">.</r><l/>
+<nl num="13"/><g n="tenemos">tienemos<agre tipo="i"/><hiposeg/></g>
+<g n="sillas">siñoz<sus tipo="llxñ"/><sus tipo="axo"/><sus tipo="sxz"/></g><l/>
+<nl num="14"/><g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g n="eléctrica">eletricas<omi tipo="acento"/><omi tipo="c"/><agre tipo="s" error="concord"/></g><l/>
+<nl num="15"/><g n="televisión">telibion<sus tipo="exi"/><sus tipo="vxb"/><omi tipo="s"/><omi tipo="acento"/></g><l/>
+<nl num="16"/><g n="teléfono">t<tachado>e</tachado>lefono<correccion tipo="susti"/><omi tipo="acento"/><hiposeg/></g>
+<g>y<hiposeg/></g>
+<g n="carros">caros<omi tipo="r"/></g><r c="Fp" punto="aparte">.</r><l/>
+<nl num="17"/><g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g n="bicicleta">bisicleta<sus tipo="cxs"/></g><l/>
+<l/>
+<nl num="18"/><g n="Leemos">leemo<sus tipo="Lxl"/><omi tipo="s"/></g><e/>
+<g>trabajan</g><e/>
+<g>en</g><e/>
+<g>los</g><e/>
+<g n="cuadernos">cuarnos<omi tipo="de"/></g><l/>
+<nl num="19"/><g n="jugamos">jugamo<omi tipo="s"/><hiposeg/></g>
+<g>y</g><e/>
+<g n="hacemos">a<omi tipo="h"/><hiperseg/><e/>semo<sus tipo="cxs"/><omi tipo="s"/></g><e/>
+<g n="ejercicio">ergesio<per tipo="r"/><sus tipo="jxg"/><omi tipo="ci"/><sus tipo="cxs"/></g><l/>
+<l/>
+<nl num="20"/><g>Mi<mayIni/></g><e/>
+<g n="escuela">escueLa<mayInter/><sus tipo="lxL"/></g><l/>
+<l/>
+<nl num="21"/><pi><g>Quién<mayIni/><hiposeg/></g>
+<g n="soy">soi<sus tipo="yxi"/><hiposeg/></g></pi>
+<g n="José">Jose<mayNP/><omi tipo="acento"/><hiposeg/></g>
+<g>María<mayNP/><hiposeg/></g>
+<g><tachado>R</tachado>omero<mayNP/><correccion tipo="susti"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>Los primeros 4 renglones están subrayados.</com>
+<com>Los primeros 3 renglones están centrados.</com>
+<com>Todas las "p" y "h" están en mayúscula.</com>
+<com>2. Lo que está en parentesis está escrito con distinta letra.</com>
+<com>4. El renglón no es lineal.</com>
+<com>16. Bajo la "e" hay una "i".</com>
+<com>21. Bajo la "R" hay una "o".</com>
+</comentarios>
+</documento>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="129" permisos="todos">
+
+	<titulo>N025106ESF08</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PARMEDMAR"/>
+
+	<referencia id="PARMEDMAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N025106ESF08.txt"/>
+	<imagen archivo="N025106ESF08.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>María<mayNP/></g><e/>
+<g n="Guadalupe">Guada<e/>luPe<mayNP/><mayInter/><hiperseg/></g>
+<g>Pardo<mayNP/><hiposeg/></g><e/>
+<g>Medrano<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><e/>
+<r c="Fd">:</r><e/>
+<g>es</g><e/>
+<g>alegre</g><e/>
+<g>es</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g>Quién</g><e/>
+<g>soy</g><e/>
+<r c="Fd">:</r><e/></pi>
+<g>María<mayNP/></g><e/>
+<g n="Guadalupe">GuadaluPe<mayNP/><mayInter/></g><l/>
+<nl num="4"/><g n="vengo">bengo<sus tipo="vxb"/></g><e/>
+<g>a</g><e/>
+<g n="estudiar">estudia<omi tipo="r"/></g>
+<g n="aquí"><tachado>aq</tachado><correccion tipo="susti"/>ui<omi tipo="acento"/><hiposeg/></g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/>
+<nl num="5"/><g>yo</g>
+<g n="soy">soi<sus tipo="yxi"/><hiposeg/></g><e/>
+<r c="Fd">:</r><e/>
+<g>muy</g><e/>
+<g>alegre</g>
+<g>y<hiposeg/></g>
+<g n="comparto">con<hiposeg/><e/>Parto<sus tipo="mxn"/><hiperseg/><mayInter/></g><e/>
+<g>mis</g>
+<g n="cosas">cosas<hiposeg/></g><l/>
+<nl num="7"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>n<tachado>u</tachado><correccion tipo="susti"/>es<e/>tra<hiperseg/></g><e/>
+<g>escuela</g><e/>
+<r c="Fd">:</r><e/></pi>
+<g n="bonita">boni<e/><hiperseg/>ta</g><e/>
+<g>tiene</g><e/>
+<g>6</g><e/>
+<g n="salones">salonés<agre tipo="acento"/></g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>tiene</g>
+<g n="árboles">ár<hiposeg/><e/>boles<hiperseg/></g><e/>
+<g>y</g><e/>
+<g>dan</g><e/>
+<g n="sombra">son<e/><sus tipo="mxn"/>bra<hiperseg/></g>
+<g>y<hiposeg/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g><e/>
+<g n="dirección">Dirección<sus tipo="dxD"/></g>
+<g>y<hiposeg/></g><l/>
+<nl num="9"/><g>baños</g><l/>
+<nl num="10"/><g>y</g><e/>
+<pi><g>cómo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/></pi>
+<g>a</g>
+<g n="pie">Pie<sus tipo="pxP"/><hiposeg/></g><e/>
+<g>a</g>
+<g n="veces">ve<l tipo="singuion"/><l/><nl num="11"/><tachado>s</tachado><correccion tipo="susti"/>es</g><e/>
+<g>en</g><e/>
+<g>bicicleta</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>s</tachado><correccion tipo="susti"/>on</g><e/>
+<g><tachado>c</tachado><correccion tipo="susti"/>uatro</g><e/>
+<g>cuadras</g><l/>
+<nl num="12"/><pi><g>Que<omi tipo="acento"/></g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fx">:</r><e/></pi>
+<g>alegre</g><e/>
+<g>con</g><e/>
+<l/>
+<nl num="13"/><g n="compañeros">comPañeros<mayInter/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. encima "aq"</com>
+<com>7. encima "u" sobre "e"</com>
+<com>11. encima "s" sobre "c"</com>
+<com>11. tacha lo que escribe</com>
+<com>11. encima "s" sobre "c"</com>
+<com>11. encima "c"</com>
+<com>El niño pone "P" mayúscula cuando en lugar de "p"</com>
+</comentarios>
+</documento>

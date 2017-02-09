@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="154" permisos="todos">
+
+		<titulo>N040403ESF29</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="ESTCEJBEL"/>
+
+		<referencia id="ESTCEJBEL">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María Inés" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>					
+
+	<archivo nombre="N040403ESF29.txt"/>
+	<imagen archivo="N040403ESF29.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><pi><r c="Fia">¿</r><e/>
+<g>Q<mayIni/>uién</g><e/>
+<g n="soy">soY<mayInter/></g></pi><e/>
+<g>yo</g><e/>
+<g>me<hiposeg/></g><g n="llamo">y<sus tipo="llxy"/>amo</g><e/>
+<g n="Belén">B<mayNP/>ele<omi tipo="acento"/>m<sus tipo="nxm"/></g><l/>
+<nl num="3"/><g>L<mayNP/>ucero</g><e/>
+<g>E<mayNP/>strada</g><e/>
+<g n="Ceja">c<sus tipo="Cxc"/>eja</g><e/>
+<g>yo</g><e/>
+<g>viv<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>en</g><e/>
+<g n="Tepic">T<mayNP/>eP<mayInter/>ic
+<r c="Fp" punto="abrev">.</r><agre tipo="punto abrev"/></g><l/>
+<nl num="4"/><g>N<mayNP/>ayarit</g><e/>
+<g n="José">J<mayNP/>ose<omi tipo="acento"/></g><e/>
+<g tipo="abrev">O<mayNP/><r c="Fp" punto="abrev">.</r></g><e/>
+<g n="Menchaca">m<sus tipo="Mxm"/>enchaca</g><l/>
+<nl num="5"/><g>yo</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>en</g><e/>
+<g n="camión">camio<omi tipo="acento"/>n</g><l/>
+<nl num="6"/><g>a<hiposeg/></g><g n="mí">mi<omi tipo="acento"/></g><e/><g>me<hiposeg/></g><g n="trae">trai<sus tipo="exi"/></g><e/>
+<g>mi<hiposeg/></g><g n="mamá">ma<e/><hiperseg/>má</g><e/>
+<pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g n="es">E<sus tipo="exE"/>s<tachado>tu</tachado><hiposeg/></g><g n="escuela"><tachado>e<omi tipo="s"/>cuela</tachado><correccion tipo="susti"/></g><e/><r c="Fit">?</r><l/>
+<nl num="7"/><g n="tu">T<sus tipo="txT"/>u<hiposeg/></g><g>escuela</g></pi><e/>
+<g>yo</g><e/>
+<g>juego</g><e/>
+<g>yo</g><e/>
+<g n="estudio">esT<mayInter/>udio</g><e/>
+<g>yo</g><l/>
+<nl num="8"/><g n="aprendo">aP<mayInter/>rendo</g><l/>
+<nl num="9"/><g>yo</g><e/>
+<g n= "estudio">esT<mayInter/>udio</g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g n="maestra">ma<e/><hiperseg/>esT<mayInter/>ra</g><e/>
+<g n="Bertha">b<sus tipo="Bxb"/>eR<mayInter/>T<mayInter/>a</g><l/>
+<nl num="10"/><g n="Alicia">a<mayNP/><agrandaMin/>L<mayInter/>is<sus tipo="cxs"/>ia</g><l/>
+<l/>
+<nl num="11"/><g n="gracias">g<agrandaMin/>ras<sus tipo="cxs"/>ias</g><e/>
+<g n="por">P<sus tipo="pxP"/>or<hiposeg/></g><g n="acompañarme">acom<e/><hiperseg/>
+P<mayInter/>añarme</g><l/>
+<nl num="12"/><firma tipo="b"><g>Blen</g></firma><l/>
+<nl num="13"/><g>se<hiposeg/></g><g n="despide">des<e/><hiperseg/>P<mayInter/>ide</g><e/>
+<g n="tu">T<sus tipo="txT"/>u<hiposeg/></g><g>amiga</g><e/>
+<g n="adiós">a<agrandaMin/>dio<omi tipo="acento"/>s</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>T<mayInter/>ima</g><e/>
+<g n="soy">S<sus tipo="sxS"/>oy</g><e/>
+<l/>
+<nl num="14"/><g n="Belén">B<mayNP/>ele<omi tipo="acento"/>m<sus tipo="nxm"/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. Encima</com>
+<com>6. Encima</com>
+<com>10. "a" en "licia" la hace más grande para representar mayúscula</com>
+<com>11. "g" en "gracias" la hace más grande para representar mayúscula</com>
+<com>12. Firma: escribe su nombre más grande, en letra corrida y lo subraya</com>
+<com>13. "a" en "adiós" la hace más grande para representar mayúscula</com>
+<com>14. Escribe el nombre más grande como si fuese otra firma </com>
+</comentarios>
+</documento>

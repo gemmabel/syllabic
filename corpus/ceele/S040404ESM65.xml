@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="94" permisos="todos">
+	<titulo>S040404ESM65</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="IBAALOJOV"/>
+
+	<referencia id="IBAALOJOV">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040404ESM65.txt"/>
+	<imagen archivo="S040404ESM65.jpg"/>
+	<vista tipo="T"/>
+	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g>Y<mayIni/>o</g><e/>
+<g>soy</g><e/>
+<g>M<mayNP/>isael</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<e/>
+<l/>
+<nl num="3"/><g>G<mayNP/>eneral</g><e/>
+<g n="Juventino">J<mayNP/>ub<sus tipo="vxb"/>entino</g><e/>
+<g n="Espinosa">E<mayNP/>S<mayInter/>P<mayInter/>inosa</g><e/>
+<g>mi</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>H<mayNP/>ilda</g><e/>
+<g n="Díaz">d<sus tipo="Dxd"/>i<omi tipo="acento"/>as<sus tipo="zxs"/></g><l/>
+<nl num="4"/><g>J<mayNP/>acobo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>xico</g><e/>
+<g>mi</g><e/>
+<g n="papá">papa<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Ramón">r<sus tipo="Rxr"/>amo<omi tipo="acento"/>n</g><l/>
+<nl num="5"/><g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>E<mayNP/>nedina</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Yo">y<sus tipo="Y"/>o</g><e/>
+<g>entro</g><e/>
+<g>a<hiposeg/></g><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>8</g><e/>
+<g n="y">i<sus tipo="y"/></g><g>media</g><e/>
+<g>me</g><e/>
+<g>trae</g><e/>
+<g>mi</g><e/>
+<g n="papá">paP<mayInter/>a<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>a<hiposeg/></g><g>veces</g><e/>
+<g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>no</g><l/>
+<nl num="6"/><g>tengo</g><e/>
+<g>que</g><e/>
+<g>caminar</g><e/>
+<g>5</g><e/>
+<g n="quilómetros">quilo<omi tipo="acento"/>metros</g><e/>
+<r c="Fp" punto="aparte">.</r><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="7"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g>grande</g><e/>
+<g>que</g><e/>
+<g>tu</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>5</g><l/>
+<nl num="8"/><g n="patios">pate<sus tipo="ixe"/>os</g><e/>
+<g n="tiene">T<sus tipo="Txt"/>iene</g><e/>
+<g>tiendas</g><e/>
+<r c="Fc">,</r><e/>
+<g n="computación">computacio<omi tipo="acento"/>n</g><e/>
+<r c="Fc">,</r><e/>
+<g>15</g><e/>
+<g>salones</g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<l/>
+<nl num="9"/><g>escuela</g><e/>
+<g n="sí">S<sus tipo="sxS"/>i<omi tipo="acento"/></g><e/>
+<g>hay</g><e/>
+<g n="energía">energu<agre tipo="u"/>i<omi tipo="acento"/>a</g><e/>
+<g n="eléctrica">ele<omi tipo="acento"/>ctrica</g><e/>
+<e/>
+<g>nos</g><e/>
+<g n="sentamos">c<sus tipo="sxc"/>entamos</g><e/>
+<g>en</g><e/>
+<l/>
+<nl num="10"/><g>sillas</g><e/>
+<g>y</g><e/>
+<g>muchos</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rbole<sus tipo="s"/></g><e/>
+<g>hay</g><e/>
+<g>muchos</g><e/>
+<g n="niños">niño<omi tipo="s" error="concord"/></g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="11"/><g>maestras</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>maestros</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Nos">n<sus tipo="Nxn"/>os</g><e/>
+<g>formamos</g><e/>
+<g>del</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g>chico</g><e/>
+<l/>
+<nl num="12"/><g>al</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g>grande</g><e/>
+<g n="luego">L<sus tipo="lxL"/>uego</g><e/>
+<g>entramos</g><e/>
+<g>al</g><e/>
+<g n="salón">salo<omi tipo="acento"/>n</g><e/>
+<g>trabajamos</g><e/>
+<l/>
+<nl num="13"/><g>en</g><e/>
+<g>libros</g><e/>
+<g>cuadernos</g><e/>
+<g n="lápices">la<omi tipo="acento"/>piz<sus tipo="cxz"/>es</g><e/>
+<g>y</g><e/>
+<g>usamos</g><e/>
+<g n="pintarrón">pintarro<omi tipo="acento"/>n</g><e/>
+<g>se</g><e/>
+<l/>
+<nl num="14"/><g>usa</g><e/>
+<g>con</g><e/>
+<g><tachado>pla</tachado><correccion tipo="elimi"/></g><e/>
+<g n="plumón">P<sus tipo="Pxp"/>lumo<omi tipo="acento"/>n</g><e/>
+<g>nosotros</g><e/>
+<g n="conservamos">conserb<sus tipo="vxb"/>amos</g><e/>
+<g>los</g><e/>
+<l/>
+<nl num="15"/><g n="los">L<sus tipo="lxL"/>ibros</g><e/>
+<g>no</g><e/>
+<g>los</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>regresamos</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="16"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>ladrillos</g><e/>
+<g>no</g><e/>
+<g>de</g><e/>
+<g n="paja">P<sus tipo="pxP"/>o<sus tipo="axo"/>ja</g><e/>
+<g n="tiene">T<sus tipo="txT"/>iene</g><e/>
+<g>techo</g><e/>
+<l/>
+<nl num="17"/><g>de</g><e/>
+<g>cemento</g><e/>
+<g>tiene</g><e/>
+<g n="puertas">P<sus tipo="pxP"/>uertas</g><e/>
+<r c="Fc">,</r><e/>
+<g>refrigeradores</g><e/>
+<g>y</g><e/>
+<g>microondas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="18"/><g  n="Adiós">a<sus tipo="Axa"/>dio<omi tipo="acento"/>s</g><e/>
+<g n="espero">esP<mayInter/>ero</g><e/>
+<g n="verte">b<sus tipo="vxb"/>erte</g><e/>
+<g>pronto</g><l/>
+<l/>
+<nl num="19"/><g>te</g><e/>
+<g>la</g><e/>
+<g>manda</g><e/>
+<g>J<mayNP/>ovani</g><e/>
+<g>M<mayNP/>isael</g><e/>
+<g n="Ibarra">I<mayNP/>barro<sus tipo="axo"/></g><e/>
+<g>A<mayNP/>lonso</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>6 Tacha</com>
+<com>14. Tacha</com>
+<com>15. Tacha</com>
+<com>Subraya el título</com>
+</comentarios>
+</documento>

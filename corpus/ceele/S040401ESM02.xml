@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="65" permisos="todos">
+	<titulo>S040401ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="VARVILERI"/>
+
+	<referencia id="VARVILERI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESM02.txt"/>
+	<imagen archivo="S040401ESM02.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>es<tachado>cuela</tachado><correccion tipo="susti"/></g><l/>
+<nl num="2"/><r c="Fit">¿<agre tipo="¿"/></r><g n="Hola">H<mayIni/>a<sus tipo="oxa"/>la</g><e/>
+<g>soy</g><e/>
+<g>E<mayNP/>rick</g><e/>
+<g>D<mayNP/>aniel</g><e/>
+<g>V<mayNP/>argas</g><e/>
+<g>V<mayNP/>illa</g><e/>
+<r c="Fit">?<agre tipo="?"/></r><l/>
+<nl num="3"/><g>Y</g><e/>
+<g n="vivo">V<sus tipo="vxV"/>ivo</g><e/>
+<g>en</g><e/>
+<g>T<mayNP/>epic</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g n="colonia">co<e/><hiperseg/>lonia</g><e/>
+<g>es</g><e/>
+<g>M<mayNP/>a<tachado>r</tachado><correccion tipo="susti"/>te</g><e/>
+<g>70</g><l/>
+<nl num="4"/><g>M<mayIni/>I<mayInter/></g><e/>
+<g n="maestra">M<sus tipo="mxM"/>aestra</g><e/>
+<g><tachado>s</tachado><correccion tipo="susti"/>e</g><e/>
+<g>llama</g><e/>
+<g>P<mayNP/>atricia</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g>un</g><e/>
+<l/>
+<nl num="5"/><g>que</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>J<mayNP/>air</g><e/>
+<g>llego</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g>en</g><l/>
+<nl num="6"/><g n="camión">cami<tachado>o</tachado><correccion tipo="susti"/><omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>cuaderno</g><e/>
+<g>y</g><e/>
+<g n="lápiz">L<sus tipo="lxL"/>a<omi tipo="acento"/>piz</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>materia</g><l/>
+<nl num="7"/><g>es</g><e/>
+<g>español</g><e/>
+<r c="Fc">,</r><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>atema<omi tipo="acento"/>t<tachado>i</tachado><correccion tipo="susti"/>cas</g><e/>
+<r c="Fc">,</r><e/>
+<g>y</g><e/>
+<g n="conocimiento">conocimie<omi tipo="n"/><omi tipo="t"/><omi tipo="o"/><hiposeg/></g><g>del<hiposeg/></g><g n="medio">M<sus tipo="mxM"/>ed<tachado>i</tachado><correccion tipo="susti"/>o</g><l/>
+<l/><dibujo/>
+</cuerpo>
+<comentarios>
+<com>1 Borra. Decía "cuela"</com>
+<com>3 Encima</com>
+<com>4 Encima</com>
+<com>6 Encima</com>
+<com>7 Borra. Decía: "e" debajo. </com>
+<com>7 Encima</com>
+<com>Hay diseño del texto: Título centrado</com>
+<com>Hay dibujo al final del texto</com>
+
+</comentarios>
+</documento>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="266" permisos="todos">
+
+	<titulo>S024601ESM11</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="NAVGARARM"/>
+
+	<referencia id="NAVGARARM">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>												
+
+	<archivo nombre="S024601ESM11.txt"/>
+	<imagen archivo="S024601ESM11.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g tipo="fecha">4/11/05</g><e/>
+<g>Armando<mayNP/></g><e/>
+<g>Nava<mayNP/></g><e/>
+<g n="García">Garcia<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g>Quién<mayIni/></g><e/>
+<g>soy</g><e/>
+<r c="Fp" punto="aparte">.</r><l/></pi>
+<nl num="4"/><g>Me<mayIni/></g><e/>
+<g n="llamo">llaMo<mayInter/></g><e/>
+<g>Armando<mayNP/></g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>vivo</g><e/>
+<g>en</g><l/>
+<nl num="5"/><g>Ruiz<mayNP/></g><e/>
+<g n="Nay.">Nay<mayNP/><omi tipo="punto abrev"/></g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>tres</g><e/>
+<g n="hermanos">ermanos<omi tipo="h"/></g><e/>
+<g n="mi">Mi<sus tipo="mxM"/></g><e/>
+<g n="papá">PáPa<sus tipo="pxP"/><mayInter/></g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="6"/><g>Alfonso<mayNP/></g><e/>
+<g>y</g><e/>
+<g n="mi">Mi<sus tipo="mxM"/></g><e/>
+<g n="mamá">MáMa<sus tipo="mxM"/><mayInter/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>Rosario<mayNP/></g><l/>
+<l/>
+<nl num="7"/><pi><g n="Como">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="8"/><g n="Nuestra">nuestra<sus tipo="Nxn"/></g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>sillas</g><e/>
+<g><tachado>es</tachado><correccion tipo="elimi"/></g><e/>
+<g>tiene</g><e/>
+<g>ventanas</g><l/>
+<nl num="9"/><g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="construida">costruida<omi tipo="n"/></g><e/>
+<g>de</g><e/>
+<g>ladrillo</g><e/>
+<g>la</g><e/>
+<g n="construyó">costrullo<omi tipo="n"/><sus tipo="yxll"/><omi tipo="acento"/></g><e/>
+<g>el</g><e/>
+<g n="presidente">Presidente<sus tipo="pxP"/></g><l/>
+<nl num="10"/><g>y</g><e/>
+<g>tiene</g><e/>
+<g>9</g><e/>
+<g>salones</g><e/>
+<g>y</g><e/>
+<g n="aquí">aqui<omi tipo="acento"/></g><e/>
+<g>tenemos</g><e/>
+<g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g n="hace">ase<omi tipo="h"/><sus tipo="cxs"/></g><l/>
+<nl num="11"/><g>un</g><e/>
+<g>poco</g><e/>
+<g>de</g><e/>
+<g n="frío">frio<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g>cancha</g><e/>
+<g>de</g><e/>
+<g n="basquet">vasquet<sus tipo="bxv"/></g><l/>
+<nl num="12"/><g>y</g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g><e/>
+<g n="árboles">arboles<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="empiezan">enpiesan<sus tipo="mxn"/><sus tipo="zxs"/></g><e/>
+<g>las</g><e/>
+<g>clases</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g tipo="otra">8</g><l/>
+<nl num="13"/><g>y</g><e/>
+<g>tiene</g><e/>
+<g>baño</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="14"/><pi><g n="cómo"><sus tipo="Cxc"/>como<omi tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="15"/><g n="A">a<sus tipo="Axa"/></g>
+<g n="veces">veses<sus tipo="cxs"/><hiposeg/></g><e/>
+<g n="mi">Mi<sus tipo="mxM"/></g><e/>
+<g n="mamá">MáMa<sus tipo="mxM"/><mayInter/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="me">Me<sus tipo="mxM"/></g><e/>
+<g n="trae">tray<sus tipo="exy"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/>
+<nl num="16"/><g>en</g><e/>
+<g>el</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>carro</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="biblioteca">vivioteca<sus tipo="bxv"/><omi tipo="l"/><sus tipo="bxv"/></g><l/>
+<nl num="17"/><g>y</g><e/>
+<g n="también">tamvien<sus tipo="bxv"/><omi tipo="acento"/></g><e/>
+<g>tenemos</g><e/>
+<g>libros</g><l/>
+<nl num="18"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="19"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Aprendemos">aPrendemos<sus tipo="Axa"/><mayInter/></g><e/>
+<g>a</g><e/>
+<g>leer</g><e/>
+<g>y</g><e/>
+<g>escribir</g><l/>
+<nl num="20"/><g n="jugamos">jugaMos<mayInter/></g><e/>
+<g n="inventamos">iventamos<omi tipo="n"/></g><e/>
+<g>cuentos</g><e/>
+<g>y</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>salimos</g><l/>
+<nl num="21"/><g>a</g>
+<g n="física">fisica<omi tipo="acento"/><hiposeg/></g><e/>
+<g>y</g><e/>
+<g n="hay">ay<omi tipo="h"/></g><e/>
+<g>una</g><e/>
+<g>tienda</g><e/>
+<g>para</g><e/>
+<g>gastar</g><e/>
+<g>el</g><e/>
+<g>dinero</g><l/>
+<nl num="22"/><g n="para">par<omi tipo="a"/></g><e/>
+<g>gastar</g><e/>
+<g>el</g><e/>
+<g>dinero</g><e/>
+<g>que</g><e/>
+<g>nos</g><e/>
+<g n="dan">da<omi tipo="n" error="concord"/></g><e/>
+<g>para</g><e/>
+<g>gastar</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="23"/><g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="recreo">requreo<sus tipo="cxq"/><agre tipo="u"/></g><e/>
+<g>jugamos</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>atrapadas</g><e/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. no se distingue lo que tacha</com>
+<com>8. tacha la palabra es</com>
+<com>15. no se distingue lo que tacha</com>
+<com>16. no se distingue lo que tacha</com>
+<com>19. no se distingue lo que tacha</com>
+<com>20. no se distingue lo que tacha</com>
+<com>El niño esctructura el texto en párrafos a partir de las preguntas.</com>
+</comentarios>
+</documento>

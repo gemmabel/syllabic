@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="152" permisos="todos">
+
+		<titulo>N040403ESF21</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="ROMPERESM"/>
+
+		<referencia id="ROMPERESM">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>					
+
+	<archivo nombre="N040403ESF21.txt"/>
+	<imagen archivo="N040403ESF21.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>yo</g><e/>
+<g>me</g><e/>
+<g>llamo</g><e/>
+<g n="Esmeralda">e<sus tipo="Exe"/>smeralda</g><e/>
+<g>de</g><e/>
+<g n="Monserrat">M<mayNP/>onTserraT</g><e/>
+<g>R<mayNP/>omero</g><e/>
+<g>P<mayNP/>ére<tachado>z</tachado><correccion tipo="susti"/></g><e/>
+<g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><l tipo="compac"/>
+<nl num="2"/><g>M<mayNP/>olino</g><e/>
+<g>de</g><e/>
+<g n="Menchaca">m<sus tipo="Mxm"/><tachado>e</tachado><correccion tipo="susti"/>nchaca</g><e/>
+<g>yo</g><e/>
+<g>a<hiposeg/></g><g n="pie">P<sus tipo="pxP"/>ie<hiposeg/></g><g>llego</g><e/>
+<g>a<hiposeg/></g><g>la</g><e/>
+<g>escuela</g><e/>
+<g>a<hiposeg/></g><g n="mí">mi<omi tipo="acento"/></g><e/>
+<g>me<hiposeg/></g><g n="trae">Tray<sus tipo="exy"/></g><e/>
+<g n="mi">mima<agre tipo="m"/><agre tipo="a"/></g><l/>
+<nl num="3"/><g n="mamá">M<sus tipo="mxM"/>á<per tipo="acento"/>M<mayInter/>a<omi tipo="acento"/></g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>la<hiposeg/></g><g n="hicieron"><omi tipo="h"/>y<sus tipo="ixy"/>s<sus tipo="cxs"/>ieron</g><e/>
+<g>con</g><e/>
+<g>ladrillos</g><e/>
+<g n="tiene">Tiene</g><e/>
+<l/>
+<nl num="4"/><g n="abanicos">av<sus tipo="bxv"/>anicos</g><e/>
+<g n="tiene">Tiene</g><e/>
+<g>cortinas</g><e/>
+<g n="tiene">Tiene</g><e/>
+<g n="puertas">P<sus tipo="pxP"/>uert<tachado>a</tachado><correccion tipo="susti"/>s</g><e/>
+<g>yo</g><e/>
+<g>juego</g><l/>
+<nl num="5"/><g>a<hiposeg/></g><g>las</g><e/>
+<g n="alcanzadas">alcans<sus tipo="zxs"/>adas</g><e/>
+<g>con<hiposeg/></g><g n="mis">mi<tachado>amias</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>al<hiposeg/></g><g>rey</g><e/>
+<g n="pide">P<sus tipo="pxP"/>ide</g><l/>
+<nl num="6"/><g>y</g><e/>
+<g>me<hiposeg/></g><g>da<tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>clases</g><e/>
+<g>la<hiposeg/></g><g n="maestra">maesTra</g><e/>
+<g n="Bertha">v<sus tipo="Bxv"/>erT<omi tipo="h"/>a</g><e/>
+<g n="Alicia">a<sus tipo="Axa"/>lis<sus tipo="cxs"/>ia</g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>nos</g><e/>
+<g n="hacen"><omi tipo="h"/>as<sus tipo="cxs"/>en</g><e/>
+<g>de</g><e/>
+<g n="desayunar">de<e/><hiperseg/>sall<sus tipo="yxll"/>unar</g><e/>
+<g n="en">e<omi tipo="n"/></g><e/>
+<g>las<hiposeg/></g><g>aulas</g><l/>
+<nl num="8"/><g n="Fátima">f<sus tipo="Fxf"/>a<omi tipo="acento"/>Tima</g><e/>
+<g>me<hiposeg/></g><g>tengo</g><e/>
+<g>que</g><e/>
+<g>despedir</g><l/>
+<l/>
+<nl num="9"/><firma tipo="b"><g>Esmeralda</g><e/>
+<g>de</g><e/>
+<g>Montserrat</g><e/>
+<g>Romero</g><e/>
+<g>Pérez</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. Encima</com>
+<com>1. Choricito</com>
+<com>2. Encima</com>
+<com>4. Encima</com>
+<com>5. Tacha</com>
+<com>6. Tacha</com>
+<com>9. Firma: escribe su nombre con letra más chica y subraya</com>
+<com>Hace la forma "T" para mayúscula y minúscula</com>
+</comentarios>
+</documento>

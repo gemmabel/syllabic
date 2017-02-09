@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="224" permisos="todos">
+
+	<titulo>N015701EscM06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GARJIMOSC"/>
+
+	<referencia id="GARJIMOSC">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015701EscM06.txt"/>
+	<imagen archivo="N015701EscM06.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Oscar">oscar<sus tipo="Oxo"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>Said<mayNP/></g><e/>
+<r c="Fgs">-</r><e/>
+<e/>
+<g n="García">Gar<tachado>c</tachado>ia<mayNP/><correccion tipo="susti"/><omi tipo="acento"/></g><r c="Fgs">-</r>
+<g n="Jiménez">Jimenes<mayNP/><omi tipo="acento"/><sus tipo="zxs"/></g><l/>
+<nl num="2"/><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<pi><g>Quién<mayIni/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="soy">Soy<sus tipo="sxS"/></g></pi><l/>
+<l/>
+<nl num="3"/><e/>
+<g>hola</g><e/>
+<e/>
+<r c="Fgs">-</r><e/>
+<g n="Fátima">Fatima<mayNP/><omi tipo="acento"/></g><e/>
+<g n="Tecuala">[<r c="Fgs">-</r>]tecuALA<sus tipo="Txt"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="lxL"/><mayInter/><sus tipo="axA"/></g><l/>
+<nl num="4"/><e/>
+<g n="hay">hAy<mayInter/><sus tipo="axA"/></g><r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><e/>
+<g>Tengo<mayIni/></g><r c="Fgs">-</r>
+<g>una</g><r c="Fgs">-</r>
+<g>hermana</g><r c="Fgs">-</r>
+<g n="física">fisica<omi tipo="acento"/></g><l/>
+<nl num="6"/><e/>
+<pi><g n="Cómo">C<tachado>ó</tachado>mo<mayIni/><agre tipo="acento"/><correccion tipo="susti"/></g><r c="Fgs">-</r>
+<g>en</g><r c="Fgs">-</r>
+<g>nuestra</g><r c="Fgs">-</r>
+<g>escuela</g></pi><l/>
+<nl num="7"/><e/>
+<pi><g n="Cómo">cu´mo<sus tipo="Cxc"/><sus tipo="oxu"/><per tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>la</g><e/>
+<g>e<hiperseg/><r c="Fps">.</r>scuela</g></pi><e/>
+<g n="carro">car<tachado>a</tachado>o<omi tipo="r"/><correccion tipo="elimi"/></g><l/>
+<nl num="8"/><e/>
+<g n="libreta">Libreta<sus tipo="lxL"/></g><e/>
+<g n="tomo">coma<sus tipo="txc"/><sus tipo="oxa"/></g><e/>
+<g>agua</g><l/>
+<nl num="9"/><e/>
+<g><tachado>Cupulasio</tachado><correccion tipo="elimi"/></g><e/>
+<g>coro</g><l/>
+<nl num="10"/><pi><g n="Qué">Que´<mayIni/><per tipo="acento"/></g><r c="Fgs">-</r><e/>
+<g>hacemos</g><r c="Fgs">-</r>
+<g>en</g><r c="Fgs">-</r>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="11"/><g n="estudio">Estudio<sus tipo="exE"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>1. Bajo la "c" hay una "s".</com>
+<com>6. Bajo la "o" hay una "e".</com>
+</comentarios>
+</documento>

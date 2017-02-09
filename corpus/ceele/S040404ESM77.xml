@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="100" permisos="todos">
+	<titulo>S040404ESM77</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="VELLUGDIEG"/>
+
+	<referencia id="VELLUGDIEG">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040404ESM77.txt"/>
+	<imagen archivo="S040404ESM77.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g>H<mayIni/>ola</g><e/>
+<r c="Fc">,</r><e/>
+<g>yo</g><e/>
+<g>soy</g><e/>
+<g>D<mayNP/>iego</g><e/>
+<g n="Iván">I<mayNP/>vA<mayInter/><omi tipo="acento"/>n</g><e/>
+<g>V<mayNP/>elador</g><e/>
+<g n="Lugarel">l<sus tipo="Lxl"/>ugarel</g><l/>
+<l/>
+<nl num="3"/><g>tengo</g><e/>
+<g n="siete">c<sus tipo="sxc"/>iete</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Tepic">t<sus tipo="Txt"/>eP<mayInter/>ic</g><e/>
+<g>N<mayNP/>ayarit</g><l/>
+<nl num="4"/><g>y</g><e/>
+<g>mi</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>calle</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Uruguay">u<sus tipo="Uxu"/>ruguay</g><e/><g>148</g><l/>
+<nl num="5"/><g>mi</g><e/>
+<g n="país">pai<omi tipo="acento"/>s</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="México">m<sus tipo="Mxm"/>e<omi tipo="acento"/><tachado>x</tachado><correccion tipo="susti"/>ico</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g tipo="abrev">G<mayNP/>ral<r c="Fp" punto="abrev">.</r></g><l/>
+<nl num="6"/><g n="Juventino">j<sus tipo="Jxj"/>uventino</g><e/>
+<g n="Espinosa">e<sus tipo="Exe"/>sP<mayInter/>i<tachado>n</tachado>osa</g><e/>
+<g>y</g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">2A<r c="Fd">:</r></g><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>estoy</g><e/>
+<g>moreno</g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g n="pelo">P<sus tipo="pxP"/>elo</g><e/>
+<g>corto</g><e/>
+<g>y</g><e/><g>estoy</g><e/>
+<g>un</g><e/>
+<g n="poquito">P<sus tipo="pxP"/>oquito</g><e/>
+<g>chaparrito</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>mi</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="María">M<mayNP/>ari<omi tipo="acento"/>a</g><e/>
+<g>F<mayNP/>elicitas</g><e/>
+<g n="Anguiano">a<sus tipo="Axa"/>nguiano</g><l/>
+<nl num="9"/><g n="Cano">c<sus tipo="Cxc"/>ano</g><e/>
+<g>y</g><e/>
+<g>llego</g><e/>
+<g>a<hiposeg/></g><g>la</g><e/>
+<g>escuela</g><e/>
+<g>con</g><e/>
+<g n="uniforme">uniF<mayInter/>orme</g><e/>
+<g>y</g><e/>
+<g>cuando</g><e/>
+<g>me</g><e/>
+<g>toca</g><l/>
+<nl num="10"/><g n="educación"><omi tipo="e"/>ducacio<omi tipo="acento"/>n</g><e/>
+<g n="física">F<sus tipo="fxF"/>i<omi tipo="acento"/>c<sus tipo="sxc"/>ica</g><e/>
+<g>me</g><e/>
+<g>l<tachado>l</tachado><correccion tipo="susti"/>evo</g><e/>
+<g>el</g><e/>
+<g n="pants">pan<omi tipo="t"/>s</g><e/>
+<g>y</g><e/>
+<g>la</g><e/>
+<g>chamarra</g><l/>
+<nl num="11"/><g>y</g><e/>
+<g>mi</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Rosamaría">R<mayNP/>osamari<omi tipo="acento"/>a</g><e/>
+<g n="Lugarel">l<sus tipo="Lxl"/>ugarel</g><l/>
+<nl num="12"/><g>y</g><e/>
+<g>mi</g><e/>
+<g n="papá">papa<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Roberto">R<mayNP/>oB<mayInter/>erto</g><e/>
+<g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="13"/><g>tiene</g><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>grande</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>electricidad</g><l/>
+<nl num="14"/><g>y</g><e/>
+<g>leemos</g><e/>
+<g>y</g><e/>
+<g>escri<tachado>r</tachado><correccion tipo="susti"/></g><e/>
+<g>y</g><e/>
+<g n="aprendemos">aP<mayInter/>rendemos</g><e/>
+<g>mucho</g><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>nos</g><e/>
+<g>sabemos</g><l/>
+<nl num="15"/><g>las</g><e/>
+<g>tablas</g><e/>
+<g>algunos</g><e/>
+<g>no</g><e/>
+<g>y</g><e/>
+<g>algunos</g><e/>
+<g n="sí">si<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><l/>
+<nl num="16"/><g n="educación"><omi tipo="e"/>ducacio<omi tipo="acento"/>n</g><e/>
+<g n="física">F<sus tipo="fxF"/>i<omi tipo="acento"/>c<sus tipo="sxc"/>ica</g><e/>
+<g>y</g><e/>
+<g n="comutación">computacio<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>el</g><e/>
+<g>lunes</g><e/>
+<l/>
+<nl num="17"/><g>me</g><e/>
+<g n="llevo">lleb<sus tipo="vxb"/>o</g><e/>
+<g n="uniforme">uniF<mayInter/>o<tachado>r</tachado><correccion tipo="susti"/>me</g><e/>
+<g>y</g><e/>
+<g n="hacemos"><omi tipo="h"/>acemos</g><e/>
+<g>competencia</g><l/>
+<nl num="18"/><g>ejercicio</g><e/>
+<g n="calentamiento">calentamie<tachado>n</tachado><correccion tipo="susti"/>tu<sus tipo="oxu"/></g><e/>
+<g>porque</g><e/>
+<g>luego</g><e/>
+<g>nos</g><e/>
+<g n="duele">duela<sus tipo="exa"/></g><l/>
+<nl num="19"/><g>el</g><e/>
+<g>pie</g><e/>
+<g n="adiós">adio<omi tipo="acento"/>s</g><e/>
+<g>yo</g><e/>
+<g>me</g><e/>
+<g>llamo</g><e/>
+<g>D<mayNP/>iego</g><e/>
+<g n="Iván">I<mayNP/>va<omi tipo="acento"/>n</g><e/>
+<g n="Velador">v<sus tipo="Vxv"/>elador</g><e/>
+<l/>
+<nl num="20"/><g n="Lugarel">l<sus tipo="Lxl"/>ugarel</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. Tacha</com>
+<com>5. Encima</com>
+<com>10. Encima</com>
+<com>14. Encima</com>
+<com>17. Encima</com>
+<com>18. Encima</com>
+<com>Diseño: Título centrado</com>
+</comentarios>
+</documento>

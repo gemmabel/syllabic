@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="229" permisos="todos">
+
+	<titulo>N015804ESF05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CECPONORI"/>
+
+	<referencia id="CECPONORI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>								
+
+	<archivo nombre="N015804ESF05.txt"/>
+	<imagen archivo="N015804ESF05.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>O<mayNP/>riana</g><e/>
+<g n="Ceceña">c<sus tipo="Cxc"/>eceña</g><e/>
+<g n="Ponce">p<sus tipo="Pxp"/>once</g><l/>
+<nl num="2"/><pi><g n="Quién">Quie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><g n="Hola">h<sus tipo="Hxh"/>oL<mayInter/>a</g><e/>
+<g>soy</g><e/>
+<g n="Oriana"><tachado>o</tachado><sus tipo="Oxo"/><correccion tipo="susti"/>r<tachado>i</tachado><correccion tipo="susti"/>ana</g><l/>
+<nl num="4"/><g n="vivo">d<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g n="en"><tachado>en</tachado><correccion tipo="susti"/><hiposeg/></g>
+<g n="Palmar">p<sus tipo="Pxp"/>almar<hiposeg/></g><r c="Fg">-</r><g>de</g><r c="Fg">-</r><g>Cuautla</g><l/>
+<nl num="5"/><g>tengo</g><e/>
+<g>8</g><e/>
+<g>años</g><l/>
+<nl num="6"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="7"/><g n="Es">e<sus tipo="Exe"/>s</g><e/>
+<g n="grande">granb<rotac tipo="d"/>e</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<g>tiene</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g n="árboles">a<omi tipo="acento"/>rd<rotac tipo="b"/>oles</g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<g>tiene</g><e/>
+<g n="muchos">mucho<omi tipo="s" error="concord"/></g><l/>
+<nl num="8"/><g n="libros">L<sus tipo="lxL"/>lid<rotac tipo="b"/>ros</g><e/>
+<g>mi<hiposeg/></g>
+<g>escuela<hiposeg/></g><e/>
+<g n="se">se<tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>llama</g><e/>
+<g n="Venustiano">v<sus tipo="Vxv"/>enustiano</g><l/>
+<nl num="9"/><g n="Carranza">c<sus tipo="Cxc"/>ar<omi tipo="r"/>anc<sus tipo="zxs"/>a</g><e/>
+<e/>
+<pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="10"/><g>me<hiposeg/></g>
+<g n="vengo">d<rotac tipo="b"/>e<omi tipo="n"/><hiposeg/>go</g><e/>
+<g>con</g><e/>
+<g>mis<hiposeg/></g>
+<g>pri<tachado>m</tachado><correccion tipo="elimi"/>as<hiposeg/></g><l/>
+<nl num="11"/><pi><g n="Qué">Que<omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g n="Trabajamos">t<sus tipo="Txt"/>rad<rotac tipo="b"/>ajamos</g><e/>
+<g>y</g><e/>
+<g>es<tachado>x</tachado><correccion tipo="elimi"/><hiperseg/><e/>tudiamos<hiperseg/></g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>y<rotac tipo="y"/></g><l/>
+<nl num="13"/><g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>salimos<hiposeg/></g>
+<g>al<hiposeg/></g><e/>
+<g>recreo</g><e/>
+<g>y</g><l/>
+<nl num="14"/><g>le<hiperseg/><e/>emos<hiperseg/></g><e/>
+<g>cuentos</g><l/>
+<nl num="16"/><g>te<hiposeg/></g>
+<g>L<mayInter/>a<hiposeg/></g>
+<g n="manda">ma<omi tipo="n"/>da<hiposeg/></g><l/>
+<nl num="17"/><g n="Oriana">o<sus tipo="O"/>riana</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general: </com>
+<com>Las dos primeras preguntas están sobre la derecha de la página, y las otras dos están hacia la izquierda, empezando en lo que aquí se marcó como la línea 9., porque ocupa el mismo renglón que el de "Carranza".</com>
+
+<com>2. La pregunta "¿Quién soy?" está circulada.</com>
+<com>3. Corrección 1: "o" por una "d", corrección 2: "i" por "e".</com>
+<com>4. Corrección: "ne" por "en".</com>
+<com>6. La pregunta "¿Cómo es nuestra escuela?" está circulada.</com>
+<com>7. Primero un tachón. Segundo, inversión de "y". Tercero un tachó.  Cuarto, inversión "y".</com>
+<com>8. Tachón.</com>
+<com>9. La pregunta "¿Cómo llegamos ala escuela?" está circulada.</com>
+<com>10. En la "m" hay un "tachón" recalcando el palito de esta grafía, como si hubiera querido escribir algo antes y se arrepintió y siguió con la "m".</com>
+<com>11. y 12. Hay dos líneas completamente tachadas.</com>
+<com>14. Corrección 1: tachón, corrección 2: tachón, inversión de "y"</com>
+<com>13. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+<com>15. Inicia el renglón con un tachón</com>
+
+</comentarios>
+</documento>

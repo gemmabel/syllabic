@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="193" permisos="todos">
+
+		<titulo>N041103EscM01</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="REYROSLUI"/>
+
+		<referencia id="REYROSLUI">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>					
+
+	<archivo nombre="N041103EscM01.txt"/>
+	<imagen archivo="N041103EscM01a.jpg"/>
+	<imagen archivo="N041103EscM01b.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g n="escuela">escula<omi tipo="e"/></g><l/>
+<l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/></g><e/>
+<g n="soy">SoY<sus tipo="sxS"/><mayInter/></g></pi><l/>
+<nl num="3"/><e/>
+<g>yo</g><e/>
+<g>me<hiposeg/></g>
+<g n="llamo">yamo<sus tipo="llxy"/></g><e/>
+<g>Luis<mayNP/></g><e/>
+<g n="Carlos">carlos<sus tipo="Cxc"/></g><e/>
+<g>Reyes<mayNP/></g><e/>
+<g>Rosales<mayNP/></g><e/>
+<g>y</g><e/>
+<g n="tengo">tego<omi tipo="n"/></g><e/>
+<g><tachado>site</tachado><correccion tipo="elimi"/></g><e/>
+<g>7<hiposeg/></g>
+<g n="años">oños<sus tipo="axo"/></g><e/>
+<g>y</g><e/>
+<g n="tengo">tego<omi tipo="n"/></g><e/>
+<g>muchos</g><e/>
+<g>amigos</g><l/>
+<nl num="4"/><e/>
+<g>y</g><e/>
+<g>se<hiposeg/></g>
+<g n="llaman">yama<sus tipo="llxy"/><omi tipo="n" error="concord"/></g><e/>
+<g n="Mabi">mabi<sus tipo="Mxm"/></g><r c="Fc">,</r><e/>
+<g n="Valete">valete<sus tipo="Vxv"/></g><r c="Fc">,</r><e/>
+<g>Brayan<mayNP/></g><e/>
+<g tipo="abrev">S</g><r c="Fc">,</r><e/>
+<g>y</g><e/>
+<g n="Lupe" tipo="abrev">lupe<sus tipo="Lxl"/></g><r c="Fp" punto="seguido">.</r><e/>
+<g>Y<mayIni/></g><e/>
+<g>mi<hiposeg/></g>
+<g n="mamá">mana<sus tipo="mxn"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g><tachado>M</tachado>ayra<correccion tipo="susti"/><mayNP/></g><e/>
+<g n="Sofia">Sofa<mayNP/><omi tipo="i"/></g><e/>
+<g>Reyes<mayNP/></g><e/>
+<g>Rosales<mayNP/></g><l/>
+<l/>
+<nl num="5"/><e/>
+<g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>mi<hiposeg/></g>
+<g>mami</g><e/>
+<g>se</g><e/>
+<g n="llama">ya<hiperseg/><e/>ma</g><e/>
+<g>Sofia<mayNP/></g><e/>
+<g>Rosales<mayNP/></g><e/>
+<g n="Bevumes">bevumes<sus tipo="Bxb"/></g><l/>
+<l/>
+<nl num="6"/><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g n="escuela">es<hiperseg/><e/>culas<omi tipo="e"/><agre tipo="s" error="concord"/></g></pi><l/>
+<l/>
+<nl num="7"/><e/>
+<g n="Lo">lo<sus tipo="Lxl"/></g><e/>
+<g n="que">gu<sus tipo="qxg"/><omi tipo="e"/><hiposeg/></g>
+<g n="no">ho<sus tipo="nxh"/></g><e/>
+<g>me<hiposeg/></g>
+<g n="gusta">guta<omi tipo="s"/></g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g n="escuela">escula<omi tipo="e"/></g><e/>
+<g>español</g><e/>
+<g>lo</g><e/>
+<g>que</g><e/>
+<g n="sí">si<omi tipo="acento"/><hiposeg/></g>
+<g>me<hiposeg/></g>
+<g>gusta</g><e/>
+<g n="son">es<agre tipo="e"/><omi tipo="on" error="concord"/></g><e/>
+<g>las</g><e/>
+<g n="cuentas">cutas<omi tipo="en"/></g><l/>
+<nl num="8"/><e/>
+<g>m<tachado>i</tachado><correccion tipo="susti"/></g><e/>
+<g n="escuela">escula<omi tipo="e"/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="hecha">echa<omi tipo="h"/></g><e/>
+<g>de</g><e/>
+<g>de</g><e/>
+<g>barda</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="9"/><e/>
+<pi><g n="Cómo">Como<mayIni/><omi tipo="acento"/></g><e/>
+<g n="llegamos">yegamos<sus tipo="llxy"/></g><e/>
+<g><tachado>alaes<e/>cula</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<hiposeg/></g>
+<g>la</g><e/>
+<g n="escuela">escula<omi tipo="e"/></g></pi><l/>
+<l/>
+<nl num="10"/><g n="Vivo">bibo<sus tipo="vxb"/><sus tipo="Vxv"/></g><e/>
+<g n="cerca">secas<sus tipo="cxs"/><omi tipo="r"/><agre tipo="s"/></g><e/>
+<g>de<hiposeg/></g>
+<g n="la">las<agre tipo="s" error="concord"/></g><e/>
+<g n="escuela">escula<omi tipo="e"/></g><e/>
+<g>y</g><e/>
+<g n="entramos">tramos<omi tipo="en"/></g><e/>
+<g>a<hiposeg/></g>
+<g>las</g><e/>
+<g>8</g><r c="Fd">:</r><g>MP</g><e/>
+<g>y</g><e/>
+<g n="llego">ygo<sus tipo="llxy"/><omi tipo="e"/></g><e/>
+<g>con</g><l/>
+<nl num="11"/><g>mi<hiposeg/></g>
+<g n="mamá">mona<sus tipo="amxon"/><omi tipo="acento"/></g><l/>
+<l/>
+<nl num="12"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="escuela">es<hiperseg/><e/>cula<omi tipo="e"/></g></pi><l/>
+<nl num="13"/><g n="estudiamos">estiamo<omi tipo="ud"/><omi tipo="s"/></g><e/>
+<g n="español">espanol<sus tipo="ñxn"/></g><r c="Fc">,</r><e/>
+<g><tachado>y</tachado><correccion tipo="elimi"/></g><e/>
+<g n="conocimiento">conicimito<sus tipo="oxi"/><omi tipo="en"/></g><e/>
+<g>del</g><e/>
+<g>medio</g><e/>
+<g>y</g><e/>
+<g n="matemáticas">matemoticos<sus tipo="axo"/><omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="jugamos">gugamo<sus tipo="jxg"/><omi tipo="s"/><hiposeg/></g>
+<g n="con">co<omi tipo="n"/></g><e/>
+<g>la<hiposeg/></g>
+<g n="maestra">moestra<sus tipo="axo"/></g><l/>
+<l/>
+<nl num="14"/><firma tipo="a"><g>Luis<mayNP/></g><e/>
+<g n="Carlos">carlos<sus tipo="Cxc"/></g><e/>
+<g>Reyes<mayNP/></g><e/>
+<g>Rosales<mayNP/></g></firma><l/>
+</cuerpo>
+<comentarios>
+<com>La escritura no es lineal.</com>
+<com>4. Bajo la "M" hay una "m".</com>
+<com>8. Bajo la "i" hay una "e".</com>
+</comentarios>
+</documento>

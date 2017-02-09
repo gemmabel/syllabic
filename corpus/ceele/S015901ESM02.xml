@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="278" permisos="todos">
+
+	<titulo>S015901ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="NAVBARPED"/>
+
+	<referencia id="NAVBARPED">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>		
+
+	<archivo nombre="S015901ESM02.txt"/>
+	<imagen archivo="S015901ESM02a.jpg"/>
+	<imagen archivo="S015901ESM02b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>PEDRO</g><e/>
+<g>JABIER</g><e/>
+<g n="NAVARRETE">NAB<sus tipo="bxv"/>ARRETE</g><e/>
+<g n="BARRÓN">BARRO<omi tipo="acento"/>N</g><e/>
+<g tipo="fecha">04<r c="Fh">/</r>11<r c="Fh">/</r>05</g><l/>
+<nl num="2"/><g n="Título">T<mayIni/>i<omi tipo="acento"/>tulo</g><r c="Fd">:</r><e/>
+<g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><r c="Fp" punto="aparte">.</r><e/>
+<pi><r c="Fia">¿</r><g n="Quién">Q<mayIni/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g><r c="Fit">?</r></pi><l/>
+<nl num="3"/><r c="Fat" rotac="si">¡</r><g>H<mayIni/>ola</g><r c="Fat">!</r><e/>
+<g>soy</g><e/>
+<g>J<mayNP/>avier</g><l/>
+<nl num="4"/><g>tengo</g><e/>
+<g>8</g><e/>
+<g>años</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><g>V<sus tipo="Vxv"/>ivo</g><e/>
+<g>en</g><e/>
+<g>un</g><e/>
+<g n="país">Pai<omi tipo="acento"/>s</g><e/>
+<g>que</g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="6"/><g n="Acaponeta">A<mayNP/>caPoneta</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Tengo">t<sus tipo="Txt"/>engo</g><e/>
+<g>2</g><e/>
+<g>hermanos</g><l/>
+<nl num="7"/><g>que</g><e/>
+<g>se</g><e/>
+<g>llaman</g><e/>
+<g>M<mayNP/>anuelito</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="8"/><g n="Sergio">s<sus tipo="Sxs"/>ergio</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Me">m<sus tipo="Mxm"/>e</g><e/>
+<g>gusta</g><e/>
+<g>ir</g><e/>
+<g>al</g><e/>
+<g>cine</g><e/><r c="Fp" punto="seguido">.</r><l/>
+<nl num="9"/><g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>soy</g><e/>
+<g>el</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g>grande</g><e/>
+<g>de</g><e/>
+<g>mis</g><l/>
+<nl num="10"/><g>hemanos</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g></g><r c="Fia">¿</r><g n="Y"><correccion tipo="elimi"/>y<sus tipo="Yxy"/></g><e/>
+<g n="tú">tu<omi tipo="acento"/></g><r c="Fit">?</r><g><correccion tipo="elimi"/></g><e/>
+<r c="Fia">¿</r><g n="Cómo">c<sus tipo="cxC"/>o<omi tipo="acento"/>mo</g><e/>
+<g>te</g><e/>
+<g>llamas</g><r c="Fit">?</r><e/>
+<l/>
+<nl num="11"/><g n="Llegamos">y<sus tipo="yxll"/><sus tipo="Yxy"/>egamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>en</g><l/>
+<nl num="12"/><g>bici</g><e/><r c="Fc">,</r><e/>
+<g>y</g><e/>
+<g>caminando</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="13"/><g n="Jugamos">j<sus tipo="Jxj"/>ugamo<omi tipo="s"/></g><e/>
+<g>a</g><e/>
+<g>los</g><e/>
+<g n="chaicos"><tachado>chaicos</tachado></g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>escondidas</g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>otras</g><e/>
+<g>cosas</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="14"/><g n="Se">s<sus tipo="Sxs"/>e</g><e/>
+<g n="despide">desPide</g><e/>
+<g>de</g><e/>
+<g>ti</g><e/>
+<firma tipo="a"><g>JAVIER</g></firma><l/>
+<nl num="15"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="16"/><g n="Nuestra">n<sus tipo="Nxn"/>uestra</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>ladrillo</g><l/>
+<nl num="17"/><g>tiene</g><e/>
+<g>cancha</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Está">e<sus tipo="Exe"/>sta<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g n="Acaponeta"><sus tipo="Axa"/>acaPoneta</g><l/>
+<nl num="18"/><g>tiene</g><e/>
+<g n="computadora">comPutadora</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Tiene">t<sus tipo="Txt"/>iene</g><e/>
+<g n="mesabancos">mez<sus tipo="zxs"/>a<e/>bancos<hiperseg/></g><l/>
+<nl num="19"/><g n="también">tambien<omi tipo="acento"/>n</g><e/>
+<g>tiene</g><e/>
+<g>baños</g><e/><r c="Fc">,</r><e/>
+<g n="salones">saló<agre tipo="acento"/>nes</g><e/><r c="Fp" punto="final">.</r><l/>
+<nl num="20"/><firma tipo="a"><g>firma</g><e/><g>Pedro</g></firma><l/>
+<nl num="21"/><g>Pedro</g><e/>
+<g>Javier</g><e/>
+<g>Navarrete</g><e/>
+<g n="Barrón">Barro<omi tipo="acento"/>n</g><l/>
+<nl num="22"/><pi><g n="Cómo">c<sus tipo="Cxc"/>ómo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/><r c="Fd">:</r></pi><l/>
+<nl num="23"/><g n="Llego">l<sus tipo="Lxl"/>lego</g><e/>
+<g>a</g><e/>
+<g n="pie">P<sus tipo="pxP"/>ie</g><e/><r c="Fc">,</r><e/>
+<g>mi</g><e/>
+<g n="papá">PaPá</g><e/>
+<g>me</g><e/>
+<g>trae</g><e/>
+<g>en</g><e/>
+<g>bici</g><l/>
+<nl num="24"/><g>de</g><e/>
+<g n="mi">mi<hiposeg/></g>
+<g n="casa">casa<hiposeg/></g><l/>
+<nl num="25"/><g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>mamá</g><e/>
+<g>en</g><e/>
+<g>veces</g><e/>
+<g>me</g><e/>
+<g n="trae">t<tachado>r</tachado><correccion tipo="susti"/>ae</g><e/>
+<l/>
+<nl num="26"/><g>a</g><e/>
+<g n="pie">P<sus tipo="pxP"/>ie</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="En">e<sus tipo="Exe"/>n</g><e/>
+<g>el</g><e/>
+<g n="camioncito">camions<sus tipo="cxs"/>ito</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="En">e<sus tipo="Exe"/>n</g><e/>
+<g>el</g><e/>
+<g>carro</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="27"/><pi><g>Qué</g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="28"/><g n="Escribimos">e<sus tipo="Exe"/>scribimos</g><e/><r c="Fc">,</r><e/>
+<g>jugamos</g><e/><r c="Fc">,</r><e/>
+<g>investigamos</g><e/><r c="Fc">,</r><e/>
+<l/>
+<nl num="29"/><g>leer</g><e/>
+<g>cuentos</g><e/><r c="Fc">,</r><e/>
+<g n="compramos">comPramos</g><e/><r c="Fc">,</r><e/>
+<g>hacemos</g><e/>
+<g>cartas</g><l/>
+<nl num="30"/><g>hacemos</g><e/>
+<g>educación</g><e/>
+<g n="física">fic<sus tipo="sxc"/>íca</g><l/>
+<nl num="30"/><g>jugamos</g><e/>
+<g>al</g><e/>
+<g n="futbol">fub<sus tipo="bxt"/><hiperseg/><e/>bol<hiperseg/></g><e/>
+<g>escribimos</g><e/>
+<g>cuentos</g><l/>
+<nl num="31"/><g>nos</g><e/>
+<g>dejan</g><e/>
+<g>tareas</g><e/>
+<g>en</g><e/>
+<g n="matemáticas">M<sus tipo="Mxm"/>atemáticas</g><l/>
+<nl num="32"/><g n="español">E<sus tipo="exE"/>sP<mayInter/>añol</g><e/>
+<g n="conocimiento">conos<sus tipo="cxs"/>imiento</g><e/>
+<g>del</g><e/>
+<g>medio</g><e/><r c="Fp" punto="final">.</r><l/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general:</com>
+<com>Hay cierto diseño de página, el texto está como en columnas hacia el lado derecho del anverso de la página, y está separado por líneas en tres partes. Al reverso, el niño vuelve a escribir su nombre y también separa con líneas. </com>
+
+<com>La “g” (minúscula) esta consistentemente puesta sobre el renglón (invisible), esto es, no es la bolita la  que queda a la altura de todas las demás minúsculas, sino que la colita también.  Respecto de este comentario, esto estaría pasando con la “p”, se transliteró como mayúscula, pero lo que, quizá, esté pasando realmente es que sin la guía del renglón el niño coloca las grafías con colita al mismo nivel que todas las demás. Tal vez, esto también sucedió con la “q” del renglón 5, pero esa “q” no puede transliterarse como la “P” mayúscula.</com>
+
+<com>5. La “V” parece ser mayúscula, cambia el tamaño con respecto a la segunda “v” de la palabra “vivo”. Y la “P”, como en este renglón, puede estar siendo escrita, en todo el texto, sobre un renglón invisible, entonces, no cuelga. Se transliteró como mayúscula para representar esto, sin que se sepa realmente si es o no una mayúscula. </com>
+<com>10. Los signos de interrogación entre paréntesis están borrados, pero se alcanzan a distinguir claramente.</com>
+<com>12. Después de la palabra "bici" parece haber una coma</com>
+<com>13. La palabra “chaicos” no sé que signifique pero el trazo de la “a” es consistente con las demás “a’s” y también el de la “i”.</com>
+<com>14. Se agranda la minúscula en "después".</com>
+<com>17. Se agranda la minúscula en "Acaponeta".</com>
+<com>18. Se agranda la minúscula en "computadora. Hipersegmentación en "mesabancos"</com>
+<com>19. Se acentúa "salones".</com>
+<com>20. y 14 Hay firma, una de tipo a y la otra de tipo b. </com>
+<com>23. Se agrandan las minúsculas en "pie" y "papá".</com>
+<com>24. Hiposegmentación en "mi casa". </com>
+<com>26. Se agranda la minúscula en "pie". </com>
+<com>29. Se agranda la minúscula en "compramos".</com>
+<com>30. Hipersegmentación el "fútbol".</com>
+<com>32. Se agranda la minúscula en "matemáticas".</com>
+<com>33. Se agranda minúscula en "español". </com>
+
+
+
+</comentarios>
+</documento>

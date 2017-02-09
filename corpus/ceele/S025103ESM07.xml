@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="297" permisos="todos">
+
+	<titulo>S025103ESM07</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="LLAALCEDW"/>
+
+	<referencia id="LLAALCEDW">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="S025103ESM07.txt"/>
+	<imagen archivo="S025103ESM07.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Edwin<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g>Quién<mayIni/></g><e/>
+<g>soy</g><l/></pi>
+<nl num="4"/><g n="Me">me<sus tipo="Mxm"/></g><e/>
+<g>llamo</g><e/>
+<g>Edwin<mayNP/></g><e/>
+<g n="Vicente">vicente<sus tipo="Vxv"/></g><e/>
+<g n="Guerrero">Gurrero<mayNP/><sus tipo="exr"/></g><e/>
+<r c="Fc">,</r><e/>
+<g n="Nay." tipo="abrev">Nay<r c="Fx">;<sus tipo="punto abrevx;"/></r><l/></g><e/>
+<nl num="5"/><g>7</g><e/>
+<g>y</g><e/>
+<g n="estoy">to<omi tipo="e"/><omi tipo="s"/><omi tipo="y"/></g>
+<g>en<hiposeg/></g>
+<g n="segundo" tipo="grado">segund<omi tipo="o"/><hiposeg/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g n="veo"><tachado>v</tachado><correccion tipo="susti"/>irero<agre tipo="i"/><agre tipo="r"/><agre tipo="r"/></g><e/>
+<g n="tele">tere<sus tipo="lxr"/></g><l/>
+<nl num="6"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/></pi>
+<g><tachado>y</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>a</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>silla</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="7"/><g>le<tachado>X</tachado><correccion tipo="elimi"/>emos</g>
+<g>y<hiposeg/></g><e/>
+<g n="trabajamos">tevajamo<omi tipo="r"/><sus tipo="axe"/><sus tipo="bxv"/><omi tipo="s"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="8"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/></pi>
+<g n="grande">gane<omi tipo="r"/><omi tipo="d"/></g><e/>
+<g>y</g><l/>
+<nl num="9"/><g>bonita</g><e/>
+<pi><g>cómo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/></pi>
+<nl num="10"/><g>camino</g><e/>
+<g>2</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="cuadras">guadras<sus tipo="cxg"/></g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="11"/><g>escuela</g><e/></pi>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="escribo">equibo<omi tipo="s"/><sus tipo="cxq"/><sus tipo="rxu"/></g><e/>
+<g>y</g><e/>
+<g n="leo">ero<omi tipo="l"/><agre tipo="r"/></g>
+<g n="cuentos">cueto<omi tipo="n"/><omi tipo="s"/><hiposeg/></g><e/>
+<g>y</g><e/>
+<g n="trabajamos">tavajamo<omi tipo="r"/><sus tipo="bxv"/><omi tipo="s"/></g><e/>
+<g><tachado>comatae</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="12"/><g n="con">co<omi tipo="n"/></g>
+<g n="matemáticas">matematica<omi tipo="acento"/><omi tipo="s"/><hiposeg/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. encierra en un cuadro </com>
+<com>2. encierra en un cuadro</com>
+<com>3. encierra en un cuadro</com>
+<com>4. encierra en un cuadro y subraya</com>
+<com>5. encierra en un cuadros y subraya</com>
+<com>6. no se distingue lo que tacha y encima "v" sobre "u"</com>
+<com>7. no se distingue lo que tacha</com>
+<com>10. no se distingue lo que tacha</com>
+<com>11. tacha la palabra</com>
+<com> </com>
+</comentarios>
+</documento>

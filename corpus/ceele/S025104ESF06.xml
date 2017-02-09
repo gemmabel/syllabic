@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="52" permisos="todos">
+	<titulo>S025104ESF06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PLADOMKAR"/>
+
+	<referencia id="PLADOMKAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+		
+	<archivo nombre="S025104ESF06.txt"/>
+	<imagen archivo="S025104ESF06a.jpg"/>
+	<imagen archivo="S025104ESF06b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Karla<mayNP/></g><e/>
+<g n="Oriana">oriana<sus tipo="Oxo"/></g><e/>
+<g n="Plateado">Platea<e/>do<hiperseg/></g><e/>
+<g>l<agre tipo="l"/></g><e/>
+<g n="Domínguez">Doming<tachado>ues</tachado><correccion tipo="susti"/><omi tipo="acento"/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g n="escuela">escueLa<mayInter/></g><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">2º<e/>grado</g><e/>
+<g>y</g><e/>
+<g>estudiamos</g><e/>
+<g n="matemáticas">matematicas<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="español">Español<sus tipo="exE"/></g><l/>
+<nl num="3"/><pi><g n="Quién">Qu<tachado>i</tachado><correccion tipo="susti"/>én<per tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g n="Karla">KaLa<mayNP/><omi tipo="r"/><mayInter/></g><e/>
+<g n="Oriana">oriana<sus tipo="Oxo"/></g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g>Pimientillo</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Nayarit">naya<sus tipo="Nxn"/><l tipo="singuion"/><l/><nl num="4"/>rit</g><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>estoy</g><e/>
+<g>contenta</g>
+<g>por<hiposeg/></g>
+<g n="conocerte">conoserte<sus tipo="cxs"/><hiposeg/></g><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g n="hago">ago<omi tipo="h"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="recreo">recre<omi tipo="o"/></g><l/>
+<nl num="5"/><g>compro</g><e/>
+<g>cosas</g><e/>
+<g>con</g>
+<g>di<tachado>n</tachado><correccion tipo="susti"/>er<tachado>o</tachado><correccion tipo="susti"/><hiposeg/></g><e/>
+<g>y</g><e/>
+<g n="juego">jueguo<agre tipo="u"/></g><e/>
+<g><tachado>e</tachado><correccion tipo="susti"/>n</g>
+<g n="los">Los<sus tipo="lxL"/><hiposeg/></g><e/>
+<g n="columpios">culumpios<sus tipo="oxu"/></g><e/>
+<g>y</g><e/>
+<g>en</g><e/>
+<g n="resbaladillas">rebaLellas<omi tipo="s"/><mayInter/><sus tipo="axe"/><omi tipo="d"/><omi tipo="i"/></g><l/>
+<nl num="6"/><g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>no</g><e/>
+<g>te</g>
+<g n="conozco">conosco<sus tipo="zxs"/><hiposeg/></g><e/>
+<g n="tanto">tonto<sus tipo="axo"/></g><e/>
+<g>mi</g><e/>
+<g n="escuela">escueLa<mayInter/></g><e/>
+<g>tiene</g><e/>
+<g>cancha</g><e/>
+<g>y</g><e/>
+<g n="balones">baLones<mayInter/></g><l/>
+<nl num="7"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g>>
+<g>es<hiposeg/></g>
+<g>mi<hiposeg/></g>
+<g>escuela<hiposeg/></g><l/></pi>
+<nl num="8"/><g n="Bonita">bonita<sus tipo="Bxb"/></g><e/>
+<g><tachado>i</tachado><correccion tipo="susti"/><sus tipo="yxi"/></g>
+<g n="la">La<sus tipo="lxL"/><hiposeg/></g><e/>
+<g>quier<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>mucho</g><l/>
+<nl num="9"/><g>porque</g><e/>
+<g><tachado>ella</tachado><correccion tipo="susti"/></g><e/>
+<g>me</g><e/>
+<g>enseñ<tachado>a</tachado><correccion tipo="susti"/></g><e/>
+<g>a</g><l/>
+<nl num="10"/><g n="leer">Leer<sus tipo="lxL"/></g>
+<g n="y">i<sus tipo="yxi"/><hiposeg/></g><e/>
+<g>escribir</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="11"/><g n="yo">llo<sus tipo="yxll"/></g>
+<g>no<hiposeg/></g><e/>
+<g n="sabía">sabia<omi tipo="acento"/></g>
+<g n="escribir">es<e/>cribir<hiperseg/></g>
+<g>mi<hiposeg/></g>
+<g>nombre</g><l/>
+<nl num="12"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>llego</g><e/>
+<g>a</g>
+<g n="la">La<sus tipo="lxL"/></g>
+<g n="escuela">escueLa<mayInter/><hiposeg/></g><l/></pi>
+<nl num="13"/><g n="Llego">llego<sus tipo="Lxl"/></g><e/>
+<g>camin<tachado>a</tachado><correccion tipo="susti"/>ndo</g><e/>
+<g>y</g><e/>
+<g>a</g>
+<g n="veces"><tachado>b</tachado>e<e/>ses<sus tipo="vxb"/><sus tipo="cxs"/><hiposeg/></g><e/>
+<g>en</g>
+<g n="bici">bisi<sus tipo="cxs"/></g>
+<g>o<hiposeg/></g>
+<g>en<hiposeg/></g>
+<g>carro<hiposeg/></g><l/>
+<nl num="14"/><g><tachado>m</tachado><correccion tipo="susti"/>i</g><e/>
+<g n="papá">papa<omi tipo="acento"/></g><e/>
+<g>tiene</g><e/>
+<g>una</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g n="camioneta">camionecta<agre tipo="c"/></g>
+<g n="y">e<sus tipo="yxe"/><hiposeg/></g>
+<g n="allí">ai<omi tipo="ll"/><omi tipo="acento"/><hiposeg/></g>
+<g>me<hiposeg/></g><e/>
+<g n="trae">trai<sus tipo="exi"/></g><l/>
+<nl num="15"/><g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>como</g><e/>
+<g n="aquí">aqui<omi tipo="acento"/></g>
+<g>en<hiposeg/></g>
+<g n="la">La<sus tipo="lxL"/><hiposeg/></g>
+<g n="escuela">es<hiposeg/><e/>cueLa<mayInter/><hiperseg/></g><l/>
+<nl num="16"/><pi><g n="Qué">qué<sus tipo="Qxq"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g n="la">La<sus tipo="lxL"/></g>
+<g n="escuela">escueLa<mayInter/><hiposeg/></g><l/></pi>
+<nl num="17"/><g n="trabajamos">trabajamos<sus tipo="Txt"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="matemáticas">matematicas<omi tipo="acento"/></g><e/>
+<g><tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g n="español">Español<sus tipo="exE"/></g><l/>
+<nl num="18"/><g>recortamos</g><e/>
+<g>y</g><e/>
+<g>pegamos</g><e/>
+<g>y</g><l/>
+<nl num="19"/><g>salimos</g><e/>
+<g>al</g><e/>
+<g>recreo</g><e/>
+<g>y</g><l/>
+<nl num="20"/><g>jugamos</g><l/>
+<nl num="21"/><g n="adiós">adi<e/>os<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="Fátima">fatima<sus tipo="Fxf"/><omi tipo="acento"/></g><l/>
+
+<dibujo/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. tacha "ues"</com>
+<com>5. remarca "n" y encima "a", encima "e"</com>
+<com>3. encima "i" sobre "e"</com>
+<com>8. encima "i", encima "o" sobre "a"</com>
+<com>9. encima "ella", remarca "a"</com>
+<com>10. tacha lo que escribe</com>
+<com>13. encima "a" sobre "n", remarca "b"</com>
+<com>14. encima "m" sobre "p", tacha lo que escribe</com>
+<com>17. tacha lo que escribe encima "y"</com>
+<com>20. la niña hace dibujos a la mitad de la hoja.</com>
+</comentarios>
+</documento>

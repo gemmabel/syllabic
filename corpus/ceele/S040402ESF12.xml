@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="72" permisos="todos">
+	<titulo>S040402ESF12</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="TRICRUPER"/>
+
+	<referencia id="TRICRUPER">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESF12.txt"/>
+	<imagen archivo="S040402ESF12.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g><tachado>mi</tachado><correccion tipo="elimi"/></g><e/>
+<g>M<mayIni/>i</g><e/><g>escuela</g><l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<g>P<mayNP/>erla</g><e/>
+<g>L<mayNP/>eticia</g><e/>
+<g><tachado>T</tachado><correccion tipo="susti"/><mayNP/>rinidad</g><e/>
+<g n="de">D<sus tipo="dxD"/>e</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="Cruz">C<mayNP/>rus<sus tipo="zxs"/></g><e/>
+<g>tengo</g><l/>
+<nl num="3"/><g>7</g><e/>
+<g>años</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Tepic">t<sus tipo="Txt"/>epic</g><e/>
+<g>mi<hiposeg/></g><g>escuela</g><e/>
+<g>se</g><e/>
+<l/>
+<nl num="4"/><g>llama</g><e/>
+<g>V<mayNP/>icente</g><e/>
+<g>G<mayNP/>uerrero</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<pi><g n="Cómo"><tachado>C</tachado><correccion tipo="susti"/><mayIni/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><l/>
+<nl num="5"/><g>mi</g><e/>
+<g>escuela</g></pi><e/>
+<g>tiene</g><e/>
+<g>muchos</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="6"/><g>tiene</g><e/>
+<g>un</g><e/>
+<g n="hermoso"><omi tipo="h"/>ermoso</g><e/>
+<g n="jardín">jardi<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>una</g><e/>
+<g>tiendita</g><l/>
+<nl num="7"/><g>escolar</g><e/>
+<g>y</g><e/>
+<g>un</g><e/>
+<g n="árbol">a<omi tipo="acento"/>rbol</g><e/>
+<g n="gigante">j<sus tipo="gxj"/>igante</g><e/>
+<g>y</g><e/>
+<g n="también">tambie<omi tipo="acento"/>n</g><l/>
+<nl num="8"/><g>tiene</g><e/>
+<g>juegos</g><e/>
+<g>nosotros</g><e/>
+<g>tenemos</g><e/>
+<g><tachado>p</tachado><correccion tipo="susti"/>iso</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="9"/><g n="sillas">S<sus tipo="sxS"/>illas</g><e/>
+<g>escritorio</g><e/>
+<g>para</g><e/>
+<g>la</g><e/>
+<g>maestra</g><l/>
+<nl num="10"/><g>y</g><e/>
+<g><tachado>casi</tachado><correccion tipo="elimi"/></g><e/>
+<g>tob<rotac tipo="d"/>os</g><e/>
+<e/>
+<g>los</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>niños</g><e/>
+<g>hacen</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="11"/><g>aseo</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g n="entro">entra<sus tipo="oxa" error="concord"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g n="entro">entra<sus tipo="oxa" error="concord"/></g><l/>
+<nl num="12"/><g>a</g><e/>
+<g>las</g><e/>
+<g>8</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="A">h<agre tipo="h"/>a<sus tipo="Axa"/><hiposeg/></g><g n="veces">b<sus tipo="vxb"/>eces</g><e/>
+<g>me</g><e/>
+<g n="trae">trai<sus tipo="exi"/></g><e/>
+<g>mi</g><e/>
+<g n="mamá">má<agre tipo="acento"/>má</g><e/>
+<g n="o">O<sus tipo="oxO"/></g><e/>
+<g>mi</g><e/>
+<l/>
+<nl num="13"/><g n="tía">ti<omi tipo="acento"/>a</g><e/>
+<g>y</g><e/>
+<g>nos</g><e/>
+<g>dejan</g><e/>
+<g>de</g><e/>
+<g>tarea</g><e/>
+<g>cosas</g><e/>
+<l/>
+<nl num="14"/><g n="muy">mui<sus tipo="yxi"/></g><e/>
+<g>interesantes</g><e/>
+<g>y</g><e/>
+<g>nosotras</g><e/>
+<g n="hablamos"><omi tipo="h"/><tachado>ab</tachado><correccion tipo="susti"/>lamos</g><l/>
+<nl num="15"/><g n="español">es<e/><hiperseg/>pañol</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="16"/><g n="Nosotras">n<sus tipo="Nxn"/>osotras</g><e/>
+<g>usamos</g><e/>
+<g>cuaderno</g><e/>
+<g>y</g><e/>
+<g n="lápiz">la<omi tipo="acento"/>piz</g><l/>
+<nl num="17"/><g>y</g><e/>
+<g>para</g><e/>
+<g n="borrar">bor<sus tipo="rrxr"/>ar</g><e/>
+<g>usamos</g><e/>
+<g>borrador</g><e/>
+<r c="Fp" punto="seguido">.</r><l/>
+<nl num="18"/><g n="Cuando">c<sus tipo="Cxc"/>uando</g><e/>
+<g>salimos</g><e/>
+<g>al</g><e/>
+<g>recreo</g><e/>
+<g>jugamos</g><l/>
+<nl num="19"/><g>corremos</g><e/>
+<g>y</g><e/>
+<g>comemos</g><e/>
+<r c="Fp" punto="seguido">.</r><l/>
+<nl num="20"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Atentamente">a<sus tipo="Axa"/>tenta<e/><hiperseg/>mente</g><l/>
+<nl num="21"/><firma tipo="a"><g>Perla</g><e/>
+<g>Leticia</g><e/>
+<g>Trinidad</g><e/>
+<g>De</g><e/>
+<g>La</g><e/>
+<g>Cruz</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. Tacha </com>
+<com>2. Encima</com>
+<com>4. Encima. Decía "c" minúscula</com>
+<com>10. Tacha</com>
+<com>10. Tacha</com>
+<com>14. Encima</com>
+<com>20. Tacha</com>
+<com>20. Agranda minúscula para aparentar mayúscula</com>
+<com>21. Firma: escribe su nombre sin alterar la letra</com>
+<com>El título está a la derecha </com>
+<com>Dudas</com>
+<com>Avece no distingo si la "s" es mayúscula o minúscula</com>
+<com>1 segmentación</com>
+</comentarios>
+</documento>

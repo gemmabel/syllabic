@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="79" permisos="todos">
+	<titulo>S040402ESM19</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ROBBELJAV"/>
+
+	<referencia id="ROBBELJAV">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESM19.txt"/>
+	<imagen archivo="S040402ESM19.jpg"/>
+	<vista tipo="T"/>
+	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<r c="Fs">...</r><e/>
+<g>J<mayNP/>avier</g><e/>
+<g>E<mayNP/>nrique</g><e/>
+<g>R<mayNP/>obles</g><e/>
+<g n="Beltrán">B<mayNP/>eltra<omi tipo="acento"/>n</g><l/>
+<nl num="3"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g>T<mayNP/>epic</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>soy</g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g n="Ciudad">S<sus tipo="cxS"/>iudad</g><e/>
+<g>de</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>j<sus tipo="xxj"/>ico</g><l/>
+<nl num="4"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g n="muy">M<sus tipo="mxM"/>uy</g><e/>
+<g>bonita</g><e/>
+<g>tiene</g><e/>
+<g n="muchos">M<sus tipo="mxM"/>uchos</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="5"/><g>tiene</g><e/>
+<g n="muchos">M<sus tipo="mxM"/>uchos</g><e/>
+<g n="salones">S<sus tipo="sxS"/>alones</g><e/>
+<g n="los">L<sus tipo="lxL"/>os</g><e/>
+<g>salones</g><e/>
+<g>son<hiposeg/></g><g n="muy">M<sus tipo="mxM"/>uy</g><e/>
+<g>bonitos</g><e/>
+<l/>
+<nl num="6"/><g n="tiene">T<sus tipo="txT"/>iene</g><e/>
+<g n="muchos">M<sus tipo="mxM"/>uchos</g><e/>
+<g>jardines</g><l/>
+<nl num="7"/><g>Y<mayIni/>o</g><e/>
+<g n="me">M<sus tipo="mxM"/>e</g><e/>
+<g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g n="me">M<sus tipo="mxM"/>e</g><e/>
+<g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>caminando</g><e/>
+<g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="muy">M<sus tipo="mxM"/>uy</g><e/>
+<g n="cerca">s<sus tipo="cxs"/>erca</g><l/>
+<nl num="8"/><g>E<mayIni/>n</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>escuela</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g>libros</g><e/>
+<g>y</g><e/>
+<g n="muchos">M<sus tipo="mxM"/>uch<rotac tipo="h"/>os</g><e/>
+<g>juegos</g><l/>
+<nl num="9"/><g>L<mayIni/>os</g><e/>
+<g>salones</g><e/>
+<g>tienen</g><e/>
+<g>puertas</g><l/>
+<nl num="10"/><g>E<mayIni/>n</g><e/>
+<g>el</g><e/>
+<g>recreo</g><e/>
+<g>jugamos</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. Tacha</com>
+<com>8."h" Invertida de derecha a izquierda</com>
+<com>Diseño de Página: título centrado</com>
+<com>La "M" se escribió utilizando la misma forma gráfica para mayúsclas y para minúsculas, pero para hacder una "M" mayúscula, hace una "M" más grande.</com>
+
+</comentarios>
+</documento>

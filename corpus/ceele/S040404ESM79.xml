@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="1" permisos="todos">
+
+		<titulo>S040404ESM79</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="RAMSANJOR"/>
+
+		<referencia id="RAMSANJOR">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+		
+	<archivo nombre="S040404ESM79.txt"/>
+	<imagen archivo="S040404ESM79.jpg"/>
+	<vista tipo="T"/>		
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="Exe"/>S<mayInter/>cuela</g><l/>
+<l/>
+<nl num="2"/><g>H<mayIni/>ola</g><e/>
+<g>me</g><e/>
+<g n="llamo">Y<sus tipo="llxy"/>amo</g><e/>
+<g>J<mayNP/>orge</g><e/>
+<g>U<mayNP/>riel</g><e/>
+<g n="Ramírez">R<mayNP/>ami<omi tipo="acento"/>rez</g><e/>
+<g n="Sánchez">S<mayNP/>a<omi tipo="acento"/>nc<tachado>h</tachado><correccion tipo="susti"/>ez</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="3"/><g>T<mayIni/>engo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="4"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g n="país">pai<omi tipo="acento"/>s</g><e/>
+<g>es</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>xico</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><g n="vivo">V<mayIni/>iV<mayInter/>o</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>calle</g><e/>
+<g n="Río">R<mayNP/>i<omi tipo="acento"/>o</g><e/>
+<g>S<mayNP/>uchiate</g><e/>
+<g n="número"><tachado>NU</tachado><correccion tipo="susti"/><sus tipo="nxN"/><omi tipo="acento"/>mero</g><e/>
+<g>66</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="6"/><g n="estoy"><sus tipo="Exe"/>estoy</g><e/>
+<g>en</g><e/>
+<g>segundo</g><e/>
+<g n="año">A<sus tipo="axA"/>ño</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="7"/><g>M<mayIni/>i</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g n="llama"><tachado>y</tachado><sus tipo="llxy"/>ama</g><e/>
+<g n="María">m<sus tipo="Mxm"/>ari<omi tipo="acento"/>a</g><e/>
+<g n="Felicitas">F<mayNP/>eliz<sus tipo="cxz"/>ita<omi tipo="s"/></g><e/>
+<g n="Anguiano">a<sus tipo="Axa"/>nguiano</g><e/>
+<g n="Cano">c<sus tipo="Cxc"/>ano</g><e/>
+<r c="Fp" punto="aparte">.</r><e/>
+<l/>
+<nl num="8"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<r c="Fe">"</r><g tipo="abrev" n="Gral.">G<mayNP/>ral<omi tipo="punto abrev"/></g><e/>
+<g>J<mayNP/>uventino</g><e/>
+<g n="Espinosa">e<sus tipo="Exe"/>spinosa</g><l/>
+<nl num="9"/><g>me</g><e/>
+<g>vengo</g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="10"/><g n="Hay"><omi tipo="H"/>ay</g><e/>
+<g n="computación">computacio<omi tipo="acento"/>n</g><l/>
+<nl num="11"/><g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g n="educación">educacio<omi tipo="acento"/>n</g><e/>
+<g n="física">F<sus tipo="fxF"/>i<omi tipo="acento"/>sica</g><l/>
+<nl num="12"/><g>trabajamos</g><e/>
+<g>en</g><e/>
+<g n="los">L<sus tipo="lxL"/>os</g><e/>
+<g n="libros">L<sus tipo="lxL"/>ibros</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="13"/><g n="En">e<sus tipo="Exe"/>n</g><e/>
+<g n="los">L<sus tipo="lxL"/>os</g><e/> 
+<g n="lunes">L<sus tipo="lxL"/>unes</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g n="los">L<sus tipo="lxL"/>os</g><e/>
+<g n="honores">H<sus tipo="hxH"/>onores</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="bandera"><tachado>V</tachado><sus tipo="bxV"/>andera</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="14"/><g n="Hacemos">H<mayIni/>as<sus tipo="cxs"/>emos</g><e/>
+<g n="honores">H<sus tipo="hxH"/>onores</g><e/>
+<g>a</g><e/>
+<g>los</g><e/>
+<g>que</g><e/>
+<g n="salvaron"><tachado>s</tachado>alb<sus tipo="vxb"/>aron</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="bandera"><tachado>V</tachado><sus tipo="bxV"/>ann<agre tipo="n"/>dera</g><e/>
+<g>de</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>xico</g><l/>
+<nl num="15"/><g n="los">L<sus tipo="lxL"/>os</g><e/>
+<g n="libros">L<sus tipo="lxL"/>ibros</g><e/>
+<g>son</g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>atema<omi tipo="acento"/>ticas</g><e/>
+<r c="Fc">,</r><e/>
+<g n="lecturas">L<sus tipo="lxL"/>ecturas</g><e/>
+<g>y</g><e/>
+<g n="español">E<sus tipo="exE"/>S<mayInter/>pañol</g><e/>
+<r c="Fp" punto="final">.</r><l/>
+<nl num="16"/><g n="Adiós">H<agre tipo="H"/><mayIni/>adio<omi tipo="acento"/>s</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/>
+<r c="Fp" punto="otros">.</r><e/>
+
+<nl num="17"/><firma tipo="a"><g>Jorge</g><e/>
+<g>urie<tachado>l</tachado></g><e/>
+<g>Ramirez</g><e/>
+<g>Sanchez</g><e/>
+<r c="Fp" punto="otros">.</r></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. Encima</com>
+<com>5. Encima</com>
+<com>7. Encima</com>
+<com>14. Encima, encima</com>
+<com>17. Encima</com>
+<com>17. Firma sin alterar la letra</com>
+<com>Diseño: Título centrado</com>
+
+</comentarios>
+</documento>

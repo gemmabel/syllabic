@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="238" permisos="todos">
+
+	<titulo>N015901EscF10</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ROMOSUPER"/>
+
+	<referencia id="ROMOSUPER">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>										
+
+	<archivo nombre="N015901EscF10.txt"/>
+	<imagen archivo="N015901EscF10a.jpg"/>
+	<imagen archivo="N015901EscF10b.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<pi><g n="Quién">Qui<mayIni/><hiperseg/><e/><r c="Fps">.</r><e/>en<omi tipo="acento"/></g><r c="Fps">.</r><e/>
+<g>soy</g></pi><e/>
+<r c="Fgs">-</r><e/>
+<g n="Perla">perla<sus tipo="Pxp"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>Janeth<mayNP/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>Romero<mayNP/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Osuna">OsuNa<mayNP/><sus tipo="nxN"/></g><l/>
+<nl num="2"/><e/>
+<g>tengo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>una</g><e/>
+<r c="Fgs">-</r><e/>
+<g>hermana</g><r c="Fgs">-</r><e/>
+<g>que<hiposeg/></g>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Itzel">yTzel<sus tipo="ixy"/><sus tipo="Ixi"/><sus tipo="txT"/></g><r c="Fgs">-</r>
+<g>Romero<mayNP/></g><r c="Fgs">-</r>
+<g n="Osuna">osuNa<sus tipo="Oxo"/><sus tipo="nxN"/></g><l/>
+<nl num="3"/><e/>
+<g>mi<hiposeg/></g>
+<g>hermana</g><r c="Fgs">-</r>
+<g>tiene</g><r c="Fgs">-</r>
+<g>6<hiposeg/></g>
+<g><tachado>b</tachado><correccion tipo="elimi"/>años</g><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>yo</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="4"/><e/>
+<g>y</g><e/>
+<g>mi<hiposeg/></g>
+<g>mamá</g><e/>
+<g>tiene</g><e/>
+<g>24</g><e/>
+<g>años</g><e/>
+<g>y<hiposeg/></g>
+<g>mi<hiposeg/></g>
+<g>papá</g><e/>
+<g>tiene</g><e/>
+<g>4<tachado>0</tachado><correccion tipo="susti"/></g><e/>
+<g>años</g><l/>
+<nl num="5"/><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g n="Cecilia">cecilia<sus tipo="Cxc"/></g><e/>
+<g n="Osuna">osuNa<sus tipo="Oxo"/><sus tipo="nxN"/></g><e/>
+<g n="Contreras">contreras<sus tipo="Cxc"/></g><l/>
+<nl num="6"/><e/>
+<g n="y">Y<sus tipo="yxY"/><hiposeg/></g>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g><tachado>tiene</tachado><correccion tipo="elimi"/></g>
+<g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g n="Tomás">tomas<sus tipo="Txt"/><omi tipo="acento"/></g><e/>
+<g>Romero<mayNP/></g><l/>
+<l/>
+<l/>
+<nl num="7"/><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es<hiposeg/></g>
+<g n="tu">tv<sus tipo="uxv"/><hiposeg/></g>
+<g>escuela</g></pi><l/>
+<nl num="8"/><e/>
+<g><tachado>es<e/>voNita</tachado><correccion tipo="elimi"/></g><e/>
+<g>es</g><e/>
+<g n="bonita">vonita<sus tipo="bxv"/></g><e/>
+<g>y</g><e/>
+<g>porque</g><e/>
+<g n="está">esta<omi tipo="acento"/><hiposeg/></g>
+<g>barridita</g><l/>
+<nl num="9"/><e/>
+<g>y</g><e/>
+<g>regada</g><e/>
+<g>y</g><e/>
+<g>muy</g><e/>
+<g n="trapeadita">tapiqdita<omi tipo="r"/><sus tipo="exi"/><sus tipo="axq"/></g><l/>
+<nl num="10"/><g>y<hiposeg/></g>
+<g>tiene</g><e/>
+<g><tachado>ua</tachado><correccion tipo="elimi"/></g><e/>
+<g>una<hiposeg/></g>
+<g n="cancha">cacha<omi tipo="n"/></g><e/>
+<g>bonita</g><l/>
+<nl num="11"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>nue<tachado>s</tachado>t<tachado>r</tachado>a<correccion tipo="susti"/><correccion tipo="susti"/></g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g n="temprano">tep<tachado>r</tachado>ano<omi tipo="m"/><correccion tipo="susti"/></g><e/>
+<g>y</g><e/>
+<g n="nos">los<sus tipo="nxl" error="concord"/></g><e/>
+<g n="levantamos">lebantamos<sus tipo="vxb"/></g><e/>
+<g n="temprano">teprano<omi tipo="m"/></g><l/>
+<nl num="13"/><g>y</g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g n="pie">pies<agre tipo="s"/></g><l/>
+<l/>
+<l/>
+<nl num="14"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<r c="Fps">.</r><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="15"/><g>jugamos</g><e/>
+<g>y</g><e/>
+<g>corremos</g><e/>
+<g>y</g><e/>
+<g n="compramos">copramos<omi tipo="m"/></g><e/>
+<g>y</g><e/>
+<g>bailamos</g><l/>
+<nl num="16"/><g>y<hiposeg/></g>
+<g>cantamos</g><e/>
+<g>y</g><e/>
+<g n="peleamos">peliamos<sus tipo="exi"/></g><e/>
+<g>y<hiposeg/></g>
+<g>tenemos</g><e/>
+<g>muchas</g><e/>
+<g>amigas</g><l/>
+<nl num="17"/><g>y</g><e/>
+<g>trabajamos</g><e/>
+<g>muchos</g><e/>
+<g>niños</g><e/>
+<g>y<hiposeg/></g>
+<g>niñas</g><l/>
+<l/>
+<l/>
+<nl num="18"/><firma tipo="a"/><g>Perla<mayNP/></g><l/>
+</cuerpo>
+<comentarios>
+<com>4. Bajo el "0" hay una "a".</com>
+<com>11. Bajo la "s" hay una "l"; bajo la "r" hay una "a".</com>
+<com>12. Bajo la "r" hay una "a".</com>
+</comentarios>
+</documento>

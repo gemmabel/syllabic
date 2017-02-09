@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="74" permisos="todos">
+	<titulo>S040402ESF15</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ROMRUVNID"/>
+
+	<referencia id="ROMRUVNID">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESF15.txt"/>
+	<imagen archivo="S040402ESF15.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><r c="Fit">?<agre tipo="?"/></r><e/>
+<g>S<mayIni/>oy</g><e/><r c="Fs">...</r><e/><g>N<mayNP/>idia</g><e/>
+<g n="Lizbeth">L<mayNP/>izben<sus tipo="txn"/><omi tipo="h"/></g><e/>
+<g>R<mayNP/>omano</g><e/>
+<g>R<mayNP/>uvalcaba</g><l/>
+<nl num="3"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="Penita">p<sus tipo="Pxp"/>enita</g><l/>
+<nl num="4"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<l/>
+<nl num="5"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>bonita</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>flores</g><e/>
+<g>y</g><e/>
+<g><tachado>tengo</tachado><correccion tipo="elimi"/></g><e/>
+<e/>
+<g n="hay"><omi tipo="h"/>a<tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g>6</g><e/>
+<g>salones</g><l/>
+<nl num="6"/><g>tiene</g><e/>
+<g>juegos</g><e/>
+<g>tiene</g><e/>
+<e/>
+<g>una</g><e/>
+<g>tiendita</g><l/>
+<nl num="7"/><g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>y</g><e/>
+<g><tachado>t</tachado><correccion tipo="susti"/>enemos</g><e/>
+<g>biblioteca</g><l/>
+<l/>
+<nl num="8"/><g>M<mayIni/>i</g><e/>
+<g>papá</g><e/>
+<g>me</g><e/>
+<g n="trae">tray<sus tipo="exy"/></g><e/>
+<g><tachado>car</tachado><correccion tipo="elimi"/>en</g><e/>
+<g>carro</g><e/>
+<g>y</g><e/>
+<g>a<hiposeg/></g><g n="veces">b<sus tipo="vxb"/>es<sus tipo="cxs"/>es</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="9"/><g n="trae">tray<sus tipo="exy"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/><g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>mamá</g><l/>
+<l/>
+<nl num="10"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="escuela">escueL<mayInter/>a</g><e/>
+<g>nos</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="11"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="revisan">reb<sus tipo="vxb"/>isan</g><e/>
+<g>en</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g>escuela</g><e/>
+<g>mis</g><e/>
+<g>cuadernos</g><l/>
+<nl num="12"/><g>y</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>uso</g><e/>
+<g>los</g><e/>
+<g>dados</g><e/>
+<g>para</g><e/>
+<g>jugar</g><l/>
+<nl num="13"/><g>y</g><e/>
+<g>a<hiposeg/></g><g n="veces">b<sus tipo="vxb"/>eses</g><e/>
+<g>nos</g><e/>
+<g>ponen</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="tele"><tachado>T</tachado><correccion tipo="susti"/><sus tipo="txT"/>ele</g><e/>
+<g>muchas</g><e/>
+<l/>
+<nl num="14"/><g>caricaturas</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g n="levanto">leb<sus tipo="vxb"/>anto</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>8</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="15"/><g>la</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>mañana</g><e/>
+<g>y</g><e/>
+<g>se</g><e/>
+<l/>
+<nl num="16"/><g>despide</g><e/>
+<firma tipo="a"><g>Nidia</g><e/>
+<g>Lizben</g><l/>
+<nl num="17"/><g>Romano</g><e/>
+<g><tachado>Ruvalcaba</tachado></g><l/>
+<nl num="18"/><g><tachado>X</tachado></g><e/>
+<g>Ruvalcaba</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. Agrega signo de pregunta de cierre al principio de la oración</com>
+<com>5. Tacha</com>
+<com>5. Encima</com>
+<com>7. Encima</com>
+<com>8. Tacha</com>
+<com>9. Tacha</com>
+<com>10. Tacha</com>
+<com>10. Tacha</com>
+<com>11. Tacha</com>
+<com>12. Tacha</com>
+<com>13. Encima</com>
+<com>15. Tacha</com>
+<com>17. Tacha</com>
+<com>18. Tacha</com>
+<com>2 y 17 La "L" de su nombre es diferente a la s demás </com>
+<com>Firma: Escribe su nombre sin alterar la letra</com>
+<com>Nota ( tiene varias maneras de escribir el punto de la  "i" aveces es un círculo, otras veces un punto y otras veces como acento)</com>
+</comentarios>
+</documento>

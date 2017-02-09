@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="78" permisos="todos">
+	<titulo>S040402ESM16</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MARREYMAR"/>
+
+	<referencia id="MARREYMAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESM16.txt"/>
+	<imagen archivo="S040402ESM16.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/>
+<g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>S<mayIni/>oy</g><e/>
+<r c="Fs">...</r><e/>
+<g n="Martín">M<mayNP/>arti<omi tipo="acento"/>n</g><e/>
+<g>E<mayNP/>duardo</g><e/>
+<g n="Martínez">M<mayNP/>arti<omi tipo="acento"/>nez</g><l/>
+<nl num="2"/><g>R<mayNP/>eyes</g><l/>
+<nl num="3"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g>N<mayNP/>ayarit</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="4"/><g>tiene</g><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<g>y</g><e/>
+<g>tengo</g><l/>
+<nl num="5"/><g>7</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>un</g><e/>
+<g n="jardín">jardi<omi tipo="acento"/>n</g><l/>
+<nl num="6"/><g>que</g><e/>
+<g>hay</g><e/><g>flores</g><e/><g>y</g><e/>
+<g>juegos</g><e/>
+<g>y</g><l/>
+<nl num="7"/><g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g n="ladrillos">ladriy<sus tipo="llxy"/>os</g><e/>
+<g>una</g><e/>
+<l/>
+<nl num="8"/><g>cancha</g><e/>
+<g n="muy">M<sus tipo="mxM"/>uy</g><e/>
+<g>grande</g><e/>
+<g>una</g><e/>
+<l/>
+<nl num="9"/><g>dirección</g><e/>
+<g>y</g><e/>
+<g>la</g><e/>
+<g>tiendita</g><l/>
+<nl num="10"/><g>yo</g><e/>
+<g>siempre</g><e/>
+<g n="me">M<sus tipo="mxM"/>e</g><e/>
+<g>voy</g><e/>
+<g>a</g><e/>
+<g>la</g><l/>
+<nl num="11"/><g>escuela</g><e/>
+<g>solo</g><e/>
+<g>en</g><e/>
+<e/>
+<g>a</g><e/>
+<g>pie</g><l/>
+<nl num="12"/><g>y</g><e/>
+<g>siempre</g><e/>
+<g n="hago"><omi tipo="h"/>ago</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="13"/><g n="salón">salo<omi tipo="acento"/>n</g><e/>
+<g>hacer</g><e/>
+<g>la</g><e/>
+<g>tarea</g><e/>
+<g>salir</g><l/>
+<nl num="14"/><g>al</g><e/>
+<g>recreo</g><e/>
+<g>cuando</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="15"/><g>salón</g><e/>
+<g>hacemos</g><e/>
+<g>una</g><e/>
+<g>clase</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="16"/><g>cartulinas</g><e/>
+<g>y</g><e/>
+<g>dibujamos</g><e/>
+<g>muchos</g><l/>
+<nl num="17"/><g>animales</g><e/>
+<g>que</g><e/>
+<g>los</g><e/>
+<g n="investiguemos">e<sus tipo="ixe"/>nvesti<tachado>g</tachado><correccion tipo="susti"/>uemos</g><l/>
+<nl num="18"/><g>y</g><e/>
+<g>a</g><e/>
+<g>escribir</g><e/>
+<g>nuestra</g><e/>
+<g>clase</g><l/>
+<nl num="19"/><e/>
+<g>para</g><e/>
+<g n="estudiar">es<e/><hiperseg/>tudiar</g><e/>
+<g>tan</g><e/>
+<g>mucho</g>
+<l/>
+<l/>
+<nl num="20"/><g n="adiós">h<agre tipo="h"/>adio<omi tipo="acento"/>s</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>17. Encima</com>
+</comentarios>
+</documento>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+				
+<encabezado id="125" permisos="todos">
+
+	<titulo>N025105ESM08</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GARESTGIL"/>
+
+	<referencia id="GARESTGIL">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025105ESM08.txt"/>
+	<imagen archivo="N025105ESM08a.jpg"/>
+	<imagen archivo="N025105ESM08b.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>G<mayNP/>ilberto</g><e/>
+<g>de</g><e/>
+<g n="García">g<sus tipo="Gxg"/>ars<sus tipo="cxs"/>i<omi tipo="acento"/>a</g><e/>
+<g n="Estrada">e<sus tipo="Exe"/>strade<sus tipo="axe"/></g><e/>
+<g n="Malaverde">m<sus tipo="Mxm"/>alverde</g><l/>
+<nl num="2"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g n="escuela">escueL<mayInter/>a</g><l/>
+<nl num="3"/><pi><g n="Quién">Q<mayIni/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="4"/><g>G<mayNP/>ilberto</g><e/>
+<g n="García">Gars<sus tipo="cxs"/>i<omi tipo="acento"/>a</g><e/>
+<g n="Estrada">es<sus tipo="Exe"/>strada</g><l/>
+<nl num="5"/><g n="Cómo">c<omi tipo="Cxc"/>o<omi tipo="acento"/>M<mayInter/>o</g><e/>
+<g n="estás">es<hiperseg/><e/>ta<omi tipo="acento"/>s<hiperseg/></g><e/>
+<g>muy</g><e/>
+<g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g>bien</g><l/>
+<nl num="6"/><g n="dónde"><omi tipo="d"/>o<omi tipo="acento"/>nde</g><e/>
+<g>vives</g><e/>
+<g>en</g><r c="Fg">-</r><g n="San">s<sus tipo="Sxs"/>an</g><g n="Vicente">v<sus tipo="Vxv"/>is<sus tipo="cxs"/>ente<hiposeg/></g><e/>
+<g n="hay">hay</g><l/>
+<nl num="7"/><g>tengo</g><e/>
+<g n="siete"><tachado>s</tachado><correccion tipo="susti"/>siete</g><e/>
+<g>años</g><e/>
+<g>7</g><e/>
+<g>me</g><e/>
+<g>llamo</g><e/>
+<g n="Gilberto">Gilber<hiperseg/><e/>to<hiperseg/></g><l/>
+<nl num="8"/><g>Mi<hiposeg/></g>
+<g n="escuela">es<hiperseg/><e/>cueL<mayInter/>a<hiperseg/></g><e/>
+<g>tiene</g><e/>
+<g n="baños">v<sus tipo="bxv"/>años</g><e/>
+<g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g>tenemos</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rv<sus tipo="bxv"/>oL<mayInter/>es</g><l/>
+<nl num="9"/><g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g>tengo</g><e/>
+<g n="aire">ay<sus tipo="yxi"/><hiperseg/><e/>re<hiperseg/></g><e/>
+<g n="acondicionado"><omi tipo="a"/>con<omi tipo="d"/>is<sus tipo="cxs"/>ionar<agre tipo="r"/>i<agre tipo="r"/>o</g><e/>
+<g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g><tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g>tenem</g><l tipo="singuion"/>
+<nl num="10"/><g>os</g><e/>
+<g n="salones">saL<mayInter/>ones</g><e/>
+<g>y</g><e/>
+<g>venden</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="recreo">re<hiperseg/><e/>qu<sus tipo="cxqu"/>reo<hiperseg/></g><e/>
+<g n="hay"><omi tipo="h"/>a<tachado>y</tachado><correccion tipo="susti"/></g><l/>
+<nl num="11"/><g>tortas</g><e/>
+<g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g n="burritos">v<sus tipo="bxv"/>ur<sus tipo="rrxr"/>itos</g><e/>
+<g>y</g><e/>
+<g>refrescos</g><e/>
+<g>y</g><e/>
+<g n="dulces"><tachado>b</tachado><correccion tipo="susti"/>b<rotac tipo="d"/>uls<sus tipo="cxs"/>es</g><e/>
+<g>y</g><l/>
+<nl num="12"/><g>tenemos</g><e/>
+<g>agua</g><e/>
+<g>y</g><e/>
+<g n="luz">L<sus tipo="lxL"/>uz</g><e/>
+<g>el</g><e/>
+<g>gobierno</g><e/>
+<g>y</g><e/>
+<g n="área">a<omi tipo="acento"/>ri<sus tipo="eaxi"/>a</g><e/>
+<g n="verde">verb<rotac tipo="d"/>e</g><e/>
+<g>y</g><e/>
+<g>verde</g><l/>
+<nl num="13"/><g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g n="pizarón">pi<hiperseg/><e/>say<sus tipo="rrxy"/>o<omi tipo="acento"/>n<hiperseg/></g><l/>
+<nl num="14"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="escuela">escueL<mayInter/>a</g></pi><l/>
+<nl num="15"/><g><tachado>(y)</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g n="baños">v<sus tipo="bxv"/>años</g><e/>
+<g>y</g><e/>
+<g>agua</g><l/>
+<nl num="16"/><g>y</g><e/>
+<g>tiendita</g><e/>
+<g>para</g><e/>
+<g>comprar</g><l/>
+<nl num="17"/><g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g>llego</g><e/>
+<g>a</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="escuela">escueL<mayInter/>a</g><e/>
+<g>por</g><l/>
+<nl num="18"/><g><tachado>(p)</tachado></g><e/>
+<g>que<hiposeg/></g><g n="está"><omi tipo="e"/>sta<omi tipo="acento"/><hiposeg/></g><e/>
+<g n="cerquita">s<sus tipo="cxs"/>erquita</g><l/>
+<nl num="19"/><g>y</g><e/>
+<g>duro</g><e/>
+<g n="unos">un<omi tipo="os" error="concord"/></g><e/>
+<g>minutos</g><e/>
+<g>2</g><e/>
+<g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="medio">media<sus tipo="oxa" error="concord"/></g><l/>
+<nl num="20"/><g n="yo">ll<sus tipo="yxll"/>o</g><e/>
+<g>llego</g><e/>
+<g>a</g><e/>
+<g n="la">La</g><e/>
+<g n="escuela">es<tachado>c</tachado><correccion tipo="susti"/>ueL<mayInter/>a</g><e/>
+<g>5</g><l/>
+<nl num="21"/><g n="minutos">minuto<omi tipo="s" error="concord"/></g><l/>
+<nl num="22"/><g>Mi</g><e/>
+<g n="escuela">es<hiperseg/><e/>cu<hiperseg/><e/>ela<hiperseg/></g><e/>
+<g n="está">es<hiperseg/><e/>ta<omi tipo="acento"/><hiperseg/></g><l/>
+<nl num="23"/><g n="bonita">v<sus tipo="bxv"/>onita</g><l/>
+<nl num="24"/><g>en</g><e/>
+<g>el</g><e/>
+<g n="salón">saL<mayInter/>o<omi tipo="acento"/>n</g><e/>
+<g n="leemos">L<sus tipo="lxL"/>e<hiperseg/><e/>emos<hiperseg/></g><e/>
+<g>y</g><l/>
+<nl num="25"/><g n="salimos">saL<mayInter/>e<sus tipo="ixe"/><hiperseg/><e/>mos<hiperseg/></g><e/>
+<g>a</g><g n="educación"><omi tipo="e"/>ducad<sus tipo="cxd"/>i<hiposeg/><e/>o<omi tipo="acento"/>n<hiperseg/></g><l/>
+<nl num="26"/><g n="física">fi<omi tipo="acento"/><tachado>s</tachado><correccion tipo="susti"/>ica</g><e/>
+<pi><g n="Qué">q<sus tipo="Qxq"/>ué</g><l/>
+<nl num="27"/><g>hacen</g><l/>
+<nl num="28"/><g>en</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<l/>
+<nl num="29"/><g n="escuela">escueL<mayInter/>a</g></pi><l/>
+<nl num="30"/><g n="hago"><omi tipo="h"/>ago</g><e/>
+<g n="cuentas"><tachado>c</tachado><correccion tipo="susti"/>uentas</g><l/>
+<nl num="31"/><g>G<mayNP/>ilberto</g><e/>
+<g n="García">G<mayNP/>ars<sus tipo="cxs"/>i<omi tipo="acento"/>a</g><l/>
+<nl num="32"/><g tipo="fecha"> n="23 de noviembre de 2008">23<e/>de<e/>novien<sus tipo="mxn"/><tachado>b</tachado><correccion tipo="susti"/>re<e/>de<e/>2008</g><l/>
+<nl num="33"/><g><tachado>(mima)</tachado><correccion tipo="elimi"/></g><e/>
+<l/>
+<nl num="34"/><g n="mi">mi<hiposeg/></g>
+<g>maestra<hiposeg/></g><e/>
+<g>me</g><e/>
+<g n="explica">es<hiperseg/><e/>pr<sus tipo="lxr"/>ica<hiperseg/></g><l/>
+<nl num="35"/><g>mucho</g><e/>
+<g>y</g><e/>
+<g>cuando</g><e/>
+<g>dan</g><l/>
+<nl num="36"/><g>el</g><e/>
+<g>re<tachado>(o)</tachado><correccion tipo="elimi"/><hiperseg/><e/>cl<sus tipo="rxl"/>eo<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>d<rotac tipo="b"/>ie<omi tipo="acento"/>n</g><l/>
+<nl num="37"/><g>jugamos</g><e/>
+<g>con</g><e/>
+<g>la</g><e/>
+<g>maestra</g><l/>
+<nl num="38"/><g><tachado>(y)</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g n="salgo"><tachado>s</tachado><correccion tipo="susti"/>al<e/>go<hiperseg/><e/><tachado>(o)</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<rotac tipo="a"/>l</g><l/>
+<nl num="39"/><g n="recreo">recl<sus tipo="rxl"/>eo</g><l/>
+<nl num="40"/><g n="ya">ll<sus tipo="yxll"/>a</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Los errores están puestos entre paréntesis.</com>
+<com>Las líneas 31. y 32. son realmente líneas del reverso de la página, donde el niño vuelve a poner su nombre</com>
+
+</comentarios>
+</documento>

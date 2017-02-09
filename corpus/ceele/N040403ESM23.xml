@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="156" permisos="todos">
+
+		<titulo>N040403ESM23</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="HERGARMAN"/>
+
+		<referencia id="HERGARMAN">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>					
+
+	<archivo nombre="N040403ESM23.txt"/>
+	<imagen archivo="N040403ESM23.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">escueL<mayInter/>a</g><l/>
+<nl num="2"/><g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>soy</g><e/>
+<g n="Manuel">m<sus tipo="Mxm"/>a<tachado>n</tachado><correccion tipo="susti"/>uel</g><e/>
+<g n="Andrés">A<mayNP/>ndre<omi tipo="acento"/>s</g><e/>
+<g n="Hernández">H<mayNP/>erno<sus tipo="áxo"/>ndes<sus tipo="zxs"/></g><e/>
+<g n="García">g<sus tipo="Gxg"/>o<sus tipo="axo"/>rs<sus tipo="cxs"/>i<omi tipo="acento"/>o<sus tipo="axo"/></g><l/>
+<nl num="3"/><g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Pantanal">p<sus tipo="Pxp"/>o<sus tipo="axo"/>nto<sus tipo="axo"/>nal</g><e/>
+<g>mi</g><e/>
+<g n="hermano">hermo<sus tipo="axo"/>no<sus tipo="axo"/></g><e/>
+<g>se</g><e/>
+<g n="llama">llo<sus tipo="axo"/>mo<sus tipo="axo"/></g><e/>
+<g n="Aris">a<sus tipo="Axa"/>ris</g><l/>
+<nl num="4"/><g n="José">j<sus tipo="Jxj"/>ose<omi tipo="acento"/></g><e/>
+<g n="Octavio">o<sus tipo="Oxo"/>ctavio</g><e/>
+<g>M<mayNP/>enchaca</g><l/>
+<nl num="5"/><g>y</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="camión">co<sus tipo="axo"/>mio<omi tipo="acento"/>n</g><l/>
+<nl num="6"/><g>A<mayIni/><hiposeg/></g><g n="mí">mi<omi tipo="acento"/></g><e/>
+<g>me</g><e/>
+<g n="gusta">gusto<sus tipo="axo"/></g><e/>
+<g>jugar</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>patio</g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g n="tiene">ti<omi tipo="e"/><omi tipo="n"/><omi tipo="e"/></g><e/>
+<g>mucho</g><e/>
+<g>lugar</g><e/>
+<g n="grande">gro<sus tipo="axo"/>nde</g><l/>
+<nl num="8"/><g>yo</g><e/>
+<g>juego</g><e/>
+<g>a<hiposeg/></g><g n="lotería">loteri<omi tipo="acento"/>a</g><e/>
+<g>con</g><e/>
+<g>piedritas</g><l/>
+<nl num="9"/><firma tipo="b"><g>manuel</g><e/>
+<g>Andres</g><e/>
+<g>Hernondes</g><l/>
+<nl num="10"/><g><tachado>X</tachado></g><e/>
+<g>gorcia</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. Encima</com>
+<com>10. Tacha. Decía "te ... qui"</com>
+<com>10. Firma: escribe su nombre con la letra un poco más grande, la palabra "Hernandes" se sube del renglón</com>
+<com>Hace la "a" como "o"</com>
+</comentarios>
+</documento>

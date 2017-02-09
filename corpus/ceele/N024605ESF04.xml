@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="244" permisos="todos">
+
+	<titulo>N024605ESF04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="FONGONGRE"/>
+
+	<referencia id="FONGONGRE">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>						
+
+	<archivo nombre="N024605ESF04.txt"/>
+	<imagen archivo="N024605ESF04.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Grecia<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><g>Tiene<mayIni/></g><e/>
+<g n="luz">lus<sus tipo="zxs"/></g><l/>
+<nl num="4"/><g n="tenemos">Tenemos<sus tipo="txT"/></g><e/>
+<g n="sillas">cillas<sus tipo="sxc"/></g><l/>
+<nl num="5"/><g n="libros">Tibros<sus tipo="lxT"/></g><l/>
+<nl num="6"/><g>mi</g>
+<g>escuela<hiposeg/></g><e/>
+<g n="se">ce<sus tipo="sxc"/></g>
+<g>llama<hiposeg/></g><e/>
+<g>General<mayIni/></g><e/>
+<g>Mariano<mayNP/></g><e/>
+<g>Ruiz<mayNP/></g><l/>
+<nl num="7"/><g>estoy</g><e/>
+<g>en</g>
+<g n="segundo" tipo="grado">cegumto<sus tipo="sxc"/><sus tipo="nxm"/><hiposeg/></g><l/>
+<nl num="8"/><g>teng<tachado>u</tachado><correccion tipo="susti"/></g><e/>
+<g>8</g><l/>
+<nl num="9"/><g n="tenemos">Tenemos<sus tipo="txT"/></g><e/>
+<g n="tiendita">tientita<sus tipo="dxt"/></g><l/>
+<nl num="10"/><g>mi</g>
+<g>escuela<hiposeg/></g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g n="grande">grante<tachado>X</tachado><correccion tipo="elimi"/><sus tipo="dxt"/></g><l/>
+<nl num="11"/><g n="tenemos">Tenemos<sus tipo="txT"/></g>
+<g>agua<hiposeg/></g><l/>
+<nl num="12"/><g><tachado>tenemos</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<tachado>X</tachado>i<correccion tipo="elimi"/></g><l/>
+<nl num="13"/><g><tachado>tenemos</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>ayre</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>6</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>corisionan</tachado><correccion tipo="elimi"/></g><l/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>8. encima "u" sobre "o"</com>
+<com>10. no se distingue lo que tacha</com>
+<com>12. tacha lo que escribe, no se distingue lo que tacha</com>
+<com>13. tacha todo lo que escribió</com>
+<com>La niña en varias ocasiones escribe "T" donde va "t"</com>
+<com>También, en algunas ocasiones pone "t" donde debe ir "d"</com>
+</comentarios>
+</documento>
+

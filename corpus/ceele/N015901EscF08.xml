@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="237" permisos="todos">
+
+	<titulo>N015901EscF08</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PERSILIRA"/>
+
+	<referencia id="PERSILIRA">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>										
+
+	<archivo nombre="N015901EscF08.txt"/>
+	<imagen archivo="N015901EscF08.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Irasema">IRasema<mayNP/><sus tipo="rxR"/></g><e/>
+<g>Peralta<mayNP/></g><e/>
+<g n="Sillas">sillas<sus tipo="Sxs"/></g><l/>
+<l/>
+<nl num="2"/><e/>
+<g>yo<hiposeg/></g>
+<g>soy</g><e/>
+<g n="Irasema">IRA<mayNP/><sus tipo="rxR"/><sus tipo="axA"/><hiperseg/><e/>sema</g><e/>
+<g n="Peralta">peral<sus tipo="Pxp"/><hiperseg/><e/>ta<hiposeg/></g>
+<g n="Sillas">sillas<sus tipo="Sxs"/></g><l/>
+<nl num="3"/><e/>
+<g>ten<hiperseg/><e/>go</g><e/>
+<g>una</g><e/>
+<g>herma<tachado>na</tachado><correccion tipo="susti"/></g><l/>
+<nl num="4"/><e/>
+<g>ten<hiperseg/><e/>go</g><e/>
+<g>siete</g><e/>
+<g>a<tachado>ñ</tachado>os<correccion tipo="susti"/></g><l/>
+<l/>
+<nl num="5"/><e/>
+<g n="Es">es<sus tipo="Exe"/><hiposeg/></g>
+<g>bonita</g><e/>
+<g n="porque">Por<sus tipo="pxP"/><hiperseg/><e/>que</g><e/>
+<g>hay</g><e/>
+<g>arboles</g><l/>
+<nl num="6"/><e/>
+<g n="hay">ay<omi tipo="h"/></g><e/>
+<g>can<hiperseg/><e/>cha</g><e/>
+<g n="para">pora<sus tipo="axo"/><hiposeg/></g>
+<g>jugar</g><l/>
+<nl num="7"/><e/>
+<g n="basquet">bas<hiperseg/><e/>quer<sus tipo="txr"/></g><e/>
+<g>y</g><e/>
+<g>para<hiposeg/></g>
+<g>jugar</g><l/>
+<nl num="8"/><e/>
+<g n="más">mas<omi tipo="acento"/></g><e/>
+<g>cosas</g><l/>
+<l/>
+<nl num="9"/><e/>
+<g n="rápido">raPido<omi tipo="acento"/><sus tipo="pxP"/></g><l/>
+<nl num="10"/><g>nos</g><e/>
+<g n="levantamos">lebantamos<sus tipo="vxb"/></g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>6</g><e/>
+<g>de</g><e/>
+<g>la<hiposeg/></g>
+<g>ma<tachado>ñ</tachado>ana</g><l/>
+<nl num="11"/><g>me<hiposeg/></g>
+<g n="vengo">ben<sus tipo="vxb"/><hiperseg/><e/>go</g><e/>
+<g>en</g><e/>
+<g n="bicicleta">bisicleta<sus tipo="cxs"/></g><l/>
+<nl num="12"/><g>entramos</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>ocho</g><l/>
+<l/>
+<nl num="13"/><g n="Jugamos">juga<sus tipo="Jxj"/><hiperseg/><e/>mos</g><e/>
+<g>en</g><e/>
+<g>la<hiposeg/></g>
+<g>hora</g><e/>
+<g>del<hiposeg/></g>
+<g>re<hiperseg/><e/>cre<hiperseg/><e/>o</g><l/>
+<nl num="14"/><g n="hacemos">ha<hiperseg/><e/>semos<sus tipo="cxs"/></g><e/>
+<g>cuentas</g><l/>
+<nl num="15"/><g>sa<hiperseg/><e/>ca<hiperseg/><e/>mos</g><e/>
+<g>los</g><e/>
+<g>libros</g><l/>
+<nl num="16"/><g>el</g><e/>
+<g>de<hiposeg/></g>
+<g n="matemáticas">matematica<omi tipo="acento"/><omi tipo="s" error="concord"/></g><l/>
+<nl num="17"/><g>es<hiperseg/><e/>pañol</g><e/>
+<g n="e">y<sus tipo="exy"/></g><e/>
+<g>inte<hiperseg/><e/>grado</g><e/>
+<g>y</g><l/>
+<nl num="18"/><g n="también">tam<hiperseg/><e/>bien<omi tipo="acento"/></g><e/>
+<g>los</g><e/>
+<g>de<hiposeg/></g>
+<g>recortables</g><l/>
+</cuerpo>
+<comentarios>
+<com>4.  Bajo la "ñ" hay una "m", lo mismo ocurre en el renglón 10.</com>
+</comentarios>
+</documento>

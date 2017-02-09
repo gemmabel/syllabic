@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+				
+<encabezado id="123" permisos="todos">
+
+	<titulo>N025105ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="DIAPALARM"/>
+
+	<referencia id="DIAPALARM">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025105ESM02.txt"/>
+	<imagen archivo="N025105ESM02.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>A<mayNP/>rmando</g><e/>
+<g n="Díaz">D<mayNP/>i<omi tipo="acento"/>az</g><e/>
+<g>P<mayNP/>alomares</g><e/>
+<g>M<mayIni/>i</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><l/>
+<nl num="2"/><pi><g n="Quién">Q<mayIni/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><r c="Faa">¡</r><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<g>tal</g><r c="Faa">¡</r><e/>
+<g n="yo">y<omi tipo="o"/><hiposeg/></g>
+<g n="soy"><omi tipo="s"/>oi<sus tipo="yxi"/><hiposeg/></g><e/>
+<g>A<mayNP/>rmando</g><e/>
+<g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="San">s<sus tipo="Sxs"/>an</g><e/>
+<g n="Vicente">v<sus tipo="Vxv"/>is<sus tipo="cxs"/>ente</g><e/>
+<g n="Nayarit">n<sus tipo="Nxn"/>ayarit</g><e/>
+<g>yo</g><e/>
+<g>tengo</g><l/>
+<nl num="4"/><g>7</g><e/>
+<g>años</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>es</g><l/>
+<nl num="5"/><pi><g n="Cómo">c<sus tipo="Cxc"/>ómo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="6"/><g n="Se">s<sus tipo="Sxs"/>e</g><e/>
+<g>llama</g><e/>
+<g>Las</g><e/>
+<g><tachado>(ESCO)</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Américas">Ame<omi tipo="acento"/>ricas</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i</g><r c="Fp" punto="seguido">.</r><e/>
+<g>12</g><e/>
+<g n="salones">salom<sus tipo="nxm"/>es</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="aire">ay<sus tipo="ixy"/>g<agre tipo="g"/>ra<sus tipo="exa"/></g><e/>
+<g n="acondicionado"><omi tipo="a"/>con<e/>dis<sus tipo="cxs"/>ionado<hiperseg/></g><l/>
+<nl num="7"/><g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="construyó">cons<e/>trull<sus tipo="yxll"/>o<omi tipo="acento"/></g><e/>
+<g n="el">E<sus tipo="exE"/>l</g><e/>
+<g n="gobierno">go<tachado>b</tachado><correccion tipo="susti"/>ierno</g><e/>
+<g>del</g><e/>
+<g n="país">pai<omi tipo="acento"/>s</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="agua">A<sus tipo="axA"/>guA<sus tipo="axA"/></g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="libros">L<sus tipo="lxL"/>ibros</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="lápices">L<sus tipo="lxL"/>a<omi tipo="acento"/>pis<sus tipo="cxs"/>es</g><l/>
+<nl num="8"/><g n="es">E<sus tipo="exE"/><omi tipo="s"/></g><g>grande<hiposeg/></g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboL<sus tipo="lxL"/>es</g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="pizarrón">pis<sus tipo="zxs"/>ar<sus tipo="rrxr"/>o<omi tipo="acento"/>n</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g>gis</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g>sillas</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g n="escoba">E<sus tipo="exE"/>scoba</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><l/>
+<nl num="9"/><g n="biblioteca">bib<omi tipo="l"/>iotleca</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g>baños</g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>A<sus tipo="axA"/>i<sus tipo="yxi"/></g><e/>
+<g>una</g><e/>
+<g>tiendita</g><l/>
+<nl num="10"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><e/>
+<g>yo</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>caminando</g><l/>
+<nl num="11"/><g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="cerca">s<sus tipo="cxs"/>ere<sus tipo="cxe"/>a</g><e/>
+<g>de</g><e/>
+<g>mi<hiposeg/></g>
+<g>casa<hiposeg/></g><e/>
+<g>2</g><e/>
+<g n="horas">o<omi tipo="h"/>ras</g><l/>
+<nl num="12"/><pi><g>Qué</g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="escuela">es<hiperseg/><e/>cuela<hiperseg/></g></pi><e/>
+<g n="jugamos">g<sus tipo="jxg"/>ugamos</g><e/>
+<g>en</g><e/>
+<g n="educación"><omi tipo="e"/>ducacio<omi tipo="acento"/>n</g><e/>
+<g n="física">fi<omi tipo="acento"/>sica</g><r c="Fc">,</r><l/>
+<nl num="13"/><g>aprendemos</g><e/>
+<g n="nos">m<sus tipo="nxm"/>os</g><g>gusta<hiposeg/></g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>atema<omi tipo="acento"/>ticas</g><r c="Fc">,</r><e/>
+<g n="español">E<sus tipo="exE"/>spañol</g><e/>
+<g>jugamos</g><e/>
+<g>con</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="14"/><g>maestra</g><e/>
+<g>y</g><e/>
+<g>a<hiposeg/></g>
+<g n="ponemos">pom<sus tipo="nxm"/>emos<hiposeg/></g><e/>
+<g n="atención">atens<sus tipo="cxs"/>io<omi tipo="acento"/>n</g><r c="Fc">,</r><e/>
+<g n="hacemos"><omi tipo="h"/>a<hiperseg/><e/>s<sus tipo="cxs"/>emos<hiperseg/></g><e/>
+<g>trabajos</g><l/>
+<nl num="15"/><g>contamos</g><e/>
+<g>cuentos</g><e/>
+<g>con</g><e/>
+<g>la</g><e/>
+<g>maestra</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. Las palabras "escuela es" están circuladas.</com>
+<com>6. Corrección: pone entre paréntesis lo que quiere eliminar</com>
+</comentarios>
+</documento>

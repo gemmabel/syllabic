@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="48" permisos="todos">
+
+		<titulo>S041203EscM07</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="MARCASBRA"/>
+
+		<referencia id="MARCASBRA">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+
+	<archivo nombre="S041203EscM07.txt"/>
+	<imagen archivo="S041203EscM07a.jpg"/>
+	<imagen archivo="S041203EscM07b.jpg"/>
+	<imagen archivo="S041203EscM07c.jpg"/>
+	<vista tipo="T"/>		
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g>Mi<mayIni/><hiposeg/></g>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g></pi><e/>
+<g>Brandon<mayNP/><hiposeg/></g>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="3"/><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">2</g><e/>
+<g>º</g><e/>
+<g>A</g><e/>
+<g>me</g><e/>
+<g>gusta</g><e/>
+<g>jugar</g><e/>
+<g>a<hiposeg/></g>
+<g>las</g><l/>
+<nl num="4"/><e/>
+<g>escondidas</g><e/>
+<g><tachado>A</tachado><correccion tipo="elimi"/></g><e/>
+<g n="aquí">AQUi<sus tipo="axA"/><mayInter/><omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g n="Santa">santo<sus tipo="Sxs"/><sus tipo="axo"/></g><e/>
+<g n="María">Maria<mayNP/><omi tipo="acento"/><hiposeg/></g>
+<g>del</g><l/>
+<nl num="5"/><e/>
+<g n="Oro">o<tachado>r</tachado>o<sus tipo="Oxo"/></g><e/>
+<g n="hace">ase<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g n="frío">frio<omi tipo="acento"/></g><e/>
+<g><tachado>o</tachado></g><e/>
+<g><tachado>en</tachado><correccion tipo="elimi"/></g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>ladrill<r c="Fg">-</r><l tipo="guion"/>
+<nl num="6"/><e/>os</g><e/>
+<g>juga<hiperseg/><e/>mos</g><e/>
+<g>a<hiposeg/></g>
+<g>las</g><e/>
+<g>escondidas</g><e/>
+<g>tengo</g><l/>
+<nl num="7"/><e/>
+<g>amigos</g><e/>
+<g>y</g><e/>
+<g>amigas</g><e/>
+<g>se</g><e/>
+<g>llaman</g><e/>
+<g>Javier<mayNP/></g><l/>
+<nl num="8"/><e/>
+<g>Juan<mayNP/><hiposeg/></g>
+<g>José<mayNP/></g><e/>
+<g>y</g><e/>
+<g><tachado>hica</tachado><correccion tipo="elimi"/></g><e/>
+<g n="y">Y<sus tipo="yxY"/></g><e/>
+<g>Ricardo<mayNP/></g><e/>
+<g><tachado>y</tachado><correccion tipo="elimi"/></g><e/>
+<g>Perla<mayNP/></g><l/>
+<nl num="9"/><e/>
+<g n="América">america<sus tipo="Axa"/><omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g><tachado>e</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g><tachado>e</tachado><correccion tipo="elimi"/></g><e/>
+<g>Gemma<mayNP/></g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="10"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="11"/><g><tachado>mi</tachado><correccion tipo="elimi"/></g><e/>
+<g>Mi<mayIni/></g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="12"/><g>Esteban<mayNP/></g><e/>
+<g><tachado>Bac</tachado><correccion tipo="elimi"/></g><e/>
+<g>Esteban<mayNP/></g><e/>
+<g>Baca<mayNP/></g><e/>
+<g n="Calderón">cald<sus tipo="Cxc"/><r c="Fg">-</r><l tipo="guion"/>
+<nl num="13"/>erón</g><e/>
+<g n="la">La<sus tipo="lxL"/></g><e/>
+<g>señora</g><e/>
+<g><tachado>del</tachado><correccion tipo="elimi"/></g><e/>
+<g n="la">La<sus tipo="lxL"/></g><e/>
+<g>señora</g><e/>
+<l/>
+<nl num="14"/><g>de<hiposeg/></g>
+<g>la</g><e/>
+<g>tienda<hiposeg/></g>
+<g>se</g><e/>
+<g n="llama">lla<omi tipo="ma"/></g><e/>
+<g>Silvia<mayIni/></g><e/>
+<g n="tenemos">temos<omi tipo="ne"/></g><e/>
+<g>agua</g><l/>
+<nl num="15"/><g n="tenemos">temos<omi tipo="ne"/></g><e/>
+<g>pilas</g><e/>
+<g>pilas</g><e/>
+<g>para</g><e/>
+<g>para</g><e/>
+<g><tachado>seta</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="16"/><g>sentarnos</g><e/>
+<g>tene<hiperseg/><e/>mos</g><e/>
+<g n="pizarrón">pizarron<omi tipo="acento"/></g><l/>
+<nl num="17"/><g>tenemos</g><e/>
+<g>libretas</g><e/>
+<g>de</g><e/>
+<g>doble</g><e/>
+<g n="raya">ralla<sus tipo="yxll"/></g><l/>
+<l/>
+<nl num="18"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>llega<hiperseg/><e/>mos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="19"/><g>al<hiperseg/><e/>gunos</g><e/>
+<g>llegan</g><e/>
+<g>en</g><e/>
+<g><tachado>bit</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>biciclet<r c="Fg">-</r><l tipo="guion"/>
+<nl num="20"/>as</g><e/>
+<g n="algunos">alguno<omi tipo="s"/></g><e/>
+<g>viven</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="Higuera">igera<omi tipo="H"/><omi tipo="u"/></g><e/>
+<g>o</g><e/>
+<g>de</g><e/>
+<g>la</g><l/>
+<nl num="21"/><g n="Santa">sata<sus tipo="Sxs"/><omi tipo="n"/><hiposeg/></g>
+<g n="Rosa">rrosa<sus tipo="Rxr"/><agre tipo="r"/></g><e/>
+<r c="Fc">,</r><e/>
+<g>al<hiperseg/><e/>gunos</g><e/>
+<g>los</g><e/>
+<g>en<hiperseg/><e/>camin<r c="Fg">-</r><l tipo="guion"/>
+<nl num="22"/>an</g><e/>
+<g>los</g><e/>
+<g>papás</g><e/>
+<g>o</g><e/>
+<g>sus</g><e/>
+<g>mamás</g><l/>
+<l/>
+<nl num="23"/><pi><g>Qué<mayIni/></g><e/>
+<g n="hacemos">acemos<omi tipo="h"/></g><e/>
+<g>en<hiposeg/></g>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="24"/><g>a<hiposeg/></g>
+<g>mi</g><e/>
+<g>me</g><e/>
+<g n="gustan">gusta<omi tipo="n"/></g><e/>
+<g n="las">los<sus tipo="axo"/></g><e/>
+<g n="matemáticas">Matematicas<sus tipo="mxM"/><omi tipo="acento"/></g><l/>
+<nl num="25"/><g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>el</g><e/>
+<g>aseo</g><e/>
+<g n="ganamos">ganomos<sus tipo="axo"/></g><e/>
+<g n="banderines">bonderines<sus tipo="axo"/></g><l/>
+<nl num="26"/><g n="nos">los<sus tipo="nxl"/></g><e/>
+<g n="revisan">revisam<sus tipo="nxm"/></g><e/>
+<g>las</g><e/>
+<g>uñas</g><e/>
+<g>lo</g><e/>
+<g>cuetan</g><l/>
+<nl num="27"/><g><tachado>loa</tachado></g><e/>
+<g><tachado>semos</tachado></g><e/>
+<g><tachado>los</tachado></g><e/>
+<g><tachado>onores</tachado></g><e/>
+<g><tachado>a</tachado><correccion tipo="elimi"/></g><e/>
+<g>los</g><e/>
+<g>lunes</g><l/>
+<nl num="28"/><g n="hacemos">a<omi tipo="h"/><hiperseg/><e/>semos<sus tipo="cxs"/></g><e/>
+<g>los</g><e/>
+<g n="honores">onore<omi tipo="h"/><omi tipo="s"/></g><e/>
+<g>a<hiposeg/></g>
+<g>la</g><e/>
+<g>bandera</g><l/>
+<nl num="29"/><g>los</g><e/>
+<g n="jueves">Jueves<sus tipo="jxJ"/></g><e/>
+<g n="nos">los<sus tipo="nxl"/></g><e/>
+<g>toca</g><e/>
+<g n="educación">educasion<sus tipo="cxs"/><omi tipo="acento"/></g><l/>
+<nl num="30"/><g n="física">fisica<omi tipo="acento"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>5. Este es el único caso donde la "r" parece "v".</com>
+</comentarios>
+</documento>

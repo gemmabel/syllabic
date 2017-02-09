@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="185" permisos="todos">
+
+		<titulo>N041102EscF07</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="YERANDDOM"/>
+
+		<referencia id="YERANDDOM">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>					
+
+	<archivo nombre="N041102EscF07.txt"/>
+	<imagen archivo="N041102EscF07.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/></g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g>me<hiposeg/></g>
+<g>lla<hiperseg/><e/>mo</g><e/>
+<g n="Dominga">DoMinga<mayNP/><mayInter/><sus tipo="mxM"/></g><l/>
+<nl num="4"/><e/>
+<g>te<hiperseg/><e/>ngo</g><e/>
+<g>tantos</g><e/>
+<g>años</g><l/>
+<nl num="5"/><e/>
+<g>a</g><e/>
+<g n="qué">que<omi tipo="acento"/></g><e/>
+<g>juegan</g><l/>
+<l/>
+<nl num="6"/><e/>
+<pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="7"/><e/>
+<g>de</g><e/>
+<g n="qué">que<omi tipo="acento"/></g><e/>
+<g><tachado>esta</tachado><correccion tipo="elimi"/></g><e/>
+<g n="hecha">echa<omi tipo="h"/></g><l/>
+<nl num="8"/><e/>
+<g>tiene</g><e/>
+<g><tachado>dire<e/>son</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="9"/><e/>
+<g n="cómo">como<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/>
+<nl num="10"/><g n="cómo">como<omi tipo="acento"/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>pintada</g><l/>
+<l/>
+<nl num="11"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g><tachado>quienen</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="13"/><g n="quién">quien<omi tipo="acento"/></g><e/>
+<g>nos</g><e/>
+<g n="acompaña">acompañan<agre tipo="n" error="concord"/></g><l/>
+<nl num="14"/><g><tachado>el</tachado><correccion tipo="elimi"/></g><e/>
+<g n="viven">biben<sus tipo="vxb"/></g><e/>
+<g>lejos</g><l/>
+<nl num="15"/><g n="viven">biben<sus tipo="vxb"/></g><e/>
+<g n="cerca">serca<sus tipo="cxs"/></g><l/>
+<nl num="16"/><g>se</g><e/>
+<g n="vienen">bienes<sus tipo="vxb"/><sus tipo="nxs" error="concord"/></g><e/>
+<g>a<hiposeg/></g>
+<g>pie</g><l/>
+<pi><nl num="17"/><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos"><tachado>a</tachado>asemos<correccion tipo="elimi"/><omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="18"/><g>jugamos</g><e/>
+<g>al</g><e/>
+<g>beisbol</g><l/>
+<nl num="19"/><g>lee<hiperseg/><e/><tachado>e</tachado><correccion tipo="elimi"/><e/>mos</g><l/>
+<nl num="20"/><firma tipo="a"><g n="Dominga">DoMinga<mayNP/><mayInter/><sus tipo="mxM"/></g><e/>
+<g>Yera<mayNP/></g><e/>
+<g n="Andrade">Andrades<mayNP/><agre tipo="s"/></g></firma><l/>
+</cuerpo>
+<comentarios>
+<com>Todas las "l" y "p" están en mayúscula.</com>
+<com>Los renglones 1, 6, 11, 17 y 20 están subrayados.</com>
+</comentarios>
+</documento>

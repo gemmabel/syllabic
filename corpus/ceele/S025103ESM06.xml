@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="296" permisos="todos">
+
+	<titulo>S025102ESM06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="LOPRAYJOS"/>
+
+	<referencia id="LOPRAYJOS">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="S025103ESM06.txt"/>
+	<imagen archivo="S025103ESM06.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>José<mayNP/></g><e/>
+<g>Luis<mayNP/></g><e/>
+<g>López<mayNP/></g><e/>
+<g>Raygoza<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><e/>
+<g n="Vicente">vicente<sus tipo="Vxv"/></g><e/>
+<g n="Guerrero">Gerrero<mayNP/><omi tipo="u"/></g><l/>
+<nl num="3"/><pi><g n="Quién"><mayNP/>Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g>José<mayNP/></g><e/>
+<g>Luis<mayNP/></g><l/>
+<nl num="4"/><g>en</g><e/>
+<g n="dónde">donde<omi tipo="acento"/></g><e/>
+<g>vive</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="Palma">palma<sus tipo="Pxp"/></g><l/>
+<nl num="5"/><g n="cuántos">cuanto<omi tipo="acento"/><omi tipo="s" error="concord"/></g><e/>
+<g>años</g><e/>
+<g>tiene</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="6"/><g n="quién">quien<omi tipo="acento"/></g><e/>
+<g n="te">te</g>
+<g n="da">da</g><e/>
+<g>clases</g><e/>
+<g n="la">La<sus tipo="lxL"/></g><e/>
+<g>maestra</g><e/>
+<g n="Xóchilt">Xochil<omi tipo="acento"/><omi tipo="t"/></g><l/>
+<nl num="7"/><g>de</g><e/>
+<g n="dónde">donde<omi tipo="acento"/></g><e/>
+<g n="vino">bino<sus tipo="vxb"/></g><e/>
+<g>su<tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="tía">tia<omi tipo="acento"/></g><e/>
+<g>del</g><e/>
+<g>norte</g><l/>
+<nl num="8"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/></pi>
+<g>gra<tachado>X</tachado><correccion tipo="elimi"/>nde</g><e/>
+<g>tiene</g><e/>
+<g>columpio</g><l/>
+<nl num="9"/><g>salones</g><e/>
+<g><tachado>X</tachado></g><e/>
+<g><tachado>X</tachado></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="luz">Luz<sus tipo="lxL"/></g><e/>
+<l/>
+<nl num="10"/><g>abanico</g><e/>
+<g>cancha</g><e/>
+<g>de</g><e/>
+<g n="futbol">Futbol<sus tipo="fxF"/></g><e/>
+<g n="hay">ay<omi tipo="h"/></g><e/>
+<g n="muchos">mucho<omi tipo="s" error="concord"/></g><e/>
+<g n="libros">Libros<sus tipo="lxL"/></g><l/>
+<nl num="11"/><pi><g n="cómo">como<omi tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><e/></pi>
+<g>La<mayIni/></g><e/>
+<g n="directora">diret<tachado>o</tachado><correccion tipo="susti"/>ra<omi tipo="c"/></g><l/>
+<nl num="12"/><g>nos</g><e/>
+<g n="trae">trai<sus tipo="exi"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>camioneta</g><e/>
+<g>la</g><e/>
+<g n="directora">diretora<omi tipo="c"/></g><e/>
+<g>porque</g><l/>
+<nl num="13"/><g n="vivimos">bibimos<sus tipo="vxb"/><sus tipo="vxb"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="Palma">palma<sus tipo="Pxp"/></g><e/>
+<g>per<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>nos</g><e/>
+<g n="queda">que<e/>da<hiperseg/><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="cerca">serca<sus tipo="cxs"/></g><l/>
+<nl num="14"/><g n="quién">quien<omi tipo="acento"/></g><e/>
+<g n="soy">yso<per tipo="y"/></g><e/>
+<g>la</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/><e/>escuela</g><e/>
+<g>el</g>
+<g>gobierno<hiposeg/></g><l/>
+<nl num="15"/><g n="hay">ay<omi tipo="h"/></g><e/>
+<g>agua</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>loquer</g><l/>
+<nl num="16"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos">hacem<tachado>o</tachado><correccion tipo="susti"/>s</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/></pi>
+<g>escribimos</g><l/>
+<nl num="17"/><g>estudiamos</g><e/>
+<g n="leemos">lee<tachado>m</tachado><correccion tipo="susti"/>os</g><e/>
+<g n="estudiamos">estudiamo<omi tipo="s" error="concord"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="libro">Libro<sus tipo="lxL"/></g><e/>
+<g>de</g><l/>
+<nl num="18"/><g n="matemáticas">matematicas<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="también">tambien<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="libro">Libro<sus tipo="lxL"/></g><e/>
+<g>de</g><l/>
+<nl num="19"/><g>español</g><e/>
+<g n="también">tambien<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g n="el">nel<agre tipo="n"/></g><e/>
+<g n="libro">Libr<sus tipo="lxL"/><tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>de</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="20"/><g>conocimiento</g><e/>
+<g>del</g><e/>
+<g>medio</g><l/>
+<nl num="21"/><g n="hacemos">acemos<omi tipo="h"/></g><e/>
+<g n="deporte">de<e/>porte<hiperseg/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. subraya "Mi escuela" </com>
+<com>3. subraya "Quien soy"</com>
+<com>4. subraya "cuantos años tiene</com>
+<com>5. subraya "quien teda claes"</com>
+<com>7. subraya " de donde bino su tia del norte, y no se distingue lo que tacha</com>
+<com>8. subraya "como es nuestra escuela grande"</com>
+<com>9. no se distingue lo que tacha</com>
+<com>11. subraya "como llegamos a la escuela"</com>
+<com>13. encima "o" y no se disgintue lo que tacha</com>
+<com>14. no se distingue lo que tacha</com>
+<com>17. encima "m"</com>
+<com>19. encima "o" y no se distingue lo que tacha</com>
+
+
+</comentarios>
+</documento>

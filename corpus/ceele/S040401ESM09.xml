@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="69" permisos="todos">
+	<titulo>S040401ESM09</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="HARHACVIC"/>
+
+	<referencia id="HARHACVIC">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESM09.txt"/>
+	<imagen archivo="S040401ESM09.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g><tachado>S<mayIni/>oy</tachado></g><e/>
+<g n="Víctor"><tachado>v<sus tipo="Vxv"/></tachado><correccion tipo="susti"/>íctor</g><e/>
+<g>M<mayNP/>anuel</g><e/>
+<g>H<mayNP/>aro</g><l/>
+<nl num="2"/><g>M<mayNP/>achuca</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g n="escuela">escue<e/><hiperseg/>
+la</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<l/>
+<nl num="3"/><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>M<mayNP/>aestro</g><e/>
+<g>R<mayNP/>afael</g><l/>
+<nl num="4"/><g n="Ramírez">R<mayNP/>ami<omi tipo="acento"/>res<sus tipo="zxs"/></g><e/>
+<g>mi</g><e/>
+<g n="escuela">escue<e/><hiperseg/>la</g><e/>
+<g>tiene</g><e/>
+<g>un</g><e/>
+<g>patio</g><e/>
+<g n="chiquito">c<omi tipo="h"/>it<sus tipo="qxt"/><omi tipo="u"/>ic<sus tipo="txc"/>o</g><l/>
+<nl num="5"/><g>comemos</g><e/>
+<g>torta</g><e/>
+<g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g n="país">pai<omi tipo="acento"/>s</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>T<mayNP/>epic</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="6"/><g>N<mayNP/>ayarit</g><e/>
+<g>mi</g><e/>
+<g n="maestra">M<sus tipo="mxM"/>aestra</g><e/>
+<g>se</g><e/>
+<g n="llama">y<sus tipo="llxy"/>ama</g><e/>
+<g n="Patricia">p<sus tipo="Pxp"/>atricia</g><l/>
+<nl num="7"/><g n="Martínez">M<mayNP/>arti<omi tipo="acento"/>ne<tachado>z</tachado><correccion tipo="susti"/></g><e/>
+<g n="Barrón">B<mayNP/>arro<omi tipo="acento"/>n</g><e/>
+<g>mi</g><e/>
+<g n="maestro">M<sus tipo="mxM"/>aestro</g><e/>
+<g>se</g><e/>
+<l/>
+<nl num="8"/><g>llama</g><e/>
+<g>J<mayNP/>air</g><e/>
+<g>nosotros</g><e/>
+<g>llegamos</g><e/>
+<g><tachado>viendo</tachado><correccion tipo="susti"/></g><l/>
+<nl num="9"/><g>casas</g><e/>
+<g>y</g><e/>
+<g>carros</g><e/>
+<g>tiendas</g><e/>
+<g>edificios</g><e/>
+<g>mi</g><e/>
+<g>casa</g><l/>
+<nl num="10"/><g>es</g><e/>
+<g>de</g><e/>
+<g>ladrillo</g><e/>
+<g>estudiamos</g><e/>
+<g>mucho</g><l/>
+<nl num="11"/><g>y</g><e/>
+<g>no</g><e/>
+<g>regresamos</g><e/>
+<g>los</g><e/>
+<g>libros</g><e/>
+<g>como</g><e/>
+<g>ustedes</g><e/><l/>
+<nl num="12"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g n="eléctrica">ele<omi tipo="acento"/>ctrica</g><l/>
+<l/>
+<nl num="13"/><g>M<mayIni/>e</g><e/>
+<g>despido</g><e/>
+<g>de</g><e/>
+<g>ti</g><e/>
+<g>con</g><e/>
+<g>cariño</g><l/>
+<l/>
+<nl num="14"/><firma tipo="a"><g>victor</g><e/>
+<g>Manuel</g><e/>
+<g>Haro</g><e/>
+<g>Machuca</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1 Borra. Decía "Hola S"</com>
+<com>7 Borra. Decía "s"</com>
+<com>8 Borra. Decía "viendo" parece haber borrado para escribir más derecho</com>
+<com>12 Tacha</com>
+<com>14 Firma sin alterar la letra</com>
+</comentarios>
+</documento>

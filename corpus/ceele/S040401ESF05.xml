@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="63" permisos="todos">
+	<titulo>S040401ESF05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CONVERIRL"/>
+
+	<referencia id="CONVERIRL">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESF05.txt"/>
+	<imagen archivo="S040401ESF05.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>soy</g><e/>
+<g>I<mayNP/>rlanda</g><e/>
+<g n="Noemí">N<mayNP />oemi<omi tipo="acento"/></g><e/>
+<g>C<mayNP/>onchas</g><e/>
+<g>V<mayNP/>ergara</g><l/>
+<nl num="3"/><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>ti<tachado>e</tachado><correccion tipo="susti"/>ne</g><e/>
+<g>canchas</g><l/>
+<nl num="4"/><g>de</g><e/>
+<g n="futbol">fut<e/>bol<hiperseg/></g><e/>
+<g>basquetbol</g><e/>
+<g>y</g><e/>
+<g n="voleibol">b<sus tipo="vxb"/>ol<omi tipo="e"/>ibol</g><e/>
+<g>mi</g><e/>
+<g n="escuela">esc<r c="Fg">-</r><l tipo="guion"/>
+<nl num="5"/>uela</g><e/>
+<g>no</g><e/>
+<g>es</g><e/>
+<g>igual</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="tuya">tull<sus tipo="yxll"/>a</g><e/>
+<g>porque</g><e/>
+<l/>
+<nl num="6"/><g>la</g><e/>
+<g n="mía">mi<omi tipo="acento"/>a</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>muchos</g><e/>
+<g n="salones">salo<r c="Fg">-</r><l tipo="guion"/>
+<nl num="7"/>nes</g><e/>
+<g>hay</g><e/>
+<g>una</g><e/>
+<g>tiendita</g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="8"/><g>yo</g><e/>
+<g>en</g><e/>
+<g n="un">una<agre tipo="a" error="concord"/></g><e/>
+<g>carro</g><e/><g><tachado>X</tachado><correccion tipo="elimi"/></g>
+<g>yo</g><e/>
+<g>veo</g><e/>
+<g>pinos</g><e/>
+<l/>
+<nl num="9"/><g>carros</g><e/>
+<g>de</g><e/>
+<g>otro</g><e/>
+<g>tipo</g><e/>
+<g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="10"/><g>calle</g><e/><g>M<mayNP/>iguel</g><e/><g> 
+H<mayNP/>idalgo</g><e/><g n="Yucatán"> y<sus tipo="Yxy"/>ucata<omi tipo="acento"/>n</g><e/><g>2004</g><e/><g tipo="abrev">I<r c="Fp" punto="abrev">.</r></g><e/>
+<g>5</g><l/>
+<nl num="11"/><g>yo</g><e/>
+<g>uso</g><e/>
+<g>cuaderno</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="12"/><g n="ladrillos">la<e/><hiperseg/>
+drillos</g><e/>
+<g><tachado>nos</tachado><correccion tipo="susti"/></g><e/>
+<g>formamos</g><e/>
+<g>cuando</g><e/>
+<g>dan</g><e/>
+<l/>
+<nl num="13"/><g>el</g><e/>
+<g n= "timbre">tin<sus tipo="mxn"/>bre</g><e/>
+<g>y</g><e/>
+<g>cuando</g><e/>
+<g>salimos</g><e/>
+<g>al</g><e/>
+<g n="recreo">re<r c="Fg">-</r><l tipo="guion"/>
+<nl num="14"/>creo</g><e/>
+<g n="adiós">adí<per tipo="acento"/>os</g><e/>
+<e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/>
+<g>me</g><e/>
+<g>dio</g><e/>
+<g>mucha</g><e/>
+<r c="Fg">-</r><l tipo="guion"/>
+<nl num="15"/><g n="alegría">alegri<omi tipo="acento"/>a</g><e/>
+<g>en</g><e/>
+<g>conocerte</g><e/>
+<r c="Fd">:</r><e/>
+<firma tipo="a"><g>Irlanda</g><e/>
+<g>Noemi</g>
+<l/>
+<nl num="16"/><g>Conchas</g><e/><g>Vergara</g><e/><r c="Fp" punto="otros">.</r></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3 Encima. Decía "n"</com>
+<com>8 Borra. </com>
+<com>12 Borra. Decía "yo"</com>
+<com>15 Firma sin alterar la letra</com>
+<com>Hay diseño de página: Centra el título </com>
+<com>Hace dibujo al final del texto</com>
+</comentarios>
+</documento>

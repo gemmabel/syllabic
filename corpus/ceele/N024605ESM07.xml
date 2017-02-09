@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="250" permisos="todos">
+
+	<titulo>N024605ESM07</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="LOPCAMEBE"/>
+
+	<referencia id="LOPCAMEBE">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>					
+
+	<archivo nombre="N024605ESM07.txt"/>
+	<imagen archivo="N024605ESM07.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>EB<mayInter/>E<mayInter/>R<mayInter/><mayNP/></g><e/>
+<g>A<mayNP/>L<mayInter/>E<mayInter/>J<mayInter/>A<mayInter/>N<mayInter/>D<mayInter/>R<mayInter/><omi tipo="o"/></g><e/>
+<g n="López">Lopez<mayNP/><omi tipo="acento"/></g><e/>
+<g>Campos<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><l/></pi>
+<nl num="4"/><g n="Soy">soy<sus tipo="Sxs"/></g><e/>
+<g>un</g><e/>
+<g n="niño">niñ<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>que</g><e/>
+<g>me</g><e/>
+<g n="llamo">jamo<sus tipo="llxj"/></g><e/>
+<g>EBER</g><l/>
+<nl num="5"/><g>en</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>hay</g><e/>
+<g>muchos</g><e/>
+<g>salones</g><l/>
+<nl num="6"/><g>nos</g><e/>
+<g n="divertimos">dibertimos<sus tipo="vxb"/></g><e/>
+<g n="muchísimo">muchisimo<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>recreo</g><l/>
+<nl num="7"/><g n="mi">Mi<sus tipo="mxM"/></g><e/>
+<g>escuela</g><e/>
+<g n="está">es<e/>ta<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="hecha">echa<omi tipo="h"/></g><e/>
+<g>de</g><e/>
+<g>ladrillos</g><l/>
+<nl num="8"/><g n="cemento">s<sus tipo="cxs"/><e/>em<tachado>e</tachado>nto<correccion tipo="susti"/><hiperseg/></g><e/>
+<g>hay</g><e/>
+<g>sillas</g><e/>
+<g>y</g><e/>
+<g n="también">tanbien<sus tipo="mxn"/><omi tipo="acento"/></g><e/>
+<g>hay</g><l/>
+<nl num="9"/><g>agua</g><e/>
+<g>y</g><e/>
+<g n="tenemos">tene<e/>mos<hiperseg/></g><e/>
+<g n="aire">ayre<sus tipo="ixy"/></g><e/>
+<g>acondicionado</g><l/>
+<nl num="10"/><g>nos</g><e/>
+<g>dan</g><e/>
+<g>educación</g><e/>
+<g n="física">Fisica<sus tipo="fxF"/><omi tipo="acento"/></g><l/>
+<nl num="11"/><g>nosotros</g><e/>
+<g>llegamos</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/>
+<nl num="12"/><g>caminando</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<l/>
+<nl num="13"/><g>aprendemos</g><e/>
+<g>a</g><e/>
+<g>leer</g><e/>
+<g>y</g><e/>
+<g>estu<tachado>d</tachado><correccion tipo="susti"/>iar</g><e/>
+<g>y</g><l/>
+<nl num="14"/><g n="también">tambien<omi tipo="acento"/></g><e/>
+<g n="aprendemos">a<e/><hiperseg/>prende<e/><hiperseg/>mo<omi tipo="s" error="concord"/></g><e/>
+<g n="español">es<e/>pañol<hiperseg/></g><e/>
+<r c="Fp" punto="final">.</r><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. encima "o"</com>
+<com>8. encima "e"</com>
+<com>13. encima "d"</com>
+<com>El niño centra el título y deja sangría en la primer pregunta</com>
+</comentarios>
+</documento>

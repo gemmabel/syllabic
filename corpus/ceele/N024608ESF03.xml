@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="108" permisos="todos">
+
+	<titulo>N024608ESF03</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MOTHARYAM"/>
+
+	<referencia id="MOTHARYAM">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N024608ESF03.txt"/>
+	<imagen archivo="N024608ESF03.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Mi<mayIni/></g><e/>
+<g>escu<tachado>e</tachado><correccion tipo="susti"/>la</g><e/>
+<g>Y</g><e/>
+<r c="Fp" punto="seguido">.</r><l/>
+<nl num="2"/><pi><g>Quién<mayIni/></g><e/>
+<g>soy</g><e/></pi>
+<g>Yamileth<mayNP/></g><e/>
+<g>Mota<mayNP/></g><e/>
+<g>Haro<mayNP/></g><l/>
+<nl num="3"/><pi><g>Cómo</g><e/>
+<g n="es"><tachado>e</tachado><correccion tipo="elimi"/>s</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/></pi>
+<g>es</g><l/>
+<nl num="4"/><g>grande</g><e/>
+<r c="Fgs">-</r><e/>
+<pi><g n="cómo">como<omi tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="5"/><g>caminando</g><e/>
+<g>o</g><e/>
+<g>a</g> 
+<g>veces<hiposeg/></g><e/>
+<g>o</g><e/>
+<g n="a">A<sus tipo="axA"/></g>
+<g>veces<hiposeg/></g><e/>
+<g>en</g><e/>
+<g>camionetas</g><l/>
+<nl num="6"/><pi><g>Qué</g><e/>
+<g>aprendemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/></pi>
+<g>a</g><e/>
+<g n="leer">Leer<sus tipo="lxL"/></g><e/>
+<g>a</g><l/>
+<nl num="7"/><g>estudiar</g><e/>
+<g n="como">comó<per tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>la</g><e/>
+<g>cancha</g><e/>
+<g>grande</g><l/>
+<nl num="8"/><g n="para">Para<sus tipo="pxP"/></g><e/>
+<g n="qué">que<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g n="ocupa">ocuPa<mayInter/></g><e/>
+<g>la</g><e/>
+<g>cancha</g><e/>
+<g n="para">Para<sus tipo="pxP"/></g><l/>
+<nl num="9"/><g n="jugar">Jugar<sus tipo="jxJ"/></g><e/>
+<g n="basquet">basque<omi tipo="t"/></g><e/>
+<g>quemados</g><e/>
+<g n="alcanzadas">alcansadas<sus tipo="zxs"/></g><l/>
+<nl num="10"/><g n="el">El<sus tipo="exE"/></g><e/>
+<g n="salón">salon<omi tipo="acento"/></g><e/>
+<g><tachado>es</tachado><correccion tipo="elimi"/></g><e/>
+<g>tiene</g><e/>
+<g n="muchas">munchas<agre tipo="n"/></g><e/>
+<g>sillas</g><l/>
+<nl num="11"/><g>nos</g><e/>
+<g n="dan"><tachado>d</tachado><correccion tipo="susti"/>an</g><e/>
+<g>de</g>
+<g>come<tachado>r</tachado><correccion tipo="susti"/><hiposeg/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/>
+<nl num="12"/><g>cuantas</g><e/>
+<g n="cuadras">cuadra<omi tipo="s"/></g><e/>
+<g>son</g><e/>
+<g n="para">Para<sus tipo="pxP"/></g><e/>
+<g>llegar</g><l/>
+<nl num="13"/><g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>6</g><e/>
+<g>cuadras</g><l/>
+<nl num="14"/><g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="15"/><g>tengo</g><e/>
+<g>3</g><e/>
+<g n="hermanos">her<tachado>m</tachado><correccion tipo="susti"/>anos</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. encima "e"</com>
+<com>2. encima "e"</com>
+<com>3. tacha</com>
+<com>11. encima "d" sobre "t", encima "r"</com>
+<com>15. encima "m" sobre "e"</com>
+</comentarios>
+</documento>

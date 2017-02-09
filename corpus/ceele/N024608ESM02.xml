@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="113" permisos="todos">
+
+	<titulo>N024608ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="JAROCHSAU"/>
+
+	<referencia id="JAROCHSAU">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N024608ESM02.txt"/>
+	<imagen archivo="N024608ESM02a.jpg"/>
+	<imagen archivo="N024608ESM02b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Saúl">SauL<mayNP/><omi tipo="acento"/><mayInter/></g><e/>
+<g n="Jaramillo">JaraMillo</g><e/>
+<g>Ochoa</g><l/>
+<nl num="2"/><g>Mi</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g n="bonita">vonita<sus tipo="bxv"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g><e/>
+<g>6</g><e/>
+<g>salones</g><l/>
+<nl num="3"/><g>tengo</g><e/>
+<g>10</g><e/>
+<g n="hermanos">herManos</g><e/>
+<g n="mi">Mi</g><e/>
+<g n="maestro">Maestro</g><l/>
+<nl num="4"/><g>se</g><e/>
+<g n="llama">yaMa<sus tipo="llxy"/></g><e/>
+<g>Rodrigo<mayNP/></g><e/>
+<g n="Vázquez">vasques<sus tipo="Vxv"/><omi tipo="acento"/><sus tipo="zxs"/><sus tipo="zxs"/></g><e/>
+<g>Abundis</g><l/>
+<nl num="5"/><g>y</g><e/>
+<g n="mi">Mi</g><e/>
+<g n="hogar">ogal<omi tipo="h"/><sus tipo="rxl"/></g><e/>
+<g>se</g>
+<g n="llama">yaMa<sus tipo="llxy"/><hiposeg/></g><e/>
+<g>Jaramillo<mayNP/></g><e/>
+<g>Ochoa<mayNP/></g><l/>
+<nl num="6"/><g>y</g><e/>
+<g n="mi">Mi</g><e/>
+<g>calle</g><e/>
+<g>se</g>
+<g n="llama">yaMa<sus tipo="llxy"/><hiposeg/></g><e/>
+<g n="República">rePublica<sus tipo="Rxr"/><mayInter/><omi tipo="acento"/></g><l/>
+<nl num="7"/><g>Mexicana<mayNP/></g><e/>
+<g>y</g><e/>
+<g>el</g><e/>
+<g n="número">numero<omi tipo="acento"/></g><e/>
+<g>110</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g n="me">Me</g><e/>
+<g n="vengo">bengo<sus tipo="vxb"/></g><e/>
+<g>en</g><e/>
+<g n="bicicleta"><tachado>v</tachado><correccion tipo="susti"/>icicleta<sus tipo="bxv"/></g><l/>
+<nl num="9"/><g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>y</g><e/>
+<g n="mi">Mi</g><e/>
+<g>escuela</g><l/>
+<nl num="10"/><g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="bien">bie<omi tipo="n"/></g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g n="ladrillos">Ladrillos<sus tipo="lxL"/></g><l/>
+<nl num="11"/><g>bloques</g><e/>
+<g n="láminas">la<e/>Minas<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="fierros">fiellos<sus tipo="rrxll"/></g><l/>
+<nl num="12"/><g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>pintada</g><l/>
+<nl num="13"/><g>de</g><e/>
+<g n="amarillo">aMarillo</g><e/>
+<g>y</g><e/>
+<g n="mi">Mi</g><l/>
+<nl num="14"/><g n="maestro">Maestro</g><e/>
+<g n="compra">coMpra</g>
+<g n="aguas">aguas</g><l/>
+<nl num="15"/><g>y</g><e/>
+<g>el</g><e/>
+<g n="maestro">Maestro</g><e/>
+<g>y</g><e/>
+<g n="dice">dise<sus tipo="cxs"/></g><l/>
+<nl num="16"/><g>a</g><e/>
+<g>las</g><e/>
+<g n="mamás">MaMás</g><e/>
+<g n="les">Les<sus tipo="lxL"/></g><l/>
+<nl num="17"/><g n="dice">dise<sus tipo="cxs"/></g><e/>
+<g>que</g><e/>
+<g n="traigamos">traiganos<sus tipo="mxn" error="concord"/></g><l/>
+<nl num="18"/><g n="comida">coMida</g><e/>
+<g>y</g><e/>
+<g>agua</g><l/>
+<nl num="19"/><g>y</g><e/>
+<g>otros</g><e/>
+<g>no</g><e/>
+<g n="hacen">asen<omi tipo="h"/><sus tipo="cxs"/></g><l/>
+<nl num="20"/><g n="la">La<sus tipo="lxL"/></g><e/>
+<g>tarea</g><e/>
+<g>y</g><e/>
+<g n="tenemos">teneMos</g><l/>
+<nl num="21"/><g n="libros">Libros<sus tipo="lxL"/></g><e/>
+<g>por</g><e/>
+<g>el</g><l/>
+<nl num="22"/><g>gobierno</g><e/>
+<g>los</g><e/>
+<g n="manda">Manda<sus tipo="mxM"/></g><l/>
+<nl num="23"/><g>en</g>
+<g n="la">a<omi tipo="l"/><hiposeg/></g>
+<g n="escuela">es<hiposeg/><e/>cuela<hiperseg/></g><l/>
+<nl num="24"/><g>aprendo</g><e/>
+<g>a</g><e/>
+<g>leer</g><l/>
+<nl num="25"/><g>aprender</g><e/>
+<g>a</g><e/>
+<g n="escribir">esclibir<sus tipo="rxl"/></g><l/>
+<nl num="26"/><g>a</g><e/>
+<g>estudiar</g><e/>
+<g n="todos">t<tachado>o</tachado><correccion tipo="susti"/>dos</g><l/>
+<nl num="27"/><g n="los">Los<sus tipo="lxL"/></g><e/>
+<g n="libro">Libr<tachado>o</tachado><correccion tipo="susti"/><sus tipo="lxL"/></g><e/>
+<g>y</g><e/>
+<g n="aprendo">apredo<omi tipo="n"/></g><l/>
+<nl num="28"/><g n="hacer">asel<omi tipo="h"/><sus tipo="cxs"/><sus tipo="rxl"/></g><e/>
+<g>la</g><e/>
+<g>t<tachado>a</tachado><correccion tipo="susti"/>rea</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>8. encima "v" sobre "b"</com>
+<com>26. encima "o" sobre "a"</com>
+<com>27. encima "o" sobre "a"</com>
+<com>28. encima "a" sobre "o"</com>
+<com>El niño usa M para mayúscula y minúscula.</com>
+<com>La mayoría de las veces utiliza "L" cuando debe ir "l".</com>
+</comentarios>
+</documento>

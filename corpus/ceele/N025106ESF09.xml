@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="c:\proyectoCONACYT\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx c:\proyectoCONACYT\esquema.xsd">
+				
+<encabezado id="130" permisos="todos">
+
+	<titulo>N025106ESF09</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="RUIROSBRE"/>
+
+	<referencia id="RUIROSBRE">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESF09.txt"/>
+	<imagen archivo="N025106ESF09a.jpg"/>
+	<imagen archivo="N025106ESF09b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Brenis<mayNP/></g><e/>
+<g n="Yoselin">yoselin<sus tipo="Yxy"/></g><e/>
+<g>Ruiz<mayNP/></g><e/>
+<g>Rosales<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g n="Yoselin">yoselin<sus tipo="Yxy"/></g><e/>
+<g>yo</g><e/>
+<g>asisto</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g n="escuela">escu<tachado>e</tachado><correccion tipo="susti"/><l tipo="singuion"/><l/>
+<nl num="4"/>la</g><e/>
+<g>y</g><e/>
+<g>soy</g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g>Boquita<mayNP/></g><e/>
+<r c="Fc">,</r><e/>
+<g n="Nay." tipo="abrev">nay<sus tipo="Nxn"/><r c="Fc">,<sus tipo="punto abrevx,"/></r><e/></g><e/>
+<g>y</g><e/>
+<g>quisiera</g><l/>
+<nl num="5"/><g n="conocerlos">conoserlos<sus tipo="cxs"/></g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>se</g><e/>
+<g>lla<tachado>m</tachado><correccion tipo="susti"/>a</g><l/>
+<nl num="6"/><g n="Esequiel">esequiel<sus tipo="Exe"/></g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g n="Guadalupe">guadaluPe<sus tipo="Gxg"/><mayInter/></g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>me</g>
+<g>apellido<hiposeg/></g><e/>
+<g>Ruiz<mayNP/></g><e/>
+<g>Rosales<mayNP/></g><e/>
+<g>y</g><e/>
+<g n="soy">soi<sus tipo="yxi"/></g><e/>
+<g>de</g><l/>
+<nl num="8"/><g tipo="grado">2<r c="Fgr">º</r><e/>año</g><l/>
+<nl num="9"/><pi><g n="Cómo">Como<omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="10"/><g>es</g><e/>
+<g n="grande">grade<omi tipo="n"/></g><e/>
+<g>b<tachado>o</tachado><correccion tipo="susti"/>nita</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g>luz</g><l/>
+<nl num="11"/><g>tenemos</g><e/>
+<g n="ceiba">seiba<sus tipo="cxs"/></g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>20</g><e/>
+<g>años</g><l/>
+<nl num="12"/><g><tachado>X</tachado><correccion tipo="susti"/></g><e/>
+<g>con</g>
+<g>ella<hiposeg/></g><e/>
+<g>per<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g>nos</g>
+<g>da<hiposeg/></g><l/>
+<nl num="13"/><g>mucha</g><e/>
+<g>sombra</g><e/>
+<g n="también">tambien<omi tipo="acento"/></g><e/>
+<g>tenemos</g><l/>
+<nl num="14"/><g><tachado>m</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g>
+<g n="nuestra">nuest<omi tipo="r"/><omi tipo="a"/><hiposeg/></g><e/>
+<g>escuela</g><e/>
+<g n="hay">ae<omi tipo="h"/><sus tipo="yxe"/></g><e/>
+<g>dirección</g><e/>
+<l/>
+<nl num="15"/><g>y</g><e/>
+<g>tiene</g><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<g>y</g><e/>
+<g>baños</g><l/>
+<nl num="16"/><g>me</g><e/>
+<g>gusta</g><e/>
+<g>mucho</g><e/>
+<g>mi</g><l/>
+<nl num="17"/><g>escuela</g><e/>
+<g>y</g><e/>
+<g>a</g>
+<g>ti<hiposeg/></g><e/>
+<g>la</g><e/>
+<g n="tuya">tulla<sus tipo="yxll"/></g><e/>
+<g>t<tachado>e</tachado><correccion tipo="susti"/></g><e/>
+<g>gusta</g><l/>
+<nl num="18"/><pi></pi><g n="Cómo">comó<sus tipo="Cxc"/><per tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/>
+<nl num="19"/><g>yo</g><e/>
+<g>llego</g><e/>
+<g>a</g><e/>
+<g n="veces">beses<sus tipo="vxb"/><sus tipo="cxs"/></g><e/>
+<g>que</g><e/>
+<g>me</g><e/>
+<g>traen</g><l/>
+<nl num="20"/><g>en</g><e/>
+<g n="camioneta">ca<e/>mioneta<hiperseg/></g><e/>
+<g>y</g>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/><hiposeg/></g><e/>
+<g n="veces">beses<sus tipo="vxb"/><sus tipo="cxs"/></g><l/>
+<nl num="21"/><g>que</g><e/>
+<g>a</g>
+<g>pie<hiposeg/></g><e/>
+<g>pero</g><e/>
+<g>lo</g><e/>
+<g>que</g><e/>
+<g n="más">mas<omi tipo="acento"/></g><l/>
+<nl num="22"/><g>me</g><e/>
+<g>gusta</g><e/>
+<g>es</g><e/>
+<g n="venir">benir<sus tipo="vxb"/></g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><l/>
+<nl num="23"/><g>escuela</g><e/>
+<g>a</g>
+<g>pie<hiposeg/></g><e/>
+<g>mi</g>
+<g>casa<hiposeg/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><l/>
+<nl num="24"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>a</g><e/>
+<g>5</g><e/>
+<g>cuadras<tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>de</g>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g><l/>
+<nl num="25"/><g>llego</g><e/>
+<g>mu<tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g>temprano</g><e/>
+<g>pero</g><e/>
+<g n="hay">ae<omi tipo="h"/><sus tipo="yxe"/></g><l/>
+<nl num="26"/><g n="veces">beses<sus tipo="vxb"/><sus tipo="cxs"/></g><e/>
+<g>que</g><e/>
+<g>llego</g><e/>
+<g>tarde</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/>
+<nl num="27"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacen">asen<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fd">:</r><l/></pi>
+<nl num="28"/><g>estudio</g><e/>
+<g>mucho</g><e/>
+<g n="pero">Pero<sus tipo="pxP"/></g><l/>
+<nl num="29"/><g n="también">tam<e/>bien<omi tipo="acento"/><hiperseg/></g><e/>
+<g n="vengo">bengo<sus tipo="vxb"/></g><e/>
+<g>a</g>
+<g n="comportarme">comPortarme<mayInter/><hiposeg/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. encima "e" sobre "a"</com>
+<com>4. encima "m" sobre "a"</com>
+<com>10. encima "o" sobre "a"</com>
+<com>12. no se distingue lo que tacha, encima "o" sobre "a"</com>
+<com>14. no se distingue lo que tacha</com>
+<com>17. encima "e" sobre "u"</com>
+<com>24. tacha lo que escribe</com>
+<com>24. tacha lo que escribe</com>
+<com>25. encima "y" sobre "i"</com>
+
+</comentarios>
+</documento>

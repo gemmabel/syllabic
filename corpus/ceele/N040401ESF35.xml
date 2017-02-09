@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="145" permisos="todos">
+
+	<titulo>N040401ESF35</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ULLCERPAU"/>
+
+	<referencia id="ULLCERPAU">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N040401ESF35.txt"/>
+	<imagen archivo="N040401ESF35.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<g>P<mayNP/>aula</g><e/>
+<g>G<mayNP/>uadalupe</g><e/>
+<g n="Ulloa">u<sus tipo="Uxu"/>lloa</g><e/>
+<g n="Cerda">c<sus tipo="Cxc"/>erda</g><e/>
+<g n="tengo">Tengo</g><e/>
+<g>7</g><e/>
+<g n="años">an<sus tipo="ñxn"/>os</g><l/>
+<nl num="3"/><g>mi</g><e/>
+<g>mamá</g><e/>
+<g n="se">c<sus tipo="sxc"/>e</g><e/>
+<g>llama</g><e/>
+<g n="Josefina">j<sus tipo="Jxj"/>osefina</g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Tito">T<mayNP/>iTo</g><l/>
+<nl num="4"/><g>mi</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g>es</g><e/><g>grande</g><e/>
+<g n="espero">es<e/><hiperseg/>pero</g><e/>
+<g>que<hiposeg/></g><g n="tu">T<sus tipo="txT"/>u</g><e/>
+<g>escuela</g><l/>
+<nl num="5"/><g>llegamos</g><e/>
+<g>a</g><e/>
+<g>pie</g><e/>
+<g n="pero">pera<sus tipo="oxa"/></g><e/>
+<g>mi</g><g>co<sus tipo="axo"/>sa</g><e/>
+<g n="está">esT<mayInter/>a<omi tipo="acento"/></g><e/>
+<g n="cerquita">s<sus tipo="cxs"/>er<e/>quiT<mayInter/>as<agre tipo="s"/></g><e/>
+<g>en</g><e/>
+<g>8</g><e/>
+<r c="Fp" punto="otros">.<sus tipo="punto x ."/></r><e/>
+<g>T<mayIni/>engo</g><e/>
+<l/>
+<nl num="6"/><g>que</g><e/>
+<g n="estar">s<agre tipo="s"/>esTar</g><e/>
+<g n="ahí">a<e/><hiperseg/><omi tipo="h"/>y<sus tipo="ixy"/><omi tipo="acento"/></g><e/>
+<g n="estudiamos">esT<mayInter/>udiamos</g><e/>
+<g n="matemáticas">matema<omi tipo="acento"/>Ticas</g><e/>
+<g n="español">espan<sus tipo="ñxn"/>ol</g><l/>
+<nl num="7"/><g>leemos</g><e/>
+<g n="cuentos">cuen<tachado>T</tachado><correccion tipo="susti"/><mayInter/>os</g><l/>
+<nl num="8"/><g>jugamos</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="recreo">reg<sus tipo="cxg"/>reo</g><e/>
+<g>y</g><e/>
+<g>juego</g><e/>
+<g>con</g><e/>
+<g>mis</g><e/>
+<g>amigos</g><l/>
+<nl num="9"/><g n="espero">es<e/><hiperseg/>pero</g><e/>
+<g n="volverte">b<sus tipo="vxb"/>ol<e/><hiperseg/>b<sus tipo="vxb"/>erT<mayInter/>e</g><e/>
+<g>a</g><e/>
+<g n="hablar"><omi tipo="h"/><omi tipo="a"/>blar</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>8. Deja espacio más pequeño </com>
+<com>Escribe la letra "T" utilizando la misma forma gráfica para mayúsclas y para minúsculas.</com>
+</comentarios>
+</documento>

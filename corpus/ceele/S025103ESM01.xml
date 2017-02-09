@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="294" permisos="todos">
+
+	<titulo>S025103ESM01</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ALCZAMALE"/>
+
+	<referencia id="ALCZAMALE">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="S025103ESM01.txt"/>
+	<imagen archivo="S025103ESM01a.jpg"/>
+	<imagen archivo="S025103ESM01b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Alejandro<mayNP/></g><e/>
+<g n="Alcantar">Alcanta<mayNP/><omi tipo="r"/></g><e/>
+<g>Zambrano<mayNP/></g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="2"/><g tipo="fecha">27<e/>de<e/>octubre<e/>de<e/>2005</g><l/>
+<nl num="3"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="4"/><pi><g>Quién<mayIni/></g><e/>
+<g>soy</g><l/></pi>
+<nl num="5"/><g>Alejandro<mayNP/></g><e/>
+<g>Alcantar<mayNP/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Zambrano">Zam<mayNP/><e/>brano<hiperseg/></g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g n="cómo">coMo<omi tipo="acento"/><mayInter/></g>
+<g>es<hiposeg/></g><e/>
+<l/>
+<nl num="6"/><g><tachado>tengo</tachado><correccion tipo="elimi"/></g><e/>
+<g>tu</g>
+<g n="familia">Familia<sus tipo="fxF"/></g><e/>
+<g>Somos</g><e/>
+<g>de</g><e/>
+<g n="Vicente">vien<e/>te<omi tipo="c"/><hiperseg/></g><e/>
+<g>Guerrero<mayNP/></g><e/>
+<r c="Fc">,</r><e/>
+<g tipo="abrev">Nay<r c="Fp" punto="abrev">.</r></g><l/>
+<nl num="7"/><g n="estoy">estoi<sus tipo="yxi"/></g><e/>
+<g>en</g><e/>
+<g tipo="grado">2<r c="Fgr">°</r><e/>año</g><e/>
+<g>me</g>
+<g>da<hiposeg/></g><e/>
+<g n="clases">claces<sus tipo="sxc"/></g><e/>
+<g>la</g>
+<g>maestra<hiposeg/></g><e/>
+<l/>
+<nl num="8"/><g n="Xóchilt">Xochil<mayNP/><omi tipo="acento"/><omi tipo="t"/></g><e/>
+<g n="Ponce">pons<tachado>e</tachado><correccion tipo="susti"/><sus tipo="Pxp"/><sus tipo="cxs"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>mi</g><e/>
+<g n="familia">Familia<sus tipo="fxF"/></g><e/>
+<g>es</g><e/>
+<g>morena</g><e/>
+<g>ojos</g><l/>
+<nl num="9"/><g n="cafés">ca<e/>Fe<mayInter/><omi tipo="acento"/><omi tipo="s" error="concord"/></g><e/>
+<g n="soy">Soi<sus tipo="sxS"/><sus tipo="yxi"/></g><e/>
+<g n="mediano">midiano<sus tipo="exi"/></g><e/>
+<g n="mi">mí<agre tipo="acento"/></g><e/>
+<g>mamá</g><e/>
+<g n="es">se<per tipo="e"/></g><e/>
+<g>morena</g><e/>
+<g><tachado>com</tachado><correccion tipo="elimi"/>o</g>
+<g>es<hiposeg/></g><e/>
+<l/>
+<nl num="10"/><g><tachado>t</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>e</tachado><correccion tipo="elimi"/></g><e/>
+<pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g n="nuestra">nuesdra<sus tipo="txd"/></g><e/>
+<g>escuela</g><l/></pi>
+<nl num="11"/><g n="Es">es<sus tipo="Exe"/></g>
+<g n="bonita"><tachado>d</tachado><rotac tipo="b"/>onita<hiposeg/></g><e/>
+<g>tiene</g><e/>
+<g>resbaladilla</g><e/>
+<r c="Fc">,</r><e/>
+<g>y</g><e/>
+<g n="pasamanos">pasa<l tipo="singuion"/><l/><nl num="12"/>manos</g><e/>
+<g>y</g><e/>
+<g n="columpios">culumpios<sus tipo="oxu"/></g><e/>
+<g n="nosotros">nos<e/>otros<hiperseg/></g><e/>
+<g>tenemos</g><r c="Fgs">-</r><l/>
+<nl num="13"/><g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g>agua</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="hecha">echa<omi tipo="h"/></g><e/>
+<g>de</g>
+<g n="cemento">semento<sus tipo="sxc"/><hiposeg/></g><e/>
+<g>y</g><l/>
+<nl num="14"/><g>de</g>
+<g n="varilla"><tachado>v</tachado><correccion tipo="susti"/>arilla</g><e/>
+<g>y</g><e/>
+<g n="tenemos">tene<e/>mos<hiperseg/></g><e/>
+<g>aire</g><e/>
+<g n="acondicionado">acondisio<sus tipo="cxs"/><l tipo="singuion"/><l/><nl num="15"/>nado</g><e/>
+<g>e<tachado>X</tachado><tachado>la</tachado><correccion tipo="elimi"/></g><e/>
+<g>aula</g><e/>
+<g n="tenemos">tene<e/>mos<hiperseg/></g><e/>
+<g n="abanico">avanico<sus tipo="bxv"/></g><l/>
+<nl num="16"/><g>y</g><e/>
+<g>tenemos</g><e/>
+<g>tenemos</g><e/>
+<g>una</g><e/>
+<g n="biblioteca"><tachado>b</tachado><correccion tipo="susti"/>ibioteca<omi tipo="l"/></g><l/>
+<nl num="17"/><g>de</g><e/>
+<g>aula</g><e/>
+<g n="nos">no<omi tipo="s"/></g><e/>
+<g>los</g><e/>
+<g n="prestan">pestan<omi tipo="r"/></g><e/>
+<g>para</g><e/>
+<g n="llevarmelos">llevarmelo<omi tipo="s" error="concord"/></g><l/>
+<nl num="18"/><g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>casa</g><e/>
+<g>y</g><e/>
+<g>loquer</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g>para</g><e/>
+<g>meter</g><e/>
+<g>las</g><e/>
+<g>cosas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="19"/><pi><g>Cómo<mayIni/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g></pi>
+<g>escuela<hiposeg/></g><l/>
+<nl num="20"/><g>en</g><e/>
+<g n="bici">visi<sus tipo="bxv"/><sus tipo="cxs"/></g><e/>
+<g n="porque">por<e/>que<hiposeg/></g>
+<g n="está">esta<omi tipo="acento"/><hiposeg/></g><e/>
+<g n="cerca">serca<sus tipo="cxs"/></g><l/>
+<nl num="21"/><pi><g n="Qué">Que<omi tipo="acento"/></g><e/>
+<g n="hace">hase<sus tipo="cxs"/><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>la</g>
+<g>escuela<hiposeg/></g><e/></pi>
+<g n="aprendemos">a<e/>prendemos<hiposeg/></g><e/>
+<g>a</g><e/>
+<g n="leer">lee<l tipo="singuion"/><l/><nl num="22"/>r</g><e/>
+<g><tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g>a</g><e/>
+<g n="escribir">es<e/>qrivier<sus tipo="cxq"/><agre tipo="e"/><hiperseg/></g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>contar</g><e/>
+<g n="cuentos">cuento<omi tipo="s"/></g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g><tachado>asemo</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="23"/><g n="Hacemos">aSemos<omi tipo="H"/><sus tipo="cxs"/><mayInter/></g><e/>
+<g n="matemáticas">mateMaticas<mayInter/><omi tipo="acento"/></g><e/>
+<g>y<hiposeg/></g>
+<g n="deporte">de<e/>porte<hiperseg/></g><e/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>6. tacha la palabra</com>
+<com>8. encima "e", no se distingue lo que tacha</com>
+<com>9. tacha la letra</com>
+<com>10. tacha las letras</com>
+<com>11. rota "b"</com>
+<com>14. remarca la letra</com>
+<com>15. no se distingue lo que tacha</com>
+<com>15. tacha el artículo</com>
+<com>16. encima "b" sobre "v"</com>
+<com>19. subraya la pregunta</com>
+<com>21. no se distingue lo que tacha</com>
+<com>21. subraya "prendemos a lee"</com>
+<com>22. encima "y" sobre "i"</com>
+<com>23. tacha las letras</com>
+<com>El niño sólo deja un pequeño espacio despues del tercer renglón.</com>
+
+
+</comentarios>
+</documento>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="243" permisos="todos">
+
+	<titulo>N024605ESF01</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="AGURAMCRI"/>
+
+	<referencia id="AGURAMCRI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>						
+
+	<archivo nombre="N024605ESF01.txt"/>
+	<imagen archivo="N024605ESF01.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Cristal<mayNP/></g><l/>
+<nl num="2"/><g><tachado>x</tachado><correccion tipo="elimi"/>Mi<mayIni/></g>
+<g>escuela<hiposeg/></g><l/>
+<nl num="3"/><pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><l/></pi>
+<nl num="4"/><pi><g n="cómo">como<omi tipo="acento"/></g>
+<g>es<hiposeg/></g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi>
+<g>tiene<hiposeg/></g><e/>
+<g><tachado>mu<e/>mu<e/>u</tachado><correccion tipo="elimi"/></g><e/>
+<g>muchos</g><e/>
+<g>salones</g><e/>
+<g>y</g>
+<g n="aire">aigre<agre tipo="g"/><hiposeg/></g><l/>
+<nl num="5"/><pi><g n="cómo">como<omi tipo="acento"/></g>
+<g>llegamos<hiposeg/></g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><e/></pi>
+<g n="cruzamos">crusamos<sus tipo="zxs"/></g><e/>
+<g>la</g><e/>
+<g n="vía">bia<sus tipo="vxb"/><omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>llegam<tachado>o</tachado><correccion tipo="susti"/>s</g>
+<g>a<hiposeg/></g>
+<g>pie<hiposeg/></g><l/>
+<nl num="6"/><pi><g n="qué">que<omi tipo="acento"/></g>
+<g n="aprendemos">apren<hiposeg/><e/>demos<hiperseg/></g><e/>
+<g>en</g>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g><e/></pi>
+<g>aprendemos</g><e/>
+<g>a</g><e/>
+<g>escri<tachado>bi</tachado><correccion tipo="susti"/>bir</g>
+<g>y<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>leer<hiposeg/></g><l/>
+<nl num="7"/><g>y</g><e/>
+<g n="también">tanbien<sus tipo="mxn"/><omi tipo="acento"/></g><e/>
+<g><tachado>co</tachado><correccion tipo="elimi"/>cuentas</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. Tacha lo que escribe</com>
+<com>4. Tacha lo que escribe</com>
+<com>5. Encima "o" </com>
+<com>6. Tacha lo que escribe</com>
+</comentarios>
+</documento>

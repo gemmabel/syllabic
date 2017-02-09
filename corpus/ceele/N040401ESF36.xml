@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="146" permisos="todos">
+
+	<titulo>N040401ESF36</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PAEROQGAB"/>
+
+	<referencia id="PAEROQGAB">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N040401ESF36.txt"/>
+	<imagen archivo="N040401ESF36.jpg"/>
+	<vista tipo="T"/>		
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<g>G<mayNP/>abriela</g><e/>
+<g n="Geraldineth">G<mayNP/>eraldinet<omi tipo="h"/></g><e/>
+<g n="Páez">P<mayNP/>a<omi tipo="acento"/>ez</g><e/>
+<g>R<mayNP/>oque</g><e/>
+<g n="cuántos">C<sus tipo="cxC"/>ua<omi tipo="acento"/>ntos</g><e/>
+<g>años</g><e/>
+<l/>
+<nl num="3"/><g>7</g><e/>
+<g>años</g><e/>
+<g>mi</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>R<mayNP/>afael</g><l/>
+<nl num="4"/><g n="Ramírez">R<mayNP/>ami<omi tipo="acento"/>re<tachado>z</tachado><correccion tipo="susti"/></g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>es</g><e/>
+<g> grande</g><l/>
+<nl num="5"/><pi><g n="cómo">co<omi tipo="acento"/>mos<agre tipo="s"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><e/>
+<g>8</g><e/>
+<g>en</g><e/>
+<g n="punto">.<sus tipo="puntox."/></g><e/>
+<g n="y">Y<sus tipo="Yxy"/></g><l/>
+<nl num="6"/><g>me</g><e/>
+<g n="traen">trai<sus tipo="exi"/><omi tipo="n" error="concord"/></g><e/>
+<g>mis</g><e/>
+<g n="papás">papa<omi tipo="acento"/>s</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emo<omi tipo="s"/></g><e/>
+<g>los</g><e/>
+<g n="honores"><omi tipo="h"/>O<sus tipo="oxO"/>nores</g><l/>
+<nl num="7"/><g>estudia<tachado>m</tachado><correccion tipo="susti"/>o<tachado>s</tachado><correccion tipo="susti"/></g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>ate</g><r c="Fgs">-</r><g>ma<omi tipo="acento"/>ticas</g><e/>
+<g>español</g><e/>
+<g>integrado</g><l/>
+<nl num="8"/><g>para</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/>
+<g>de</g><e/>
+<g>G<mayNP/>abriela</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. Encima. Decía "s"</com>
+<com>5. Tacha</com>
+<com>5. Escribe "8 en ." en vez de "8 en punto"</com>
+<com>7. Encima</com>
+<com>8. Firma sin alterar la letra.</com>
+<com>Diseño de página: título centrado </com>
+</comentarios>
+</documento>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="137" permisos="todos">
+
+	<titulo>N025106ESM07</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ORTRAMLUI"/>
+
+	<referencia id="ORTRAMLUI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESM07.txt"/>
+	<imagen archivo="N025106ESM07.jpg"/>
+	<vista tipo="T"/>		
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Luis<mayNP/></g><e/>
+<g>Fernando<mayNP/></g><e/>
+<g>Ortiz<mayNP/></g><e/>
+<g n="Ramírez">Ramirez<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="2"/><g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quién">Qui<omi tipo="e"/><omi tipo="acento"/><omi tipo="n"/></g><e/>
+<g>soy</g><e/></pi>
+<g>Luis<mayNP/></g><e/>
+<g n="cuántos">cuantos<omi tipo="acento"/></g><e/>
+<g n="años">año<omi tipo="s"/></g><e/>
+<g>tiene</g><e/>
+<g>7</g><e/>
+<g n="años">año<omi tipo="s"/></g><l/>
+<nl num="4"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g n="la">La<sus tipo="lxL"/></g><e/>
+<g>Boquita<mayNP/></g><e/>
+<g n="Nayarit">Nay<mayNP/><e/>yari<agre tipo="y"/><omi tipo="t"/><hiperseg/></g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="6"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g>
+<g>a<hiposeg/></g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="7"/><g n="Qué">Que<omi tipo="acento"/></g><e/>
+<g n="hacemos">hocemos<sus tipo="axo"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="escuela">escela<omi tipo="u"/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>El niño remarca las líneas 5, 6 y parte de la 7</com>
+</comentarios>
+</documento>

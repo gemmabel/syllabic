@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="279" permisos="todos">
+
+	<titulo>S024601ESF05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CERGUZYES"/>
+
+	<referencia id="CERGUZYES">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<etiquetadora nombre="Argentina Robledo Domínguez"/>
+	<archivo nombre="S024601ESF05.txt"/>
+	<imagen archivo="S024601ESF05.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g tipo="fecha">4/11/05</g><e/>
+<g n="Yessamín">yessamin<sus tipo="Yxy"/><omi tipo="acento"/></g><e/>
+<g>Guadalupe<mayNP/></g><e/>
+<g n="Cerna">cerna<sus tipo="Cxc"/></g><e/>
+<g n="Guzmán">Guzman<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g n="escuela">Escuela<sus tipo="exE"/></g><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g n="Hola">Ola<omi tipo="H"/><mayIni/></g><e/>
+<g>soy</g><e/>
+<g n="Yessamín">yessamin<sus tipo="Yxy"/><omi tipo="acento"/></g><e/>
+<g>Guadalupe<mayNP/></g><e/>
+<g n="C." tipo= "abrev">c<sus tipo="Cxc"/><r c="Fp" punto="abrev">.</r></g>
+<g n="N." tipo= "abrev">n<sus tipo="Nxn"/><r c="Fp" punto="abrev">.</r></g>
+<g n="A." tipo= "abrev">a<sus tipo="Axa"/><r c="Fp" punto="abrev">.</r></g><l/>
+<nl num="3"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g>dos</g><e/>
+<g>hermanas</g><e/>
+<g>que</g><e/>
+<g>se</g><e/>
+<g n="llaman">yaman<sus tipo="llxy"/></g><e/>
+<g n="Saira"><tachado>X</tachado>Sa<correccion tipo="elimi"/>ira<sus tipo="Sxs"/></g><e/>
+<g>y</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/>Alehli<mayNP/></g><l/>
+<nl num="4"/><g>mi</g><e/>
+<g>mamá</g><e/>
+<g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g>Martina<mayNP/></g><e/>
+<g n="Guzmán">Guzman<mayNP/><omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="García">Garsia<mayNP/><sus tipo="cxs"/><omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>somos</g><e/>
+<g>muy</g><l/>
+<nl num="5"/><g>buenos</g><e/>
+<g n="bueno">buen<omi tipo="o" error="concord"/></g><e/>
+<g>pero</g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>muy</g><e/>
+<g>lejos</g><e/>
+<g>y</g><e/>
+<g>lo</g><e/>
+<g n="extraño">estraño<sus tipo="xxs"/></g><l/>
+<nl num="6"/><g n="muchísimo">muchisimo<omi tipo="acento"/></g><e/>
+<g>pero</g><e/>
+<g>ya</g><e/>
+<g>m<tachado>e</tachado><correccion tipo="susti"/>ro</g><e/>
+<g>viene</g><e/>
+<g><tachado>y</tachado><correccion tipo="elimi"/></g><e/>
+<g>mi</g><e/>
+<g n="maestra">ma<e/><hiperseg/>estra</g><l/>
+<nl num="7"/><g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g>Olga<tachado>X</tachado><correccion tipo="elimi"/><mayNP/></g><e/>
+<g n="Medranos">medranos<sus tipo="Mxm"/></g><e/>
+<g n="Campos">campos<sus tipo="Cxc"/></g><l/>
+<nl num="8"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<l/>
+<nl num="9"/><pi><g n="Cómo">Como<mayIni/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g n="mi">mí<agre tipo="acento"/></g><e/>
+<g>escuela</g><l/></pi>
+<nl num="10"/><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>amarilla</g><e/>
+<g>y</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/>tiene</g><e/>
+<g>6</g><e/>
+<g>salones</g><l/>
+<nl num="11"/><g>y</g><e/>
+<g>la</g><e/>
+<g n="dirección"><tachado>b</tachado><rotac tipo="d"/>irection<sus tipo="cxt"/><omi tipo="acento"/></g><e/>
+<g>la</g><e/>
+<g n="construyó">cos<e/>tru<e/><hiperseg/>y<e/><hiperseg/>o<hiperseg/><omi tipo="n"/><omi tipo="acento"/></g><e/>
+<g n="el">El<sus tipo="exE"/></g><e/>
+<g n="gobierno">Govierno<sus tipo="gxG"/>sus tipo="bxv"/></g><l/>
+<nl num="12"/><pi><g n="cómo"><sus tipo="Cxc"/>como<omi tipo="acento"/></g><e/>
+<g n="llegamos">yegamos<sus tipo="llxy"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="escuela">Escuela<sus tipo="eXE"/></g><l/></pi>
+<nl num="13"/><g n="Yo">yo<sus tipo="Yxy"/></g><e/>
+<g>me</g><e/>
+<g n="vengo">bengo<sus tipo="vxb"/></g><e/>
+<g>a<hiposeg/></g><e/>
+<g>pie</g><e/>
+<g>porque</g><e/>
+<g>no</g><e/>
+<g>sirve</g><e/>
+<g n="el">El<sus tipo="exE"/></g><l/>
+<nl num="14"/><g>carro</g><e/>
+<g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>muy</g><e/>
+<g n="lejos">legos<sus tipo="jxg"/></g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>y</g><e/>
+<g><tachado>y</tachado>llego</g><l/>
+<nl num="15"/><g>muy</g><e/>
+<g>le<tachado>g</tachado><correccion tipo="susti"/>jos</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>mi</g><e/>
+<g>casa</g><l/>
+<l/>
+<nl num="16"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>Escuela<sus tipo="exE"/></g><l/></pi>
+<nl num="17"/><g n="salimos">sa<e/>limos<sus tipo="Sxs"/><hiperseg/></g><e/>
+<g>a</g><e/>
+<g>el</g><e/>
+<g>recreo</g><e/>
+<g>y</g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>muchas</g><e/>
+<g>tareas</g><l/>
+<nl num="18"/><g>y</g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g n="actividades">Acti<sus tipo="aXA"/><e/>vidades<hiperseg/></g><e/>
+<g>y</g><e/>
+<g n="matemáticas">matematicas<omi tipo="acento"/></g><e/>
+<g>integrado</g><l/>
+<nl num="19"/><g n="leemos">Le<tachado>e</tachado><correccion tipo="susti"/><sus tipo="lxL"/>mos</g><e/>
+<g n="participamos">partisipamos<sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>clases</g><l/>
+<nl num="20"/><g>me<hiposeg/></g><e/>
+<g n="gusta">gus<e/>ta<hiperseg/></g><e/>
+<g>un</g><e/>
+<g n="libro">livro<sus tipo="bxv"/></g><e/>
+<g>muy</g><e/>
+<g>bonito</g><e/>
+<g>de<hiposeg/></g><e/>
+<g>la</g><e/>
+<g n="biblioteca">v<sus tipo="bxv"/>ivlot<tachado>X</tachado><correccion tipo="elimi"/>eca<sus tipo="bxv"/><omi tipo="i"/></g><l/>
+<nl num="21"/><g>que</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>Hola</g><e/>
+<g>B<sus tipo="bxB"/>e<tachado>b</tachado><correccion tipo="susti"/>é</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. no se puede ver lo que tacha</com>
+<com>6. encima "e". En "y" le pone encima un puntito pero lo tacha </com>
+<com>7. no se puede ver lo que tacha</com>
+<com>8. tacha las palabras que escribe</com>
+<com>10. no se puede ver lo que tacha</com>
+<com>11. rotación de la d</com>
+<com>14. encima "ll" sobre "y"</com>
+<com>15. encima "j" sobre g</com>
+<com>19. encima e" sobre "m"</com>
+<com>20. no se puede ver lo que tacha</com>
+<com>21. encima la b sobre la B</com>
+<com>La niña separa los párrafos de acuerdo a la pregunta.</com>
+</comentarios>
+</documento>

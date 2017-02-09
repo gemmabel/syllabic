@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+								
+<encabezado id="70" permisos="todos">
+	<titulo>S040401ESM10</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CORSANJUL"/>
+
+	<referencia id="CORSANJUL">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESM10.txt"/>
+	<imagen archivo="S040401ESM10.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g><tachado>M<mayIni/></tachado><correccion tipo="susti"/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>H<mayIni/>ola</g><e/>
+<g>soy</g><e/>
+<g>J<mayNP/>ulio</g><e/>
+<g n="César">C<mayNP/>e<omi tipo="acento"/>sar</g><e/>
+<g>C<mayNP/>orona</g><e/>
+<g>S<mayNP/>andoval</g><e/>
+<r c="Fc">,</r><e/>
+<g>yo</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>xico</g><e/>
+<r c="Fc">,</r><e/>
+<g>tengo</g><e/>
+<g>pelo</g><e/>
+<g>negro</g><e/>
+<l/>
+<nl num="3"/><g>la</g><e/>
+<g>escuela</g><e/>
+<g>no</g><e/>
+<g>es</g><e/>
+<g>igual</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>tuya</g><e/>
+<r c="Fc">,</r><e/>
+<g n="llevo">y<sus tipo="llxy"/>evo</g><e/>
+<g>uniforme</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>estoy</g><e/>
+<g>mediana</g><l/>
+<l/>
+<nl num="4"/><g>L<mayIni/>a</g><e/>
+<g>escuela</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>bonita</g><e/>
+<r c="Fc">,</r><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>grande</g><e/>
+<g n="hay">H<sus tipo="hxH"/>ay</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<r c="Fc">,</r><e/>
+<g>canchas</g><e/>
+<r c="Fc">,</r><e/>
+<g>gradas</g><e/>
+<r c="Fc">,</r><e/>
+<g>salones</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="5"/><g n="plantas">P<sus tipo="pxP"/>lantas</g><l/>
+<l/>
+<nl num="6"/><g n="Legamos">ll<sus tipo="Llxll"/>egamos</g><e/>
+<g>en</g><e/>
+<g>carros</g><e/>
+<r c="Fc">,</r><e/>
+<g>ustedes</g><e/>
+<g>caminan</g><e/>
+<g>5</g><e/>
+<g tipo="abrev" n="km">km<r c="Fp" punto="abrev">.</r><agre tipo="punto abrev"/></g><e/>
+<g>y</g><e/>
+<g>llegamos</g><e/>
+<g>en</g><e/>
+<g>motos</g><e/>
+<r c="Fc">,</r><e/>
+<g>bicicletas</g><e/>
+<g><tachado>y</tachado><correccion tipo="susti"/></g><e/>
+<g>camionetas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="7"/><g><tachado>H<mayIni/>acemos</tachado><correccion tipo="susti"/></g><e/>
+<g n="educación">educaci<tachado>o<omi tipo="acento"/></tachado><correccion tipo="susti"/>n</g><e/>
+<g n="física">fi<omi tipo="acento"/>c<sus tipo="sxc"/>ica</g><e/>
+<r c="Fc">,</r><e/>
+<g n="computación">computacio<omi tipo="acento"/>n</g><e/>
+<r c="Fc">,</r><e/>
+<g>me</g><e/>
+<g>dan</g><e/>
+<g>español</g><e/>
+<r c="Fc">,</r><e/>
+<g n="matemática">matema<omi tipo="acento"/>tica</g><e/>
+<r c="Fc">,</r><e/>
+<g><tachado>conocimien</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="8"/><g>c<tachado>onocim</tachado><correccion tipo="susti"/>iento</g><e/>
+<g>del</g><e/>
+<g>medio</g><e/>
+<r c="Fc">,</r><e/>
+<g>leemos</g><e/>
+<g>y</g><e/>
+<g>trabajamos</g><l/>
+<l/>
+<nl num="9"/><firma tipo="b"><g>Julio</g><e/>
+<g>Cesar</g><e/>
+<g>Corona</g><e/>
+<g>Sandoval</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1 Borra. Decía "M"</com>
+<com>2 y 3 estos renglones están borrados y escribió sobre lo borrado, no se distingue lo que había escrito</com>
+<com>4 Tacha</com>
+<com>7 Borra </com>
+<com>8 Borra </com>
+<com>9 Firma, hace la letra más grande</com>
+<com>Hay diseño de página: título centrado, deja espacios entre oraciones.</com>
+</comentarios>
+</documento>

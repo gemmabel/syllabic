@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="252" permisos="todos">
+	
+	<titulo>S015302ESF10</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="SANJIMITZ"/>
+
+	<referencia id="SANJIMITZ">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>
+	
+	<archivo nombre="S015302ESF10.txt"/>
+	<imagen archivo="S015302ESF10.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>I<mayNP/>tzel</g><e/>
+<g>A<mayNP/>mayraní</g><e/>
+<g>S<mayNP/>andoval</g><e/>
+<g>J<mayNP/>íménez</g><e/><dibujo/>
+<g n="4 de noviembre del 2005">4<e/>de<e/>N<sus tipo="nxN"/>oviembre<l/>
+<nl num="2"/>del<e/>2005</g><e/>
+<l/>
+<nl num="3"/><g n="Título">T<mayIni/>i<omi tipo="acento"/>tulo</g><r c="Fd">:</r><e/>
+<g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="4"/><g>H<mayIni/>ola</g><e/>
+<g>soy</g><e/>
+<g>I<mayNP/>tzel</g><e/>
+<g>A<mayNP/>mayraní</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="5"/><g>mi</g><e/>
+<g>hermana</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>I<mayNP/>yari</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g n="Vivo">v<sus tipo="vxV"/>ivo</g><e/>
+<g>en</g><e/>
+<g>A<mayNP/>caponeta</g><l/>
+<nl num="6"/><g>N<mayNP/>ayarit</g><e/>
+<e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>L<mayNP/>aura</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="7"/><g n="José">J<mayNP/>ose<omi tipo="acento"/></g><e/>
+<g>L<mayNP/>uis</g><e/><r c="Fc">,</r><e/>
+<g n="nací">naci<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g>T<mayNP/>epic</g><e/><r c="Fp" punto="seguido">.</r><e/>
+<g>Q<mayIni/>uiero</g><e/>
+<g>a</g><e/>
+<g>mis</g><e/>
+<g>abuelos</g><l/>
+<nl num="8"/><g>M<mayNP/>ario</g><e/>
+<g>y</g><e/>
+<g>A<mayNP/>licia</g><e/>
+<e/>
+<g>voy</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="9"/><g>J<mayNP/>uan</g><e/>
+<g>E<mayNP/>spinoza</g><e/>
+<g n="Bávara">B<mayNP/>a<omi tipo="acento"/>vara</g><r c="Fp" punto="seguido">.</r><e/>
+<g>M<mayIni/>i</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>L<mayNP/>eti</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="10"/><g>L<mayIni/>lego</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>caminando</g><e/>
+<g>a</g><e/>
+<g>veces</g><e/>
+<g>mi</g><l/>
+<nl num="11"/><g>abuelo</g><e/>
+<g>me</g><e/>
+<g>trae</g><e/>
+<g>o</g><e/>
+<g>mi</g><e/>
+<g>papá</g><e/><r c="Fc">,</r><e/>
+<g>camino</g><e/>
+<g>1</g><e/>
+<g>minuto</g><l/>
+<nl num="12"/><g>mi</g><e/>
+<g>papá</g><e/>
+<g>a<hiposeg/></g><g>veces<hiposeg/></g><e/>
+<g>me</g><e/>
+<g>trae</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>carro</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="13"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<g>yo</g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">2<r c="Fgr">°</r><r c="Fe">"</r>A<r c="Fe">"</r></g>
+<nl num="14"/><g>la</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g>grande</g><e/><r c="Fc">,</r><e/>
+<g>tiene</g><e/>
+<g>2</g><e/>
+<g>canchas</g><l/>
+<nl num="15"/><g>el</g><e/>
+<g n="miércoles">mie<omi tipo="acento"/>rcoles</g><e/>
+<g>me</g><e/>
+<g>toca</g><e/>
+<g>fisica</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="16"/><g>E<mayIni/>n</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>estudio</g><e/><r c="Fc">,</r><e/>
+<g>escribo</g><e/><r c="Fc">,</r><e/>
+<g>leemos</g><e/><r c="Fc">,</r><e/>
+<g>jugamos</g><e/><r c="Fc">,</r><l/>
+<nl num="17"/><g>nos</g><e/>
+<g>formamos</g><e/>
+<g>y</g><e/>
+<g>platicamos</g><e/>
+<g>sobre</g><e/>
+<g>las</g><e/>
+<g>lecciones</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="18"/><g>Y<mayIni/>o</g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>desayuno</g><r c="Fd">:</r><e/>
+<g>carne</g><e/><r c="Fc">,</r><e/>
+<g>pollo</g><e/><r c="Fc">,</r><e/>
+<g>sopa</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="19"/><g n="Adiós">A<mayIni/>dio<omi tipo="acento"/>s</g><e/>
+<g>me</g><e/>
+<g n="gustaría">gustari<omi tipo="acento"/>a</g><e/>
+<g>conocerte</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/><r c="Fp" punto="final">.</r><l/>
+<nl num="20"/><firma tipo="a"><g>I<mayNP/>tzel</g><e/>
+<g>A<mayNP/>mayraní</g><l/></firma><l/><dibujo/>
+<l/>
+</cuerpo>
+<comentarios>
+
+<com>2. Este renglón no es realmente un renglón, la niña al poner la fecha puso el "del 2005" debajo del "4 de noviembre"</com>
+<com>Entre las líneas 9. y 10, 12. y 13., 15. y 16., 17. y 18., 18. y 19, la niña pone una línea para separar "párrafos". </com>
+<com>21. Aquí hay un corazón cruzado por una flecha. </com>
+
+
+</comentarios>
+</documento>

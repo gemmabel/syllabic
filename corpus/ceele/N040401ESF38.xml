@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+				
+<encabezado id="147" permisos="todos">
+
+	<titulo>N040401ESF38</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="RODVENYES"/>
+
+	<referencia id="RODVENYES">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N040401ESF38.txt"/>
+	<imagen archivo="N040401ESF38.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>me</g><e/>
+<g>llamo</g><e/>
+<g n="Yessica">y<sus tipo="Yxy"/>essica</g><l/>
+<nl num="3"/><g>yo</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="4"/><g>L<mayIni/>ugar</g><e/>
+<g n="Tepic">t<sus tipo="Txt"/>epic</g><e/>
+<g>N<mayNP/>ayarit</g><l/>
+<nl num="5"/><g>F<mayIni/>echa</g><e/>
+<g tipo="fecha" n="martes 8 de octubre del 2005">M<sus tipo="mxM"/>artes<e/>
+8<e/>de<e/>
+octubre<e/>
+del<e/>2005</g><l/>
+<nl num="6"/><g>mi</g><e/>
+<g n="escuela">escuela<hiposeg/></g><g n="se">s<e/><hiperseg/>e</g><e/>
+<g>llama</g><e/>
+<g n="Maestro">m<sus tipo="Mxm"/>aestro</g><e/>
+<g n="Rafael">r<sus tipo="Rxr"/>afael</g><e/>
+<g n="Ramírez">R<mayNP/>ami<omi tipo="acento"/>res<sus tipo="zxs"/></g><l/>
+<nl num="7"/><g>yo</g><e/>
+<g>me<hiposeg/></g><g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>me</g><e/>
+<g n="divierto">dib<sus tipo="vxb"/>ierto</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>re<tachado>cr</tachado><correccion tipo="susti"/>eo</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>6. Hace la letra más chica para que entre en el renglón</com>
+<com>8. Encima</com>
+<com>Diseño de página: Título centrado</com>
+</comentarios>
+</documento>

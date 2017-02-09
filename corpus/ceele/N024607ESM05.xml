@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="106" permisos="todos">
+
+	<titulo>N024607ESM05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GOMLOMBRY"/>
+
+	<referencia id="GOMLOMBRY">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N024607ESM05.txt"/>
+	<imagen archivo="N024607ESM05.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Bryan<mayNP/></g><e/>
+<g n="Joaquín">Joaquin<mayNP/><omi tipo="acento"/></g><e/>
+<g n="Gómez">Gomez<mayNP/><omi tipo="acento"/></g><e/>
+<g><tachado>L</tachado><correccion tipo="susti"/>omelí</g><l/>
+<nl num="2"/><g n="tengo">congo<sus tipo="txc"/><sus tipo="oxe"/></g><e/>
+<g>7</g><e/>
+<g n="años">oños<sus tipo="axo"/></g><l/>
+<nl num="3"/><g n="mi">mi</g>
+<g n="escuela">escuelo<sus tipo="axo"/><hiposeg/></g><l/>
+<nl num="4"/><g>tiene</g><e/>
+<g>8</g><e/>
+<g n="salones">solene<sus tipo="axo"/><sus tipo="oxe"/><omi tipo="s"/></g><e/>
+<g>y</g><e/>
+<g>1</g><e/>
+<g n="dirección">direc<e/>sion<sus tipo="cxs"/><omi tipo="acento"/><hiperseg/></g><l/>
+<nl num="5"/><pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g>Bryan<mayNP/></g><e/>
+<g n="Joaquín">Joaquin<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="6"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="7"/><g>tiene</g><l/>
+<nl num="8"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g>
+<g>la<hiposeg/></g><e/>
+<g>escuela</g><l/></pi>
+<nl num="9"/><g n="En">en<sus tipo="Exe"/></g><e/>
+<g n="bicicleta"><tachado>b</tachado><correccion tipo="susti"/>isic<tachado>l</tachado><correccion tipo="susti"/>eta<sus tipo="cxs"/></g><l/>
+<nl num="10"/><pi><g n="Qué">Qué</g><e/>
+<g>aprendemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="11"/><g n="Leer">leer<sus tipo="Lxl"/></g><e/>
+<g>estudiar</g><e/>
+<g>jugar</g><l/>
+<nl num="12"/><g n="la">La<sus tipo="lxL"/></g>
+<g n="escuela">es<hiposeg/><e/>cuela<hiperseg/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="cercas">sercas<sus tipo="cxs"/></g><l/>
+<nl num="13"/><g>de</g>
+<g>mi<hiposeg/></g>
+<g>casa<hiposeg/></g><l/>
+<nl num="14"/><g><tachado>aque</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="15"/><g n="aquí">aqui<omi tipo="acento"/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>Bryan<mayNP/></g><l/>
+<dibujo/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. encima "L"</com>
+<com>9. encima "b" sobre "v", encima "l"</com>
+<com>14. tacha</com>
+<com>El niño hace un dibujo</com>
+<com>El algunos casos el niño pone "o" como "a"</com>
+</comentarios>
+</documento>

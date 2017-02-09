@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="207" permisos="todos">
+
+	<titulo>N015303ESM07</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CHAFIGAND"/>
+
+	<referencia id="CHAFIGAND">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="N015303ESM07.txt"/>
+	<imagen archivo="N015303ESM07.jpg"/>
+	<vista tipo="N"/>
+</encabezado>
+
+
+<cuerpo>
+<nl num="1"/><g n="Andrés">A<mayNP/>ndre<omi tipo="acento"/>s</g><e/>
+<g n="Chanes">c<sus tipo="Cxc"/>hanes</g><e/>
+<g n="Figueroa">F<mayNP/>ig<omi tipo="u"/>eroa</g><l/>
+<nl num="2"/><pi><g n="Quién">Q<mayIni/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><g n="Soy">s<sus tipo="Sxs"/>o<omi tipo="y"/><hiposeg/></g>
+<g n="Andrés">A<mayNP/>ndre<omi tipo="acento"/>s<hiposeg/></g><e/>
+<g>tengo</g><e/>
+<g>siete</g><e/>
+<g>años</g><e/>
+<g>mi<hiposeg/></g>
+<g n="papá">papa<omi tipo="acento"/><hiposeg/></g><l/>
+<nl num="4"/><g>tiene</g><e/>
+<g>27</g><e/>
+<r c="Fg">-</r><e/>
+<g>s<agre tipo="s" error="concord"/></g><e/>
+<r c="Fg">-</r><e/>
+<e/>
+<g>vive</g><e/>
+<g>en<hiposeg/></g>
+<g>P<mayNP/>acho<hiposeg/></g>
+<g n="Villa">v<sus tipo="Vxv"/>iy<sus tipo="llxy"/>a<hiposeg/></g><e/>
+<g>del<hiposeg/></g>
+<g>es<hiposeg/></g><l/>
+<nl num="5"/><g>estado</g><e/>
+<g>de</g><e/>
+<g n="Nayarit">n<sus tipo="Nxn"/>ayaris<sus tipo="txs"/></g><e/>
+<g n="hola"><omi tipo="h"/>ola</g><e/>
+<g>es<hiposeg/></g>
+<g>mi<hiposeg/></g>
+<g n="mamá">mama<omi tipo="acento"/><hiposeg/></g><e/>
+<r c="Fg">-</r><l/>
+<nl num="6"/><g>tiene</g><e/>
+<r c="Fg">-</r><e/>
+<g n="28">28s<agre tipo="s" error="concord"/></g><e/>
+<r c="Fg">-</r><e/>
+<g>vive<hiposeg/></g>
+<g>en<hiposeg/></g>
+<g n="Pancho">p<sus tipo="Pxp"/>anch<tachado>o</tachado><correccion tipo="susti"/><hiposeg/></g><e/>
+<g n="Villa">v<sus tipo="Vxv"/>iy<sus tipo="llxy"/>a</g><e/>
+<r c="Fg">-</r><l/>
+<nl num="7"/><g>vive<hiposeg/></g>
+<g>en<hiposeg/></g><e/>
+<g n="una">n<agre tipo="n"/>una<hiposeg/></g>
+<g>casa<hiposeg/></g><e/>
+<g>grandota</g><l/>
+<nl num="8"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="9"/><g>mi<hiposeg/></g>
+<g>escuela<hiposeg/></g><e/>
+<g>es</g><g>grande<hiposeg/></g><e/>
+<g>tiene<hiposeg/></g>
+<g>cancha<hiposeg/></g><l/>
+<nl num="10"/><g>y</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rv<sus tipo="bxv"/>oles</g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g><tachado>s</tachado><correccion tipo="elimi"/></g><e/>
+<g>tiene</g><e/>
+<g>munchas<hiposeg/></g>
+<g>es<hiposeg/></g><l tipo="singuion"/>
+<nl num="11"/><g>cuelas</g><e/>
+<r c="Fg">-</r><e/>
+<g>y<hiposeg/></g>
+<g n="tiene">tienes<agre tipo="s" error="concord"/><hiposeg/></g><e/>
+<g n="pizarrones">Pis<sus tipo="zxs"/>ar<sus tipo="rrxr"/>ones</g><l/>
+<nl num="12"/><g>es</g><e/>
+<g>de<hiposeg/></g>
+<g>material<hiposeg/></g><l/>
+<nl num="13"/><pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g n="la">l<omi tipo="a"/><hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><l/>
+<nl num="14"/><g n="Con">c<sus tipo="Cxc"/>on</g><e/>
+<g>mochila</g><e/>
+<g>y</g><e/>
+<g>di</g><e/>
+<g>y</g><e/>
+<g>dan</g><e/>
+<g>el<hiposeg/></g>
+<g>toc<sus tipo="quxc"/>e<hiposeg/></g><l/>
+<nl num="15"/><g>y</g><e/>
+<g n="llegamos">llegamo<omi tipo="s"/></g><e/>
+<g>caminando</g><e/>
+<g>a</g><e/>
+<g>pi</g><l tipo="singuion"/>
+<nl num="16"/><g>e</g><e/>
+<g>y<hiposeg/></g>
+<g n="jugamos">g<sus tipo="jxg"/>ugamos<hiposeg/></g><e/>
+<g>con</g><e/>
+<g n="las">la<omi tipo="s" error="concord"/></g><e/>
+<g>pelotas</g><e/>
+<r c="Fg">-</r><l/>
+<nl num="17"/><g>a<hiposeg/></g>
+<g>los<hiposeg/></g><e/>
+<g n="retratos">retr<tachado>a</tachado><correccion tipo="elimi"/>te<sus tipo="oxe"/>s</g><l/>
+<nl num="18"/><pi><g n="Qué">q<sus tipo="Qxq"/>ue<omi tipo="acento"/></g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>en</g><e/>
+<g n="la">la<hiposeg/></g>
+<g>es<hiposeg/><e/>cuela<hiperseg/></g></pi><l/>
+<nl num="19"/><g n="estudiamos">es<tachado>t</tachado><correccion tipo="susti"/>udiamos</g><e/>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g n="libreta">lid<rotac tipo="b"/>reta<hiposeg/></g><l/>
+<nl num="20"/><g>y</g><e/>
+<g>en</g><e/>
+<g>los<hiposeg/></g>
+<g n="libros">lid<rotac tipo="b"/>ros</g><e/>
+<g>de</g><e/>
+<g n="matemáticas">matema<omi tipo="acento"/>ticas</g><l/>
+<nl num="22"/><g>y</g><e/>
+<g>en</g><e/>
+<g>de</g><e/>
+<g n="español"><omi tipo="es"/>pañol</g><e/>
+<r c="Fg">-</r><e/>
+<g>y</g><e/>
+<g>nos<hiposeg/></g>
+<g n="dejan">deg<sus tipo="jxg"/>an<hiposeg/></g>
+<g>tareas<hiposeg/></g><e/>
+<r c="Fp" punto="seguido">.</r><l/>
+<nl num="22"/><g>y</g><e/>
+<g>leemos</g><e/>
+<g n="atentamente">a<tachado>t</tachado><correccion tipo="susti"/>entamente</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario genral: las "h" están hechas como "n"</com>
+
+<com>2. La pregunta "¿Quién soy?" está circulada y la palabra "soy" está subrayada.</com>
+<com>6. Corrección: "o" por algo que no se distingue bien.</com>
+<com>8. La pregunta "¿Cómo es nuestra escuela?" está circulada.</com>
+<com>10. Corrección: borra una "s".</com>
+<com>13. La pregunta "¿Cómo llegamos a la escuela?" está circulada.</com>
+<com>14. La "palabra" "di" se marcó con picoparéntesis. Parece que el niño iba a escribir otra cosa y se arrepintió, pero no la borró ni la tachó.</com>
+<com>17. Corrección: borrón antes de la "a".</com>
+<com>18. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+<com>19. Corrección: "t", por algo como una "a".</com>
+<com>23. Corrección: "t" por "n".</com>
+</comentarios>
+</documento>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="228" permisos="todos">
+
+	<titulo>N015804ESF03</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GUEHERKAR"/>
+
+	<referencia id="GUEHERKAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>								
+
+	<archivo nombre="N015804ESF03.txt"/>
+	<imagen archivo="N015804ESF03.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>K<mayNP/>arla</g><e/>
+<g>B<mayNP/>riseida</g><e/>
+<g>G<mayNP/>uerra</g><e/>
+<g>H<mayNP/>ermosillo</g><l/>
+<nl num="2"/><pi><g n="Quién">Quie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="4"/><g>H<mayIni/>ola</g><e/>
+<g>soy</g><e/>
+<g>K<mayNP/>arla</g><l/>
+<nl num="5"/><g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="6"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Palmar">Par<sus tipo="lxr"/>mar</g><e/>
+<g>de</g><e/>
+<g n="Cuautla">c<sus tipo="Cxc"/>uautla</g><l/>
+<nl num="7"/><g>mis</g><e/>
+<g n="papás">papa<omi tipo="acento"/>s</g><e/>
+<g>son</g><e/>
+<g>M<mayNP/>ilay</g><e/>
+<g>y</g><e/>
+<g>M<mayNP/>erced</g><l/>
+<nl num="8"/><g>mis</g><e/>
+<g n="hermanos">he<tachado>r</tachado><correccion tipo="susti"/>manos</g><e/>
+<g>son</g><e/>
+<g n="Aldrin">ALDR<sus tipo="lxL"/><sus tipo="dxD"/><sus tipo="rxR"/>iN<sus tipo="nxN"/></g><e/>
+<g>tiene</g><e/>
+<g>6</g><e/>
+<g>años</g><l/>
+<nl num="9"/><pi><g n="cómo">co<omi tipo="cómo"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="10"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>bonita</g><e/>
+<g>tiene</g><e/>
+<g>abanicos</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>luz</g><l/>
+<nl num="11"/><g>tiene</g><e/>
+<g>canchas</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="12"/><pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/></g><e/>
+<g n="escuela">esc<tachado>u</tachado><correccion tipo="susti"/>ela</g></pi><l/>
+<nl num="13"/><g>M<mayIni/>e</g><e/>
+<g>vengo</g><e/>
+<g>con</g><e/>
+<g n="mis">M<sus tipo="mxM"/>is</g><e/>
+<g>amigas</g><l/>
+<nl num="14"/><pi><g n="Qué">Que<omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="15"/><g n="Jugamos">j<sus tipo="Jxj"/>ugamos</g><e/>
+<g n="escribimos">escriv<sus tipo="bxv"/>imos</g><e/>
+<g>y<hiposeg/></g>
+<g>leemos<hiposeg/></g><l/>
+<nl num="16"/><g>estudiamos</g><e/>
+<g>nos</g><e/>
+<g n="dejan">deja<omi tipo="n" error="concord"/></g><e/>
+<g>tarea</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+
+<com>Dos dibujitos de corazones en las cuatro esquinas de la hoja. </com>
+<com>3. La pregunta "¿Quién soy?" está criculada.</com>
+<com>9. Corrección: "r" por algo que no se distingue.</com>
+<com>10. La pregunta "¿Cómo es nuestra escuela?" está criculada.</com>
+<com>14. Corrección: "u" por "e", y la pregunta "¿Cómo llegamos a la escuela?" está circulada.</com>
+<com>17. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+</comentarios>
+</documento>

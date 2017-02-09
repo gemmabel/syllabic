@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="249" permisos="todos">
+
+	<titulo>N024605ESM05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GALGARRON"/>
+
+	<referencia id="GALGARRON">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>					
+
+	<archivo nombre="N024605ESM05.txt"/>
+	<imagen archivo="N024605ESM05.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Ronaldo<mayNP/></g><l/>
+<nl num="2"/><g>mi</g>
+<g n="escuela">es<hiposeg/><e/>cueLa<sus tipo="lXL"/><hiperseg/></g><l/>
+<nl num="3"/><pi><g n="Quién">Quien<omi tipo="acento"/></g>
+<g>so<tachado>y</tachado><correccion tipo="susti"/><hiposeg/></g><l/></pi>
+<nl num="4"/><g n="Mariano">mariano<sus tipo="Mxm"/></g>
+<g n="Ruiz">ruis<sus tipo="Rxr"/><sus tipo="zxs"/><hiposeg/></g><l/>
+<nl num="5"/><g>de</g>
+<g n="cemento">se<hiposeg/><e/>meto<sus tipo="cxs"/><omi tipo="n"/><hiperseg/></g><l/>
+<nl num="6"/><g>de</g><e/>
+<g n="ladrillos">Ladri<e/>los<sus tipo="lxL"/><hiperseg/></g><l/>
+<nl num="7"/><g>con</g>
+<g>uniforme<hiposeg/></g><l/>
+<nl num="8"/><g>con</g>
+<g n="ropa">ro<hiposeg/><e/>pa<hiperseg/></g><l/>
+<nl num="9"/><g n="y">i<sus tipo="yxi"/></g>
+<g>con<hiposeg/></g><e/>
+<g n="zapatos">sapa<sus tipo="zxs"/><e/>tos<hiperseg/></g><l/>
+<nl num="10"/><g>peinados</g><l/>
+<nl num="11"/><g>nos</g><e/>
+<g n="divertimos">di<tachado>b</tachado><correccion tipo="susti"/>ertimos<sus tipo="vxb"/></g><l/>
+<nl num="12"/><g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/>ai</g>
+<g>sillas<hiposeg/></g><l/>
+<nl num="13"/><g>tenemos</g><e/>
+<g n="luz">Lu<e/>us<sus tipo="lxL"/><agre tipo="u"/><sus tipo="zxs"/><hiperseg/></g><l/>
+<nl num="14"/><g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g><e/>
+<g>a<tachado>b</tachado><correccion tipo="susti"/>anicos</g><l/>
+<nl num="15"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g>aire</g><l/>
+<nl num="16"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g>puerta</g><l/>
+<nl num="17"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="pizarrón">pisaron<sus tipo="zxs"/><sus tipo="rrxr"/><omi tipo="acento"/></g><l/>
+<nl num="18"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g>
+<g>loquer<hiposeg/></g><l/>
+<nl num="19"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g>mesas</g><l/>
+<nl num="20"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g>
+<g>piso<hiposeg/></g><l/>
+<nl num="21"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g>
+<g n="escobas">esco<hiposeg/><e/>vas<sus tipo="bxv"/><hiperseg/></g><l/>
+<nl num="22"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="trapiadores">tratiadores<sus tipo="pxt"/></g><l/>
+<nl num="23"/><g n="basura">vasura<sus tipo="bxv"/></g><l/>
+<nl num="24"/><g>focos</g><l/>
+<nl num="25"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g>
+<g>maestra</g><l/>
+<nl num="26"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g><tachado>n</tachado>iñas<correccion tipo="susti"/></g><l/>
+<nl num="27"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="hombres">on<e/>bres<omi tipo="h"/><sus tipo="mxn"/><hiperseg/></g><l/>
+<nl num="28"/><g n="y">i<sus tipo="yxi"/></g><e/>
+<g n="cuentos">cuen<e/>tos<hiperseg/></g><l/>
+<nl num="29"/><g>mochiLas<mayInter/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. encima "y"</com>
+<com>11. encima "b" sobre "v"</com>
+<com>14. encima "b" sobre "v"</com>
+<com>26. encima "n" sobre "m"</com>
+</comentarios>
+</documento>

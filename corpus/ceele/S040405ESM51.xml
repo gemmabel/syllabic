@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="5" permisos="todos">
+
+		<titulo>S040405ESM51</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="CAMCASSER"/>
+
+		<referencia id="CAMCASSER">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+
+	<archivo nombre="S040405ESM51.txt"/>
+	<imagen archivo="S040405ESM51.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><e/>
+<g><tachado>es</tachado><correccion tipo="elimi"/></g><e/>
+<g>Y<mayIni/>o</g><e/>
+<g>soy</g><e/>
+<g n="Sergio">s<sus tipo="Sxs"/>ergio</g><e/>
+<g n="Jesús">j<sus tipo="Jxj"/>esu<omi tipo="acento"/>s</g><e/>
+<g n="Camacho">c<sus tipo="Cxc"/>amacho</g><e/>
+<g n="Casillas">c<sus tipo="Cxc"/>asillas</g><l/>
+<nl num="3"/><g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<l/>
+<nl num="4"/><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>un</g><e/>
+<g n="pizarrón">pis<sus tipo="zxs"/>arro<omi tipo="acento"/><e/><hiperseg/>n</g><l/>
+<nl num="5"/><g>n</g><e/>
+<g>tiene</g><e/>
+<g>muchos</g><e/>
+<g>salones</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="6"/><g>mi</g><e/>
+<g>maestra</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Nelly">n<sus tipo="Nxn"/>el<omi tipo="l"/>i<sus tipo="yxi"/></g><e/>
+<l/>
+<nl num="7"/><g>y</g><e/>
+<g>mi</g><e/>
+<g n="hermano"><omi tipo="h"/>ermano</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Gerardo">g<sus tipo="Gxg"/>u<agre tipo="u"/>erardo</g><e/>
+<g>D<mayNP/>aniel</g><l/>
+<nl num="8"/><g>mi</g><e/>
+<g>papá</g><e/>
+<g>tiene</g><e/>
+<g n="treinta">trei<omi tipo="n"/>ta<hiposeg/></g><g n="y">i<sus tipo="yxi"/><hiposeg/></g><g>uno</g><l/>
+<nl num="9"/><g>mi</g><e/>
+<g>mamá</g><e/>
+<g>tiene</g><e/>
+<g n="veintiocho">vei<omi tipo="n"/>ti<e/><hiperseg/>ocho</g><e/>
+<l/>
+<nl num="10"/><g n="voy">b<sus tipo="vxb"/>oi<sus tipo="yxi"/></g><e/>
+<g>a<hiposeg/></g><g>la</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g>c<tachado>a</tachado><correccion tipo="susti"/>minando</g><e/>
+<l/>
+<nl num="11"/><g>parque</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<hiposeg/></g><g>la</g><e/>
+<g n="hora"><omi tipo="h"/>ora</g><e/>
+<g>del</g><e/>
+<g>recreo</g><e/>
+<l/>
+<nl num="12"/><g>tenemos</g><e/>
+<l/>
+<nl num="13"/><g>que</g><e/>
+<g>ter<l tipo="singuion"/><l/>
+<nl num="14"/>minar</g><e/>
+<g>un</g><e/>
+<g>trabajo</g><e/>
+<l/>
+<nl num="15"/><g>para</g><e/>
+<g>salir</g><e/>
+<l/>
+<nl num="16"/><g n="cuando">cuanD<sus tipo="dxD"/>o</g><e/>
+<g>salimos</g><e/>
+<g n="jugamos">f<sus tipo="jxf"/>ugas<agre tipo="s"/>ma<sus tipo="oxa"/><omi tipo="s"/><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="17"/><g n="al">a<omi tipo="l"/></g><e/>
+<g>futbol</g><l/>
+<nl num="18"/><g>dan</g><e/>
+<g>el</g><e/>
+<g>timbre</g><l/>
+<nl num="19"/><g>nos</g><e/>
+<g n="metemos">meti<sus tipo="exi"/>mos<hiposeg/></g><g>a<tachado>l</tachado><correccion tipo="susti"/></g><e/>
+<g>entramos</g><e/>
+<g>al</g><e/>
+<g n="salón">salo<omi tipo="acento"/>n</g><l/>
+<nl num="20"/><g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g n="números">nu<omi tipo="acento"/>meros</g><e/>
+<g>en</g><e/><l/>
+<nl num="21"/><g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="escuela">es<e/><hiperseg/>cuela</g><e/>
+<g>es</g><e/><g>tan</g><l/>
+<nl num="22"/><g>bonita</g><e/>
+<g>que</g><e/>
+<g>tiene</g><e/>
+<l/>
+<nl num="23"/><g>canchas</g><e/>
+<g>baños</g><e/>
+<g>pisos</g><e/>
+<l/>
+<nl num="24"/><g n="hasta"><omi tipo="h"/>as<e/><hiperseg/>ta</g><e/>
+<g>otro</g><e/>
+<g>patio</g><e/>
+<g>en<tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="25"/><g n="otro">o<omi tipo="t"/>ro</g><e/>
+<g>patio</g><e/>
+<g n="no">l<sus tipo="nxl"/>o</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g n="van">b<sus tipo="vxb"/>a<omi tipo="n"/></g><e/>
+<g>a</g><e/>
+<g n="jugar">f<sus tipo="jxf"/>uga<omi tipo="r"/><hiposeg/></g><g>niñas</g><e/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2 Tacha</com>
+<com>10 Encima</com>
+<com>11 Tacha</com>
+<com>16 No se entiende</com>
+<com>16 Encerrada en un recuadro</com>
+<com>19, 20, 21 No se entiende </com>
+<com>24 Tacha</com>
+<com>11, 12  Orden confuso</com>
+<com>17-21 Hace rayas verticales como para separar palabras.</com>
+</comentarios>
+</documento>

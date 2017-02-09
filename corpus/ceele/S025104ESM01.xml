@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="56" permisos="todos">
+	<titulo>S025104ESM01</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ALDGOMCRI"/>
+
+	<referencia id="ALDGOMCRI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+	
+	<archivo nombre="S025104ESM01.txt"/>
+	<imagen archivo="S025104ESM01a.jpg"/>
+	<imagen archivo="S025104ESM01b.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Cristian">cristian<sus tipo="Cxc"/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quién">quién<sus tipo="Qxq"/></g><e/>
+<g>soy</g><e/></pi>
+<r c="Fgs">-</r><e/>
+<g>me</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llamo</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Cristian">cristian<sus tipo="Cxc"/></g><l/>
+<nl num="4"/><g n="Moisés">Moises<mayNP/><omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Aldvenda">aldvenda<sus tipo="Axa"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="5"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="Gómez">Gome<tachado>s</tachado><correccion tipo="elimi"/><mayNP/>z</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="6"/><g n="vivo">bibo<sus tipo="vxb"/><sus tipo="vxb"/></g><e/>
+<g>en</g><e/>
+<g>Pimientillo<mayNP/></g><e/>
+<g n="Nay." tipo="abrev">nay<sus tipo="Nxn"/><omi tipo="punto abrev"/></g><l/>
+<nl num="7"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g n="nuestra">nu<e/>estro<sus tipo="axo"/><hiperseg/></g><e/>
+<g>escuela</g><l/></pi>
+<nl num="8"/><g n="Tiene">tiene<sus tipo="Txt"/></g><e/>
+<g>aire</g><e/>
+<g n="acondicionado">acondisionado<sus tipo="cxs"/></g><l/>
+<nl num="9"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="aquí">aqui<omi tipo="acento"/></g><e/>
+<g>tenemos</g><e/>
+<g n="agua">agüa<agre tipo="¨"/></g><l/>
+<nl num="10"/><g n="tenemos">te<e/>nemos<hiperseg/></g><e/>
+<g n="tele">te<e/>le<hiperseg/></g><l/>
+<nl num="11"/><pi><g n="Cómo">co<e/>mo<sus tipo="Cxc"/><hiperseg/></g>
+<g>llegamos<hiposeg/></g><e/>
+<g>a</g><e/>
+<g n="nuestra">nuest<e/><hiperseg/>ro<sus tipo="axo"/></g>
+<g>escuela<hiposeg/></g><l/></pi>
+<nl num="12"/><g n="Camino">cami<e/>no<sus tipo="Cxc"/><hiperseg/></g><e/>
+<g>una</g><e/>
+<g n="cuadra">cua<e/>dra<hiperseg/></g><l/>
+<nl num="13"/><g>yo</g><e/>
+<g n="vivo">bibo<sus tipo="vxb"/><sus tipo="vxb"/></g><e/>
+<g n="muy">mui<sus tipo="yxi"/></g><e/>
+<g n="cercas">sercos<sus tipo="cxs"/><sus tipo="axo"/></g><l/>
+<nl num="14"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><e/>
+<g>en</g><e/>
+<g>la</g>
+<g>es<hiposeg/><e/>cuela<hiperseg/></g><l/></pi>
+<nl num="15"/><g n="Estudiamos">estudiamos<sus tipo="Exe"/></g><e/>
+<g>mucho</g><l/>
+<nl num="16"/><g n="salimos">sali<e/>mos<hiperseg/></g><e/>
+<g>al</g><e/>
+<g>recreo</g><l/>
+<nl num="17"/><g>salimos</g><e/>
+<g>a</g><e/>
+<g n="física">fisico<omi tipo="acento"/><sus tipo="axo"/></g><l/>
+<nl num="18"/><g>FIN</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. no se distingue lo que tacha</com>
+<com>5. no se distingue lo que tacha y tacha "s"</com>
+<com>9. tacha lo que escribe</com>
+<com>Al principio el niño separa las palabras con guiones.</com>
+<com>Pone la palabra "FIN"  con mayúsculas y hace la letra más grande.</com>
+</comentarios>
+</documento>

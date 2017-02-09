@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="22" permisos="todos">
+
+		<titulo>S041001EscF03</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="JAIRENMAR"/>
+
+		<referencia id="JAIRENMAR">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+		
+
+	<archivo nombre="S041201EscF03.txt"/>
+	<imagen archivo="S041201EscF03a.jpg"/>
+	<imagen archivo="S041201EscF03b.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Mi">mi<sus tipo="Mxm"/></g><e/>
+<g>escuela</g><e/>
+<g tipo="grado">2</g><r c="Fp">.</r><g>B</g><l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/></g><e/>
+<g>soy</g></pi><e/>
+<g n="María">Maria<mayNP/><omi tipo="acento"/></g><e/>
+<g>tengo</g><e/>
+<g>8</g><e/>
+<g>años</g><e/>
+<g>mi</g><l/>
+<nl num="3"/><e/>
+<g>papá</g><e/>
+<g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g n="Toño">toño<sus tipo="Txt"/></g><e/>
+<g n="Lena">lena<sus tipo="Lxl"/></g><e/>
+<g>mi</g><e/>
+<g>maestra</g><l/>
+<nl num="4"/><e/>
+<g>se</g><e/>
+<g n="llama">yama<sus tipo="llxy"/></g><e/>
+<g>Rosa<mayNP/></g><e/>
+<g n="María">Maria<mayNP/><omi tipo="acento"/></g><e/>
+<g n="Ortega">ortega<sus tipo="Oxo"/></g><e/>
+<g n="Navarrete">nadarrete<sus tipo="Nxn"/><sus tipo="vxd"/></g><l/>
+<nl num="5"/><e/>
+<g><tachado>a</tachado></g><e/>
+<g><tachado>la</tachado><correccion tipo="elimi"/></g><e/>
+<g>a</g><e/>
+<g>mi</g><e/>
+<g>me</g><e/>
+<g>gusta</g><e/>
+<g>jugar</g><e/>
+<g>a</g><e/>
+<g>la</g><l/>
+<nl num="6"/><e/>
+<g>cuerda</g><e/>
+<g>a</g><e/>
+<g>mi</g><e/>
+<g>me</g><e/>
+<g>gusta</g><e/>
+<g>comer</g><e/>
+<g>tostadas</g><l/>
+<nl num="7"/><e/>
+<g>de</g><e/>
+<g>cuachala</g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>ti</g><e/>
+<g>no</g><e/>
+<g>te</g><e/>
+<g>gusta</g><e/>
+<g>didujar</g><e/>
+<l/>
+<nl num="8"/><e/>
+<g>mi</g><e/>
+<g>pue<tachado>b</tachado>lo<correccion tipo="susti"/></g><e/>
+<g>se</g><e/>
+<g>llaman</g><e/>
+<g>Santa<tachado>r</tachado><mayNP/></g><e/>
+<g><tachado>s</tachado><correccion tipo="elimi"/></g><e/>
+<g n="María">Maria<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="9"/><e/>
+<g><tachado>tenemos</tachado><correccion tipo="elimi"/></g><e/>
+<g n="bueno">vueno<sus tipo="bxv"/></g><e/>
+<g><tachado>y</tachado>a<correccion tipo="susti"/></g><e/>
+<g>me</g><e/>
+<g>voy</g><e/>
+<g n="adiós">a<hiperseg/><e/>dios<omi tipo="acento"/></g><r c="Fp">.</r><l/>
+<l/>
+<l/>
+<nl num="10"/><g n="María">Maria<mayNP/><omi tipo="acento"/></g><l/>
+<nl num="11"/><g n="cómo">come<omi tipo="acento"/><sus tipo="oxe"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><l/>
+<nl num="12"/><g>mi</g><e/>
+<g n="pizarrón">pisarron<sus tipo="zxs"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g n="bonito"><tachado>d</tachado>onito<rotac tipo="b"/></g><l/>
+<nl num="13"/><g>y</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g n="dibujos">di<tachado>d</tachado>u[j]os<rotac tipo="b"/></g><l/>
+<nl num="14"/><g>tiene</g><e/>
+<g>cajas</g><e/>
+<g><tachado>te</tachado><correccion tipo="elimi"/></g><e/>
+<g>tengo</g><e/>
+<g n="números">numeros<omi tipo="acento"/></g><l/>
+<nl num="15"/><g>tapetes</g><e/>
+<g>y</g><e/>
+<g>pue<tachado>r</tachado>ta<correccion tipo="agrega"/></g><e/>
+<g>y</g><e/>
+<g>ventana</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="16"/><g>se</g><e/>
+<g>llama</g><e/>
+<g>Justo<mayNP/></g><e/>
+<g>Sierra<mayNP/></g><e/>
+<g>y</g><e/>
+<g n="tenemos">tenemo<omi tipo="s"/></g><l/>
+<nl num="17"/><g>es</g><e/>
+<g>de</g><e/>
+<g n="brillos">briyos<sus tipo="llxy"/></g><e/>
+<g>y</g><e/>
+<g n="hay">ay<omi tipo="h"/></g><e/>
+<g>venti<hiperseg/><e/>ladores</g><e/>
+<l/>
+<nl num="18"/><g>tenemos</g><e/>
+<g>agua</g><r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="19"/><pi><g n="Cómo">com<tachado>o</tachado><sus tipo="Cxc"/><omi tipo="acento"/><correccion tipo="susti"/></g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="20"/><g><tachado>m</tachado><correccion tipo="elimi"/></g><e/>
+<g>nos<hiperseg/><e/>otros</g><e/>
+<g>nos</g><e/>
+<g>va<tachado>m</tachado>os<correccion tipo="elimi"/></g><e/>
+<g>en</g><l/>
+<nl num="21"/><g>camioneta</g><e/>
+<g>y</g><e/>
+<g n="entramos">en<hiperseg/><e/>tranos<sus tipo="mxn"/></g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>8<hiposeg/></g>
+<g>pm</g><l/>
+<nl num="22"/><g>y</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>grande</g><l/>
+<l/>
+<nl num="23"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos">a<tachado>c</tachado>enos<correccion tipo="susti"/><omi tipo="h"/><sus tipo="mxn"/></g><e/>
+<g><tachado>a</tachado></g><e/>
+<g><tachado>les</tachado><correccion tipo="elimi"/></g><e/>
+<g>en</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="24"/><g n="sacamos">sacanos<sus tipo="mxn"/></g><e/>
+<g>los</g><e/>
+<g n="tapetes">tapete<omi tipo="s" error="concord"/></g><e/>
+<g>los</g><l/>
+<nl num="25"/><g n="lunes">Lunes<sus tipo="lxL"/></g><e/>
+<g n="hacemos">a<omi tipo="h"/><hiperseg/><e/>se<sus tipo="cxs"/><hiperseg/><e/>nos<sus tipo="mxn"/></g><e/>
+<g n="honores">onores<omi tipo="h"/></g><l/>
+<nl num="26"/><g>y</g><e/>
+<g n="hacemos">acenos<omi tipo="h"/><sus tipo="mxn"/></g><e/>
+<g n="matemáticas">matematicas<omi tipo="acento"/></g><l/>
+<nl num="27"/><g>y</g><e/>
+<g>a<hiposeg/></g>
+<g>mi</g><e/>
+<g>me</g><e/>
+<g>pican</g><e/>
+<g>las</g><e/>
+<g n="abejas">a<tachado>d</tachado>ejas<rotac tipo="b"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>1. Está centrado el renglón.</com>
+<com>8. Bajo la "b" hay una "r".</com>
+<com>9. Bajo la "y" hay una "ll".</com>
+<com>10. Las primeras dos letras están escritas con otro tipo de letra.</com>
+<com>13. Sobre la "j" hay otra "j".</com>
+<com>19. Bajo la "o" hay una "e".</com>
+<com>23. Bajo la "c" hay una "s" y una "L".</com>
+</comentarios>
+</documento>

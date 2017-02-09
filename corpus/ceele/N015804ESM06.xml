@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="232" permisos="todos">
+
+	<titulo>N015804ESM06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GONCASBRY"/>
+
+	<referencia id="GONCASBRY">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>								
+
+	<archivo nombre="N015804ESM06.txt"/>
+	<imagen archivo="N015804ESM06.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Bryan">B<mayNP/>R<sus tipo="rxR"/>a<agre tipo="a"/>Y<sus tipo="yxY"/>a<omi tipo="n"/></g><e/>
+<g tipo="abrev">G<mayNP/></g><r c="Fp" punto="abrev">.</r><e/>
+<g>C</g><l/>
+<nl num="2"/><g n="soy">S<mayIni/>oY<sus tipo="yxY"/></g><e/>
+<g n="Bryan">B<mayNP/>R<sus tipo="rxR"/>a<agre tipo="a"/>Y<sus tipo="yxY"/>a<omi tipo="n"/></g><e/>
+<g>y</g><e/>
+<g n="tengo">tencc<sus tipo="gxc"/>o</g><e/>
+<g>89</g><e/>
+<g>años</g><l/>
+<nl num="3"/><g n="vivo">vib<sus tipo="vxb"/>o</g><e/>
+<g>en</g><e/>
+<g n="Tinaja">t<sus tipo="Txt"/>ijaan<per tipo="n"/>a<tachado>x</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="4"/><g n="tengo">tenc<sus tipo="gxc"/>o</g><e/>
+<g><tachado>3</tachado><correccion tipo="susti"/></g><e/>
+<g n="hermanos"><omi tipo="h"/>ermanos</g><l/>
+<nl num="5"/><g>se<hiposeg/></g>
+<g>llaman<hiposeg/></g><e/>
+<g n="Lupita">L<mayNP/>uP<mayInter/>ita<hiposeg/></g>
+<g>y<hiposeg/></g><e/>
+<g n="Ramón">r<sus tipo="Rxr"/>amo<omi tipo="acento"/>n</g><l/>
+<nl num="6"/><g>L<mayNP/>upita</g><e/>
+<g>3</g><e/>
+<g>años</g><e/>
+<g n="Ramón">r<sus tipo="Rxr"/>amo<omi tipo="acento"/>n</g><e/>
+<g>2</g><e/>
+<g>años</g><l/>
+<nl num="7"/><pi><g n="Quién">Q<mayIni/>u<tachado>i</tachado><correccion tipo="susti"/>e<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="8"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escueL<mayInter/>a</g></pi><l/>
+<nl num="9"/><g n="Es">e<sus tipo="Exe"/>s</g><e/>
+<g n="bonita">v<sus tipo="bxv"/>onita</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rbol<agre tipo="l"/>les</g><l/>
+<nl num="10"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="11"/><g n="Caminando">c<sus tipo="Cxc"/>aminnn<agre tipo="nn"/>an<sus tipo="dxn"/>o</g><e/>
+<g>vengo</g><e/>
+<g>a</g><e/>
+<g n="las">L<sus tipo="lxL"/>as</g><e/>
+<g tipo="otra">8</g><e/>
+<g n="y">i<sus tipo="yxi"/><hiposeg/></g>
+<g>medía<hiposeg/></g><l/>
+<nl num="12"/><pi><g>Qué</g><e/>
+<g n="hacemos">has<sus tipo="cxs"/>emos</g><e/>
+<g>en</g><e/>
+<g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="escuela">escueL<mayInter/>a</g></pi><l/>
+<nl num="13"/><g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<g n="jugamos">juv<sus tipo="vxg"/>amos</g><e/>
+<g n="vamos">b<sus tipo="vxb"/>amos</g><e/>
+<g>a</g><e/>
+<g n="comprar">com<e/>pra<e/>l<sus tipo="lxr"/><hiperseg/></g><l/>
+<nl num="14"/><g>me<hiposeg/></g>
+<g>gusta<hiposeg/></g><e/>
+<g n="trabajar">t<omi tipo="r"/>av<sus tipo="bxv"/>ajr<per tipo="r"/>a</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. "Bryan" está subrayado</com>
+<com>2. Un tachón</com>
+<com>3. Normalicé la palabra "tijaana" como "Tinaja", parecía ser más "Tijuana", pero busqué el poblado y sí existe en Nayarit.Además, lo etiqueté como permutación, la "n" parece ser la grafía a la que el niño no le encuentra lugar y después no sabe que hacer con todas las "a's"Corrige una inversión del "3".</com>
+<com>4. Corrección de "i" por "e" y la pregunta "¿Quién soy?" esta circulada.</com>
+<com>5. Inversión de "a"</com>
+<com>6. Todo un renglón tachado</com>
+<com>7. La pregunta "¿Cómo llegamos a la escuela?" está circulada.</com>
+<com>8. El aplicador escribió "caminando" bajo la primera palabra de esta línea.</com>
+<com>9. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+<com>10. Marca 1: tachón, marca 2: parece no haber terminado el trazo de la segunda "r"</com>
+
+</comentarios>
+</documento>

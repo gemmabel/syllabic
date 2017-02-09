@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="206" permisos="todos">
+
+	<titulo>N015303ESM05</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MARMORCAR"/>
+
+	<referencia id="MARMORCAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="N015303ESM05.txt"/>
+	<imagen archivo="N015303ESM05a.jpg"/>
+	<imagen archivo="N015303ESM05b.jpg"/>
+	<vista tipo="N"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Daniel</g><l/>
+<nl num="2"/><pi><g n="Quién">q<sus tipo="Qxq"/>uie<omi tipo="acento"/>n</g><e/><g>soy</g></pi><l/>
+<nl num="3"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><g>la</g><e/>
+<g>escuela</g><e/></pi><l/>
+<nl num="4"/><g n="Es">e<sus tipo="Exe"/>s</g><e/>
+<g>de</g><e/>
+<g n="mezcla">mes<sus tipo="zxs"/>cla</g><e/>
+<g>y<hiposeg/></g>
+<g>de<hiposeg/></g><e/>
+<g>ladrillos</g><l/>
+<nl num="5"/><g>tiene<hiposeg/></g>
+<g>cancha<hiposeg/></g><e/>
+<g>tiene<hiposeg/></g>
+<g>tiendita<hiposeg/></g><l/>
+<nl num="6"/><g>es</g><e/>
+<g n="grandota">G<sus tipo="gxG"/>randota</g><e/>
+<g>tiene<hiposeg/></g>
+<g>much<tachado>a</tachado><correccion tipo="susti"/>s<hiposeg/></g>
+<g>aulas<hiposeg/></g><l/>
+<nl num="7"/><g>tiene<hiposeg/></g>
+<g n="dirección">direcs<sus tipo="cxs"/>io<omi tipo="acento"/>n<hiposeg/></g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g>bonita</g><l/>
+<nl num="8"/><g>tiene<hiposeg/></g>
+<g n="árboles">a<omi tipo="acento"/>rboles<hiposeg/></g><l/>
+<nl num="9"/><pi><g n="cómo">co<omi tipo="acento"/>mo<hiposeg/></g>
+<g n="llegamos">y<tachado>e</tachado><correccion tipo="susti"/><hiperseg/><e/>gamos<hiperseg/></g><e/>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><l/>
+<nl num="10"/><g>dan</g><e/>
+<g>clases<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>las<hiposeg/></g><e/>
+<g tipo="otra">ocho</g><e/>
+<g n="nos">no</g><e/>
+<g n="venimos">venel<agre tipo="l"/><tachado>m</tachado><correccion tipo="susti"/><omi tipo="o"/>s</g><l/>
+<nl num="11"/><g>a<hiposeg/></g>
+<g>las<hiposeg/></g><e/>
+<g tipo="otra">siete<hiposeg/></g>
+<g>y<hiposeg/></g>
+<g>media<hiposeg/></g><e/>
+<g>y</g><e/>
+<g>media<hiposeg/></g>
+<g n="hora"><omi tipo="h"/>u<sus tipo="oxu"/>ra<hiposeg/></g><l/>
+<nl num="12"/><g n="jugamos">jug<omi tipo="am"/>os</g><e/>
+<g>con<hiposeg/></g>
+<g n="nuestros">nv<sus tipo="uxv"/>est<tachado>r</tachado><correccion tipo="agrega"/><hiperseg/><e/>os<hiperseg/></g><e/>
+<g n="amigos">a<hiperseg/><e/>migos<hiperseg/></g><l/>
+<nl num="13"/><pi><g n="Qué">q<sus tipo="Qxq"/>ue<omi tipo="acento"/><hiposeg/></g>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos<hiposeg/></g><e/>
+<g>en</g><e/>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><l/>
+<nl num="14"/><g n="Jugamos">j<sus tipo="Jxj"/>ugamos</g><e/>
+<g n="leemos">L<sus tipo="lxL"/>eemos</g><e/>
+<g n="escribimos">escribe<sus tipo="ixe"/>mos</g><l/>
+<nl num="15"/><g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>tarea</g><l/>
+<nl num="16"/><g n="salimos">sale<sus tipo="ixi"/>mos<hiposeg/></g>
+<g>a<hiposeg/></g><e/>
+<g n="física">F<sus tipo="fxF"/>i<omi tipo="acento"/>sica</g><l/>
+<nl num="17"/><g n="adiós">a<tachado>d</tachado><correccion tipo="susti"/>io<omi tipo="acento"/>s</g><e/>
+<g n="Fátima">FA<mayInter/><omi tipo="acento"/>tima</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. y 3. Aquí, las dos preguntas están circuladas.</com>
+<com>6. Corrección: parece de "a" sobre "a".</com>
+<com>9. Corrección: "e" por "o"</com>
+<com>10. Después de "ocho" no se entiende. Inversión aparente de dos "a's".</com>
+<com>12. Corrección: de "r" por "o" (sílaba trabada).</com>
+<com>Al reverso</com>
+<com>13. La pregunta "¿Qué hacemos en la escuela?" está circulada.</com>
+<com>17. Corrección: "s" por "d"</com>
+</comentarios>
+</documento>

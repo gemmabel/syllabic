@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="68" permisos="todos">
+	<titulo>S040401ESM08</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="RAMAYOJAV"/>
+
+	<referencia id="RAMAYOJAV">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESM08.txt"/>
+	<imagen archivo="S040401ESM08.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>es<tachado>c</tachado><correccion tipo="susti"/>cuela</g><l/>
+<nl num="2"/><g n="Hola"><omi tipo="H"/>ola</g><e/>
+<g><tachado>me</tachado></g><e/>
+<g n="llamo"><tachado>y<sus tipo="llxy"/>amo</tachado><correccion tipo="susti"/></g><e/>
+<g>J<mayNP/>avier</g><e/>
+<g n="Alejandro">A<mayNP/>L<mayInter/>e<e/><hiperseg/>
+jandro</g><e/>
+<g>R<mayNP/>am<tachado>í</tachado><correccion tipo="agrega"/>rez</g><e/>
+<g>A<mayNP/>yón</g><l/>
+<nl num="3"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g n="siete">c<sus tipo="sxc"/>iete</g><e/>
+<g>añ<tachado>o</tachado><correccion tipo="susti"/>s</g><e/>
+<r c="Fc">,</r><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Tepic">t<sus tipo="Txt"/>epic</g><l/>
+<nl num="4"/><g>mi</g><e/>
+<g>es<tachado>c</tachado><correccion tipo="susti"/>uela</g><e/>
+<g>es</g><e/>
+<g>diferente</g><e/>
+<g><tachado>a</tachado><correccion tipo="susti"/></g><e/>
+<g>la</g><e/>
+<g n="tuya">tull<sus tipo="yxll"/>a</g><e/>
+<g n="porque">pa<sus tipo="oxa"/>r<e/><hiperseg/>
+que</g><e/>
+<g>la</g><e/>
+<g n="mía">mi<omi tipo="acento"/>a</g><e/>
+<g>tiene</g><l/>
+<nl num="5"/><g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>canchas</g><e/>
+<g>gra<tachado>das</tachado><correccion tipo="susti"/></g><l/>
+<nl num="6"/><g>yo</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>caminando</g><e/>
+<g>por</g><e/>
+<g>que</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="cerca">s<sus tipo="cxs"/>erca</g><l/>
+<nl num="7"/><g>me</g><e/>
+<g n="trae">t<tachado>rá<agre tipo="acento"/></tachado><correccion tipo="susti"/>i<sus tipo="exi"/></g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="8"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>casa</g><e/>
+<g>no</g><e/>
+<g>es</g><e/>
+<g>igual</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="tuya">tull<sus tipo="yxll"/><tachado>a</tachado><correccion tipo="susti"/></g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g n="ladrillo">ladriy<sus tipo="llxy"/>o</g><l/>
+<nl num="9"/><g>tengo</g><e/>
+<g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g n="televisión">telé<per tipo="acento"/>vision</g><l/>
+<nl num="10"/><g>yo</g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<g>es<tachado>c</tachado><correccion tipo="susti"/>uela</g><e/>
+<g>me</g><e/>
+<g>dan</g><e/>
+<g n="inglés">ingle<omi tipo="acento"/>s</g><e/>
+<g>y</g><e/>
+<g n="educación">educacio<omi tipo="acento"/>n</g><e/>
+<g n="física">fi<omi tipo="acento"/>sica</g><l/>
+<nl num="11"/><g n="matemática">matema<omi tipo="acento"/>tica</g><e/>
+<g n="español">es<e/><hiperseg/>pañol</g><e/>
+<g>y</g><e/>
+<g n="integrado">inte<e/><hiperseg/>grado</g><e/>
+<g>y</g><e/>
+<g n="jugamos">g<sus tipo="jxg"/>ugamos</g><e/>
+<g>c<tachado>o</tachado><correccion tipo="susti"/>n</g><e/>
+<g n= "los">la<sus tipo="oxa" error="concord"/>s</g><e/>
+<g n="juegos">g<sus tipo="jxg"/>uegos</g><l/>
+<nl num="12"/><g>de</g><e/>
+<g n="matemáticas">mate<e/>ma<omi tipo="acento"/>ticas</g><e/>
+<g>con</g><e/>
+<g>las</g><e/>
+<g>fichas</g><l/>
+<nl num="13"/><firma tipo="a"><g>Javier</g><e/>
+<g>ALe<e/>ja<tachado>n</tachado>dro</g><e/>
+<g>Ram<tachado>i</tachado>rez</g><e/>
+<g>Ayón</g></firma><l/>
+<l/><dibujo/>
+</cuerpo>
+<comentarios>
+<com>1 Borra. </com>
+<com>2 Borra. Decía "me yamo"</com>
+<com>2 A la "i" le pone punto y tilde</com>
+<com>3 Borra</com>
+<com>4 Borra y corrige, había escrito una "u"</com>
+<com>4 Borra </com>
+<com>5 Borra </com>
+<com>7 Borra </com>
+<com>7 Agrega tilde</com>
+<com>8 Borra </com>
+<com>9 No se entiende si es tilde o línea accidental</com>
+<com>10 Borra </com>
+<com>11 Encima. Decía "a"</com>
+<com>12 Encima. Decía "a"  </com>
+<com>13 Borra </com>
+<com>13 A la "i" le pone punto y tilde </com>
+<com>13 Firmasin alterar la letra</com>
+<com>Hay diseño de página: Título centrado, espacio entre el título y el resto del texto.</com>
+<com>Hace dibujo al final del texo                    </com>
+
+
+</comentarios>
+</documento>

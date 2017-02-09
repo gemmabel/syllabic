@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="128" permisos="todos">
+
+	<titulo>N025106ESF06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MEDAREMAR"/>
+
+	<referencia id="MEDAREMAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESF06.txt"/>
+	<imagen archivo="N025106ESF06.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>mi</g><e/>
+<g>nombre</g><e/>
+<g n="María">Maria<mayNP/><omi tipo="acento"/></g><e/>
+<g n="Conchita">conchita<sus tipo="Cxc"/></g><e/>
+<g>Medrano<mayNP/></g><e/>
+<g>Arenas<mayNP/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><e/>
+<pi><g n="Quién">Quien<omi tipo="acento"/></g><e/>
+<g>soy</g><e/></pi>
+<g n="María">Maria<mayIni/><omi tipo="acento"/></g>
+<g n="Conchita">conchita<sus tipo="Cxc"/><hiposeg/></g><l/>
+<nl num="3"/><g>de</g><e/>
+<g n="dónde">dond<tachado>e</tachado><correccion tipo="susti"/><omi tipo="acento"/></g><e/>
+<g>eres</g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g>Boquita</g><e/>
+<g>Nay<r c="Fp" punto="abrev">.</r><l/></g><e/>
+<nl num="4"/><g><tachado>vivo</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>o</tachado><correccion tipo="elimi"/></g><e/>
+<g n="cuántos">cuantos<omi tipo="acento"/></g><e/>
+<g>años</g><e/>
+<g>7</g><e/>
+<pi><g>cómo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g><e/></pi>
+<g>mi</g><l/>
+<nl num="5"/><g>escuela</g><e/>
+<g n="tiene">tien<omi tipo="e"/></g><e/>
+<g>abanicos</g><e/>
+<r c="Fc">,</r><e/>
+<g>libros</g><e/>
+<r c="Fc">,</r><e/>
+<g>luz</g><e/>
+<r c="Fc">,</r><e/>
+<g>dirección</g><e/>
+<r c="Fc">,</r><e/>
+<g>escritorio</g><l/>
+<nl num="6"/><r c="Fc">,</r><e/>
+<g><tachado>cilla</tachado><correccion tipo="elimi"/></g><e/>
+<g n="sillas">sillos<sus tipo="axo"/></g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<r c="Fc">,</r><e/>
+<g>baños</g><e/>
+<r c="Fc">,</r><e/>
+<g n="ceiba">seibo<sus tipo="cxs"/><sus tipo="axo"/></g><e/>
+<r c="Fc">,</r><l/>
+<nl num="7"/><pi><g>cómo</g><e/>
+<g>llegas</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/></pi>
+<g>caminando</g><e/>
+<r c="Fc">,</r><e/>
+<g>en</g><e/>
+<g n="bici">bisi<sus tipo="cxs"/></g><e/>
+<r c="Fc">,</r><l/>
+<nl num="8"/><pi><g n="Qué">que<omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g>
+<g>escuela<hiposeg/></g><e/></pi>
+<g>leer</g><e/>
+<r c="Fc">,</r><e/>
+<g>escribir</g><e/>
+<r c="Fc">,</r><e/>
+<g n="ponerle">ponele<omi tipo="r"/></g><e/>
+<g n="atención">ate<omi tipo="n"/><r c="Fg">-</r><l tipo="guion"/><l/>
+<nl num="9"/>sio<sus tipo="cxs"/><omi tipo="acento"/><omi tipo="n"/></g><e/>
+<g n="al">ol<sus tipo="axo"/></g>
+<g>profe</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. encima "e" sobre "o"</com>
+<com>3. tacha "vivo" y tacha "o"</com>
+<com>6. tacha "cilla"</com>
+<com>La niña en la línea 4, en la palabra "nuestra" parace que puso acento en la u la "u"</com>
+</comentarios>
+</documento>

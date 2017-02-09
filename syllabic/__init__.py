@@ -3,7 +3,8 @@ import os
 
 from cleaner import StoryParser
 from syllabic import SyllableStatistics
-from syllabificator import Silabicador
+from syllabicator import Silabicador
+from ngram import BiGram
 
 
 source_dir = "../corpus/raw/"
@@ -107,5 +108,6 @@ result = syl("supercalifragilisticoespiralidoso")
 print("%s" % result)
 
 # Send the complete corpus to analysis
-stats = SyllableStatistics(res_dir)
+#stats = SyllableStatistics(res_dir)
+ngram = BiGram(res_dir)
 import ipdb;ipdb.set_trace()

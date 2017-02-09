@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="240" permisos="todos">
+
+	<titulo>N015901EscM06</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PERBARROS"/>
+
+	<referencia id="PERBARROS">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>						
+
+	<archivo nombre="N015901EscM06.txt"/>
+	<imagen archivo="N015901EscM06.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Rosario">Rosalio<mayNP/><sus tipo="rxl"/></g><r c="Fgs">-</r><g>Peralta<mayIni/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>Barrios<mayNP/></g><l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">quien<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="soy">Soy<sus tipo="sxS"/></g></pi><l/>
+<nl num="3"/><e/>
+<g>me<hiposeg/></g>
+<g>gusta<hiposeg/></g>
+<g>el<hiposeg/></g>
+<g n="arroz">arros<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g n="los">lo<omi tipo="s" error="concord"/></g><e/>
+<g n="frijoles">sfigoles<agre tipo="s"/><omi tipo="r"/><sus tipo="jxg"/></g><l/>
+<nl num="4"/><e/>
+<g>y</g><e/>
+<g>el<hiposeg/></g>
+<g>caldo<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g>pollo</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="5"/><e/>
+<g>mi<hiposeg/></g>
+<g n="novia">nobia<sus tipo="vxb"/><hiposeg/></g>
+<g n="Jeny">lleyni<sus tipo="jxll"/><sus tipo="Jxj"/><agre tipo="y"/><sus tipo="yxi"/></g><e/>
+<g><tachado>sos</tachado><correccion tipo="elimi"/></g><e/>
+<g><tachado>y</tachado><correccion tipo="susti"/><hiposeg/></g>
+<g>me<hiposeg/></g>
+<g>gustan<hiposeg/></g>
+<g>las<hiposeg/></g>
+<g n="mujeres">mugeres<sus tipo="jxg"/></g><l/>
+<l/>
+<nl num="6"/><e/>
+<pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es<hiposeg/></g>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="7"/><e/>
+<g>bonita</g><e/>
+<g>tiene<hiposeg/></g>
+<g n="cancha">cancHa<sus tipo="hxH"/></g><e/>
+<g>y</g><l/>
+<nl num="8"/><e/>
+<g>es<hiposeg/></g>
+<g n="bonita">bomta<sus tipo="nxm"/><omi tipo="i"/></g><e/>
+<g>y</g><e/>
+<g n="está">esta<omi tipo="acento"/><hiposeg/></g>
+<g n="adornada">abo<tachado>r</tachado>nada<rotac tipo="d"/><correccion tipo="susti"/></g><l/>
+<l/>
+<nl num="9"/><e/>
+<pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="10"/><g>en<hiposeg/></g>
+<g n="bici" tipo="abrev">bise<sus tipo="cxs"/><sus tipo="ixe"/><hiposeg/></g>
+<g n="llego">llega<sus tipo="oxa"/><hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>las<hiposeg/></g>
+<g>3<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g n="mañana">manana<sus tipo="ñxn"/></g><l/>
+<l/>
+<nl num="11"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/><hiposeg/></g>
+<g n="hacemos">hasemos<sus tipo="cxs"/><hiposeg/></g>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>es[cuela]</g></pi><l/>
+<nl num="12"/><g>me<hiposeg/></g>
+<g n="gustan">gusta<omi tipo="n" error="concord"/><hiposeg/></g>
+<g>las<hiposeg/></g>
+<g n="matemáticas">mat<tachado>e</tachado>maticas<correccion tipo="susti"/><omi tipo="acento"/></g><l/>
+<nl num="13"/><g>me<hiposeg/></g>
+<g>g<tachado>u</tachado>sta<correccion tipo="susti"/><hiposeg/></g>
+<g n="gastar">castar<sus tipo="gxc"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>5  Tachó "sos"; bajo la "y" hay una "n".</com>
+<com>8  Bajo la "r" hay una "s".</com>
+<com>11 Lo señalado está en manuscrita.</com>
+<com>12 Bajo la "e" hay una "a".</com>
+<com>13 También podría ser "cantar" en lugar de "gastar".</com>
+</comentarios>
+</documento>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="67" permisos="todos">
+	<titulo>S040401ESM04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="JARAMESAU"/>
+
+	<referencia id="JARAMESAU">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040401ESM04.txt"/>
+	<imagen archivo="S040401ESM04.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>S<mayIni/>oy</g><e/>
+<g>S<mayNP/>aúl</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>A<mayNP/>lejandro</g><e/>
+<g>J<mayNP/>arquin</g><l/>
+<nl num="3"/><g n="Amezcua">a<sus tipo="Axa"/>mes<sus tipo="zxs"/>cua</g><e/><r c="Fp" punto="seguido"></r><e/>
+<g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>te</g><e/>
+<g>va</g><l/>
+<nl num="4"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>mi</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="5"/><g n="Muy">m<sus tipo="Mxm"/>ui<sus tipo="ixy"/></g><e/>
+<g>bonita</g><e/>
+<g>porque</g><e/>
+<g><omi tipo="h"/>ay</g><e/>
+<g n= "árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="6"/><e/><g>y</g><e/>
+<g>todo</g><e/>
+<g>lo</g><e/>
+<g>que</g><e/>
+<g n= "tú">tu<omi tipo="acento"/></g><e/>
+<g n= "ves">b<sus tipo="vxb"/>es</g><l/>
+<nl num="7"/><g n="también">tan<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g>canchas</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g n="también">tan<sus tipo="mxn"/>bie<omi tipo="acento"/>n</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g>muchos</g><e/>
+<l/>
+<nl num="9"/><g>salones</g><l/>
+<nl num="10"/><g>en</g><e/>
+<g>carro</g><e/>
+<g>y</g><e/>
+<g>a</g><g n= "veces"><hiposeg/>ves<sus tipo="cxs"/>es</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="11"/><g>gusta</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="12"/><g>mucho</g><l/>
+<l/>
+<nl num="13"/><g n="aquí">aqui<omi tipo="acento"/></g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g>luz</g><e/>
+<g n="eléctrica">ele<omi tipo="acento"/><omi tipo="c"/>trica</g><l/>
+<nl num="14"/><g n="aquí">aqui<omi tipo="acento"/></g><e/>
+<g n= "hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g>cosas</g><e/>
+<g n="eléctricas">ele<omi tipo="acento"/><omi tipo="c"/>tricas</g><l/>
+<nl num="15"/><g>jugamos</g><e/>
+<g>fut<e/>bol</g><l/>
+<nl num="16"/><g>y</g><e/><e/>
+<g>jugamos</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g n="alcanzadas">alcans<sus tipo="zxs"/>adas</g><l/>
+<nl num="17"/><g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><l/>
+<nl num="18"/><g n="adiós">adio<omi tipo="acento"/>s</g><e/>
+<firma tipo="a"><g>Saúl</g><e/>
+<g>alejandro</g><e/>
+<g>Jarquin</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2 Tacha</com>
+<com>18 Firma sin alterar la letra</com>
+</comentarios>
+</documento>

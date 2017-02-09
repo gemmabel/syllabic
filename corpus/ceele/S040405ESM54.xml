@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="7" permisos="todos">
+
+		<titulo>S040405ESM54</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="SALROSROM"/>
+
+		<referencia id="SALROSROM">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables></responsables>
+
+	<archivo nombre="S040405ESM54.txt"/>
+	<imagen archivo="S040405ESM54.jpg"/>
+	<vista tipo="T"/>		
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>R<mayNP/>omán</g><e/>
+<g>A<mayNP/>ntonio</g><e/>
+<g>S<mayNP/>alas</g><e/>
+<g>R<mayNP/>osales</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<l/>
+<nl num="3"/><g>7</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g>la</g><e/>
+<g n="mayoría">mayori<omi tipo="acento"/>a</g><e/>
+<g>de</g><e/>
+<g>nosotros</g><e/>
+<g>es</g><e/>
+<g>moreno</g><l/>
+<nl num="4"/><g n="mi">M<sus tipo="mxM"/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>tiene</g><e/>
+<g>muchos</g><e/>
+<g>árboles</g><l/>
+<nl num="5"/><g>grandes</g><e/>
+<g>y</g><e/>
+<g>hay</g><e/>
+<g>6</g><e/>
+<g>salones</g><e/>
+<g>donde</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>hay</g><e/>
+<l/>
+<nl num="6"/><g>diferente</g><e/>
+<g>y</g><e/>
+<g>hay</g><r c="Fgs">-</r><g>tiendita</g><e/>
+<g>donde</g><e/>
+<g>podemos</g><e/>
+<g>comprar</g><e/>
+<l/>
+<nl num="7"/><g>dul<tachado>c</tachado><correccion tipo="susti"/>es</g><e/>
+<g>y</g><e/>
+<g n="refrescos">refresco<e/><hiperseg/>s</g><e/>
+<r c="Fc">,</r><e/>
+<g n="helados"><omi tipo="h"/>elados</g><r c="Fc">,</r><e/>
+<g>bolis</g><e/>
+<r c="Fc">,</r><e/>
+<g n="juguitos">jur<sus tipo="gxr"/><omi tipo="u"/>itos</g><e/>
+<g>y</g><e/>
+<g n="hasta"><omi tipo="h"/>asta</g><l/>
+<nl num="8"/><g>sabritas</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g>M<mayIni/>i</g><e/>
+<g n="mamá">M<sus tipo="mxM"/>amá</g><e/>
+<r c="Fc">,</r><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/><g n="María">M<mayNP/>ari<omi tipo="acento"/>a</g><e/>
+<g n="Estela"><tachado>E</tachado><mayNP/><correccion tipo="susti"/>ste<e/><hiperseg/>la</g><e/>
+<g>R<mayNP/>osales</g><l/>
+<nl num="9"/><g n="Torres">t<sus tipo="Txt"/>orres</g><e/>
+<g>y</g><e/>
+<g n="ella">ey<sus tipo="llxy"/>a</g><e/>
+<g>me</g><e/>
+<g n="trae">tray<sus tipo="exy"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>y</g><e/>
+<g>nos</g><e/>
+<g n="venimos">b<sus tipo="vxb"/>enimos</g><l/>
+<nl num="10"/><g>en</g><e/>
+<g>el</g><e/>
+<g>camión</g><e/>
+<g>y</g><e/>
+<g>llegamos</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<g n="rápido">R<sus tipo="rxR"/>a<omi tipo="acento"/>pido</g><e/>
+<r c="Fc">,</r><e/>
+<g>nos</g><e/>
+<g n="alcanzamos">alcans<sus tipo="zxs"/>amos</g><e/>
+<l/>
+<nl num="11"/><g>a</g><e/>
+<g>formar</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<g n="Leemos">l<sus tipo="Lxl"/>eemos</g><e/>
+<r c="Fc">,</r><e/>
+<g n="cantamos">cantamo<omi tipo="s"/></g><e/>
+<r c="Fc">,</r><e/>
+<g>jugamos</g><e/>
+<r c="Fc">,</r><e/>
+<g n="trabajamos">troba<e/><hiperseg/>jamos</g><e/>
+<r c="Fc">,</r><e/>
+<g n="pintamos">P<sus tipo="pxP"/>intamos</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="12"/><g>escribimos</g><e/>
+<r c="Fp" punto="final">.</r><e/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>5 Tacha</com>
+<com>7 No se entiende</com>
+<com>7 Encima. Decía "s"</com>
+<com>8 Encima. Decìa "e"</com>
+<com>Dudas</com>
+<com>7 no se entiende</com>
+</comentarios>
+</documento>

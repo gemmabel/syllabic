@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="299" permisos="todos">
+
+	<titulo>S025103ESM09</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PERINDGUI"/>
+
+	<referencia id="PERINDGUI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="S025103ESM09.txt"/>
+	<imagen archivo="S025103ESM09.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>Guillermo<mayNP/></g><e/>
+<g>Pérez<mayNP/></g><e/>
+<g>Inda<mayNP/></g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><pi><g n="Quién">QWén<mayIni/><sus tipo="uxw"/><omi tipo="i"/></g><e/>
+<g>soy</g><e/></pi>
+<g>Guillermo<mayNP/></g><e/>
+<g>Pérez<mayNP/></g><e/>
+<g>Inda<mayNP/></g><e/>
+<g>y</g><e/>
+<g>mi</g><l/>
+<nl num="4"/><g n="familia">falilia<sus tipo="mxl"/></g><e/>
+<g>es</g><e/>
+<g>morena</g><e/>
+<g>tengo</g><e/>
+<g>un</g><e/>
+<g n="hermanito">ermanito<omi tipo="h"/></g><e/>
+<g>y</g><l/>
+<nl num="5"/><g>ten<tachado>g</tachado><correccion tipo="susti"/>o</g><e/>
+<g>sie<tachado>t</tachado><correccion tipo="susti"/>e</g><e/>
+<g>años</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">segundo<l/><nl num="6"/>año</g><e/>
+<g>tenemos</g><e/>
+<g>aire</g><e/>
+<g n="acondicionado">incondisionado<sus tipo="axi"/><agre tipo="n"/><sus tipo="cxs"/></g><e/>
+<r c="Fc">,</r><e/>
+<g n="tenemos">temos<omi tipo="n"/><omi tipo="e"/></g><l/>
+<nl num="7"/><g n="luz">lus<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<g>agu<tachado>a</tachado><correccion tipo="susti"/></g><e/>
+<g n="hay">ay<omi tipo="h"/></g><e/>
+<g>muchos</g><e/>
+<g>salones</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>una</g><e/>
+<g n="dirección">direc<tachado>s</tachado><correccion tipo="susti"/><sus tipo="cxs"/>ion</g><e/>
+<g>sillas</g><e/>
+<g>y</g><e/>
+<g>baños</g><l/>
+<nl num="9"/><g>c<tachado>o</tachado><correccion tipo="susti"/>n</g>
+<g n="ventiladores">bentiladores<sus tipo="vxb"/><hiposeg/></g><e/>
+<g>tenemos</g><e/>
+<g>muchos</g><l/>
+<nl num="10"/><g>libros</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<g n="hecha">echa<omi tipo="h"/></g><e/>
+<g>de</g><l/>
+<nl num="11"/><g n="cemento">semento<sus tipo="cxs"/></g><e/>
+<g>y</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>Emiliano<mayNP/></g><e/>
+<g>Zapata<mayNP/></g><l/>
+<nl num="12"/><g>tenemos</g><e/>
+<g>una</g><e/>
+<g n="tienda">tien<e/>da<hiperseg/></g><e/>
+<g n="escolar">es<e/>colar<hiperseg/></g><e/>
+<g n="pintarrón">pintarron<omi tipo="acento"/></g><l/>
+<nl num="13"/><g>teles</g><e/>
+<g>para</g><e/>
+<g	n="ver">ber<sus tipo="vxb"/></g><e/>
+<g n="películas">peliculas<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>libros</g><l/>
+<nl num="14"/><g n="muy">mui<sus tipo="yxi"/></g><e/>
+<g><tachado>i</tachado><correccion tipo="susti"/>nteresantes</g><e/>
+<g>tenemos</g><e/>
+<g>agua</g><l/>
+<nl num="15"/><g>tenemos</g><e/>
+<g n="locker">bloqer<agre tipo="b"/><omi tipo="u"/></g><e/>
+<g>para</g><e/>
+<g>guardar</g><e/>
+<g>cosas</g><l/>
+<nl num="16"/><g>nos</g><e/>
+<g	n="venimos">benimos<sus tipo="vxb"/></g><e/>
+<g>en</g><e/>
+<g n="bicicleta">bisicleta<sus tipo="cxs"/></g><e/>
+<g>y</g><e/>
+<g>nos</g><e/>
+<l/>
+<nl num="17"/><g>enseñan</g><e/>
+<g>a</g><e/>
+<g>escribir</g><e/>
+<g>a</g><e/>
+<g>leer</g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>respetar</g><l/>
+<nl num="18"/><g>a</g><e/>
+<g n="hacer">ser<omi tipo="h"/><omi tipo="a" error="concord"/><sus tipo="cxs"/></g><e/>
+<g>cuentas</g><e/>
+<g>problemas</g><e/>
+<g>a</g><e/>
+<g>escribir</g><l/>
+<nl num="19"/><g>cuent<tachado>o</tachado><correccion tipo="susti"/>s</g><e/>
+<g n="e">y<sus tipo="exy"/></g><e/>
+<g n="historietas">estorietas<omi tipo="h"/><sus tipo="ixe"/></g><e/>
+<g>a</g>
+<g><tachado>d</tachado><correccion tipo="susti"/>ep<tachado>o</tachado><correccion tipo="susti"/>rtes<hiposeg/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>5. encima "g" sobre "j"</com>
+<com>5. encima "t" sobre "r"</com>
+<com>5. no se distingue lo que tacha</com>
+<com>7. encima "a"</com>
+<com>8. encima "s"</com>
+<com>9. encima "o" sobre "a"</com>
+<com>14. encima "i" sobre "e"</com>
+<com>19. encima "o" sobre "a"</com>
+<com>19. encima "d" sobre "r"</com>
+<com>19. encima "o" sobre "a"</com>
+</comentarios>
+</documento>

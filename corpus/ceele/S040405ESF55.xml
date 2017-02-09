@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="2" permisos="todos">
+
+		<titulo>S040405ESF55</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="MONAREANG"/>
+
+		<referencia id="MONAREANG">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>
+		
+	<archivo nombre="S040405ESF55.txt"/>
+	<imagen archivo="S040405ESF55.jpg"/>
+	<vista tipo="T"/>
+		
+</encabezado>
+
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><l/>
+<l/>
+<nl num="2"/><g n="Ángela">A<mayNP/><omi tipo="acento"/>ngeL<mayInter/>a</g><e/>
+<g>C<mayNP/>itlali</g><e/>
+<g>M<mayNP/>ontes</g><e/>
+<g>A<mayNP/>rellano</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>6</g><e/>
+<g>años</g><l/>
+<nl num="3"/><g>con</g><e/>
+<g n="pizarrón">pizarro<omi tipo="acento"/>n</g><e/>
+<g n="tele">teL<mayInter/>e</g><e/>
+<g>con</g><e/>
+<g n="luz">L<sus tipo="lxL"/>us<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">A<sus tipo="axA"/><omi tipo="acento"/>rboL<mayInter/>es</g><l/>
+<nl num="4"/><g>con</g><e/>
+<g>3</g><e/>
+<g>cuadras</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g n="está">es<e/><hiperseg/>ta<omi tipo="acento"/></g><e/>
+<g n="cerca">s<sus tipo="cxs"/>ercas<agre tipo="s"/></g><e/>
+<g>de</g><l/>
+<nl num="5"/><g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scueL<mayInter/>a</g><e/>
+<l/>
+<nl num="6"/><g>trabajamos</g><e/>
+<g>en</g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>atema<omi tipo="acento"/>ti<tachado>c</tachado><correccion tipo="susti"/>as</g><e/>
+<g>recortamos</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="7"/><g>trabajamos</g><e/>
+<g>en</g><e/>
+<g>español</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="8"/><g n="la">L<sus tipo="lxL"/>a</g><e/>
+<g>maestra</g><e/>
+<g>nos</g><e/>
+<g>escribe</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/><g>en</g><e/>
+<l/>
+<nl num="9"/><g n="el">E<sus tipo="exE"/>l</g><e/>
+<g n="pizarrón">pizarro<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>nosotros</g><e/>
+<g n="las">L<sus tipo="lxL"/>as</g><e/>
+<e/>
+<g>escribimos</g><e/>
+<l/>
+<nl num="10"/><g>yo</g><e/>
+<g>tengo</g><e/>
+<g>de</g><e/>
+<g>hermanos</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/><g>tres</g><l/>
+<nl num="11"/><g>hermanos</g><e/>
+<g>y</g><e/>
+<g>de</g><e/>
+<g>primos</g><e/>
+<g>tengo</g><e/>
+<l/>
+<nl num="12"/><g>cuatro</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>primos</g><e/>
+<g>tengo</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="13"/><g n="tías">ti<omi tipo="acento"/>as</g><e/>
+<g>cuatro</g><e/>
+<g n="tías">ti<omi tipo="acento"/>as</g><e/>
+<g>y</g><e/>
+<g n="tíos">ti<omi tipo="acento"/>os</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>de</g><e/>
+<l/>
+<nl num="14"/><g>padrino<tachado>s</tachado><correccion tipo="susti"/></g><e/>
+<g>tengo</g><e/>
+<g n="cinco">s<sus tipo="cxs"/>inco</g><e/>
+<g>padri<tachado>n</tachado><correccion tipo="susti"/>os</g><e/>
+<l/>
+<nl num="15"/><g>y</g><e/>
+<g>de</g><e/>
+<g>madrinas</g><e/>
+<g>tengo</g><e/>
+<l/>
+<nl num="16"/><g>amigos</g><e/>
+<g n="diez">dies<sus tipo="zxs"/></g><e/>
+<g>y</g><e/>
+<g>siete</g><e/>
+<g>amigos</g><l/>
+<nl num="17"/><g>mi</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="escuela">escueL<mayInter/>a</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>tiene</g><e/>
+<g>puerta</g><l/>
+<nl num="18"/><g>y</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g n="ladrillos">L<sus tipo="lxL"/>adrillos</g><l/>
+<nl num="19"/><g>y</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<l/>
+<nl num="20"/><g>sillas</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<l/>
+<nl num="21"/><g n="mochilas">mochiL<mayInter/>as</g><e/>
+<g>y</g><e/>
+<g n="colores">coL<mayInter/>ores</g><e/>
+<g n="lápices">L<sus tipo="lxL"/>a<omi tipo="acento"/>pis<sus tipo="cxs"/>es</g><l/>
+<nl num="22"/><g n="libretas">L<sus tipo="lxL"/>ibretas</g><l/>
+<nl num="23"/><g>papel</g><e/>
+<e/>
+<g>plumas</g><l/>
+<nl num="24"/><g>borradores</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="25"/><g n="sacapuntas">sa<e/><hiperseg/>cap<tachado>un</tachado><correccion tipo="susti"/>tas</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="26"/><g n="también">tambi<e/><hiperseg/>e<omi tipo="acento"/>n</g><e/>
+<l/>
+<nl num="27"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="28"/><g>y</g><e/>
+<g n="también">tambi<e/><hiperseg/>e<omi tipo="acento"/>n</g><e/>
+<g n="tenemos">te<e/><hiperseg/>ne<e/><hiperseg/>mos</g><e/>
+<g>cuadernos</g><e/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>5 Encima</com>
+<com>6 Tacha</com>
+<com>8 Tacha</com>
+<com>10 Tacha</com>
+<com>11 Tacha</com>
+<com>14 Encima</com>
+<com>14 Encima</com>
+<com>15 Tacha en ambos casos</com>
+<com>25 Encima</com>
+<com>27 Tacha</com>
+<com>El orden es confuso</com>
+<com>Diseño de página: Título centrado</com>
+</comentarios>
+</documento>

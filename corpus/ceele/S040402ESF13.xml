@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="73" permisos="todos">
+	<titulo>S040402ESF13</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="SAAMEDKAR"/>
+
+	<referencia id="SAAMEDKAR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESF13.txt"/>
+	<imagen archivo="S040402ESF13.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g n="Hola">h<sus tipo="Hxh"/>ola</g><e/>
+<g>soy</g><e/>
+<g n="Karina">k<sus tipo="Kxk"/>arina</g><e/>
+<g n="Amairani">a<sus tipo="Axa"/>mairani</g><e/>
+<g>S<mayNP/>aavedra</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="3"/><g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>gusta</g><e/>
+<g n="ir">y<sus tipo="ixy"/><omi tipo="r"/></g><e/>
+<g>a<hiposeg/></g><g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="4"/><g n="También">t<sus tipo="Txt"/>an<sus tipo="mxn"/>v<sus tipo="bxv"/>ie<omi tipo="acento"/>n</g><e/>
+<g>tengo</g><e/>
+<g>muchos</g><e/>
+<g>amigos</g><e/>
+<g>y</g><e/>
+<e/>
+<g n="amigas">a<e/><hiperseg/>migas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><g n="Vivo">v<sus tipo="Vxv"/>ivo</g><e/>
+<g>en</g><e/>
+<g n="México">m<sus tipo="Mxm"/>e<omi tipo="acento"/>xico</g><e/>
+<g>me</g><e/>
+<g n="gusta">gus<omi tipo="t"/>a</g><e/>
+<g>jugar</g><e/>
+<g>a</g><e/>
+<g>muñecas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="6"/><g n="Y">y<sus tipo="Yxy"/></g><e/>
+<g n="soy">S<sus tipo="sxS"/>oy</g><e/>
+<g n="monaguilla">mon<e/><hiperseg/>aguilla</g><e/>
+<g>voy</g><e/>
+<g>a</g><e/>
+<g>misa</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="7"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>diferente</g><e/>
+<g>tiene</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="8"/><g>tiene</g><e/>
+<g>un</g><e/>
+<g n="jardín">jardi<omi tipo="acento"/>n</g><e/>
+<g>muy</g><e/>
+<g n="bonito">B<sus tipo="bxB"/>onito</g><e/>
+<g n="jardín">jardi<omi tipo="acento"/>n</g><l/>
+<nl num="9"/><g>tiene</g><e/>
+<g>muchos</g><e/>
+<g n="juegos">juev<sus tipo="gxv"/>os</g><e/>
+<g>nos</g><e/>
+<g>contaron</g><l/>
+<nl num="10"/><g>un</g><e/>
+<g>cuento</g><e/>
+<g>muy</g><e/>
+<g>bonito</g><e/>
+<g>en</g><e/>
+<g>mi<hiposeg/></g><g>escuela</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="11"/><g n="computadoras">con<sus tipo="mxn"/>putadoras</g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g n="biblioteca">bibl<omi tipo="i"/>oteca</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="12"/><g n="Tenemos">t<sus tipo="Txt"/>enemos</g><e/>
+<g>mochilas</g><e/>
+<g>y</g><e/>
+<g n="tenemos">tene<e/><hiperseg/>mos</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="13"/><g>y</g><e/>
+<g n="desayuno">desall<sus tipo="yxll"/>uno</g><e/>
+<g>muy</g><e/>
+<g>rico</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="14"/><g><tachado>muchos</tachado><correccion tipo="elimi"/></g><e/>
+<g>mucho</g><e/>
+<g>pasto</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="15"/><g n="vengo">b<sus tipo="vxb"/>engo</g><e/>
+<g>en</g><e/>
+<g>dos</g><e/>
+<g>carros</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="16"/><g><tachado>trabajamos</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>venimos</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g tipo="otra" n="8 - a.m. -">8<e/><r c="Fgs">-</r><e/>A<sus tipo="axA"/><omi tipo="punto abrev"/>m<omi tipo="punto abrev"/><e/><r c="Fgs">-</r></g><l/>
+<l/>
+<nl num="17"/><g>atentamente</g><l/>
+<nl num="18"/><firma tipo="a"><g>karina</g><e/>
+<g>Ama<e/>irani</g><e/>
+<g>saavedra</g><l/>
+<nl num="19"/><g>Medina<r c="Fp" punto="otros">.</r></g><e/>
+</firma><e/>
+<g>F<mayIni/>in</g><e/>
+<r c="Fp" punto="final">.</r><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>14. Tacha</com>
+<com>15. Tacha</com>
+<com>16. Tacha </com>
+<com>17 y 19 Subrayados</com>
+<com>18. Firma: escribe su nombre sin alterar la letra</com>
+<com>Hay diseño de página: Título centrado, espacio entre el título y el resto del texto, firma centreada</com>
+
+
+</comentarios>
+</documento>

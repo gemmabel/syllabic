@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="80" permisos="todos">
+	<titulo>S040404ESF43</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="LEOVILDIA"/>
+
+	<referencia id="LEOVILDIA">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040404ESF43.txt"/>
+	<imagen archivo="S040404ESF43.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<l/>
+<l/>
+<nl num="2"/><g>H<mayIni/>ola</g><e/>
+<g>soy</g><e/>
+<g>D<mayNP/>iana</g><e/>
+<g>C<mayNP/>itlalmina</g><e/>
+<g>y</g><e/>
+<g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g>en</g><e/>
+<g n="México">m<sus tipo="Mxm"/>e<omi tipo="acento"/>j<sus tipo="xxj"/>ico</g><l/>
+<nl num="3"/><g>te<hiposeg/></g><g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g n="decir">des<sus tipo="cxs"/>ir</g><e/>
+<g>todo</g><e/>
+<g>lo</g><e/>
+<g>de</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="4"/><g>lo</g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g>casa</g><e/>
+<g>y</g><e/>
+<g>primero</g><e/>
+<g>te</g><e/>
+<g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g>contar</g><e/>
+<g>lo</g><e/>
+<l/>
+<nl num="5"/><g>de</g><e/>
+<g>la</g><e/>
+<g>casa</g><e/>
+<g n="así">asi<omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>mi</g><e/>
+<e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>dos</g><e/>
+<l/>
+<nl num="6"/><g>pisos</g><e/>
+<g>y</g><e/>
+<g>es</g><e/>
+<g>el</g><e/>
+<g n="portón">porto<omi tipo="acento"/>n</g><e/>
+<g>blanco</g><e/>
+<g n="así">asi<omi tipo="acento"/></g><e/>
+<g>le</g><e/>
+<g n="dicen">dis<sus tipo="cxs"/>en</g><e/>
+<g>y</g><l/>
+<nl num="7"/><g>tengo</g><e/>
+<g>un</g><e/>
+<g>hermano</g><e/>
+<g n="ahora">a<omi tipo="h"/>ora</g><e/>
+<g>te</g><e/>
+<g n="voy">b<sus tipo="vxb"/>oy</g><e/>
+<g>a</g><e/>
+<g>contar</g><e/>
+<l/>
+<nl num="8"/><g>lo</g><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fd">:</r><l/>
+<nl num="9"/><g n="así">asi<omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>puerta</g><e/>
+<g n="televisión">teleb<sus tipo="vxb"/>isio<omi tipo="acento"/>n</g><l/>
+<nl num="10"/><g>sillas</g><e/>
+<g>un</g><e/>
+<g n="garrafón">garrafo<omi tipo="acento"/>n</g><e/>
+<g>un</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="pizarrón">P<sus tipo="pxP"/>is<sus tipo="zxs"/>arro<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>un</g><e/>
+<g n="archivero">archib<sus tipo="vxb"/>ero</g><l/>
+<nl num="11"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>y</g><e/>
+<g>solo</g><e/>
+<g>mochila</g><e/>
+<g>y</g><e/>
+<g>focos</g><e/>
+<r c="Fd">:</r><l/>
+<nl num="12"/><g>estudiamos</g><e/>
+<g>escribimos</g><e/>
+<g>aprendemos</g><e/>
+<g>jugamos</g><e/>
+<g>y</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="13"/><g>platicamos</g><e/>
+<g>y</g><e/>
+<g>yo</g><e/>
+<g>platico</g><e/>
+<g>con</g><e/>
+<g>R<mayNP/>ebeca</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<r c="Fd">:</r><l/>
+<nl num="14"/><g>y</g><e/>
+<g>a<hiposeg/></g><g n="mí">mi<omi tipo="acento"/></g><e/>
+<g>me</g><e/>
+<g n="llevan">y<sus tipo="llxy"/>eb<sus tipo="vxb"/>an</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g tipo="abrev">UNi<e/>
+<r c="Fg">-</r><e/>Nay</g><e/>
+<g>y</g><e/>
+<g>cuando</g><e/>
+<l/>
+<nl num="15"/><g>dan</g><e/>
+<g>el</g><e/>
+<g>timbre</g><e/>
+<g>nos</g><e/>
+<g>formamos</g><e/>
+<g>y</g><e/>
+<g>tan</g><l/>
+<l/>
+<nl num="16"/><firma tipo="a"><g>Diana</g><e/>
+<g>citlalmina</g><e/>
+<g>Leon</g><e/>
+<l/>
+<nl num="17"/><g>villaseñor</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3 Tacha</com>
+<com>5 Tacha</com>
+<com>10 Tacha</com>
+<com>11 Tacha</com>
+<com>12, 13. Tacha</com>
+<com>16, 17. Firma: escribe su nombre sin cambiar la letra</com>
+<com>Diseño de página: Título centrado y firma en el lado derecho</com>
+</comentarios>
+</documento>

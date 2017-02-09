@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+				
+<encabezado id="121" permisos="todos">
+
+	<titulo>N025105ESF09</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="REYVZAY"/>
+
+	<referencia id="REYVZAY">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025105ESF09.txt"/>
+	<imagen archivo="N025105ESF09.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+<cuerpo>
+<nl num="1"/><g>Z<mayNP/>ayra</g><e/>
+<g tipo="abrev">V<mayNP/></g><r c="Fp" punto="abrev">.</r><e/>
+<g>R<mayNP/>eyes</g><e/>
+<g n="Sanabria">s<sus tipo="Sxs"/>anabria</g><l/>
+<nl num="2"/><g>M<mayIni/>i</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><l/>
+<nl num="3"/><pi><g>Q<mayIni/>uién</g><e/>
+<g>soy</g></pi><l/>
+<nl num="4"/><g>Buenos</g><e/>
+<g n="días">di<omi tipo="acento"/>as</g><e/>
+<g>soy</g><e/>
+<g n="Zayra">z<sus tipo="Zxz"/>ayra</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>soy</g><e/>
+<g n="buena">B<sus tipo="bxB"/>uena</g><e/>
+<g>vivo</g><e/>
+<g>en</g><l/>
+<nl num="5"/><g n="San">s<sus tipo="Sxs"/>an</g><e/>
+<g n="Vicente">v<sus tipo="Vxv"/>icente</g><e/>
+<g tipo="abrev" n="Nay.">Nay<omi tipo="punto"/></g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g n="comunidad">comunidat<sus tipo="dxt"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="6"/><g n="México">Me<omi tipo="acento"/>xico</g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><e/>
+<g>mi</g><e/>
+<g n="escuela">E<sus tipo="exE"/>scuela</g><e/>
+<g>es</g><e/>
+<g>bonita</g><l/>
+<nl num="7"/><g n="tenemos">T<sus tipo="txT"/>e<hiperseg/><e/>nemos<hiperseg/></g><e/>
+<g>comedor</g><e/>
+<g>tenemos</g><e/>
+<g>salones</g><e/>
+<g>para</g><e/>
+<g>aire</g><e/>
+<g><tachado>(ofre)</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="8"/><g>muy</g><e/>
+<g>fresco</g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g>tiendita</g><e/>
+<g>tenemos</g><e/>
+<g>agua</g><e/>
+<g>tenemos</g><e/>
+<g n="vasos">b<sus tipo="vxb"/>asos</g><l/>
+<nl num="9"/><g>tenemos</g><e/>
+<g>mochila</g><e/>
+<g>tenemos</g><e/>
+<g>cuadernos</g><e/>
+<g>el</g><e/>
+<g n="gobierno">gobie<omi tipo="r"/>no</g><e/>
+<g>nos</g><e/>
+<g>da</g><l/>
+<nl num="10"/><g n="libros">L<sus tipo="lxL"/>ibros</g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g n="pizarrón">P<sus tipo="pxP"/>is<sus tipo="zxs"/>arro<omi tipo="acento"/>n</g><e/>
+<g>tenemos</g><e/>
+<g n="lápiz">L<sus tipo="lxL"/>a<omi tipo="acento"/>P<sus tipo="pxP"/>iz</g><l/>
+<nl num="11"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g n="A">a<sus tipo="Axa"/></g><e/>
+<g n="pie">P<sus tipo="pxP"/>ie</g><e/>
+<g n="no">no<hiposeg/></g><g>me<hiposeg/></g>
+<g>canso</g><e/>
+<g>tanto</g><e/>
+<g>camino</g><e/>
+<g><tachado>(poqui)</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="13"/><g>poquitas</g><e/>
+<g>cuadras</g><e/>
+<g>en</g><e/>
+<g>primero</g><e/>
+<g>a</g><e/>
+<g n="veces">b<sus tipo="vxb"/>es<sus tipo="cxs"/>es</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="14"/><g>llevaba</g><e/>
+<g n="bicicleta">bis<sus tipo="cxs"/>icleta</g><l/>
+<nl num="15"/><pi><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<g n="hacemos">has<sus tipo="cxs"/>emos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="16"/><g n="Jugamos">j<sus tipo="Jxj"/>ugamos</g><e/>
+<g n="compramos">comp<tachado>r</tachado><correccion tipo="agrega"/>amos</g><e/>
+<g>trabajamos</g><l/>
+<nl num="17"/><g n="coloreamos">colori<sus tipo="exi"/>amos</g><e/>
+<g n="vamos">b<sus tipo="vxb"/>amos</g><e/>
+<g>al</g><e/>
+<g>baño</g><e/>
+<g>leemos</g><l/>
+<nl num="18"/><g>tomamos</g><e/>
+<g>agua</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>cuentas</g><l/>
+<nl num="19"/><g>trabajamos</g><e/>
+<g>con</g><e/>
+<g>la</g><e/>
+<g n="prueba">pruev<sus tipo="bxv"/>a</g><e/>
+<g>nos</g><e/>
+<g>sabemos</g><l/>
+<nl num="20"/><g>los</g><e/>
+<g n="números">nu<omi tipo="acento"/>meros</g><e/>
+<g>trabajamos</g><e/>
+<g>en</g><e/>
+<g n="español">E<sus tipo="exE"/>spañol</g><l/>
+<nl num="21"/><g n="actividades">A<sus tipo="axA"/>ctividades</g><e/>
+<g>trabajamos</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="libro">L<sus tipo="lxL"/>ibro</g><l/>
+<nl num="22"/><g>de</g><e/>
+<g><tachado>(Mataticas)</tachado><correccion tipo="elimi"/></g><e/>
+<g n="matemáticas">M<sus tipo="mxM"/>ateM<mayInter/>a<omi tipo="acdento"/>ticas</g><l/>
+<nl num="23"/><g n="trabajamos">trabaja<hiperseg/><e/>mos<hiperseg/></g><e/>
+<g>con</g><e/>
+<g>todos</g><e/>
+<g>los</g><e/>
+<g n="libros">L<sus tipo="lxL"/>I<mayInter/>bros</g><l/>
+<nl num="24"/><g>de</g><e/>
+<g n="nosotros">N<sus tipo="nxN"/>osotros</g><l/>
+<e/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Muchos de los errores están entre parentesis</com>
+</comentarios>
+</documento>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="209" permisos="todos">
+
+	<titulo>N015401EscF02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="CAÑVILCIR"/>
+
+	<referencia id="CAÑVILCIR">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015401EscF02.txt"/>
+	<imagen archivo="N015401EscF02.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Cirila">cirila<sus tipo="Cxc"/></g><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<g n="Cristaliced">Critalice<mayNP/><omi tipo="s"/><omi tipo="d"/></g><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<g n="Cañedo">cañedo<sus tipo="Cxc"/></g><e/>
+<e/>
+<e/>
+<g n="Villegas">villegas<sus tipo="Vxv"/></g><l/>
+<nl num="2"/><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<g>Cirila<mayNP/></g><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<g>Mi<mayIni/><hiposeg/></g>
+<g>estad<tachado>o</tachado><correccion tipo="susti"/><hiposeg/></g>
+<g>se<hiposeg/></g>
+<g>llama</g><l/>
+<nl num="3"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g>escuela</g><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/></g><e/>
+<g>so[y]</g></pi><e/>
+<r c="Fgs">-</r><e/>
+<g><tachado>Cirila</tachado><correccion tipo="susti"/></g><e/>
+<r c="Fgs">-</r><g n="Sayulilla">saylill<tachado>a</tachado><sus tipo="Sxs"/><omi tipo="u"/><correccion tipo="susti"/><hiposeg/></g>
+<g n="Nayarit"><tachado>na</tachado>yarit<sus tipo="Nxn"/></g><l/>
+<nl num="4"/><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<r c="Fgs">-</r><e/>
+<g>vivo<hiposeg/></g>
+<g n="con">co<omi tipo="n"/></g><e/>
+<g>mis</g><e/>
+<g>papás</g><l/>
+<nl num="5"/><e/>
+<g n="mi">Mi<sus tipo="mxM"/></g><r c="Fgs">-</r>
+<g>escuela</g><e/>
+<r c="Fgs">-</r><g>es</g><e/>
+<g>de</g><e/>
+<g><tachado>semento</tachado><correccion tipo="elimi"/></g><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g n="nuestra">unaestra<per tipo="n"/><agre tipo="a"/></g><e/>
+<g>es</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="6"/><e/>
+<g>Mi<mayIni/><hiposeg/></g>
+<g n="escuela">e<tachado>E</tachado>uela<omi tipo="s"/><correccion tipo="susti"/><sus tipo="cxE"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>Emilio<mayIni/></g><e/>
+<g n="González"><tachado>G</tachado>onzales<mayNP/><correccion tipo="susti"/><omi tipo="acento"/><sus tipo="zxs"/></g><e/>
+<g n="Ramírez">ramires<sus tipo="Rxr"/><omi tipo="acento"/><sus tipo="zxs"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="nosotros"><tachado>n</tachado>os<correccion tipo="susti"/><hiperseg/><e/>otos<omi tipo="r"/></g><e/>
+<g n="escribimos">escir<tachado>v</tachado>imos<per tipo="r"/><correccion tipo="susti"/><sus tipo="bxv"/></g><l/>
+<nl num="7"/><e/>
+<g n="con">com<sus tipo="nxm"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="lápiz">lapiz<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>te<tachado>n</tachado>emos<correccion tipo="susti"/></g><r c="Fgs">-</r>
+<g>cuadernos</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="soy">soi<sus tipo="yxi"/></g><e/>
+<g>muy</g><e/>
+<g>seria</g><l/>
+<nl num="8"/><e/>
+<g>mi<hiposeg/></g>
+<g>escuela</g><e/>
+<g n="tiene">tien<omi tipo="e"/></g><e/>
+<g n="muchos">muchioss<agre tipo="i"/><agre tipo="s"/><hiposeg/></g>
+<g n="árboles">ar<tachado>v</tachado>oles<omi tipo="acento"/><correccion tipo="susti"/><sus tipo="bxv"/></g><l/>
+<l/>
+<nl num="9"/><e/>
+<pi><g n="Cómo">com<tachado>o</tachado><sus tipo="Cxc"/><omi tipo="acento"/><correccion tipo="susti"/></g><e/>
+<g>llegamos</g><e/>
+<g>a<hiposeg/></g>
+<g>la</g><e/>
+<g>escuela</g></pi><r c="Fgs">-</r>
+<g>una</g><r c="Fgs">-</r><g>1</g><e/>
+<r c="Fgs">-</r><g>cuad<tachado>r</tachado>a<correccion tipo="susti"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="10"/><g><tachado>m</tachado>e<correccion tipo="susti"/><hiposeg/></g>
+<g>vengo</g><e/>
+<g><tachado>go</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<hiposeg/></g>
+<g>pi<tachado>e</tachado><correccion tipo="susti"/></g><e/>
+<g>a<hiposeg/></g>
+<g n="qué">ci<sus tipo="qxc"/><omi tipo="u"/><sus tipo="exi"/><omi tipo="acento"/><hiposeg/></g>
+<g n="hora">or<omi tipo="h"/><omi tipo="a"/><hiposeg/></g>
+<g n="entro">en<tachado>t</tachado>or<correccion tipo="susti"/><per tipo="r"/></g><l/>
+<l/>
+<nl num="11"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g n="trabajamos">tarvajamos<per tipo="r"/><sus tipo="bxv"/></g><e/>
+<g n="dibujamos">didujamos<rotac tipo="b"/></g><e/>
+<g n="voy">doi<sus tipo="vxd"/><sus tipo="yxi"/></g><e/>
+<g>a</g><e/>
+<g>la<hiposeg/></g>
+<g n="dirección">diresio<sus tipo="cxs"/><omi tipo="c"/><omi tipo="acento"/><omi tipo="n"/></g><l/>
+<nl num="13"/><g>a</g><e/>
+<g>leer</g><e/>
+<g>cue<tachado>n</tachado>tos<correccion tipo="susti"/></g><e/>
+<g n="muchos">mu<tachado>c</tachado>hio<correccion tipo="agrega"/><agre tipo="i"/><omi tipo="s" error="concord"/></g><e/>
+<g n="cuentos">cueto<omi tipo="n"/><omi tipo="s" error="concord"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>No hay espacios entre los parrafos, sino líneas.</com>
+<com>Todas las "y" están invertidas.</com>
+<com>2. Bajo la "o" hay una "e".</com>
+<com>3. Bajo "Cirila" dice "Solulalla"; bajo el "ana" hay una "l" y la "n" están casi encimada con la segunda "a".</com>
+<com>5.  No corrigio "semento" simplemento lo tacho.</com>
+<com>6.  Bajo la "E" hay una "c"; bajo la "G" hay una "o"; bajo la "n" hay una "m"; bajo la "v" hay una "o".</com>
+<com>7.  Bajo la "n" hay una "m".</com>
+<com>8.  Bajo la "v" hay una "d" o "b" invertida.</com>
+<com>9.  Bajo la "o" hay una "v"; bajo la "r" hay una "o".</com>
+<com>10. Bajo la "m" hay una "o"; bajo la "e" hay una "o"; bajo la "t" hay una "o".</com>
+<com>13. Bajo la "n" hay una "r".</com>
+</comentarios>
+</documento>

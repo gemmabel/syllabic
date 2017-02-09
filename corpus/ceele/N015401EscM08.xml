@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="216" permisos="todos">
+
+	<titulo>N015401EscM08</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="VILLEDJOS"/>
+
+	<referencia id="VILLEDJOS">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015401EscM08.txt"/>
+	<imagen archivo="N015401EscM08.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="José">Jose<mayNP/><omi tipo="acento"/></g><r c="Fgs">-</r>
+<g>Armando<mayNP/></g><r c="Fgs">-</r>
+<g>Villa<mayNP/></g><r c="Fgs">-</r>
+<g n="Ledezma">ledesma<sus tipo="Lxl"/><sus tipo="zxs"/></g><l/>
+<nl num="2"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g>escuela</g><dibujo/><e/>
+<pi><g n="Quién">Quie<mayIni/><omi tipo="acento"/><omi tipo="n"/><hiposeg/></g>
+<g n="soy">Sa<tachado>Y</tachado><sus tipo="soyxSaY"/><correccion tipo="susti"/></g></pi><e/>
+<e/>
+<e/>
+<e/>
+<g>Mi<mayIni/><hiposeg/></g>
+<g n="mamá">maMa<mayInter/><sus tipo="mxM"/><omi tipo="acento"/><hiposeg/></g>
+<g>se<hiposeg/></g>
+<g n="llama">llaMa<mayInter/><sus tipo="mxM"/><hiposeg/></g>
+<g>Mati<mayNP/></g><l/>
+<nl num="3"/><e/>
+<g n="yo">llu<sus tipo="yoxllu"/><hiposeg/></g>
+<g>teng<tachado>o</tachado><correccion tipo="susti"/><hiposeg/></g>
+<g>siete<hiposeg/></g>
+<g>años</g><e/>
+<e/>
+<e/>
+<e/>
+<e/>
+<g>y<hiposeg/></g>
+<g n="mi">Mi<sus tipo="mxM"/><hiposeg/></g>
+<g n="papá">papa<omi tipo="acento"/><hiposeg/></g>
+<g>[t]r<tachado>a</tachado>e<correccion tipo="susti"/></g><l/>
+<nl num="4"/><e/>
+<g n="mi">Mi<sus tipo="mxM"/><hiposeg/></g>
+<g>e<tachado>s</tachado>cuela<correccion tipo="susti"/><hiposeg/></g>
+<g>es<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g>ladrillos<hiposeg/></g>
+<g>y<hiposeg/></g>
+<g n="pizarrón">pisarron<sus tipo="zxs"/><omi tipo="acento"/></g><l/>
+<nl num="5"/><e/>
+<g>cuadernos</g><l/>
+<nl num="6"/><e/>
+<g n="Emilio">eMilian<sus tipo="Exe"/><mayInter/><sus tipo="mxM"/><sus tipo="oxa"/><agre tipo="n"/><hiposeg/></g>
+<g n="González">gonsales<sus tipo="Gxg"/><sus tipo="zxs"/><omi tipo="acento"/><hiposeg/></g>
+<g n="Ramírez">rraMiro<sus tipo="Rxr"/><agre tipo="r"/><mayInter/><sus tipo="mxM"/><omi tipo="acento"/><sus tipo="exo"/><omi tipo="z"/></g><l/>
+<nl num="7"/><e/>
+<g>nosotros<hiposeg/></g>
+<g>tenemos<hiposeg/></g>
+<g n="abanicos">avanicos<sus tipo="bxv"/></g><l/>
+<nl num="8"/><e/>
+<g n="mesabanca">mesavanc<tachado>a</tachado><sus tipo="bxv"/><correccion tipo="susti"/><hiposeg/></g>
+<g>de<hiposeg/></g>
+<g n="plástico">prastico<sus tipo="lxr"/><omi tipo="acento"/></g><l/>
+<nl num="9"/><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/><hiposeg/></g>
+<g>llegamos<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>escuela</g></pi><l/>
+<nl num="10"/><g n="venimos">vinimos<sus tipo="exi"/><hiposeg/></g>
+<g n="en">es<sus tipo="nxs"/><hiposeg/></g>
+<g n="bicis" tipo="abrev">visis<sus tipo="bxv"/><sus tipo="cxs"/></g><l/>
+<nl num="11"/><g>y<hiposeg/></g>
+<g n="aveces">adeses<sus tipo="vxd"/><sus tipo="cxs"/><hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>pie</g><l/>
+<nl num="12"/><g>cuando<hiposeg/></g>
+<g><tachado>s</tachado>al<tachado>i</tachado>mos<correccion tipo="susti"/><hiposeg/></g>
+<g>al<hiposeg/></g>
+<g n="recreo">rregureo<agre tipo="r"/><sus tipo="cxgu"/></g><l/>
+<nl num="13"/><g n="jugamos">JugaM<tachado>o</tachado>s<sus tipo="jxJ"/><mayInter/><sus tipo="mxM"/><correccion tipo="susti"/><hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g n="hache">pche<omi tipo="h"/><sus tipo="axp"/></g><l/>
+<nl num="14"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/><hiposeg/></g>
+<g n="hacemos">asem<tachado>o</tachado>s<omi tipo="h"/><sus tipo="cxs"/><correccion tipo="susti"/><hiposeg/></g>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>escuela</g></pi><l/>
+<nl num="15"/><g>compramos<hiposeg/></g>
+<g>alimentos</g><l/>
+<nl num="16"/><g n="nutritivos">nutritri<tachado>v</tachado>os<agre tipo="r"/><correccion tipo="susti"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>Todas las "p" están en mayúscula.</com>
+<com>2. Bajo la "Y" hay una "i".</com>
+<com>3. Bajo la "o" hay una "a"; la rayita vertical de la "t" llega hasta la "r"; bajo la "a" hay una "o".</com>
+<com>4. Bajo la "s" hay una "l".</com>
+<com>8. Bajo la "a" hay una "o".</com>
+<com>12. Bajo la "s" hay una "ll"; bajo la "i" hay una "c".</com>
+<com>13. Bajo la "o" hay una "a".</com>
+<com>14. Bajo la "o" hay una "a".</com>
+<com>16. Bajo la "v" hay una "o".</com>
+</comentarios>
+</documento>

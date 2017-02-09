@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="201" permisos="todos">
+
+	<titulo>N015303ESF03</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="DELREADAY"/>
+
+	<referencia id="DELREADAY">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015303ESF03.txt"/>
+	<imagen archivo="N015303ESF03.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>D<mayNP/>ayana</g><e/>
+<g>D<sus tipo="dxD"/>el</g><e/>
+<g>R<mayNP/>eal</g><e/>
+<g n="Contreras">c<sus tipo="Cxc"/>ontreras</g><e/><r c="Fp" punto="aparte">.</r><l/>
+<nl num="2"/><g n="Quién">Q<mayNP/>uie<omi tipo="acento"/>n</g><e/>
+<g>soy</g><l/>
+<nl num="3"/><g>H<mayIni/>ola</g><e/>
+<r c="Fgs">-</r><e/>
+<g>soy</g><e/>
+<r c="Fg">-</r><e/>
+<g>D<mayNP/>ayana</g><e/>
+<r c="Fgs">-</r><e/>
+<g>tengo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>7</g><e/>
+<r c="Fg">-</r><e/>
+<g>años</g><e/>
+<g>–</g><l/>
+<nl num="4"/><g n="vivo">vib<sus tipo="vxb"/>o</g><e/>
+<r c="Fgs">-</r><e/>
+<g>en</g><e/>
+<r c="Fgs">-</r><e/>
+<g>F<mayNP/>rancisco</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Villa">v<sus tipo="Vxv"/>illa</g><e/>
+<r c="Fgs">-</r><e/>
+<g>mi</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><l/>
+<nl num="5"/><g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llama</g><e/>
+<r c="Fgs">-</r><e/>
+<g>A<mayNP/>driana</g><e/>
+<r c="Fgs">-</r><e/>
+<g>D<sus tipo="dxD"/>el</g><e/>
+<r c="Fgs">-</r><e/>
+<g>R<mayNP/>eal</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Pérez">p<sus tipo="Pxp"/>e<omi tipo="acento"/>rez</g><l/>
+<nl num="6"/><g>mi</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="papá">papa<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llama</g><e/>
+<r c="Fgs">-</r><e/>
+<g>I<mayNP/>srael</g><e/>
+<r c="Fgs">-</r><e/>
+<g>D<sus tipo="dxD"/>el</g><e/>
+<r c="Fgs">-</r><e/>
+<g>R<mayNP/>eal</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Corona">c<sus tipo="Cxc"/>orona</g><l/>
+<nl num="7"/><g>mi</g><e/>
+<r c="Fgs">-</r><e/>
+<g>hermana</g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llama</g><e/>
+<r c="Fgs">-</r><e/>
+<g>J<mayNP/>osive</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Yamilec">y<sus tipo="Yxy"/>amilec</g><l/>
+<nl num="8"/><g>mi</g><e/>
+<r c="Fgs">-</r><e/>
+<g>hermano</g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llama</g><e/>
+<r c="Fgs">-</r><e/>
+<g>J<mayNP/>asson</g><l/>
+<nl num="9"/><g>yo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>voy</g><e/>
+<r c="Fgs">-</r><e/>
+<g>en</g><e/>
+<r c="Fgs">-</r><e/>
+<g>la</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="10"/><g n="grado">grad<tachado>o</tachado><correccion tipo="susti"/><e/><r c="Fgs">-</r><e/>2<e/><r c="Fgs">-</r><e/>año</g><l/>
+<nl num="11"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>es</g><e/>
+<r c="Fgs">-</r><e/>
+<g>nuestra</g></pi><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><l/>
+<nl num="12"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hecha"><omi tipo="h"/>echa</g><e/>
+<r c="Fgs">-</r><e/>
+<g>de</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="13"/><g>materiales</g><e/>
+<r c="Fgs">-</r><e/>
+<g>tiene</g><e/>
+<g>–</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><l/>
+<nl num="14"/><g>tiene</g><e/>
+<r c="Fgs">-</r><e/>
+<g>cancha</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="está">esta<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="grande">gra<omi tipo="n"/>de</g><l/>
+<nl num="15"/><g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>muy</g><e/>
+<r c="Fgs">-</r><e/>
+<g>grande</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>bonita</g><l/>
+<nl num="16"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="llegamos">llega<tachado>m</tachado><correccion tipo="susti"/>os</g><e/>
+<r c="Fgs">-</r><e/>
+<g>a</g><e/>
+<r c="Fgs">-</r><e/>
+<g>la</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g></pi><l/>
+<nl num="17"/><g n="Llegamos">l<sus tipo="Lxl"/>legamos<e/></g>
+<r c="Fgs">-</r><e/>
+<g><agre tipo="mos"/>mos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>solos</g><l/>
+<nl num="18"/><g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llego</g><e/>
+<r c="Fgs">-</r><e/>
+<g>muy</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="feliz">F<sus tipo="fxF"/>eliz</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="19"/><g>llego</g><e/>
+<r c="Fgs">-</r><e/>
+<g>caminando</g><l/>
+<nl num="20"/><g>a<hiposeg/></g>
+<g n="veces">b<sus tipo="vxb"/>es<sus tipo="cxs"/><hiposeg/><omi tipo="es"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>llego</g><e/>
+<r c="Fgs">-</r><e/>
+<g>tarde</g><l/>
+<nl num="21"/><pi><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>hacemos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>en</g><e/>
+<r c="Fgs">-</r><e/>
+<g>la</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g></pi><l/>
+<nl num="22"/><g n="Estudiamos">e<sus tipo="Sxs"/>studiamos</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="escribir">l<agre tipo="l"/>e<omi tipo="s"/>cribir</g><l/>
+<nl num="23"/><g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>leer</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>salimos</g><l/>
+<nl num="24"/><g>al</g><e/>
+<r c="Fgs">-</r><e/>
+<g>recreo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><l/>
+<nl num="25"/><g>compramos</g><l/>
+<nl num="26"/><g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>nos</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="dejan">deJ<mayInter/>an</g><e/>
+<g>–</g><e/>
+<g>tarea</g><l/>
+<firma tipo="e"><nl num="27"/><g tipo="abrev" n="Atte.">Att<omi tipo="e"/><omi tipo="."/></g><e/>
+<g>–</g><e/>
+<g>D<mayNP/>ayana</g><l/>
+<nl num="28"/><l/></firma>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general: </com>
+<com>La niña separa las palabras con un pequeño guión.</com>
+<com>Entre el renglón 2. y renglón 3. hay una línea que los separa. Al final de la línea 9.  hay una línea indicando la separación de “párrafo”.</com>
+<com>Las líneas 2., 10., 15. y 20. están circuladas. Las líneas 15. y 20. tienen una pequeña línea antes de comenzar. </com>
+<com>1. El nombre está subrayado</com>
+<com>9. Corrección: "o" por algo que no se distingue</com>
+<com>15. Corrección: "m" por algo que no se distingue. </com>
+<com>28. Hay un garabato como firma.</com>
+</comentarios>
+</documento>

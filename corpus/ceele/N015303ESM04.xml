@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="205" permisos="todos">
+
+	<titulo>N015303ESM04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="VAZVAZCES"/>
+
+	<referencia id="VAZVAZCES">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>							
+
+	<archivo nombre="N015303ESM04.txt"/>
+	<imagen archivo="N015303ESM04.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="César">C<mayNP/>e<omi tipo="acento"/>sar</g><e/>
+<g>A<mayNP/>lonso</g><l/>
+<nl num="2"/><pi><g n="quién">q<sus tipo="Qxq"/>uie<omi tipo="acento"/>n</g><e/>
+<r c="Fgs">-</r><e/>
+<g>soy</g></pi><e/>
+<r c="Fgs">-</r><e/>
+<g n="Hola"><omi tipo="h"/><sus tipo="oxO"/>ola</g><e/>
+<r c="Fgs">-</r><e/>
+<g>tengo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>7</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="años">an<sus tipo="ñxn"/>os</g><e/>
+<r c="Fgs">-</r><e/>
+<g>mis</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hermanos"><omi tipo="h"/>ermanos</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="3"/><g>uno</g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="llama">y<sus tipo="llxy"/>ama</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Rogelio">r<sus tipo="Rxr"/>ogelio</g><e/>
+<r c="Fgs">-</r><e/>
+<g>una</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hermana"><omi tipo="h"/>ermana</g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="llama">y<omi tipo="llxy"/>ama</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="4"/><g n="Jasmín">J<mayNP/>asmi<omi tipo="acento"/>n</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="otra">a<sus tipo="oxa"/>tra</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Michel">m<sus tipo="Mxm"/>icher<sus tipo="lxr"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>mi</g><e/>
+<r c="Fgs">-</r><e/>
+<g>papá</g><e/>
+<r c="Fgs">-</r><e/>
+<g>se</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="5"/><g n="llama">y<sus tipo="llxy"/>ama</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Rogelio">r<sus tipo="Rxr"/>ogelio</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="6"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>es</g><e/>
+<r c="Fgs">-</r><e/>
+<g>nuestra</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g></pi><e/>
+<r c="Fgs">-</r><l/>
+<nl num="7"/><g n="Está">e<sus tipo="Exe"/>sta<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hecha"><omi tipo="h"/>echa</g><e/>
+<r c="Fgs">-</r><e/>
+<g>de</g><e/>
+<r c="Fgs">-</r><e/>
+<g>material</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="8"/><g>tiene</g><e/>
+<r c="Fgs">-</r><e/>
+<g>7</g><e/>
+<r c="Fgs">-</r><e/>
+<g>salones</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hay"><tachado>a</tachado><agre tipo="a"/>y<rotac tipo="y"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>muchos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>niños</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="9"/><g>lo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>que</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><e/>
+<r c="Fgs">-</r><e/>
+<g>me</g><e/>
+<r c="Fgs">-</r><e/>
+<g>gusta</g><e/>
+<r c="Fgs">-</r><e/>
+<g>es</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="el">E<sus tipo="exE"/>l</g><e/>
+<r c="Fgs">-</r><e/>
+<g>recreo</g><l/>
+<nl num="10"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>llegamos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>a</g><e/>
+<r c="Fgs">-</r><e/>
+<g>la</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g></pi><e/>
+<r c="Fgs">-</r><l/>
+<nl num="11"/><g><tachado>x</tachado></g><e/>
+<g n="A">a<sus tipo="Axa"/><hiposeg/>
+</g><g>pata<hiposeg/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>me</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="vengo">b<sus tipo="vxb"/>engo</g><e/>
+<r c="Fgs">-</r><e/>
+<g>con</g><e/>
+<r c="Fgs">-</r><e/>
+<g>mis</g><e/>
+<r c="Fgs">-</r><e/>
+<g>amigos</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="12"/><pi><g n="Qué">q<sus tipo="Qxq"/>ue<omi tipo="acento"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>en</g><e/>
+<r c="Fgs">-</r><e/>
+<g>la</g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g></pi><l/>
+<nl num="13"/><g n="Estudiamos">e<sus tipo="Exe"/>studiamos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>leemos</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="escribimos">escl<sus tipo="rxl"/>ibimos</g><r c="Fgs">-</r><e/><l/>
+<nl num="14"/><g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<r c="Fgs">-</r><e/>
+<g>cuentas</g><l/>
+<nl num="15"/><g n="investigamos">inb<sus tipo="vxb"/>estigamos</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="adiós">adio<omi tipo="acento"/>s</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="16"/><g n="atentamente">ate<omi tipo="n"/>tamente</g><e/>
+<r c="Fgs">-</r><e/>
+<g>a</g><e/>
+<r c="Fgs">-</r><e/>
+<firma tipo="a"><g n="César"><tachado>c</tachado><sus tipo="Cxc"/><correccion tipo="susti"/>e<omi tipo="acento"/>sar</g></firma><l/>
+
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>Comentario general:</com>
+<com>El niño pone guiones para marcar el espacio entre palabras, a veces son tan pequeños que parecen puntos, pero ahí entán.</com>
+
+<com>2. La pregunta "¿Quién soy? está circulada</com>
+<com>6. La pregunta "¿Cómo es nuestra escuela? está circulada</com>
+<com>8. Rotación de "y"</com>
+<com>10. La pregunta "¿Cómo llegamos a la escuela? está circulada</com>
+<com>11. Un borrón de lo que parecía ser una "H"</com>
+<com>12. La pregunta "¿Qué hacemos en la escuela? está circulada</com>
+<com>16. Corrección: "c" por "s".</com>
+</comentarios>
+</documento>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="247" permisos="todos">
+
+	<titulo>N024605ESM02</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="BERVALHEC"/>
+
+	<referencia id="BERVALHEC">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>						
+
+	<archivo nombre="N024605ESM02.txt"/>
+	<imagen archivo="N024605ESM02.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Héctor">HEcToR<mayNP/><omi tipo="acento"/><mayInter/><mayInter/><mayInter/></g>
+<g n="Fermín">Fermen<mayNP/><sus tipo="ixe"/><omi tipo="acento"/></g><l/>
+<nl num="2"/><g>Mi<mayIni/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>escuela</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="3"/><g n="Héctor">HEcToR<mayNP/><omi tipo="acento"/><mayInter/><mayInter/><mayInter/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="tengo">Tego<sus tipo="txT"/><omi tipo="n"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="7">F<rotac tipo="7"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="4"/><g>vi<tachado>b</tachado><correccion tipo="susti"/>o</g><e/>
+<g>en</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Ruiz">ruis<sus tipo="Rxr"/><sus tipo="zxs"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="Nayarit">na<tachado>l</tachado><correccion tipo="susti"/>lari<sus tipo="yxll"/><omi tipo="t"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="5"/><g n="Mariano">marano<sus tipo="Mxm"/><omi tipo="i"/></g><e/>
+<g n="Ruiz">ruis<sus tipo="Rxr"/><sus tipo="zxs"/></g><l/>
+<nl num="6"/><g>teng<omi tipo="o"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="luz">lus<sus tipo="zxs"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g>agua</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="baño">va<tachado>m</tachado><correccion tipo="susti"/><sus tipo="bxv"/><sus tipo="ñxm"/>o</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="7"/><g n="abanico">avanico<sus tipo="bxv"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<g>sillas</g><e/>
+<r c="Fgs">-</r><e/>
+<g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="libros">livro<sus tipo="bxv"/><omi tipo="s"/></g><l/>
+<nl num="8"/><g>y</g><e/>
+<r c="Fgs">-</r><e/>
+<g n="aire">are<omi tipo="i"/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="acondicionado">con<e/>disionabo<omi tipo="a"/><sus tipo="cxs"/><per tipo="d"/><hiperseg/></g><l/>
+<nl num="9"/><g n="bici">visi<sus tipo="bxv"/><sus tipo="cxs"/></g><e/>
+<r c="Fgs">-</r><l/>
+<nl num="10"/><g><tachado>x</tachado><correccion tipo="elimi"/></g><e/>
+<l/>
+<nl num="11"/><g n="hacemos">a<e/><r c="Fgs">-</r><e/>semo<omi tipo="h"/><sus tipo="cxs"/><hiperseg/></g><e/>
+<r c="Fgs">-</r><e/>
+<g n="matemáticas">matema<tachado>t</tachado><correccion tipo="susti"/>icas<omi tipo="acento"/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4. encima "b" sobre "v" Y encima "l" sobre "r"</com>
+<com>6. encima "m"</com>
+<com>8. rota d</com>
+<com>10. tacha lo que escribe</com>
+<com>11. encima "t" sobre "o"</com>
+<com>El niño usa guión para separar palabras.</com>
+</comentarios>
+</documento>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="235" permisos="todos">
+
+	<titulo>N015901EscF04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="VIERAMIRM"/>
+
+	<referencia id="VIERAMIRM">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>						
+
+	<archivo nombre="N015901EscF04.txt"/>
+	<imagen archivo="N015901EscF04.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Irma">IRMA<mayNP/><sus tipo="rxR"/><sus tipo="mxM"/><sus tipo="axA"/></g><e/>
+<g n="del">Del<sus tipo="dxD"/></g><e/>
+<g n="Carmen">carmen<sus tipo="Cxc"/></g><e/>
+<g n="Viera">viera<sus tipo="Vxv"/></g><e/>
+<g n="Ramos">ramos<sus tipo="Rxr"/></g><l/>
+<nl num="2"/><e/>
+<pi><g n="Quién">Quien<mayIni/><omi tipo="acento"/><hiposeg/></g>
+<g n="soy">Soy<sus tipo="sxS"/></g></pi><l/>
+<nl num="3"/><e/>
+<g>Soy<mayIni/></g><e/>
+<g n="Irma">IRMa<mayNP/><sus tipo="rxR"/><sus tipo="mxM"/></g><l/>
+<nl num="4"/><e/>
+<g>ten<hiperseg/><e/>go</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>tengo<hiposeg/></g>
+<g>4</g><e/>
+<g>hemanos</g><l/>
+<nl num="5"/><e/>
+<g>me<hiposeg/></g>
+<g>gusta</g><e/>
+<g>la</g><e/>
+<g>leche<hiposeg/></g>
+<g n="cocida">cosida<sus tipo="cxs"/></g><l/>
+<nl num="6"/><e/>
+<g>y<hiposeg/></g>
+<g>el</g><e/>
+<g n="arroz">arros<sus tipo="zxs"/></g><e/>
+<g>con</g><e/>
+<g>mucho</g><e/>
+<g n="limón">limon<omi tipo="acento"/><hiposeg/></g>
+<g>y</g><l/>
+<nl num="7"/><e/>
+<g>sal</g><l/>
+<nl num="8"/><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/><hiposeg/></g>
+<g>es<hiposeg/></g>
+<g>nuestra</g><e/>
+<g>escu<hiperseg/><e/>ela</g></pi><l/>
+<nl num="9"/><e/>
+<g>e<tachado>s</tachado><correccion tipo="susti"/><hiposeg/></g>
+<g>muy</g><e/>
+<g>bonita</g><e/>
+<g>porque</g><e/>
+<g>tiene</g><l/>
+<nl num="10"/><g>muchos</g><e/>
+<g>arboles</g><e/>
+<g>si<hiperseg/><e/>empre</g><l/>
+<nl num="11"/><g n="está">esta<omi tipo="acento"/></g><e/>
+<g>barridita</g><e/>
+<g>re<hiperseg/><e/>ga<hiperseg/><e/>dita</g><l/>
+<nl num="12"/><g>tiene</g><e/>
+<g>cancha</g><e/>
+<g>para<hiposeg/></g>
+<g n="jugar">gugar<sus tipo="jxg"/></g><l/>
+<nl num="13"/><g n="y">x<sus tipo="yxx"/></g><l/>
+<nl num="14"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g><tachado>l</tachado>lega<tachado>m</tachado>os<correccion tipo="susti"/><correccion tipo="susti"/><hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="15"/><g>llegamo<hiperseg/><e/>s<hiposeg/></g>
+<g>temprano</g><e/>
+<g n="aveces">abeses<sus tipo="vxb"/><sus tipo="cxs"/><hiposeg/></g>
+<g>un</g><l/>
+<nl num="16"/><g>poco<hiposeg/></g>
+<g>tarde</g><e/>
+<g>pero</g><l/>
+<nl num="17"/><g>a<hiposeg/></g>
+<g>buena</g><e/>
+<g n="hora">ora<omi tipo="h"/></g><l/>
+<nl num="18"/><pi><g n="Qué">Que<omi tipo="acento"/><hiposeg/></g>
+<g n="hacemos">hasemos<sus tipo="cxs"/></g><e/>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>escuela</g></pi><l/>
+<nl num="19"/><g n="leemos">lecemos<agre tipo="c"/></g><e/>
+<g n="hacemos">hasemos<sus tipo="cxs"/></g><e/>
+<g>cuentas</g><l/>
+<nl num="20"/><g>a<hiposeg/></g>
+<g>la</g><e/>
+<g n="hora">ora<omi tipo="h"/></g><e/>
+<g>de</g><e/>
+<g>re<tachado>c</tachado>reo<correccion tipo="susti"/></g><e/>
+<g n="jugamos">gugamos<sus tipo="jxg"/></g><l/>
+<nl num="21"/><g>platicamos</g><e/>
+<g>echamos<hiposeg/></g>
+<g n="chistes">cistes<omi tipo="h"/></g><l/>
+<nl num="22"/><g>es<hiposeg/></g>
+<g>muy<hiposeg/></g>
+<g n="divertida">di<tachado>b</tachado>ertida<correccion tipo="susti"/><sus tipo="vxb"/></g><e/>
+<g>nuestra</g><l/>
+<nl num="23"/><g>escuela</g><l/>
+</cuerpo>
+<comentarios>
+<com>9. Bajo la "s" hay una "o".</com>
+<com>14. Bajo la "l" hay una "s"; Bajo la "m" hay una "n".</com>
+<com>20. Bajo la "c" hay una "l".</com>
+<com>22. Bajo la "b" hay una "d".</com>
+</comentarios>
+</documento>

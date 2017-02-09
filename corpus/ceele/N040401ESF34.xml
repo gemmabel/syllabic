@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="144" permisos="todos">
+
+	<titulo>N040401ESF34</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="MARDELLIL"/>
+
+	<referencia id="MARDELLIL">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N040401ESF34.txt"/>
+	<imagen archivo="N040401ESF34.jpg"/>
+	<vista tipo="T"/>		
+</encabezado>
+
+
+<cuerpo>
+<nl num="1"/><g n="Mi">m<sus tipo="Mxm"/>i</g><g>escuela</g><l/>
+<nl num="2"/><g n="Soy">s<sus tipo="Sxs"/>oi<sus tipo="yxi"/></g><e/>
+<g n="Carolina">c<sus tipo="Cxc"/>aroL<mayInter/>iN<mayInter/>a</g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<g>quisiera</g><e/>
+<g n="ayudarte">all<sus tipo="yxll"/>uDarte</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>a<hiposeg/></g><g>tener</g><e/>
+<g n="comida">comiDa</g><e/>
+<g>pero</g><e/>
+<l/>
+<nl num="3"/><g>no</g><e/>
+<g n="puedo">pueDo</g><e/>
+<g n="porque">por<e/><hiperseg/>que</g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g n="estoy">e<omi tipo="s"/>T<mayInter/>oy<rotac tipo="y"/></g><e/>
+<g>lejos</g><e/>
+<g n="de">De<hiposeg/></g><g>ti</g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<g n="te">T<sus tipo="txT"/>e</g><e/>
+<g n="diré">Dire<omi tipo="acento"/></g><l/>
+<nl num="4"/><pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>es<hiposeg/></g><g>mi</g><e/>
+<g>escuela</g></pi><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Rafael">R<mayNP/>aF<mayInter/>ael</g><e/>
+<g n="Ramírez">R<mayNP/>a<e/><hiperseg/>mi<omi tipo="acento"/><e/><hiperseg/>res<sus tipo="zxs"/></g><e/>
+<l/>
+<nl num="5"/><g n="para">P<sus tipo="pxP"/>ara</g><e/>
+<g>que</g><e/>
+<g n="sepas">seP<mayInter/>as</g><e/>
+<g n="quién">quie<omi tipo="acento"/>n</g><e/>
+<g>soy<hiposeg/></g><g>yo</g><e/>
+<g>mi</g><g>mamá</g><e/>
+<g>o</g><e/>
+<g>mi</g><e/>
+<l/>
+<nl num="6"/><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g n="llegamos">y<sus tipo="llxy"/><rotac tipo="y"/>egamos</g><e/>
+<g>me</g><e/>
+<g n="trae">tray<sus tipo="exy"/><rotac tipo="y"/></g><l/>
+<nl num="7"/><g n="papá">P<sus tipo="pxP"/>aP<mayInter/>á</g><e/><r c="Fp" punto="aparte">.</r><e/><l/>
+<nl num="8"/><pi><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<g n="hago"><omi tipo="h"/>ago</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><e/>
+<g n="estudio">estuDio</g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<g>trabajo</g><l/>
+<nl num="9"/><g>sin</g><e/>
+<g n="equivocarme">equib<sus tipo="vxb"/>ocarme</g><l/>
+<nl num="10"/><g n="qué">Q<sus tipo="qxQ"/>ue<omi tipo="acento"/></g><e/>
+<g n="hago"><omi tipo="h"/>ago</g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g>recreo<hiposeg/></g><g>juego</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g n="muñecas">muñeca<omi tipo="s" error="concord"/></g><e/>
+<g>y<rotac tipo="y"/></g><e/>
+<l/>
+<nl num="11"/><g>me</g><e/>
+<g n="despido">DespiDo</g><e/>
+<g>soy<rotac tipo="y"/></g><e/>
+<g n="Liliam">L<mayNP/>iL<mayInter/>ian<sus tipo="mxn"/></g><e/>
+<g n="Carolina">c<sus tipo="Cxc"/>aroL<mayInter/>iN<mayInter/>a</g><e/>
+<g n="adiós">aDio<omi tipo="acento"/>s</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2.  Tacha</com>
+<com>3. Tacha</com>
+<com>11. Firma, escribe su nombre sin alterar la letra</com>
+<com>Todas las "Y" las hace invertidas de izquierda aderecha</com>
+<com>Todas las letras "D" las escribió utilizando la misma forma gráfica para mayúsclas y para minúsculas.</com>
+</comentarios>
+</documento>

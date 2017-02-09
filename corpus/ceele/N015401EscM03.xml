@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="213" permisos="todos">
+
+	<titulo>N015401EscM03</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="LEDTAPHEC"/>
+
+	<referencia id="LEDTAPHEC">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015401EscM03.txt"/>
+	<imagen archivo="N015401EscM03.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Héctor">Hector<mayNP/><omi tipo="acento"/><hiposeg/></g>
+<g n="Manuel">manuel<sus tipo="Mxm"/></g><e/>
+<g>Lede<tachado>z</tachado>ma<mayNP/><correccion tipo="susti"/></g><e/>
+<g>Tapia<mayNP/></g><l/>
+<nl num="2"/><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="3"/><e/>
+<pi><g n="Quién">quien<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g>soy</g></pi><l/>
+<nl num="4"/><e/>
+<g>yo</g><e/>
+<g>te[n]go</g><e/>
+<g>8</g><e/>
+<g>años</g><l/>
+<nl num="5"/><e/>
+<g>mi<hiposeg/></g>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g>gra<tachado>n</tachado>de<correccion tipo="susti"/></g><l/>
+<nl num="6"/><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="Héctor">Hector<mayNP/><omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>se</g><e/>
+<g>lla<tachado>m</tachado>a<correccion tipo="susti"/></g><e/>
+<g>Erei<tachado>da</tachado><mayNP/><correccion tipo="susti"/></g><e/>
+<g>y</g><e/>
+<g>mi</g><l/>
+<nl num="7"/><e/>
+<g n="hermano">herman<omi tipo="o"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g n="César">cesar<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>cua<tachado>n</tachado>do<correccion tipo="susti"/><hiposeg/></g>
+<g>salgo</g><l/>
+<nl num="8"/><e/>
+<g>de</g><e/>
+<g>la</g><e/>
+<g>es<tachado>c</tachado>uela<correccion tipo="susti"/></g><e/>
+<g n="juego">jego<omi tipo="u"/></g><e/>
+<g>con</g><e/>
+<g>mi</g><e/>
+<g>hermano</g><e/>
+<g n="César">cesar<sus tipo="Cxc"/><omi tipo="acento"/></g><l/>
+<nl num="9"/><e/>
+<pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>mu<tachado>c</tachado>hos<correccion tipo="susti"/></g><e/>
+<g n="árboles">arboles<omi tipo="acento"/></g><l/>
+<nl num="10"/><g>mi</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>baños</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>una</g><e/>
+<g>tienda</g><l/>
+<nl num="11"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="12"/><g>yo</g><e/>
+<g>me</g><e/>
+<g n="vengo">benga<sus tipo="vxb"/><sus tipo="oxa"/></g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g>siete<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g>la</g><e/>
+<g>mañana</g><e/>
+<g>yo</g><e/>
+<g>me</g><e/>
+<g n="vengo">bengo<sus tipo="vxb"/></g><e/>
+<g>en</g><l/>
+<nl num="13"/><g>bicicleta</g><e/>
+<g>y<tachado>o</tachado><correccion tipo="susti"/></g><e/>
+<g n="almuerzo">armoesa<sus tipo="lxr"/><sus tipo="uxo"/><omi tipo="r"/><sus tipo="zoxsa"/></g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<g>casa</g><l/>
+<nl num="14"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g>h<tachado>a</tachado>cemos<correccion tipo="susti"/></g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="15"/><g>hacemos</g><e/>
+<g>unos</g><e/>
+<g>dibujos</g><e/>
+<g>hacemos</g><e/>
+<g>pruebas</g><e/>
+<g>y</g><e/>
+<g n="también">tanbien<sus tipo="mxn"/><omi tipo="acento"/></g><e/>
+<g>hacemos</g><l/>
+<nl num="16"/><g n="dictados">ditados<omi tipo="c"/></g><e/>
+<g>y</g><e/>
+<g n="leemos">lemos<omi tipo="e"/></g><e/>
+<g>los</g><e/>
+<g>libros</g><l/>
+<nl num="17"/><firma tipo="a"><g n="hecho">echo<omi tipo="h"/></g><e/>
+<g>por</g><e/>
+<g n="Manuel">manueL<sus tipo="Mxm"/><mayInter/><sus tipo="lxL"/></g></firma><l/>
+</cuerpo>
+<comentarios>
+<com>Todas las "t" están en mayúscula.</com>
+<com>Las "y" las hace practicamente acostadas hacia la derecha</com>
+<com>1. Bajo la "z" hay una "j".</com>
+<com>4. La "n" puede parecer una "M" pequeña.</com>
+<com>5. Bajo la "n" hay una "s".</com>
+<com>6. No se identifica que hay bajo la "m"; bajo la "da" hay un "co".</com>
+<com>7. Bajo la "n" hay una "o".</com>
+<com>8. Bajo la "c" hay una "u".</com>
+<com>9. Bajo la "c" hay una "l".</com>
+<com>13. Bajo la "o" hay una "a".</com>
+<com>14. Bajo la "a" hay una "e".</com>
+<com>17. No pone firma pero hace referencia a que él fue el autor.</com>
+</comentarios>
+</documento>

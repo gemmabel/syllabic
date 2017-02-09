@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="135" permisos="todos">
+
+	<titulo>N025106ESF86</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="HERBAROLG"/>
+
+	<referencia id="HERBAROLG">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESF86.txt"/>
+	<imagen archivo="N025106ESF86A.jpg"/>
+	<imagen archivo="N025106ESF86B.jpg"/>
+	<imagen archivo="N025106ESF86C.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>O<mayNP/>lga</g><e/>
+<g>L<mayNP/>izeth</g><e/>
+<g>H<mayNP/>ernández</g><l/>
+<nl num="2"/><g>B<mayNP/>arajas</g><l/>
+<nl num="3"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><e/>
+<r c="Fia">¿</r><g>Q<mayIni/>uién</g><e/>
+<g>soy</g><r c="Fit">?</r><l/>
+<nl num="4"/><pi><g>Q<mayIni/>uién</g><e/>
+<g>soy</g></pi><l/>
+<l/>
+<nl num="5"/><g>1</g><e/>
+<g>H<mayIni/>ola</g><e/>
+<g>mi</g><e/>
+<g>nombre</g><e/>
+<g>es</g><e/>
+<g>O<mayNP/>lga</g><e/>
+<g>L<mayNP/>izeth</g><l/>
+<nl num="6"/><g>2</g><e/>
+<g n="Hernández">H<mayNP/>é<per tipo="acento"/>rnandez</g><e/>
+<g>B<mayNP/>arajas</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="7"/><g>3</g><e/>
+<g>L<mayNP/>as</g><e/>
+<g>A<mayNP/>méricas</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>una</g><e/>
+<g>familia</g><l/>
+<nl num="8"/><g>4</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/><g>una</g><e/>
+<g>hermanita</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><l/>
+<nl num="9"/><g>5</g><e/>
+<g>Y</g><e/>
+<g>tengo</g><e/>
+<g>el</g><e/>
+<g n="pelo">P<sus tipo="pxP"/>elo</g><e/>
+<g>café</g><e/>
+<g>con</g><e/>
+<g>negro</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="10"/><g>6</g><e/>
+<g><tachado>ten</tachado><correccion tipo="elimi"/></g><e/>
+<g>yo</g><e/>
+<g>siempre</g><e/>
+<g>vengo</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>y</g><l/>
+<nl num="11"/><g>7</g><e/>
+<g>yo</g><e/>
+<g>siempre</g><e/>
+<g>voy</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>y</g><e/>
+<g n="llevo">llevó<agre tipo="acento"/></g><l/>
+<nl num="12"/><g>8</g><e/>
+<g>y</g><e/>
+<g>el</g><e/>
+<g>uniforme</g><e/>
+<g>todos</g><e/>
+<g>los</g><e/>
+<g n="días">di<omi tipo="acento"/>as</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="13"/><g>9</g><e/>
+<g>yo</g><e/>
+<g>se</g><e/>
+<g>leer</g><e/>
+<g>y</g><e/>
+<g>escribir</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>muchos</g><l/>
+<nl num="14"/><g>10</g><e/>
+<g>amigos</g><e/>
+<g>y</g><e/>
+<g>amigas</g><e/>
+<g>y</g><e/>
+<g>soy</g><e/>
+<g>flaquita</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="15"/><g>11</g><e/>
+<g n="paso">P<sus tipo="pxP"/>asó<agre tipo="acento"/></g><e/>
+<g n="bien">bié<agre tipo="acento"/>n</g><e/>
+<r c="Fp" punto="seguido">.</r><l/>
+<nl num="16"/><g>12</g><e/>
+<pi><g>C<mayIni/>ómo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="17"/><g>13</g><e/>
+<g n="El">e<sus tipo="Exe"/>l</g><e/>
+<g>gobernador</g><e/>
+<g>nos</g><e/>
+<g>regala</g><e/>
+<g>cuadernos</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="18"/><g>14</g><e/>
+<g n="lápiz">láP<mayInter/>iz</g><e/>
+<g>y</g><e/>
+<g n="plumas">P<sus tipo="pxP"/>lumas</g><e/>
+<g>y</g><e/>
+<g>tiene</g><e/>
+<g>te<tachado>l</tachado><correccion tipo="susti"/>e</g><e/>
+<r c="Fc">,</r><e/>
+<g>abanico</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="19"/><g>15</g><e/>
+<g n="pizarrón">P<sus tipo="pxP"/>izarro<omi tipo="acento"/>n</g><e/>
+<g>y</g><e/>
+<g>una</g><e/>
+<g>concha</g><e/>
+<g>hay</g><e/>
+<g>también</g><e/>
+<g>hay</g><e/>
+<l/>
+<nl num="20"/><g><tachado>(ca)</tachado></g><e/>
+<g>16</g><e/>
+<g>tiendita</g><e/>
+<g>esco<tachado>l</tachado><correccion tipo="susti"/>ar</g><e/>
+<g>y</g><e/>
+<g>hay</g><e/>
+<g>dirección</g><e/>
+<g>y</g><e/>
+<g>hay</g><l/>
+<nl num="21"/><g>17</g><e/>
+<g>aire</g><e/>
+<g n="acondicionado">acondicionar<sus tipo="dxr"/>i<agre tipo="i"/>o</g><e/>
+<g>y</g><e/>
+<g>hay</g><e/>
+<g n="desayunador"><omi tipo="d"/>esall<sus tipo="yxll"/>una<tachado>d</tachado><correccion tipo="susti"/>or</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="22"/><g>18</g><e/>
+<g n="puertas">P<sus tipo="pxP"/>uertas</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="23"/><g>19</g><e/>
+<pi><g>C<mayIni/>ómo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="24"/><g><tachado>X</tachado><correccion tipo="elimi"/></g><l/>
+<nl num="25"/><g>20</g><e/>
+<g><tachado>(yo<e/>llegó)</tachado></g><e/>
+<g n="Yo">y<sus tipo="Yxy"/>o</g><e/>
+<g>me</g><e/>
+<g>voy</g><e/>
+<g>a</g><e/>
+<g n="pie">P<sus tipo="pxP"/>ie</g><l/>
+<nl num="26"/><g>21</g><e/>
+<g>y</g><e/>
+<g>camino</g><e/>
+<g>4</g><e/>
+<g>cuadras</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g>tardo</g><e/>
+<g n="más">ma<omi tipo="acento"/>s</g><l/>
+<nl num="27"/><g>22</g><e/>
+<g n="o">e<sus tipo="oxe"/><hiposeg/></g><g>menos</g><e/>
+<g>20</g><e/>
+<g>minutos</g><e/>
+<g n="para">P<sus tipo="pxP"/>ara</g><e/>
+<g n="llegar">llego<sus tipo="axo"/>r</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="28"/><g>23</g><e/>
+<pi><g>Q<mayIni/>ué</g><e/>
+<g>hace<tachado>m</tachado><correccion tipo="susti"/>os</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="29"/><g>24</g><e/>
+<g n="En">e<sus tipo="Exe"/>n</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>hacemos</g><e/>
+<g>trabajos</g><e/>
+<g>nos</g><e/>
+<g>ponen</g><e/>
+<l/>
+<nl num="30"/><g>25</g><e/>
+<g n="problemas">P<sus tipo="pxP"/>roblemas</g><e/>
+<g>y</g><e/>
+<g>leemos</g><e/>
+<g>y</g><e/>
+<g>jugamos</g><e/>
+<g>y</g><e/>
+<g>tenemos</g><e/>
+<l/>
+<nl num="31"/><g>26</g><e/>
+<g>recreo</g><e/>
+<g>y</g><e/>
+<g n="física">fi<omi tipo="acento"/><sus tipo="sxc"/>cica</g><e/>
+<g>y</g><e/>
+<g>nos</g><e/>
+<g>cuentan</g><e/>
+<l/>
+<nl num="32"/><g>27</g><e/>
+<g>cuentos</g><l/>
+</cuerpo>
+<comentarios>
+<com>3. Encirra en un círculo la preguenta "¿Quién sOy?</com>
+<com>10. Elimina sin tachar</com>
+<com>18. Encima</com>
+<com>20 y 25 Elimina, encerrando en un paréntesis  y en un círculo, lo hace para descartar lo que quiere eliminar</com>
+<com>20. Encima</com>
+<com>21. Encima</com>
+<com>24. Tacha</com>
+<com>28. Encima</com>
+<com>Escribe números al principio de la hoja, antes de comenzar el texto. Están del lado derecho de la hoja.</com>
+</comentarios>
+</documento>

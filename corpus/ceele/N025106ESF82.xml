@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="132" permisos="todos">
+
+	<titulo>N025106ESF82</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ZAMSONCEY"/>
+
+	<referencia id="ZAMSONCEY">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+	
+	<archivo nombre="N025106ESF82.txt"/>
+	<imagen archivo="N025106ESF82A.jpg"/>
+	<imagen archivo="N025106ESF82B.jpg"/>
+	<imagen archivo="N025106ESF82C.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><r c="Fe">"</r><e/>
+<g n="Ceila">C<mayNP/>eyli<agre tipo="i"/>a</g><e/>
+<g>Z<mayNP/>amorano</g><e/>
+<g>S<mayNP/>omeda</g><e/>
+<r c="Fe">"</r><l/>
+<nl num="2"/><r c="Fe">"</r><e/>
+<g>M<mayIni/>i</g><e/>
+<g>es<tachado>c</tachado><correccion tipo="susti"/>uela</g><e/>
+<r c="Fe">"</r><l/>
+<nl num="3"/><pi><r c="Fe">"</r><e/>
+<g>Quién</g><e/>
+<g>soy</g></pi><e/>
+<r c="Fe">"</r><l/>
+<l/>
+<nl num="4"/><g>H<mayIni/>ola</g><e/>
+<g>soy</g><e/>
+<g n="Ceila">c<sus tipo="Cxc"/>eyli<agre tipo="i"/>a</g><e/>
+<g>estoy</g><e/>
+<g>en</g><e/>
+<g tipo="grado">2<r c="Fgr">°</r></g><e/>
+<g>año</g><e/>
+<g>vivo</g><e/>
+<g>en</g><e/>
+<g>S<mayNP/>an</g><e/>
+<l/>
+<nl num="5"/><g>V<mayNP/>icente</g><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>mi</g><e/>
+<g>familia</g><e/>
+<g>es</g><e/>
+<g>buena</g><e/>
+<l/>
+<nl num="6"/><g>tengo</g><e/>
+<g>el</g><e/>
+<g>pelo</g><e/>
+<g>color</g><e/>
+<g>negro</g><e/>
+<g>con</g><e/>
+<g><tachado>(fal)</tachado></g><e/>
+<g n="café">cafe<omi tipo="acento"/></g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<l/>
+<nl num="7"/><g>escuela</g><e/>
+<g>me</g><e/>
+<g>vengo</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<g tipo="otra">7<r c="Fd">:</r>30</g><e/>
+<g>y</g><e/>
+<g>dan</g><e/>
+<g>el</g><e/>
+<g>timbre</g><e/>
+<g>a</g><e/>
+<g>las</g><e/>
+<l/>
+<nl num="8"/><g tipo="otra">8<r c="Fd">:</r>10</g><e/>
+<g>nos</g><e/>
+<g>llevamos</g><e/>
+<g><tachado>(el</tachado></g><e/><g><tachado>ma)</tachado></g><e/>
+<g>un</g><e/>
+<g><tachado>(o)</tachado></g><e/>
+<g>mandil</g><e/>
+<g>mi</g><e/>
+<g>escuela</g><l/>
+<nl num="9"/><g n="se">S<sus tipo="sxS"/>e</g><e/>
+<g>llama</g><e/>
+<g><mayNP/>Las</g><e/>
+<g n="Américas">A<mayNP/>me<omi tipo="acento"/>ricas</g><e/>
+<g>tengo</g><e/>
+<g>muchos</g><e/>
+<g>amigos</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="10"/><g>y</g><e/>
+<g>me</g><e/>
+<g>junto</g><e/>
+<g>con</g><e/>
+<g>ellas</g><e/>
+<g>diario</g><e/>
+<r c="Fp" punto="seguido">.</r><e/>
+<pi><g n="Cómo">C<mayIni/>o<omi tipo="acento"/>mo</g><e/>
+<g>es</g><e/>
+<g>nuestra</g><e/>
+<l/>
+<nl num="11"/><g>escuela</g></pi><e/>
+<g><tachado>(Mies)</tachado></g><e/>
+<g>mi</g><e/>
+<g>escuela</g><e/>
+<g>es</g><e/>
+<g>grande</g><e/>
+<g>el</g><e/>
+<g>gobierno</g><e/>
+<g>nos</g><l/>
+<nl num="12"/><g>regala</g><e/>
+<g n="útiles">u<omi tipo="acento"/>tiles</g><e/>
+<g><tachado>(escolale)</tachado></g><e/>
+<g>escolares</g><e/>
+<g>hay</g><e/>
+<g>12</g><e/>
+<g>salones</g><e/>
+<l/>
+<nl num="13"/><g>hay</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>en</g><e/>
+<g>los</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g>hay</g><e/>
+<g>panales</g><e/>
+<g>de</g><l/>
+<nl num="14"/><g>abejas</g><e/>
+<g>hay</g><e/>
+<g>canchas</g><e/>
+<g>de</g><e/>
+<g><tachado>(fub)</tachado></g><e/>
+<g>futbol</g><e/>
+<g>y</g><e/>
+<g>de</g><e/>
+<g>basque</g><l/>
+<nl num="15"/><g>hay</g><e/>
+<g>una</g><e/>
+<g>tiendita</g><e/>
+<g>y</g><e/>
+<g>un</g><e/>
+<g>comedor</g><e/>
+<g>los</g><e/>
+<g>salones</g><e/>
+<g>tienen</g><l/>
+<nl num="16"/><g>tele</g><e/>
+<g>pizarrón</g><e/>
+<g>libros</g><e/>
+<g>de</g><e/>
+<g>cuentos</g><e/>
+<g>y</g><e/>
+<g>sillas</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="17"/><g>también</g><e/>
+<g>tenemos</g><e/>
+<g>aire</g><e/>
+<g>acondicionado</g><e/>
+<g>pero</g><e/>
+<g>no</g><e/>
+<g>sirve</g><l/>
+<nl num="18"/><g>los</g><e/>
+<g>salones</g><e/>
+<g n="están">esta<omi tipo="acento"/>n</g><e/>
+<g>hechos</g><e/>
+<g>de</g><e/>
+<g>ladrillos</g><e/>
+<g>y</g><e/>
+<g>los</g><e/>
+<g>ladrillos</g><l/>
+<nl num="19"/><g n="están">esta<omi tipo="acento"/>n</g><e/>
+<g>pintados</g><e/>
+<g>los</g><e/>
+<g>libros</g><e/>
+<g>nos</g><e/>
+<g n="los">n<sus tipo="lxn"/>os</g><e/>
+<g>regala</g><e/>
+<g>el</g><e/>
+<l/>
+<nl num="20"/><g>gobierno</g><e/>
+<g>l<tachado>o</tachado><correccion tipo="susti"/>s</g><e/>
+<g>salones</g><e/>
+<g>los</g><e/>
+<g n="construyen">construll<sus tipo="yxll"/>en</g><e/>
+<g>los</g><e/>
+<g>albañiles</g><e/><r c="Fp" punto="aparte"></r>
+<l/>
+<l/>
+<nl num="21"/><pi><g n="Cómo">c<sus tipo="Cxc"/>o<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><l/>
+<nl num="22"/><g n="Nosotros">n<sus tipo="Nxn"/>osotros</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>a<hiposeg/></g><g>pie</g><e/>
+<g>o</g><e/>
+<g><tachado>(en)</tachado></g><l/>
+<nl num="23"/><g>en</g><e/>
+<g>bici</g><e/>
+<g>los</g><e/>
+<g>que</g><e/>
+<g><tachado>(se)</tachado></g><e/>
+<g>se</g><e/>
+<g>van</g><e/>
+<g>a</g><e/>
+<g>pie</g><l/>
+<nl num="24"/><g>caminan</g><e/>
+<g>dos</g><e/>
+<g>cuadras</g><e/>
+<g>y</g><e/>
+<g>los</g><e/>
+<g>que</g><e/>
+<g>van</g><e/>
+<g>en</g><e/>
+<g>bici</g><l/>
+<nl num="25"/><g n="rápido">ra<omi tipo="acento"/>pi<tachado>d</tachado><correccion tipo="susti"/>o</g><e/>
+<g>llegan</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g><tachado>(ll)</tachado></g><e/><g><tachado>(lo)</tachado></g><e/>
+<g>llegan</g><e/>
+<l/>
+<nl num="26"/><g>en</g><e/>
+<g>5</g><e/>
+<g>minutos</g><e/>
+<g>los</g><e/>
+<g>que</g><e/>
+<g>van</g><e/>
+<g>en</g><e/>
+<g>bici</g><e/>
+<l/>
+<nl num="27"/><pi><g n="Qué">Q<mayIni/>ue<omi tipo="acento"/></g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g><tachado>(escuela)</tachado></g><e/>
+<g>escuela</g></pi><l/>
+<nl num="28"/><g n="En">e<sus tipo="Exe"/>n</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>nos</g><e/>
+<g>ponemos</g><e/>
+<g>a</g><e/>
+<g>leer</g><e/>
+<g>a</g><e/>
+<g>escribir</g><l/>
+<nl num="29"/><g>a</g><e/>
+<g>hacer</g><e/>
+<g>cuentas</g><e/>
+<g>problemas</g><e/>
+<g>a</g><e/>
+<g>recortar</g><e/>
+<g>a</g><e/>
+<l/>
+<nl num="30"/><g>hacer</g><e/>
+<g>el</g><e/>
+<g>abecedario</g><e/>
+<g>a</g><e/>
+<g>hacer</g><e/>
+<g>letra</g><l/>
+<nl num="31"/><g>cursiva</g><e/>
+<g>a</g><e/>
+<g>hacer</g><e/>
+<g>cuestionarios</g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>2. Encima</com>
+<com>6. Elimina</com>
+<com>8. Elimina, elimina</com>
+<com>11. elimina</com>
+<com>12. elimina</com>
+<com>14. elimina</com>
+<com>22. elimina</com>
+<com>23. elimina</com>
+<com>25. elimina, elimina</com>
+<com>27. elimina</com>
+<com> Usa paréntesis para autocorregir</com>
+<com>Diseño: Ecribe el título centrado, subráya la pregunta.</com>
+<com>Diseño: Pone comillas en el título </com>
+<com>Subraya las preguntas que dan lugar a los distintos bloques temáticos, en las líneas: 1, 10, 11,21, 27. </com>
+<com> </com>
+</comentarios>
+</documento>

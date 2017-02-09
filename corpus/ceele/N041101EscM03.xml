@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="176" permisos="todos">
+
+		<titulo>N041101EscM03</titulo>
+		<descripcion></descripcion>
+
+		<parametros		generoLiterario="prosa" registro="estándar">
+			<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+		</parametros>
+		
+		<hablante id="CABBECMAR"/>
+
+		<referencia id="CABBECMAR">
+			<lugar>Nayarit</lugar>
+			<fechaOriginal>2010</fechaOriginal>
+		</referencia>
+		
+		<responsables>
+			<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+			<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+			<revisor nombres="" apellidos="" fecha=""/>
+		</responsables>				
+
+	<archivo nombre="N041101EscM03.txt"/>
+	<imagen archivo="N041101EscM03.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g n="Martín">MArtin<mayNP/><mayInter/><sus tipo="axA"/><omi tipo="acento"/></g><e/>
+<g n="Leonardo">lEonArdo<sus tipo="Lxl"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="axA"/></g><l/>
+<nl num="2"/><e/>
+<g>Mi<mayIni/></g><e/>
+<g n="escuela">EscuElA<sus tipo="exE"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="axA"/></g><l/>
+<nl num="3"/><e/>
+<pi><g n="Quién">quiEn<sus tipo="Qxq"/><omi tipo="acento"/><mayInter/><sus tipo="Exe"/></g><e/>
+<g n="soy">SoY<sus tipo="sxS"/><mayInter/><sus tipo="yxY"/></g></pi><l/>
+<nl num="4"/><e/>
+<g>hola</g><e/>
+<g n="soy">SoY<sus tipo="sxS"/><mayInter/><sus tipo="yxY"/></g><l/>
+<nl num="5"/><e/>
+<g n="Martín">MArtin<mayNP/><mayInter/><sus tipo="axA"/><omi tipo="acento"/></g><l/>
+<nl num="6"/><e/>
+<g>tengo<hiposeg/></g>
+<g>7</g><e/>
+<g n="años">AÑoS<sus tipo="axA"/><mayInter/><sus tipo="ñxÑ"/><mayInter/><sus tipo="sxS"/></g><e/>
+<g n="vivo">ViVo<sus tipo="vxV"/><mayInter/><sus tipo="vxV"/><mayInter/></g><e/>
+<g n="en">En<sus tipo="exE"/><mayInter/></g>
+<g n="Nayarit">NAYArit<mayNP/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="yxY"/><mayInter/><sus tipo="axA"/></g><l/>
+<nl num="7"/><e/>
+<g n="yo">llo<sus tipo="yxll"/></g><e/>
+<g n="trabajo">travajo<sus tipo="bxv"/><hiposeg/></g>
+<g n="con">coN<mayInter/><hiposeg/></g>
+<g n="mi">Mi<sus tipo="mxM"/><hiposeg/></g>
+<g n="papá">pApA<mayInter/><omi tipo="acento"/></g><l/>
+<l/>
+<nl num="8"/><e/>
+<pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g n="es">ES<sus tipo="exE"/><mayInter/><sus tipo="sxS"/><mayInter/></g><e/>
+<g>mi<hiposeg/></g>
+<g n="escuela">es<hiperseg/><e/>cuElA<mayInter/><sus tipo="exE"/><mayIni/><sus tipo="axA"/></g></pi><l/>
+<nl num="9"/><e/>
+<g n="está">EStA<sus tipo="exE"/><mayInter/><sus tipo="sxS"/><mayInter/><sus tipo="axA"/><omi tipo="acento"/></g><e/>
+<g n="está">EStA<sus tipo="exE"/><mayInter/><sus tipo="sxS"/><mayInter/><sus tipo="axA"/><omi tipo="acento"/></g><e/>
+<g n="por">pEr<mayInter/><sus tipo="exE"/><sus tipo="oxe"/></g><e/>
+<g n="grande">grndES<omi tipo="a"/><mayInter/><sus tipo="exE"/><agre tipo="S"/></g><l/>
+<nl num="10"/><g n="tiene">tiEnE<mayInter/><sus tipo="exE"/><mayInter/><sus tipo="exE"/></g><e/>
+<g n="árboles">arvolES<omi tipo="acento"/><sus tipo="bxv"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="sxS"/></g><e/>
+<g n="las">lAS<mayInter/><sus tipo="axA"/><mayInter/><sus tipo="sxS"/></g><e/>
+<g n="pelotas">pElotAS<mayInter/><sus tipo="exE"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="sxS"/></g><e/>
+<g n="son">So<sus tipo="sxS"/><omi tipo="n"/></g><e/>
+<g n="nuevas">NuEVAS<sus tipo="nxN"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="vxV"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="sxS"/></g><r c="Fp" punto="aparte">.</r><l/>
+<l/>
+<nl num="11"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g n="llego">llEgo<mayInter/><hiposeg/></g>
+<g n="a">A<sus tipo="axA"/></g><e/>
+<g n="la">lA<mayInter/><sus tipo="axA"/></g><e/>
+<g n="escuela">ESCUElA<sus tipo="exE"/><mayInter/><sus tipo="sxS"/><mayInter/><sus tipo="cxC"/><mayInter/><sus tipo="uxU"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="axA"/></g></pi><e/>
+<g n="en">En<sus tipo="exE"/><hiposeg/></g>
+<g n="carro">cArro<mayInter/><sus tipo="axA"/></g><l/>
+<nl num="12"/><g n="me">ME<sus tipo="mxM"/><mayInter/><sus tipo="exE"/></g><e/>
+<g n="trae">trAy<mayInter/><sus tipo="axA"/><sus tipo="exy"/></g><e/>
+<g n="mi">Mi<sus tipo="mxM"/></g><e/>
+<g n="papá">pApA<omi tipo="acento"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="axA"/></g><r c="Fp" punto="aparte">.</r><l/>
+<nl num="13"/><pi><g n="Qué">que<sus tipo="Qxq"/><omi tipo="acento"/></g><e/>
+<g n="hacemos">ASEMos<omi tipo="h"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="sxS"/><mayInter/><sus tipo="exE"/><mayInter/><sus tipo="mxM"/><sus tipo="cxs"/></g></pi><e/>
+<g n="el">El<sus tipo="exE"/><hiposeg/></g>
+<g n="maestro">MAEtro<sus tipo="mxM"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="exE"/><omi tipo="s"/></g><l/>
+<nl num="14"/><g n="juego">JuEgo<sus tipo="jxJ"/><mayInter/><sus tipo="exE"/></g><e/>
+<g n="en">En<sus tipo="exE"/><hiposeg/></g>
+<g n="el">El<sus tipo="exE"/><hiposeg/></g>
+<g n="recreo">rEcrEo<mayInter/><sus tipo="exE"/><mayInter/><sus tipo="exE"/></g><l/>
+<nl num="15"/><g n="cómo">coMo<omi tipo="acento"/><mayInter/><sus tipo="mxM"/></g><e/>
+<g>ohtdt</g><l/>
+<nl num="16"/><g n="adiós">Adio<sus tipo="axA"/><omi tipo="acento"/><omi tipo="s"/></g><e/>
+<g n="Fátima">fAtiMA<sus tipo="Fxf"/><mayInter/><sus tipo="axA"/><mayInter/><sus tipo="mxM"/><mayInter/><sus tipo="axA"/><omi tipo="acento"/></g><l/>
+</cuerpo>
+<comentarios>
+<com>Todas la "p" y "n" están en mayúscula.</com>
+</comentarios>
+</documento>

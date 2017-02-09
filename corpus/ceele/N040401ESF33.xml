@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+	
+<encabezado id="143" permisos="todos">
+
+	<titulo>N040401ESF33</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="NIELOPSOL"/>
+
+	<referencia id="NIELOPSOL">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N040401ESF33.txt"/>
+	<imagen archivo="N040401ESF33.jpg"/>
+	<vista tipo="T"/>	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g>S<mayNP/>ol</g><e/>
+<g>para</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>T<mayInter/>ima</g><l/>
+<nl num="3"/><g>7</g><e/>
+<g>años</g><e/>
+<g n="Maestro">m<sus tipo="Mxm"/>aesT<mayInter/>ro</g><e/>
+<g n="Rafael">r<sus tipo="Rxr"/>aF<mayInter/>ael</g><e/>
+<g n="Ramírez">R<mayNP/>ami<omi tipo="acento"/>res<sus tipo="zxs"/></g><l/>
+<l/>
+<nl num="4"/><g>con</g><e/>
+<g n="árboles">a<omi tipo="acento"/>rboles</g><e/>
+<g n="salones">S<sus tipo="sxS"/>alones</g><e/>
+<g n="tiendita">T<sus tipo="txT"/><tachado>i</tachado><correccion tipo="susti"/>endita</g><l/>
+<nl num="5"/><g n="mi">M<sus tipo="mxM"/><tachado>i</tachado><correccion tipo="susti"/></g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>en</g><e/>
+<g>el</g><e/>
+<g n="carro">car<sus tipo="rrxr"/>o</g><l/>
+<nl num="6"/><g>T<mayIni/><e/><hiperseg/>rabajamos</g><e/>
+<g n="estudiamos">es<e/><hiperseg/>
+T<mayInter/>udiamos</g><e/>
+<l/>
+<nl num="7"/><g n="salimos">sali<e/><hiperseg/>
+m<tachado>o</tachado><correccion tipo="susti"/>s</g><e/>
+<g>al</g><e/>
+<g>recreo</g><l/>
+<nl num="8"/><g>c<tachado>o</tachado><correccion tipo="susti"/>mpramos</g><e/>
+<g>a</g><e/>
+<g n="educación">educas<sus tipo="cxs"/>io<omi tipo="acento"/>n</g><l/>
+<nl num="9"/><g n="física">F<sus tipo="fxF"/>i<omi tipo="acento"/>sica</g><e/>
+<g>a</g><e/>
+<g n="danza">da<e/><hiperseg/>ns<sus tipo="zxs"/>a</g><l/>
+<nl num="10"/><g n="adiós">a<e/><hiperseg/>
+dio<omi tipo="acento"/>s</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento" />T<mayInter/>ima</g><l/>
+<nl num="11"/><g n="dile">di<e/><hiperseg/>le</g><e/>
+<g n="adiós">a<e/><hiperseg/>di<e/><hiperseg/>o<omi tipo="acento"/>s</g><e/>
+<g>a</g><e/>
+<e/>
+<g>tus</g><e/>
+<g n="amigos">a<e/><hiperseg/>migos</g><l/>
+<nl num="12"/><firma tipo="a"><g>SoLeda</g><e/>
+<g>guada<e/>
+lupe</g><e/>
+<g>nieves</g><l/>
+<nl num="13"/><g>Lopes</g></firma><l/>
+<l/><dibujo/>
+</cuerpo>
+<comentarios>
+<com>4. Encima. Decía "e"</com>
+<com>5. Encima . Decía "o"</com>
+<com>7. Encima</com>
+<com>12 Hace la "g" más grande para aparentar mayúscula</com>
+<com>12, 13 Firma: Escribe su nombre sin alterar la letra</com>
+<com>Diseño de página: Título centrado, hace dibujos al final del texto</com>
+<com>Combina algunas letras cursiva con la letra imprenta</com>
+</comentarios>
+</documento>

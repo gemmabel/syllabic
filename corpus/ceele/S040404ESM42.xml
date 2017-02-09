@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="87" permisos="todos">
+	<titulo>S040404ESM42</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="ALDPARPED"/>
+
+	<referencia id="ALDPARPED">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040404ESM42.txt"/>
+	<imagen archivo="S040404ESM42.jpg"/>
+	<vista tipo="T"/>
+	
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<l/>
+<nl num="2"/><g>H<mayIni/>ola</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><e/>
+<g>yo</g><e/>
+<g>soy</g><e/>
+<g>P<mayNP/>edro</g><e/>
+<g tipo="abrev">E<mayNP/><r c="Fp" punto= "abrev">.</r></g><e/>
+<g>A<mayNP/>ldama</g><l/>
+<nl num="3"/><g>P<mayNP/>arra</g><e/>
+<r c="Fc">,</r><e/>
+<g>tengo</g><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>y</g><e/>
+<g>mi</g><e/>
+<g n="escuela">e<tachado>s</tachado><correccion tipo="susti"/>cue<e/><hiperseg/>la</g><e/>
+<g>se</g><e/>
+<g n="llama">y<sus tipo="llxy"/>ama</g><l/>
+<l/>
+<nl num="4"/><g tipo="abrev">G<mayNP/>ral<r c="Fp" punto= "abrev">.</r></g><e/>
+<g>J<mayNP/>uventino</g><e/>
+<g><tachado>E</tachado><mayNP/><correccion tipo="susti"/>spinosa</g><e/>
+<g>soy</g><e/>
+<g>de</g><e/>
+<g n="México">M<mayNP/>e<omi tipo="acento"/>xico</g><l/>
+<nl num="5"/><g>tengo</g><e/>
+<g>una</g><e/>
+<g n="hermanita"><omi tipo="h"/>ermanita</g><e/>
+<g>que</g><e/>
+<g>se</g><e/>
+<g n="llama">y<sus tipo="llxy"/>ama</g><e/>
+<g><tachado>M</tachado><mayIni/><correccion tipo="susti"/>onse</g><e/>
+<g n="mi"><tachado>M</tachado><sus tipo="mxM"/>i</g><l/>
+<nl num="6"/><g>mamá</g><e/>
+<g>es</g><e/>
+<g n="Elvira">E<mayNP/>lb<sus tipo="vxB"/>ira</g><e/>
+<g tipo="abrev">P<mayNP/><r c="Fp" punto= "abrev">.</r></g><e/>
+<g n="Tapia">t<sus tipo="Txt"/>apia</g><e/>
+<r c="Fc">,</r><e/>
+<g>mi</g><e/>
+<g>papá</g><e/>
+<g>es</g><e/>
+<g>P<mayNP/>edro</g><e/>
+<g tipo="abrev">A<mayNP/><r c="Fp" punto= "abrev">.</r></g><e/>
+<g n="López">L<mayNP/>o<omi tipo="acento"/>P<mayInter/>ez</g><e/>
+<r c="Fp" punto= "aparte">.</r><l/>
+<nl num="7"/><g>M<mayIni/>i<hiposeg/></g><g>escuela</g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g>grande</g><e/>
+<r c="Fc">,</r><e/>
+<g>tenemos</g><e/>
+<g>salones</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="8"/><g>comput<tachado>a</tachado><correccion tipo="susti"/>doras</g><e/>
+<r c="Fc">,</r><e/>
+<g>estudiamos</g><e/>
+<r c="Fc">,</r><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g n="dirección">direccio<omi tipo="acento"/>n</g><e/>
+<r c="Fc">,</r><e/>
+<g>baños</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="9"/><g>canchas</g><e/>
+<g>jugamos</g><e/>
+<g>fut<r c="Fgs">-</r><e/>bol</g><e/>
+<r c="Fc">,</r><e/>
+<g>corremos</g><e/>
+<r c="Fc">,</r><e/>
+<g>tengo</g><e/>
+<g>amigos</g><e/>
+<g>y</g><e/>
+<l/>
+<nl num="10"/><g>trabaja<tachado>m</tachado><correccion tipo="susti"/>os</g><e/>
+<g>mucho</g><e/>
+<r c="Fc">,</r><e/>
+<l/>
+<nl num="11"/><g>yo</g><e/>
+<g n="llego">y<sus tipo="llxy"/>ego</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><e/>
+<g>caminando</g><e/>
+<g>mi</g><e/>
+<g>mamá</g><e/>
+<g>me</g><e/>
+<l/>
+<nl num="12"/><g>trae</g><e/>
+<g>y</g><e/>
+<g>me</g><e/>
+<g n="recoge">recoj<sus tipo="gxj"/>e</g><e/>
+<g>tenemos</g><e/>
+<g>agua</g><e/>
+<r c="Fc">,</r><e/>
+<g>focos</g><e/>
+<g>y</g><e/>
+<g n="llevo">y<sus tipo="llxy"/>eb<sus tipo="vxb"/>o</g><e/>
+<g>lonche</g><e/>
+<r c="Fp" punto="aparte">.</r><e/>
+<l/>
+<nl num="13"/><g>L<mayIni/>eemos</g><e/>
+<r c="Fc">,</r><e/>
+<g>trabajamos</g><e/>
+<g>español</g><e/>
+<r c="Fc">,</r><e/>
+<g n="matemáticas">matema<omi tipo="acento"/>ticas</g><e/>
+<g n= "e">y<sus tipo="exY"/></g><e/>
+<g>integrado</g><l/>
+<nl num="14"/><g n="educación">en<agre tipo="n"/><e/><hiperseg/>ducas<sus tipo="cxs"/>io<omi tipo="acento"/>n</g><e/>
+<g n="física">fi<omi tipo="acento"/>sica</g><e/>
+<g n="hago"><omi tipo="h"/>ago</g><e/>
+<g>deportes</g><e/><r c="Fc">,</r><e/>
+<g>en</g><e/>
+<g n="computación">computas<sus tipo="cxs"/>io<omi tipo="acento"/>n</g><l/>
+<nl num="15"/><g>juego</g><e/>
+<g>con</g><e/>
+<g>la</g><e/>
+<g>comp<tachado>u</tachado><correccion tipo="susti"/>tadora</g><e/>
+<g>y</g><e/>
+<g>como</g><e/>
+<g>en</g><e/>
+<g>mi</g><e/>
+<g>casa</g><e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g>luz</g><l/>
+<l/>
+<nl num="16"/><g>adiós</g><e/>
+<g n="Fátima">F<mayNP/>a<omi tipo="acento"/>tima</g><l/>
+<nl num="17"/><g>firma</g><e/><firma tipo="f">
+<g>Pedro</g><e/>
+<r c="Fc">,</r><e/>
+<g>Emmanue</g><e/>
+<g tipo="abrev">A<r c="Fp" punto= "abrev">.</r></g><e/>
+<g>Parra</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4 Encima: Decía "e"</com>
+<com>3 Encima</com>
+<com>5 Encima. Decía "m" en ambos casos</com>
+<com>5 Encima</com>
+<com>10 Encima</com>
+<com>15 Encima</com>
+<com>17 Firma: Escribe "firma" y luego su nombre sin alterar la letra</com>
+<com>Todas las "y" las hace sobre el renglón, por lo que parecen mayúsculas</com>
+</comentarios>
+</documento>

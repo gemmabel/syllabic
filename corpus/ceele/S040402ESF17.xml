@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+				
+<encabezado id="75" permisos="todos">
+	<titulo>S040402ESF17</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="SANGUZCAN"/>
+
+	<referencia id="SANGUZCAN">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="María" apellidos="Pucci" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>	
+
+	<archivo nombre="S040402ESF17.txt"/>
+	<imagen archivo="S040402ESF17.jpg"/>
+	<vista tipo="T"/>
+
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>M<mayIni/>i</g><e/>
+<g>escuela</g><l/>
+<nl num="2"/><g n="Soy">s<sus tipo="Sxs"/>oy</g><e/>
+<r c="Fd">:</r><e/>
+<g n="Candelaria">c<sus tipo="Cxc"/>andelaria</g><e/>
+<g n="Sandoval">s<sus tipo="Sxs"/>andoval</g><e/>
+<g>G<mayNP/>uzmán</g><e/>
+<r c="Fgs">-</r><e/><l/>
+<nl num="3"/><g>vivo</g><e/>
+<g>en</g><e/>
+<g n="Tepic">T<mayNP/>eP<mayInter/>in<sus tipo="cxn"/></g><e/>
+<g>N<mayNP/>ayarit</g><e/>
+<g>tengo</g><e/>
+<g n="siete">c<sus tipo="sxc"/>iete</g><e/>
+<g>años</g><e/>
+<l/>
+<nl num="4"/><g>tengo</g><e/>
+<g>una</g><e/>
+<g>casa</g><e/>
+<g>de</g><e/>
+<g>color</g><e/>
+<g n="verde">b<sus tipo="vxb"/>er<tachado>d</tachado><correccion tipo="susti"/>e</g><e/>
+<r c="Fp" punto="aparte">.</r><l/>
+<nl num="5"/><g n="Mi">m<sus tipo="Mxm"/>i</g><e/>
+<g>escuela</g><e/>
+<g>tiene</g><e/>
+<g>árboles</g><e/>
+<g n="está">es<e/><hiperseg/>ta<omi tipo="acento"/></g><e/>
+<l/>
+<nl num="6"/><g n="construida">cou<sus tipo="nxu"/>struy<sus tipo="ixy"/>da</g><e/>
+<g>de</g><e/>
+<g><tachado>l</tachado><correccion tipo="susti"/>adrillo</g><e/>
+<g>tiene</g><e/>
+<g n="seis">c<sus tipo="sxc"/>eis</g><l/>
+<nl num="7"/><g>salones</g><e/>
+<g>tengo</g><e/>
+<g>amigos</g><e/>
+<g>tengo</g><e/>
+<g>dos</g><l/>
+<nl num="8"/><g>amigas</g><e/>
+<g>y</g><e/>
+<g>tengo</g><e/>
+<g>tres</g><e/>
+<g n="hermanos"><omi tipo="h"/>ermanos</g><l/>
+<l/>
+<nl num="9"/><pi><g>Q<mayIni/>ué</g><e/>
+<g>ha<tachado>c</tachado><correccion tipo="susti"/>emos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g></pi><e/>
+<g n="jugamos">jugap<sus tipo="mxp"/>os</g><e/>
+<g>a</g><e/>
+<l/>
+<nl num="10"/><g n="las">lo<sus tipo="axo" error="concord"/>s</g><e/>
+<g n="escondidas">es<e/><hiperseg/>condidas</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g n="trae"><tachado>t</tachado><correccion tipo="susti"/>rai<sus tipo="exi"/></g><e/>
+<g n="hay"><omi tipo="h"/>ay</g><e/>
+<g n="columpios">colun<sus tipo="mxn"/>P<mayInter/>ios</g><l/>
+<nl num="11"/><g n="resbaladilla">resd<rotac tipo="b"/>aladilla</g><e/>
+<g n="pasamanos">P<sus tipo="pxP"/>asa<e/><hiperseg/>manos</g><e/>
+<l/>
+<nl num="12"/><firma tipo="a"><g>candelaria</g></firma><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>4, 6, 10 Encima</com>
+<com>9. Encima. Decía "s"</com>
+<com>Firma. Escribe su nombre sin alterar la letra</com>
+<com>La letra "p" la hace como "P" </com>
+<com>Los renglones 1-4 están encerrados con un globo</com>
+</comentarios>
+</documento>

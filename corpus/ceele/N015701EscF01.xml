@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+<encabezado id="218" permisos="todos">
+
+	<titulo>N015701EscF01</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="BONFONITA"/>
+
+	<referencia id="BONFONITA">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Sandra Nayely" apellidos="Richer Monroy" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N015701EscF01.txt"/>
+	<imagen archivo="N015701EscF01a.jpg"/>
+	<imagen archivo="N015701EscF01b.jpg"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><e/>
+<g>Italia<mayNP/></g><e/>
+<g>Bonilla<mayNP/></g><e/>
+<g>Fonseca<mayNP/></g><l/>
+<l/>
+<nl num="2"/><e/>
+<e/>
+<e/>
+<e/>
+<pi><g>Quién<mayIni/></g><e/>
+<g>soy</g></pi><l/>
+<l/>
+<nl num="3"/><e/>
+<g n="Hola">hola<sus tipo="Hxh"/></g><e/>
+<g n="Fátima">Fatima<mayNP/><omi tipo="acento"/></g><e/>
+<g>me<hiposeg/></g>
+<g>llamo</g><e/>
+<g>Italia<mayNP/></g><e/>
+<g>tengo</g><l/>
+<nl num="4"/><e/>
+<g>7</g><e/>
+<g>años</g><e/>
+<g>mi</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><l/>
+<nl num="5"/><e/>
+<g>Marlen<mayNP/></g><e/>
+<g n="tengo">Tengo<sus tipo="txT"/></g><e/>
+<g>una</g><e/>
+<g n="hermana">ermana<omi tipo="h"/></g><l/>
+<nl num="6"/><e/>
+<g n="se">Se<sus tipo="sxS"/></g><e/>
+<g>llama</g><e/>
+<g n="Deydad">DeyDaD<mayNP/><mayInter/><sus tipo="dxD"/><mayInter/><sus tipo="dxD"/></g><l/>
+<nl num="7"/><e/>
+<g n="vivo">bivo<sus tipo="vxb"/></g><e/>
+<g>en</g><e/>
+<g>Tecuala<mayNP/></g><e/>
+<g n="Nayarit">nayarit<sus tipo="nxN"/></g><l/>
+<nl num="8"/><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>casa</g><e/>
+<g>3</g><e/>
+<g n="cerca">serca<sus tipo="cxs"/><hiposeg/></g>
+<g>del</g><l/>
+<nl num="9"/><e/>
+<g>quinder<hiposeg/></g>
+<g n="Tacote">tacote<sus tipo="Txt"/></g><l/>
+<nl num="10"/><g n="adiós">Adios<sus tipo="axA"/><omi tipo="acento"/></g><e/>
+<g n="Fátima">fatima<sus tipo="Fxf"/><omi tipo="acento"/></g><e/>
+<g>le<hiposeg/></g>
+<g n="mando">mado<omi tipo="n"/></g><l/>
+<nl num="11"/><g>saludos</g><e/>
+<g>a</g><e/>
+<g n="tu">Tu<sus tipo="txT"/></g><e/>
+<g n="papá">papa<omi tipo="acento"/></g><e/>
+<g>y</g><e/>
+<g n="a">A<sus tipo="axA"/></g><e/>
+<g>tu</g><e/>
+<g n="mamá">mama<omi tipo="acento"/></g><l/>
+<nl num="12"/><pi><g n="Cómo">como<sus tipo="Cxc"/><omi tipo="acento"/></g><e/>
+<g>es</g><e/>
+<g>nues<hiperseg/><e/>Tra<mayInter/><sus tipo="txT"/></g><e/>
+<g>es<hiperseg/><e/>cuela</g></pi><l/>
+<nl num="13"/><g n="tenemos">Tenemos<sus tipo="txT"/></g><r c="Fc">,</r><e/>
+<g n="focos">Focos<sus tipo="fxF"/></g><r c="Fc">,</r><l/>
+<nl num="14"/><g n="abanicos">Abanicos<sus tipo="axA"/></g><r c="Fc">,</r><e/>
+<g n="borrador">Borador<sus tipo="bxB"/><omi tipo="r"/></g><r c="Fc">,</r><e/>
+<g n="trapeador">TraPiador<sus tipo="txT"/><mayInter/><sus tipo="pxP"/><sus tipo="exi"/></g><r c="Fc">,</r><l/>
+<nl num="15"/><g>li<tachado>b</tachado>retas<correccion tipo="susti"/></g><r c="Fc">,</r>
+<g>agua</g><r c="Fc">,</r>
+<g n="natural">naTural<mayInter/><sus tipo="txT"/></g><r c="Fc">,</r><l/>
+<nl num="16"/><g n="computadoras">comPutadoras<mayInter/><sus tipo="pxP"/></g><r c="Fc">,</r><e/>
+<g n="maestro">maesTro<mayInter/><sus tipo="txT"/></g><r c="Fc">,</r>
+<g>de</g><r c="Fc">,</r>
+<g n="educación">educasio<sus tipo="sxc"/><omi tipo="acento"/><omi tipo="n"/></g><r c="Fc">,</r><l/>
+<nl num="17"/><g n="física">fisica<omi tipo="acento"/></g><r c="Fc">,</r><e/>
+<g n="tiendita">Tiendita<sus tipo="txT"/></g><r c="Fc">,</r><l/>
+<nl num="18"/><g n="columpios">columPios<mayInter/><sus tipo="pxP"/></g><r c="Fc">,</r><e/>
+<g>puerta</g><r c="Fc">,</r><e/>
+<g>uniforme</g><r c="Fc">,</r><l/>
+<nl num="19"/><g n="adiós">Adios<sus tipo="axA"/><omi tipo="acento"/></g><r c="Fd">:</r><l/>
+<l/>
+<nl num="20"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g><e/>
+<g n="a">A<sus tipo="axA"/><hiposeg/></g>
+<g>la</g><e/>
+<g>es<hiperseg/><e/>cuela</g></pi><l/>
+<nl num="21"/><g>caminando</g><r c="Fc">,</r><e/>
+<g n="porque">Porque<sus tipo="pxP"/></g><r c="Fc">,</r>
+<g>vivo</g><l/>
+<nl num="22"/><g n="cerca">serca<sus tipo="cxs"/></g><l/>
+<nl num="23"/><pi><g n="Qué">Que<mayIni/><omi tipo="acento"/></g><r c="Fc">,</r>
+<g n="hacemos">asemos<omi tipo="h"/><sus tipo="cxs"/></g><r c="Fc">,</r><e/>
+<g>en</g><r c="Fc">,</r><e/>
+<g>la</g><r c="Fc">,</r><e/>
+<g n="escuela">ecuela<omi tipo="s"/></g></pi><e/>
+<r c="Fc">,</r><l/>
+<nl num="24"/><g>estudiam<tachado>o</tachado>s</g><l/>
+<nl num="25"/><g>en</g><e/>
+<g>la</g><e/>
+<g n="hora">ora<omi tipo="h"/></g><e/>
+<g>del</g><e/>
+<g>recreo</g><l/>
+<nl num="26"/><g n="compramos">comPramos<mayInter/><sus tipo="pxP"/></g><e/>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g n="tiendita">Tiendita<sus tipo="txT"/></g><l/>
+<nl num="27"/><g n="aveces">Abeses<sus tipo="axA"/><sus tipo="vxb"/><sus tipo="cxs"/></g><r c="Fc">,</r>
+<g n="llevamos">llebamos<sus tipo="vxb"/></g><r c="Fc">,</r><e/>
+<g>una</g><e/>
+<g>camisa</g><l/>
+<nl num="28"/><g n="blanca">Banca<sus tipo="bxB"/><omi tipo="l"/></g><r c="Fc">,</r>
+<g>y</g><r c="Fcs">,</r>
+<g n="un">una<agre tipo="a" error="concord"/></g><r c="Fcs">,</r>
+<g n="short">c[ho]r<sus tipo="sxc"/><omi tipo="t"/><correccion tipo="susti"/></g><r c="Fcs">,</r>
+<g n="verde">berde<sus tipo="vxb"/></g><l/>
+<nl num="29"/><g>y</g><e/>
+<g>unos</g><e/>
+<g n="días">dias<omi tipo="acento"/></g><e/>
+<g>salimos</g><e/>
+<g>a</g><l/>
+<nl num="30"/><g>el</g><e/>
+<g>salón</g><e/>
+<g>de</g><e/>
+<g n="computación">comPutasión<mayInter/><sus tipo="pxP"/><sus tipo="cxs"/></g><l/>
+<nl num="31"/><g>A<mayIni/></g><e/>
+<g>y</g><e/>
+<g><tachado>d</tachado>e<correccion tipo="susti"/></g><e/>
+<g>la</g><e/>
+<g>camisa</g><e/>
+<g n="blanca">Banca<sus tipo="bxB"/><omi tipo="l"/></g><l/>
+<nl num="32"/><g>y</g><e/>
+<g>el</g><e/>
+<g n="short">chor<sus tipo="sxc"/><omi tipo="t"/></g><e/>
+<g n="verde">Berde<sus tipo="bxB"/><sus tipo="vxb"/></g><l/>
+<nl num="33"/><g>es</g><r c="Fcs">,</r>
+<g>un</g><e/>
+<r c="Fcs">,</r><e/>
+<g>uniforme</g><r c="Fcs">,</r>
+<g>de</g><e/>
+<r c="Fcs">,</r><e/>
+<g n="educación">educasión<sus tipo="cxs"/></g><r c="Fcs">,</r><l/>
+<nl num="34"/><g n="física">fisica<omi tipo="acento"/></g><r c="Fc">,</r><l/>
+</cuerpo>
+<comentarios>
+<com>15. Bajo la "b" hay una "O".</com>
+<com>24. Bajo la "o" hay una "a".</com>
+<com>28. La palabra "chor" fue corregida con corrector.</com>
+<com>31. Bajo la "d" hay una "b".</com>
+</comentarios>
+</documento>

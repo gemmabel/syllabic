@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx
+				h\esquema.xsd">
+<encabezado id="231" permisos="todos">
+
+	<titulo>N015804ESM04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="PONVIZCRI"/>
+
+	<referencia id="PONVIZCRI">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Mercedes" apellidos="Tapia" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>								
+
+	<archivo nombre="N015804ESM04.txt"/>
+	<imagen archivo="N015804ESM04.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g>C<mayNP/>ristian</g><e/>
+<g>G<mayNP/>uillermo</g><e/>
+<g n="Ponce">P<mayNP/>ons<sus tipo="cxs"/>e</g><e/>
+<g>V<mayNP/>izcarra</g><l/>
+<nl num="2"/><pi><g n="Quién">Quie<omi tipo="acento"/>n</g><e/>
+<g>soy</g></pi><l/>
+<nl num="3"/><g n="Hola"><omi tipo="H"/>o<sus tipo="Oxo"/>la</g><e/>
+<g n="soy">soi<sus tipo="yxi"/></g><e/>
+<g n="Cristian">c<sus tipo="Cxc"/>ristian</g><e/>
+<g>tengo</g><e/>
+<g>8</g><e/>
+<g>años</g><l/>
+<nl num="4"/><g n="vivo">b<sus tipo="vxb"/>ib<sus tipo="vxb"/>o</g><e/>
+<g>en</g><e/>
+<g n="Palmar">p<sus tipo="Pxp"/>almarr<sus tipo="rxrr"/></g><e/>
+<g>de</g><e/>
+<g n="Cuautla">c<sus tipo="Cxc"/>uau<tachado>tl</tachado><correccion tipo="susti"/>a</g><e/>
+<g>y</g><e/>
+<g>mi<hiposeg/></g>
+<g>casa<hiposeg/></g><e/>
+<g>es</g><e/>
+<g>de</g><e/>
+<g>ladrillos</g><e/>
+<g>y</g><e/>
+<g>otra<hiposeg/></g>
+<g>de<hiposeg/></g>
+<g>palapa<hiposeg/></g><l/>
+<nl num="5"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g>2<hiposeg/></g>
+<g n="hermanos">s<agre tipo="s"/><omi tipo="h"/>ermano<omi tipo="s" error="concord"/><hiposeg/></g><e/>
+<g>y</g><e/>
+<g>una</g><e/>
+<g>se<hiposeg/></g>
+<g n="llaman">llama<omi tipo="n" error="concord"/><hiposeg/></g><e/>
+<g n="Tania">t<sus tipo="Txt"/>ania<hiposeg/></g>
+<g>y<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g n="otra">ot<omi tipo="ra"/><hiposeg/></g>
+<g>se<hiposeg/></g>
+<g>llama<hiposeg/></g><e/>
+<g n="Jesica">ll<sus tipo="J"/>esica<hiposeg/></g>
+<g n="Polet">po<sus tipo="Pxp"/>let<hiposeg/></g><l/>
+<g>y</g><e/>
+<g>mi</g><g n="papá">papa<omi tipo="acento"/></g><e/>
+<g>se</g><e/>
+<g>llama</g><e/>
+<g>Guillermo</g><g n="Ponce">p<sus tipo="Pxp"/>ons<sus tipo="sxc"/>e<hiposeg/></g><e/>
+<g>y</g><e/>
+<g>mi<hiposeg/></g>
+<g>mamá<hiposeg/></g><e/>
+<g>se<hiposeg/></g>
+<g>llama<hiposeg/></g><e/>
+<g n="Noemí">n<sus tipo="Nxn"/>u<sus tipo="oxu"/>emí</g><l/>
+<nl num="6"/><g n="Vizcarra">b<sus tipo="vxb"/><sus tipo="Bxb"/>is<sus tipo="zxs"/><tachado>c</tachado><correccion tipo="susti"/>arra</g><e/>
+<pi><g n="Cómo">c<sus tipo="Cxc"/><omi tipo="acento"/>omo</g><e/>
+<g>es</g><e/>
+<g n="nuestra">no<sus tipo="uxo"/><omi tipo="e"/>stra<hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><e/>
+<e/>
+<g>es</g><e/>
+<g>bonita</g><e/>
+<g>y</g><e/>
+<g>que<hiperseg/></g>
+<g>tiene<hiposeg/></g>
+<g>abanico<hiposeg/></g><l/>
+<nl num="7"/><g>y</g><e/>
+<g>es</g><e/>
+<g>muy</g><e/>
+<g>grande</g><e/>
+<g>y</g><e/>
+<g n="la">le<sus tipo="axe"/><hiposeg/></g>
+<g>escuela<hiposeg/></g>
+<g>se<hiposeg/></g>
+<g>llama<hiposeg/></g><l/>
+<nl num="8"/><g n="Venustiano">b<sus tipo="vxb"/><sus tipo="Bxb"/>enustiano</g><e/>
+<g n="Carranza">c<sus tipo="Cxc"/>ar<omi tipo="r"/>ans<sus tipo="zxs"/>a</g><e/>
+<e/>
+<g>y</g><e/>
+<g n="hay"><omi tipo="h"/>ai<sus tipo="yxi"/></g><e/>
+<g>muchos</g><e/>
+<g n="alumnos">alun<sus tipo="mxn"/>no<omi tipo="s" error="concord"/></g><g>muy</g><e/>
+<g n="burros">burro<omi tipo="s" error="concord"/></g><e/>
+<g>y</g><e/>
+<g n="inteligentes">e<sus tipo="ixe"/><omi tipo="n"/>telij<sus tipo="gxj"/>entes</g><e/>
+<g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g n="yo">ll<sus tipo="yxll"/>o</g><l/>
+<nl num="9"/><g>y</g><e/>
+<g>otra<hiposeg/></g>
+<g>niña<hiposeg/></g><e/>
+<g>y</g><e/>
+<g>los</g><e/>
+<g n="otros">otro<omi tipo="s" error="concord"/><hiposeg/></g>
+<g>son<hiposeg/></g><e/>
+<g n="muy">mu<omi tipo="y"/></g><g n="burros">bur<omi tipo="r"/><tachado>o</tachado><correccion tipo="susti"/><omi tipo="s" error="concord"/></g><l/>
+<nl num="10"/><pi><g n="cómo">co<omi tipo="acento"/>mo</g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><e/>
+<e/>
+<g>en</g><e/>
+<g n="bici">bis<sus tipo="cxs"/>i<hiposeg/></g>
+<g>o<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>pie<hiposeg/></g><e/>
+<g>y</g><e/>
+<g n="mi">me<sus tipo="ixe"/></g><e/>
+<g>primo<hiposeg/></g>
+<g n="también">tambie<omi tipo="acento"/>n<hiposeg/></g>
+<g>me<hiposeg/></g>
+<g n="vengo">b<sus tipo="vxb"/>engo<hiposeg/></g><e/>
+<g>con</g><g n="él">e<omi tipo="acento"/>l<hiposeg/></g><l/>
+<nl num="11"/><g>y</g><e/>
+<g>llega<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>la<hiposeg/></g><e/>
+<g tipo="otra">siete<hiposeg/></g>
+<g>trei<tachado>n</tachado><correccion tipo="susti"/>ta<hiposeg/></g><l/>
+<nl num="12"/><pi><g n="Qué">Que<omi tipo="acento"/></g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>en<hiposeg/></g>
+<g>la<hiposeg/></g>
+<g>escuela<hiposeg/></g></pi><e/>
+<g>leemos</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>cuentas</g><e/>
+<g>y</g><e/>
+<g n="escribimos">esq<sus tipo="cxq"/>ri<omi tipo="bi"/><tachado>m</tachado><correccion tipo="susti"/>os</g><l/>
+<nl num="13"/><g>y</g><e/>
+<g n="hacemos"><omi tipo="h"/>as<sus tipo="cxs"/>emos</g><e/>
+<g>dibujo<hiposeg/></g>
+<g>y<hiposeg/></g><e/>
+<g>nos<hiposeg/></g>
+<g>ponemos<hiposeg/></g><e/>
+<g n="hacer">a<e/>ser</g><e/>
+<g>una</g><e/>
+<g n="plana">pL<mayInter/>ana<hiposeg/></g>
+<g>de<hiposeg/></g><e/>
+<g n="números">nu<omi tipo="acento"/>mero<omi tipo="s" error="concord"/></g><l/>
+<nl num="14"/><g>y</g><e/>
+<g n="salimos">sale<sus tipo="ixe"/>mos<hiposeg/></g>
+<g>a<hiposeg/></g>
+<g>rr<sus tipo="rrxr"/>eae<sus tipo="cxea"/>reo<hiposeg/></g><l/>
+<l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>1. Entre cada uno de los nombres y apellidos, este niño puso una líena vertical.</com>
+<com>2. La pregunta "¿Quién soy?" está circulada.</com>
+<com>6. Corrección: no se nota bien, pero remarcó sobre algo la "t" y la "l".</com>
+<com>9. Corrección de "c" por "e" y la pregunta "¿Cómo es nuestra escuela?" está circulada.</com>
+<com>12. Corrección: "o" pro algo que no se distingue.</com>
+<com>14. Corrección: "n" sobre "n", fue como para salvar un espacio demasiado grande que había dejado.</com>
+<com>15. Antes de esta "m" hay como otra "i" medio encimada.</com>
+</comentarios>
+</documento>

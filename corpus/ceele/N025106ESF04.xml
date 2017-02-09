@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="h\estilo.xsl"?>
+
+<documento		xmlns="http://www.ii.unam.mx"
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+				xsi:schemaLocation="http://www.ii.unam.mx 
+				h\esquema.xsd">
+
+<encabezado id="126" permisos="todos">
+
+	<titulo>N025106ESF04</titulo>
+	<descripcion></descripcion>
+
+	<parametros		generoLiterario="prosa" registro="estándar">
+		<corpus><CEELE	zonaGeografica="Nayarit" areaTematica="no específica"/></corpus>
+	</parametros>
+	
+	<hablante id="GARGONJES"/>
+
+	<referencia id="GARGONJES">
+		<lugar>Nayarit</lugar>
+		<fechaOriginal>2010</fechaOriginal>
+	</referencia>
+	<responsables>
+		<transcriptor nombres="" apellidos="" fecha=""></transcriptor>
+		<etiquetador nombres="Argentina" apellidos="Robledo Domínguez" fecha="2010"/>
+		<revisor nombres="" apellidos="" fecha=""/>
+	</responsables>				
+
+	<archivo nombre="N025106ESF04.txt"/>
+	<imagen archivo="N025106ESF04.jpg"/>
+	<vista tipo="T"/>
+</encabezado>
+
+<cuerpo>
+<nl num="1"/><g n="Citlalic">citlalic<sus tipo="Cxc"/></g><l/>
+<nl num="2"/><pi><g>Quién<mayIni/></g><e/>
+<g>soy</g><l/></pi>
+<nl num="3"/><g>Yo</g><e/>
+<g n="soy">soi<sus tipo="yxi"/></g><e/>
+<g n="Citlalic">citlalic<sus tipo="Cxc"/></g><e/>
+<g>y</g><e/>
+<g><tachado>v</tachado><correccion tipo="susti"/>ivo</g><e/>
+<g>en</g>
+<g>la</g>
+<g n="Boquita">boquita<sus tipo="Bxb"/><hiposeg/></g>
+<g n="Nayarit">nallaris<sus tipo="Nxn"/><sus tipo="yxll"/><sus tipo="txs"/><hiposeg/></g><l/>
+<nl num="4"/><g>y</g><e/>
+<g>tengo</g><e/>
+<g>siete</g><e/>
+<g>años</g><l/>
+<nl num="5"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>es</g><e/>
+<g>nuestra</g><l/>
+<nl num="6"/><g>escuela</g><l/></pi>
+<nl num="7"/><g n="Es">es<sus tipo="Exe"/></g><e/>
+<g n="muy">mui<sus tipo="yxi"/></g><e/>
+<g>bonita</g><l/>
+<nl num="8"/><g>y</g><e/>
+<g>el</g><e/>
+<g n="salón">salon<omi tipo="acento"/></g><e/>
+<g>lo</g><e/>
+<g n="adornado">a<e/><hiperseg/>dor<e/>nado<hiperseg/></g><e/>
+<g>y</g><e/>
+<g>se</g><e/>
+<g>ve</g>
+<g n="muy">mui<sus tipo="yxi"/><hiposeg/></g>
+<g n="bonito">bonita<sus tipo="oxa"/><hiposeg/></g><l/>
+<nl num="9"/><g><tachado>se</tachado><correccion tipo="elimi"/></g><e/>
+<g n="hay">ai<omi tipo="h"/><sus tipo="yxi"/></g><e/>
+<g>abanicos</g><e/>
+<g>y</g><e/>
+<g n="giran">jiran<sus tipo="gxj"/></g>
+<g>los<hiposeg/></g><e/>
+<g>abanicos</g><l/>
+<nl num="10"/><pi><g n="Cómo">cómo<sus tipo="Cxc"/></g><e/>
+<g>llegamos</g><e/>
+<g>a</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="11"/><g n="En">en<sus tipo="Exe"/></g><e/>
+<g><tachado>X</tachado><correccion tipo="elimi"/></g><e/>
+<g>la</g><e/>
+<g n="bici">bisi<sus tipo="cxs"/></g><e/>
+<g>y</g>
+<g>llegamos<hiposeg/></g><e/>
+<g>a</g>
+<g>pie<hiposeg/></g><e/>
+<g>y</g><e/>
+<g>a</g>
+<g n="veces">beses<sus tipo="vxb"/><sus tipo="cxs"/><hiposeg/></g>
+<g>nos<hiposeg/></g><e/>
+<g n="trae">rai<omi tipo="t"/><sus tipo="exi"/></g>
+<g>m<hiposeg/><l tipo="singuion"/><l/><nl num="12"/>i</g>
+<g>m<tachado>a</tachado><correccion tipo="susti"/>má<hiposeg/></g><l/>
+<nl num="13"/><g>en</g><e/>
+<g>la</g>
+<g>camioneta<hiposeg/></g><e/>
+<g>o</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g tipo="otra">bio</g><l/>
+<nl num="14"/><g>y</g><e/>
+<g>en</g><e/>
+<g>caballo</g><l/>
+<nl num="15"/><pi><g>Qué</g><e/>
+<g>hacemos</g><e/>
+<g>en</g><e/>
+<g>la</g><e/>
+<g>escuela</g><l/></pi>
+<nl num="16"/><g n="En">en<sus tipo="Exe"/></g><e/>
+<g>burro</g><e/>
+<g n="estudiamos">estudiamo<omi tipo="s" error="concord"/></g><e/>
+<g>y</g><e/>
+<g n="aprendemos">aPrendemo<mayInter/><omi tipo="s" error="concord"/></g><e/>
+<g>a</g><e/>
+<g>es<tachado>qir</tachado><correccion tipo="elimi"/></g><e/>
+<g n="escribir">esqui<sus tipo="cxq"/><agre tipo="u"/><l tipo="singuion"/><l/>
+<nl num="17"/>r<per tipo="r"/><e/>bir<per tipo="r"/><hiperseg/></g><e/>
+<g>y</g><e/>
+<g>a</g><e/>
+<g>lee<tachado>r</tachado><correccion tipo="susti"/></g><l/>
+<l/>
+</cuerpo>
+<comentarios>
+<com>3. encima "v" sobre "b"</com>
+<com>9. tacha</com>
+<com>11. tacha lo que escribe </com>
+<com>12. encima "a" sobre "o"</com>
+<com>13. no se sabe lo que escribe</com>
+<com>16. tacha</com>
+<com>17. encima "r" sobre "s"</com>
+<com> </com>
+</comentarios>
+</documento>
