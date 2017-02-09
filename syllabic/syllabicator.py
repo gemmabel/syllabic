@@ -148,6 +148,7 @@ class CharArray(object):
                     if not found:
                         subsyl += word[0]
                         word = word[1:]
+
             result.append(subsyl)
         return result
     

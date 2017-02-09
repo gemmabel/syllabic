@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 
 import os
 
@@ -5,11 +6,15 @@ from cleaner import StoryParser
 from syllabic import SyllableStatistics
 from syllabicator import Silabicador
 from ngram import BiGram
+from ceele import CeeleGenerator
 
 
 source_dir = "../corpus/raw/"
+source_dir_ceele = "../corpus/ceele"
 res_dir = "../corpus/clean/"
+res_dir_ceele = "../corpus/ceele_clean/"
 generate_corpus = False
+generate_ceele = False
 
 if generate_corpus: # Generate corpus of children stories
     story_parser = StoryParser() # Get the corpus parser 
@@ -42,6 +47,10 @@ if generate_corpus: # Generate corpus of children stories
                 
             # Reset the parser before continuing
             story_parser.reset()
+
+if generate_ceele:
+    celegent = CeeleGenerator(source_dir_ceele,
+                              res_dir_ceele)
 
 syl = Silabicador()
 result = syl("querida")
@@ -109,5 +118,7 @@ print("%s" % result)
 
 # Send the complete corpus to analysis
 #stats = SyllableStatistics(res_dir)
-ngram = BiGram(res_dir)
+stats2 = SyllableStatistics(res_dir_ceele)
+ngram = BiGram(res_dir, with_white_space=True)
+ngram2 = BiGram(res_dir_ceele, with_white_space=True)
 import ipdb;ipdb.set_trace()

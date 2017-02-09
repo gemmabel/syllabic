@@ -8,7 +8,7 @@ from unidecode import unidecode
 
 class BiGram(Tokenizer):
     
-    def __init__(self, corpus_path, with_accents=False):
+    def __init__(self, corpus_path, with_accents=False, with_white_space=False):
         bag_of_pairs = {}
         probabilities = {}
         total_pairs = 0.
@@ -26,6 +26,18 @@ class BiGram(Tokenizer):
                             pair = unidecode(pair)
                         bag_of_pairs[pair] = bag_of_pairs.get(pair, 0) + 1
                         total_pairs += 1.
+                    
+                    if with_white_space:
+                        pos_pair = by_char_token[-1] + " "
+                        pre_pair = " " + by_char_token[0]
+                        if not with_accents:
+                            pos_pair = unidecode(pos_pair)
+                            pre_pair = unidecode(pre_pair)
+                        bag_of_pairs[pos_pair] = bag_of_pairs.get(pos_pair, 
+                                                                  0) + 1
+                        bag_of_pairs[pre_pair] = bag_of_pairs.get(pre_pair, 
+                                                                  0) + 1
+                        total_pairs += 2.
         
         # Calculate probabilities
         for pair, freq in bag_of_pairs.items():
