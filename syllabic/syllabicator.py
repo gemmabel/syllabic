@@ -25,7 +25,8 @@ class CharArray(object):
         
         self.triptongos = [dip + d for dip in diptongos_crecientes \
                                    for d in self.vocales_debiles] +\
-                          [dip + "y" for dip in diptongos_crecientes]
+                          [dip + "y" for dip in diptongos_crecientes if \
+                                             not dip.endswith("y")]
                 
         self.grupos_inseparables = ["br", "cr","dr", "gr", "fr", "kr", "tr", "bl", 
                                     "cl", "gl", "fl", "kl", "pl", "tl", "ll", "ch",
@@ -146,8 +147,12 @@ class CharArray(object):
                                 found = True
                                 break
                     if not found:
-                        subsyl += word[0]
-                        word = word[1:]
+                        try:
+                            subsyl += word[0]
+                            word = word[1:]
+                        except:
+                            print("%s couldn't separate" % self.word)
+                            return []
 
             result.append(subsyl)
         return result

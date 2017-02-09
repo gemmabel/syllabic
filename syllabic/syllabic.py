@@ -6,6 +6,7 @@ import nltk
 from syllabicator import Silabicador
 from unidecode import unidecode
 from collections import OrderedDict
+import numpy as np
 
 
 class Tokenizer(object):
@@ -51,6 +52,8 @@ class SyllableStatistics(Tokenizer):
         self.freqs = {}
         self.readable = {}
         self.syllabificator = Silabicador()
+        
+        total_syllables = 0
 
         for root, _, files in os.walk(corpus_path):
             for filepath in files:
@@ -76,6 +79,7 @@ class SyllableStatistics(Tokenizer):
                             self.freqs[syllable] += 1
                         except:
                             self.freqs[syllable] = 1
+                        total_syllables += 1
                 print(filepath)
         
         self.freqs = OrderedDict(sorted(self.freqs.items(), 
@@ -87,6 +91,15 @@ class SyllableStatistics(Tokenizer):
                                            key=lambda x:x[1],
                                            reverse=True)
                                     )
+        
+        # Calculate probabilities
+        probabilities = {}
+        for syl, freq in self.freqs.items():
+            probabilities[syl] = freq/total_syllables
+            
+        self.probabilities = np.array(sorted(probabilities.items()))
+        self.syls = np.array(self.probabilities[:,0])
+        self.proba = np.array(self.probabilities[:,1], dtype=np.float64)
     
     def readability(self, text):
         # Lecturabilidad / Índice Fernández Huerta = 206,84-(60 x (S / P) – (1,02 x (P / F)
@@ -117,3 +130,8 @@ class SyllableStatistics(Tokenizer):
         P = len(tokens)
         F = len(sentences)
         return 206.835 - (62.3 * (S/P)) - (P/F)
+    
+    def generate_samples(self, n):
+        return np.random.choice(self.syls,
+                                n,
+                                p=self.proba)
