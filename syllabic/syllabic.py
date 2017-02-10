@@ -43,7 +43,7 @@ class Tokenizer(object):
         res = []
         for sentence in sentences:
             res.append(self.tokenize(sentence))
-
+            
 
 class SyllableStatistics(Tokenizer):
     
@@ -62,7 +62,6 @@ class SyllableStatistics(Tokenizer):
                 
                 tokens = self.tokenize(content)
                 sentences = self.sentences(content)
-                self.readable[filepath] = self.readability(content)
                 for token in tokens:
                     result = self.syllabificator(token)
 #                     try:
@@ -101,35 +100,6 @@ class SyllableStatistics(Tokenizer):
         self.syls = np.array(self.probabilities[:,0])
         self.proba = np.array(self.probabilities[:,1], dtype=np.float64)
     
-    def readability(self, text):
-        # Lecturabilidad / Índice Fernández Huerta = 206,84-(60 x (S / P) – (1,02 x (P / F)
-        # S = Sílabas, P = Palabras, F =Frases.
-        # (60 x S / P) es lo mismo como 0,60 x S si tomamos ejemplos de 100 palabras.
-        
-        # “F” realmente debería ser el promedio de palabras por frase, 
-        # como en la fórmula de Flesch. En el texto de la “Revista Española de 
-        # Salud Pública” se escribe al final que el índice de la fórmula 
-        # Fernández-Huerta para su propio texto es de 64,96. Este valor solo se 
-        # puede lograr si “F” es el promedio de palabras por frase 
-        # (sino sale un valor de legibilidad de 98).
-        # https://seo-quito.com/seo-legibilidad-flesch-szigriszt-fernandez-huerta/
-        
-        # Índice de perspicuidad de Szigriszt-Pazos
-        # IPSP = 206.835 - (62.3 * (S/P)) - (P/F)
-        # IPSP es la perspicuidad; 
-        # S, el total de sílabas; 
-        # P, la cantidad de palabras; 
-        # F, el número de frases.
-        
-        tokens = self.tokenize(text)
-        sentences = self.sentences(text)
-        S = 0
-        for token in tokens:
-            S += len(self.syllabificator(token))
-            
-        P = len(tokens)
-        F = len(sentences)
-        return 206.835 - (62.3 * (S/P)) - (P/F)
     
     def generate_samples(self, n):
         return np.random.choice(self.syls,

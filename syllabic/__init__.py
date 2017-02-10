@@ -7,6 +7,7 @@ from syllabic import SyllableStatistics
 from syllabicator import Silabicador
 from ngram import BiGram
 from ceele import CeeleGenerator
+from classify_texts import TextClassifier
 
 
 source_dir = "../corpus/raw/"
@@ -119,6 +120,8 @@ print("%s" % result)
 # Send the complete corpus to analysis
 #stats = SyllableStatistics(res_dir)
 stats2 = SyllableStatistics(res_dir_ceele)
+classif = TextClassifier(res_dir)
+classif2 = TextClassifier(res_dir_ceele)
 ngram = BiGram(res_dir, with_white_space=True)
 ngram2 = BiGram(res_dir_ceele, with_white_space=True)
 import ipdb;ipdb.set_trace()

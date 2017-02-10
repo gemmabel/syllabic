@@ -22,7 +22,30 @@ class CeeleGenerator(object):
                     if 'cuerpo' in child.tag:
                         tokens = []
                         for grand_child in child:
-                            if 'g' in grand_child.tag:
+                            if 'pi' in grand_child.tag:
+                                for gg_child in grand_child:
+                                    if 'g' in gg_child.tag:
+                                        # TODO: Avoid repeating
+                                        all = [g for g in gg_child.itertext()]
+                                        if conserve_subsegments:
+                                            i = 0
+                                            segments = []
+                                            for gg_child in grand_child:
+                                                if "hiposeg" in gg_child.tag or\
+                                                   "hiperseg" in gg_child.tag:
+                                                    segments.append(i)
+                                                i += 1
+                                            if segments != []:
+                                                last_segment = 0
+                                                for segment in segments:
+                                                    tokens.append("".join(all[last_segment:segment]))
+                                                    last_segment = segment
+                                                tokens.append("".join(all[last_segment:]))
+                                            else:
+                                                tokens.append("".join(all))
+                                        else:
+                                            tokens.append("".join(all))
+                            elif 'g' in grand_child.tag:
                                 all = [g for g in grand_child.itertext()]
                                 if conserve_subsegments:
                                     i = 0
@@ -42,7 +65,7 @@ class CeeleGenerator(object):
                                         tokens.append("".join(all))
                                 else:
                                     tokens.append("".join(all))
-                                
+
                         if len(tokens)>0:
                             if len(tokens) == 1:
                                 text += tokens[0]
