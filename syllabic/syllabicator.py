@@ -194,7 +194,6 @@ class CharArray(object):
                     subsyl += corresponding_string
                     subsylpattern += remembered_char * len(corresponding_string)
                 else:
-                    import ipdb;ipdb.set_trace()
                     raise ValueError("The pattern doesn't correspond to this\
                                      word: %s" % self.word)
             result.append(subsyl)
