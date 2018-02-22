@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 
+import copy
 
 class CharArray(object):
     
@@ -11,7 +12,7 @@ class CharArray(object):
         self.vocales_debiles = ["i", "u"]
         self.vocales = self.vocales_debiles + self.vocales_fuertes
 
-        self.consontant_y = ["y" + vowel for vowel in self.vocales]
+        self.consonant_y = ["y" + vowel for vowel in self.vocales]
         
         diptongos_crecientes = [d + f for d in self.vocales_debiles\
                                       for f in self.vocales_fuertes]
@@ -33,15 +34,16 @@ class CharArray(object):
                                     "rr", "pr", "qu", "gü"]
         
         self.word = word
-        self.vocal_representation = self.build_abstract_representation(word)
+        self.vocal_representation, self.mask_lookup = \
+                                        self.build_abstract_representation(word)
         
-    def build_abstract_representation(self, word):
+    def build_abstract_representation_deprecated(self, word):
         representation = {}
         
         if word == "y":
             word = "|"
         
-        for consonant_y in self.consontant_y:
+        for consonant_y in self.consonant_y:
             while consonant_y in word:
                 word = word.replace("y", "#", 1)
         
@@ -90,8 +92,116 @@ class CharArray(object):
             for extra_char in list(extra_chars):
                 word = word.replace(extra_char, "C")
         return word
-    
+
+    def build_abstract_representation(self, word):
+
+        mask_lookup = []
+
+        if word == "y":
+            word = "|"
+            mask_lookup.append(("V", 0, "y"))
+
+        for consonant_y in self.consonant_y:
+            while consonant_y in word:
+                index_to_replace = word.index("y")
+                word = word.replace("y", "#", 1)
+                mask_lookup.append(("C", [index_to_replace,
+                                          index_to_replace + 1], "y"))
+
+        for triptongo in self.triptongos:
+            while triptongo in word:
+                index_to_replace = word.index(triptongo)
+                word = word.replace(triptongo, "$$$", 1)
+                mask_lookup.append(("V", [index_to_replace,
+                                          index_to_replace + 3],
+                                    triptongo))
+
+        for diptongo in self.diptongos:
+            while diptongo in word:
+                index_to_replace = word.index(diptongo)
+                word = word.replace(diptongo, "@@", 1)
+                mask_lookup.append(("V", [index_to_replace,
+                                         index_to_replace + 2],
+                                    diptongo))
+
+        for grupo_c in self.grupos_inseparables:
+            while grupo_c in word:
+                index_to_replace = word.index(grupo_c)
+                word = word.replace(grupo_c, "&&", 1)
+                mask_lookup.append(("C", [index_to_replace,
+                                          index_to_replace + 2],
+                                    grupo_c))
+
+        for vowel in self.vocales_debiles + ["y"]:
+            while vowel in word:
+                index_to_replace = word.index(vowel)
+                word = word.replace(vowel, "|", 1)
+                mask_lookup.append(("V", [index_to_replace,
+                                          index_to_replace + 1], vowel))
+
+        for vowel in self.vocales_fuertes:
+            while vowel in word:
+                index_to_replace = word.index(vowel)
+                word = word.replace(vowel, "¬", 1)
+                mask_lookup.append(("V", [index_to_replace,
+                                         index_to_replace + 1], vowel))
+
+        for consonant in list("bcdfghjklmnñpqrstvwxz"):
+            while consonant in word:
+                index_to_replace = word.index(consonant)
+                word = word.replace(consonant, "[", 1)
+                mask_lookup.append(("C", [index_to_replace,
+                                          index_to_replace + 1], 
+                                    consonant))
+
+        extra_chars = word.replace("|", "").replace("#", "").replace("$", "")\
+                .replace("@", "").replace("&", "").replace("¬", "")\
+                .replace("[", "")
+
+        if extra_chars != "":
+            for extra_char in list(extra_chars):
+                while extra_char in word:
+                    index_to_replace = word.index(extra_char)
+                    word = word.replace(extra_char, "]", 1)
+                    mask_lookup.append(("C", [index_to_replace,
+                                              index_to_replace + 1],
+                                        extra_char))
+        #   | -> y_vocal, vocal debil
+        #   # -> y_consonante
+        # $$$ -> triptongo
+        #  @@ -> diptongo
+        #  && -> grupo consonantico
+        #  ¬ -> vocal fuerte
+        #  [ -> consonante
+        #  ] -> otros caracteres (considerados consonante)
+        word = word.replace("|", "V").replace("#", "C").replace("$$$", "V")\
+                .replace("@@", "V").replace("&&", "C").replace("¬", "V")\
+                .replace("[", "C").replace("]", "C")
+        mask_lookup = sorted(mask_lookup, key=lambda elem: elem[1])
+        return word, mask_lookup
+
     def unmask(self, pattern):
+        result = []
+        syllabic_pattern = []
+        mask_lookup = copy.copy(self.mask_lookup)
+        for syllable in pattern:
+            subsyl = ""
+            subsylpattern = ""
+            for character in syllable:
+                remembered_char, interval, corresponding_string = \
+                                                            mask_lookup.pop(0)
+                if character == remembered_char:
+                    subsyl += corresponding_string
+                    subsylpattern += remembered_char * len(corresponding_string)
+                else:
+                    import ipdb;ipdb.set_trace()
+                    raise ValueError("The pattern doesn't correspond to this\
+                                     word: %s" % self.word)
+            result.append(subsyl)
+            syllabic_pattern.append(subsylpattern)
+        return result, syllabic_pattern
+
+    def unmask_deprecated(self, pattern):
         result = []
         word = self.word
         for syllable in pattern:
@@ -207,7 +317,7 @@ class Silabicador(object):
                         del abstract_word[2]
                         del abstract_word[1]
                         del abstract_word[0]
-                        
+
                     # Cuando hay tres consonantes entre vocales, las primeras dos se unen con la primera vocal y la tercera se une a la segunda vocal.
                     elif len(abstract_word) > 4 and\
                          abstract_word[1] == "C" and\
