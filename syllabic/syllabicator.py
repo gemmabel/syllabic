@@ -37,62 +37,6 @@ class CharArray(object):
         self.vocal_representation, self.mask_lookup = \
                                         self.build_abstract_representation(word)
         
-    def build_abstract_representation_deprecated(self, word):
-        representation = {}
-        
-        if word == "y":
-            word = "|"
-        
-        for consonant_y in self.consonant_y:
-            while consonant_y in word:
-                word = word.replace("y", "#", 1)
-        
-        for triptongo in self.triptongos:
-            while triptongo in word:
-                beginning = word.index(triptongo)
-                end = beginning + len(word)
-                interval = (beginning, end)
-                representation[triptongo] = representation.get(triptongo, [])
-                representation[triptongo].append(interval)
-                word = word.replace(triptongo, "@", 1)
-                
-        for diptongo in self.diptongos:
-            while diptongo in word:
-                beginning = word.index(diptongo)
-                end = beginning + len(word)
-                interval = (beginning, end)
-                representation[diptongo] = representation.get(diptongo, [])
-                representation[diptongo].append(interval)
-                word = word.replace(diptongo, "@", 1)
-                
-        for grupo_c in self.grupos_inseparables:
-            while grupo_c in word:
-                beginning = word.index(grupo_c)
-                end = beginning + len(word)
-                interval = (beginning, end)
-                representation[grupo_c] = representation.get(grupo_c, [])
-                representation[grupo_c].append(interval)
-                word = word.replace(grupo_c, "#", 1)
-                
-        for vowel in self.vocales_debiles + ["y"]:
-            while vowel in word:
-                word = word.replace(vowel, "|", 1)
-                
-        for vowel in self.vocales_fuertes:
-            while vowel in word:
-                word = word.replace(vowel, "@", 1)
-                
-        for consonant in list("bcdfghjklmnñpqrstvwxz"):
-            while consonant in word:
-                word = word.replace(consonant, "#", 1)
-                
-        word = word.replace("#", "C").replace("@", "V").replace("|", "V")
-        extra_chars = word.replace("C", "").replace("V", "").replace("v", "")
-        if extra_chars != "":
-            for extra_char in list(extra_chars):
-                word = word.replace(extra_char, "C")
-        return word
-
     def build_abstract_representation(self, word):
 
         mask_lookup = []
@@ -153,7 +97,7 @@ class CharArray(object):
                 mask_lookup.append(("C", [index_to_replace,
                                           index_to_replace + 1], 
                                     consonant))
-
+ 
         extra_chars = word.replace("|", "").replace("#", "").replace("$", "")\
                 .replace("@", "").replace("&", "").replace("¬", "")\
                 .replace("[", "")
@@ -200,72 +144,6 @@ class CharArray(object):
             syllabic_pattern.append(subsylpattern)
         return result, syllabic_pattern
 
-    def unmask_deprecated(self, pattern):
-        result = []
-        word = self.word
-        for syllable in pattern:
-            subsyl = ""
-            for character in syllable:
-                found = False
-                if character == "C":
-                    if len(word) > 1 and\
-                       word[1] in "bcdfghjklmnñpqrstvwxz" and not found:
-                        for grupo_c in self.grupos_inseparables:
-                            if word.startswith(grupo_c):
-                                subsyl += grupo_c
-                                word = word[2:]
-                                found = True
-                                break
-                    if not found:
-                        subsyl += word[0]
-                        word = word[1:]
-                elif character == "V":
-                    if len(word) > 2 and \
-                       word[1] in self.vocales and \
-                       word[2] in self.vocales + ["y"]:
-                        for triptongo in self.triptongos:
-                            if word.startswith(triptongo):
-                                if triptongo.endswith("y"):
-                                    is_consonant_y = False
-                                    if len(word) != 3: # Not end of word
-                                        is_consonant_y = True
-                                    elif len(word) > 3:
-                                        if word[3] in self.vocales: #y is consonant
-                                            is_consonant_y = True
-                                    if is_consonant_y:
-                                        break
-                                subsyl += triptongo
-                                word = word[3:]
-                                found = True
-                                break 
-                    if len(word) > 1 and \
-                       word[1] in self.vocales + ["y"] and not found:
-                        for diptongo in self.diptongos:
-                            if word.startswith(diptongo):
-                                if diptongo.endswith("y"):
-                                    is_consonant_y = False
-                                    if len(word) == 2: # Not end of word
-                                        is_consonant_y = True
-                                    elif len(word) > 2:
-                                        if word[2] in self.vocales: #y is consonant
-                                            is_consonant_y = True
-                                    if is_consonant_y:
-                                        break
-                                subsyl += diptongo
-                                word = word[2:]
-                                found = True
-                                break
-                    if not found:
-                        try:
-                            subsyl += word[0]
-                            word = word[1:]
-                        except:
-                            print("%s couldn't separate" % self.word)
-                            return []
-
-            result.append(subsyl)
-        return result
-    
     def __str__(self, *args, **kwargs):
         return str(self.vocal_representation)
     
@@ -345,12 +223,22 @@ class Silabicador(object):
                         del abstract_word[0]
                     # Chain of consonants
                     else:
-                        consonant_chain = ""
-                        for _ in range(len(abstract_word) - 2):
-                            consonant_chain += "C" 
-                        res += ["VC", consonant_chain]
-                        abstract_word = []
-                    
+                        count = 0
+                        index = 1
+                        final_letter = ""
+                        while index < len(abstract_word) and abstract_word[index] != "V":
+                            final_letter = abstract_word[index]
+                            index += 1
+                            count += 1
+                        if index == len(abstract_word):
+                            index -= 1
+                        if final_letter == "V":
+                            res += ["VCC", "C"*(count-4), "CCV"]
+                        else:
+                            res += ["VCC", "C"*(count-2)]
+                        for i in range(index, -1, -1):
+                            del abstract_word[i]
+            
             elif abstract_word[0] == "C":
                 res.append(abstract_word.pop(0))
         
