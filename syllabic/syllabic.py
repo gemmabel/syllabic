@@ -1,149 +1,77 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 import re
 import os
 import string
-import nltk
 from syllabicator import Silabicador
 from unidecode import unidecode
 from collections import OrderedDict,Counter
 import numpy as np
-    
+
+
 class Tokenizer(object):
-    
+
     def unique_chars(self, text):
         chars = set(list(text))
         return chars
-    
+
     def remove_punctuation(self, text):
         text = text.replace('\n','')
-        return re.sub(u'[^a-zA-ZáéíóúÁÉÍÓÚñÑ ]', '',text)
-       # spanish_punctuation = r"¡!“-,¿.?,…\xa0\xad–—\n«»”"
-        #return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
-    
-    def sentences(self, text):
-        spanish_tokenizer = nltk.data.load('tokenizers/punkt/spanish.pickle')
-        return spanish_tokenizer.tokenize(text)
-    
+        return re.sub(u'[^a-zA-Z]', '', unidecode(text))
+
     def tokenize(self, text):
-        temp_text = self.remove_punctuation(text)
-        temp_text = re.sub('\d+', # No numbers
-                           '',
-                           temp_text,
-                           re.UNICODE).lower()
-        temp_text = re.sub(r'[^\w\s]', 
-                           '', 
-                           temp_text, 
-                           re.UNICODE).lower()
-        
-        temp = temp_text.split(" ")
-        while '' in temp:
-            temp.remove('')
-        return temp
-    
-    def tokenize_sentences(self, sentences):
-        res = []
-        for sentence in sentences:
-            res.append(self.tokenize(sentence))
-            
+        tokens = []
+        for token in text.split(" "):
+            if token != "":
+                tokens.append(self.remove_punctuation(token).lower())
+        return tokens
+
 
 class SyllableStatistics(Tokenizer):
-    
+
     def __init__(self, corpus_path, with_accents=False):
 
-        self.pat = []
-        self.freqs = {}
-        self.readable = {}
-        self.syllabificator = Silabicador()
-        
+        self.syllables = set()
+        self.patterns = set()
+
+        self.pattern_freqs = {}
+        self.syllable_freqs = {}
+
+        self.syllable_probabilities = {}
+        self.pattern_probabilities = {}
+
+        silabicador = Silabicador()
         total_syllables = 0
 
-        for root, _, files in os.walk(corpus_path):
-            for filepath in files:
-                
-                with open(root + "/" + filepath, "r") as f:
+        for filepath in os.listdir(corpus_path):
+            if not os.path.isdir(corpus_path + "/" +  filepath):
+                with open(corpus_path + "/" + filepath, "r", encoding="utf8") as f:
                     content = f.read()
-                
                 tokens = self.tokenize(content)
-               # print(tokens)
-                sentences = self.sentences(content) #####
                 for token in tokens:
-                    #print(token)
-                    result, partiall_stuff = self.syllabificator(token)
-                    partiall_stuff = encontrar_patrones(result)
-                    print(result,partiall_stuff) #imprime palabra dividida y patron
-                    self.pat.append(tuple(partiall_stuff))
-                    #print(result) ###### para dividir en silabas
-                    
+                    syllables, patterns = silabicador(token)
+                    total_syllables += len(syllables)
+                    self.syllables = self.syllables.union(syllables)
+                    self.patterns = self.patterns.union(patterns)
+                    for syllable in syllables:
+                        self.syllable_freqs[syllable] = 1 + \
+                                self.syllable_freqs.get(syllable, 0)
+                    for pattern in patterns:
+                        self.pattern_freqs[pattern] = 1 + \
+                                self.pattern_freqs.get(pattern, 0)
 
-                    #print(patrones_silabicos)
-                    #print(partiall_stuff) ###### patronesobj
-#                     try:
-#                         print("-".join([str(res) for res in result]))
-#                     except:
-#                         import ipdb;ipdb.set_trace()
-#                         exit(0)
-                    for syllable in result:
-                        syllable = str(syllable)
-                        if not with_accents:
-                            syllable = unidecode(syllable)
-                            
-                        try:
-                            self.freqs[syllable] += 1
-                        except:
-                            self.freqs[syllable] = 1
-                        total_syllables += 1
-                #print(filepath)
-        
-        self.freqs = OrderedDict(sorted(self.freqs.items(), 
-                                        key=lambda x:x[1],
-                                        reverse=True)
-                                 )
-        
-        self.readable = OrderedDict(sorted(self.readable.items(),
-                                           key=lambda x:x[1],
-                                           reverse=True)
-                                    )
-        
         # Calculate probabilities
-        probabilities = {}
-        for syl, freq in self.freqs.items():
-            probabilities[syl] = freq/total_syllables
-            
-        self.probabilities = np.array(sorted(probabilities.items()))
-        self.syls = np.array(self.probabilities[:,0])
-        self.proba = np.array(self.probabilities[:,1], dtype=np.float64)
-        self.count = Counter(self.pat)
-    
-    
-    def generate_samples(self, n):
-        return np.random.choice(self.syls,
-                                n,
-                                p=self.proba)
+        for syllable, freq in self.syllable_freqs.items():
+            self.syllable_probabilities[syllable] = freq / total_syllables
 
-def encontrar_patrones(palabra_silabicada):
-    patrones = []
-    for silaba in palabra_silabicada:
-        patron = ""
-        if silaba.lower() not in ['ya', 'ye', 'yi', 'yo','yu']:
-            silaba=silaba.replace('y','#', 1)
-                                  
-        for letra in silaba:
-            if letra.lower() in "aeiouáéíóúü":
-                patron += "V"
-            elif letra.lower() in '#':
-                patron += "V"
-        
-            else: # es una consonante o una "y", hay que revisar
-                patron += "C"
-        patrones.append(patron)
-    return patrones
+        for pattern, freq in self.pattern_freqs.items():
+            self.pattern_probabilities[pattern] = freq / total_syllables
 
-palabra_silabicada = ['ha', 'ya']
-patrones_silabicos = encontrar_patrones(palabra_silabicada)
-print(patrones_silabicos)
-obj = SyllableStatistics(r'/home/diana/Escritorio/IPERSPICUIDAD/4.normal/textos/x')
-#print(obj.count)
-#print(obj.freqs)
-#obj = SyllableStatistics(r'E:\IPERSPICUIDAD\inflez\5.muydificil\\')
-##corpus_path= (r'E:\IPERSPICUIDAD\1muy fácil\textos\\')441
+        self.pattern_probabilities = np.array(sorted(
+                                            self.pattern_probabilities.items()
+                                                    )
+                                            )
+        self.syllable_probabilities = np.array(sorted(
+                                            self.syllable_probabilities.items()
+                                                    )
+                                            )
