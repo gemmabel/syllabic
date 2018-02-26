@@ -1,14 +1,14 @@
-# -*- coding:utf-8 -*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 import re
 import os
 import string
 import nltk
 from syllabicator import Silabicador
 from unidecode import unidecode
-from collections import OrderedDict
+from collections import OrderedDict,Counter
 import numpy as np
-
-
+    
 class Tokenizer(object):
     
     def unique_chars(self, text):
@@ -16,8 +16,10 @@ class Tokenizer(object):
         return chars
     
     def remove_punctuation(self, text):
-        spanish_punctuation = "¡!“-,¿.?,…\xa0\xad–—\n«»”"
-        return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
+        text = text.replace('\n','')
+        return re.sub(u'[^a-zA-ZáéíóúÁÉÍÓÚñÑ ]', '',text)
+       # spanish_punctuation = r"¡!“-,¿.?,…\xa0\xad–—\n«»”"
+        #return re.sub('[%s]' % re.escape(spanish_punctuation + string.punctuation), ' ', text)
     
     def sentences(self, text):
         spanish_tokenizer = nltk.data.load('tokenizers/punkt/spanish.pickle')
@@ -48,7 +50,8 @@ class Tokenizer(object):
 class SyllableStatistics(Tokenizer):
     
     def __init__(self, corpus_path, with_accents=False):
-        
+
+        self.pat = []
         self.freqs = {}
         self.readable = {}
         self.syllabificator = Silabicador()
@@ -57,13 +60,24 @@ class SyllableStatistics(Tokenizer):
 
         for root, _, files in os.walk(corpus_path):
             for filepath in files:
+                
                 with open(root + "/" + filepath, "r") as f:
                     content = f.read()
                 
                 tokens = self.tokenize(content)
-                sentences = self.sentences(content)
+               # print(tokens)
+                sentences = self.sentences(content) #####
                 for token in tokens:
-                    result = self.syllabificator(token)
+                    #print(token)
+                    result, partiall_stuff = self.syllabificator(token)
+                    partiall_stuff = encontrar_patrones(result)
+                    print(result,partiall_stuff) #imprime palabra dividida y patron
+                    self.pat.append(tuple(partiall_stuff))
+                    #print(result) ###### para dividir en silabas
+                    
+
+                    #print(patrones_silabicos)
+                    #print(partiall_stuff) ###### patronesobj
 #                     try:
 #                         print("-".join([str(res) for res in result]))
 #                     except:
@@ -79,7 +93,7 @@ class SyllableStatistics(Tokenizer):
                         except:
                             self.freqs[syllable] = 1
                         total_syllables += 1
-                print(filepath)
+                #print(filepath)
         
         self.freqs = OrderedDict(sorted(self.freqs.items(), 
                                         key=lambda x:x[1],
@@ -99,9 +113,37 @@ class SyllableStatistics(Tokenizer):
         self.probabilities = np.array(sorted(probabilities.items()))
         self.syls = np.array(self.probabilities[:,0])
         self.proba = np.array(self.probabilities[:,1], dtype=np.float64)
+        self.count = Counter(self.pat)
     
     
     def generate_samples(self, n):
         return np.random.choice(self.syls,
                                 n,
                                 p=self.proba)
+
+def encontrar_patrones(palabra_silabicada):
+    patrones = []
+    for silaba in palabra_silabicada:
+        patron = ""
+        if silaba.lower() not in ['ya', 'ye', 'yi', 'yo','yu']:
+            silaba=silaba.replace('y','#', 1)
+                                  
+        for letra in silaba:
+            if letra.lower() in "aeiouáéíóúü":
+                patron += "V"
+            elif letra.lower() in '#':
+                patron += "V"
+        
+            else: # es una consonante o una "y", hay que revisar
+                patron += "C"
+        patrones.append(patron)
+    return patrones
+
+palabra_silabicada = ['ha', 'ya']
+patrones_silabicos = encontrar_patrones(palabra_silabicada)
+print(patrones_silabicos)
+obj = SyllableStatistics(r'/home/diana/Escritorio/IPERSPICUIDAD/4.normal/textos/x')
+#print(obj.count)
+#print(obj.freqs)
+#obj = SyllableStatistics(r'E:\IPERSPICUIDAD\inflez\5.muydificil\\')
+##corpus_path= (r'E:\IPERSPICUIDAD\1muy fácil\textos\\')441
