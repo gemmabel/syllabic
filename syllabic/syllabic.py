@@ -8,9 +8,15 @@ from unidecode import unidecode
 from collections import OrderedDict,Counter
 import numpy as np
 
+import nltk.data
+
 import codecs
 
+
 class Tokenizer(object):
+
+    def __init__(self, nltk_tokenizer="tokenizers/punkt/spanish.pickle"):
+        self.sentence_tokenizer = nltk.data.load(nltk_tokenizer)
 
     def unique_chars(self, text):
         chars = set(list(text))
@@ -27,10 +33,14 @@ class Tokenizer(object):
                 tokens.append(self.remove_punctuation(token).lower())
         return tokens
 
+    def sentences(self, text):
+        return self.sentence_tokenizer.tokenize(text)
+
 
 class SyllableStatistics(Tokenizer):
 
     def __init__(self, corpus_path, with_accents=False):
+        super(SyllableStatistics, self).__init__()
 
         self.syllables = set()
         self.patterns = set()

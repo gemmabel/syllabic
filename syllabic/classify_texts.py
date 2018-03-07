@@ -16,6 +16,7 @@ from syllabicator import Silabicador
 class TextClassifier(Tokenizer):
     
     def __init__(self, corpus_dir):
+        super(TextClassifier, self).__init__()
         self.by_readability = [[] for i in range(7)]
         self.syllabicator = Silabicador()
         for root, dirs, files in os.walk(corpus_dir):
