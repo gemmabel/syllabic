@@ -26,11 +26,21 @@ class Tokenizer(object):
         text = text.replace('\n','')
         return re.sub(u'[^a-zA-Z]', '', unidecode(text))
 
+    def normalize(self, text):
+        temp_text = re.sub(r'[^\w\s]',
+                           '',
+                           text,
+                           re.UNICODE).replace("\t",
+                                               "").replace("\n",
+                                                           "").lower()
+        temp_text = self.remove_punctuation(temp_text)
+        return temp_text
+
     def tokenize(self, text):
         tokens = []
         for token in text.split(" "):
             if token != "":
-                tokens.append(self.remove_punctuation(token).lower())
+                tokens.append(self.normalize(token))
         return tokens
 
     def sentences(self, text):
@@ -44,12 +54,18 @@ class SyllableStatistics(Tokenizer):
 
         self.syllables = set()
         self.patterns = set()
+        self.words = set()
+        self.wordpatterns = set()
 
         self.pattern_freqs = {}
         self.syllable_freqs = {}
+        self.word_freqs = {}
+        self.wordpattern_freqs = {}
 
         self.syllable_probabilities = {}
         self.pattern_probabilities = {}
+        self.word_probabilities = {}
+        self.wordpattern_probabilities = {}
 
         self.total_syllables = 0
 
@@ -80,6 +96,8 @@ class SyllableStatistics(Tokenizer):
                     self.total_syllables += len(syllables)
                     self.syllables = self.syllables.union(syllables)
                     self.patterns = self.patterns.union(patterns)
+
+                    # Register syllables and patterns
                     for i in range(len(syllables)):
                         syllable = syllables[i]
                         pattern = patterns[i]
@@ -90,12 +108,26 @@ class SyllableStatistics(Tokenizer):
                         self.pattern_freqs[pattern] = 1 + \
                                 self.pattern_freqs.get(pattern, 0)
 
+                    # Register words and wordpatterns
+                    word = token
+                    wordpattern = "".join(patterns)
+                    self.word_freqs[word] = 1 + \
+                            self.word_freqs.get(word, 0)
+                    self.wordpattern_freqs[wordpattern] = 1 + \
+                            self.wordpattern_freqs.get(wordpattern, 0)
+
         # Calculate probabilities
         for syllable, freq in self.syllable_freqs.items():
             self.syllable_probabilities[syllable] = freq / self.total_syllables
 
         for pattern, freq in self.pattern_freqs.items():
             self.pattern_probabilities[pattern] = freq / self.total_syllables
+
+        for word, freq in self.word_freqs.items():
+            self.word_probabilities[word] = freq / len(tokens)
+
+        for wordpattern, freq in self.wordpattern_freqs.items():
+            self.wordpattern_probabilities[wordpattern] = freq / len(tokens)
 
     def to_row(self, syllable):
         row = {}
