@@ -17,6 +17,7 @@ results_folder = "../results"
 
 corpora = ["Ceele", "cuentos", "excale"]
 columns = ["%s_%d" % (corpus, level) for corpus in corpora for level in range(1,8)]
+columns += ["Total"]
 
 syllable_df = pd.DataFrame(columns=columns)
 word_df = pd.DataFrame(columns=columns)
@@ -56,7 +57,18 @@ for corpus in corpora:
                 wordpattern_df.loc[wordpattern] = [0 for _ in range(len(columns))]
             wordpattern_df["%s_%d" % (corpus, level)][wordpattern] = freq
 
+syllable_df["Total"] = syllable_df.sum(axis=1)
+syllable_df.loc["Total"] = pd.Series(syllable_df.sum())
 syllable_df.to_csv(results_folder + "/syllable.csv") 
+
+word_df["Total"] = word_df.sum(axis=1)
+word_df.loc["Total"] = pd.Series(word_df.sum())
 word_df.to_csv(results_folder + "/word.csv") 
+
+wordpattern_df["Total"] = wordpattern_df.sum(axis=1)
+wordpattern_df.loc["Total"] = pd.Series(wordpattern_df.sum())
 wordpattern_df.to_csv(results_folder + "/wordpattern.csv") 
+
+sylpattern_df["Total"] = sylpattern_df.sum(axis=1)
+sylpattern_df.loc["Total"] = pd.Series(sylpattern_df.sum())
 sylpattern_df.to_csv(results_folder + "/sylpattern.csv") 
