@@ -39,8 +39,9 @@ class Tokenizer(object):
     def tokenize(self, text):
         tokens = []
         for token in text.split(" "):
+            token = self.normalize(token)
             if token != "":
-                tokens.append(self.normalize(token))
+                tokens.append(token)
         return tokens
 
     def sentences(self, text):
