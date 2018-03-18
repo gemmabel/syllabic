@@ -13,7 +13,11 @@ def normalize_for_individual_corpus(df, corpora=['Ceele', 'cuentos', 'excale']):
         corpus_total = sum(df[columns].loc['Total'])
         all_total += corpus_total
 
-        df[columns] = df[columns]/corpus_total
+        try:
+            df[columns] = df[columns]/corpus_total
+        except:
+            # No appereances
+            pass
         df = df.drop("Total", 1)
         df["Total"] = df.sum(axis=1)
 
@@ -29,6 +33,8 @@ if not os.path.exists(sys.argv[1]):
     raise OSError("The provided path does not exist")
 elif not os.path.isdir(sys.argv[1]):
     raise TypeError("PATH_CORPUSES_FOLDER must be a folder")
+
+results_folder = "../results"
 
 corpora = ["Ceele", "cuentos", "excale"]
 columns = ["%s_%d" % (corpus, level) for corpus in corpora for level in range(1,8)]
@@ -76,15 +82,15 @@ for sylpattern in syllable_df["Pattern"]:
     temp_df = temp_df.sort_values("Total", ascending=False)
     temp_df.loc["Total"] = pd.Series(temp_df.sum())
     temp_df.transpose().to_csv(results_folder + \
-                               "sylpatterns/%s.csv" % sylpattern) 
+                               "/sylpatterns/%s.csv" % sylpattern) 
     
     # Normalized globally
     (temp_df / temp_df["Total"][-1]).transpose().to_csv(results_folder + \
-                                    "sylpatterns/globally_normalized_%s.csv" % \
+                                    "/sylpatterns/globally_normalized_%s.csv" % \
                                                                sylpattern)
     # Normalize individually
     normalize_for_individual_corpus(temp_df).transpose().to_csv(results_folder + \
-                                    "sylpatterns/locally_normalized_%s.csv" % \
+                                    "/sylpatterns/locally_normalized_%s.csv" % \
                                                                sylpattern)
 
 for wordpattern in word_df["Pattern"]:
@@ -94,13 +100,13 @@ for wordpattern in word_df["Pattern"]:
     temp_df = temp_df.sort_values("Total", ascending=False)
     temp_df.loc["Total"] = pd.Series(temp_df.sum())
     temp_df.transpose().to_csv(results_folder + \
-                               "wordpatterns/%s.csv" % wordpattern) 
+                               "/wordpatterns/%s.csv" % wordpattern) 
     
     # Normalized globally
     (temp_df / temp_df["Total"][-1]).transpose().to_csv(results_folder + \
-                                    "wordpatterns/globally_normalized_%s.csv" % \
+                                    "/wordpatterns/globally_normalized_%s.csv" % \
                                                                wordpattern)
     # Normalize individually
     normalize_for_individual_corpus(temp_df).transpose().to_csv(results_folder + \
-                                    "wordpatterns/locally_normalized_%s.csv" % \
+                                    "/wordpatterns/locally_normalized_%s.csv" % \
                                                                wordpattern)
