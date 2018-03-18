@@ -79,50 +79,50 @@ for corpus in corpora:
 syllable_df["Total"] = syllable_df.sum(axis=1)
 syllable_df = syllable_df.sort_values("Total", ascending=False)
 syllable_df.loc["Total"] = pd.Series(syllable_df.sum())
-syllable_df.to_csv(results_folder + "/syllable.csv") 
+syllable_df.transpose().to_csv(results_folder + "/syllable.csv") 
 
 # Normalized globally
-(syllable_df / syllable_df["Total"][-1]).to_csv(results_folder + \
+(syllable_df / syllable_df["Total"][-1]).transpose().to_csv(results_folder + \
                                             "/globally_normalized_syllable.csv")
 # Normalize individually
-normalize_for_individual_corpus(syllable_df).to_csv(results_folder + \
+normalize_for_individual_corpus(syllable_df).transpose().to_csv(results_folder + \
                                             "/locally_normalized_syllable.csv")
 
 word_df["Total"] = word_df.sum(axis=1)
 word_df = word_df.sort_values("Total", ascending=False)
 word_df.loc["Total"] = pd.Series(word_df.sum())
-word_df.to_csv(results_folder + "/word.csv") 
+word_df.transpose().to_csv(results_folder + "/word.csv") 
 
 # Normalized globally
-(word_df / word_df["Total"][-1]).to_csv(results_folder + \
+(word_df / word_df["Total"][-1]).transpose().to_csv(results_folder + \
                                             "/globally_normalized_word.csv")
 
 # Normalize individually
-normalize_for_individual_corpus(word_df).to_csv(results_folder + \
+normalize_for_individual_corpus(word_df).transpose().to_csv(results_folder + \
                                             "/locally_normalized_word.csv")
 
 wordpattern_df["Total"] = wordpattern_df.sum(axis=1)
 wordpattern_df = wordpattern_df.sort_values("Total", ascending=False)
 wordpattern_df.loc["Total"] = pd.Series(wordpattern_df.sum())
-wordpattern_df.to_csv(results_folder + "/wordpattern.csv") 
+wordpattern_df.transpose().to_csv(results_folder + "/wordpattern.csv") 
 
 # Normalized globally
-(wordpattern_df / wordpattern_df["Total"][-1]).to_csv(results_folder + \
+(wordpattern_df / wordpattern_df["Total"][-1]).transpose().to_csv(results_folder + \
                                         "/globally_normalized_wordpattern.csv")
 
 # Normalize individually
-normalize_for_individual_corpus(wordpattern_df).to_csv(results_folder + \
+normalize_for_individual_corpus(wordpattern_df).transpose().to_csv(results_folder + \
                                             "/locally_normalized_wordpattern.csv")
 
 sylpattern_df["Total"] = sylpattern_df.sum(axis=1)
 sylpattern_df = sylpattern_df.sort_values("Total", ascending=False)
 sylpattern_df.loc["Total"] = pd.Series(sylpattern_df.sum())
-sylpattern_df.to_csv(results_folder + "/sylpattern.csv") 
+sylpattern_df.transpose().to_csv(results_folder + "/sylpattern.csv") 
 
 # Normalized globally
-(sylpattern_df / sylpattern_df["Total"][-1]).to_csv(results_folder + \
+(sylpattern_df / sylpattern_df["Total"][-1]).transpose().to_csv(results_folder + \
                                             "/globally_normalized_sylpattern.csv")
 
 # Normalize individually
-normalize_for_individual_corpus(sylpattern_df).to_csv(results_folder + \
+normalize_for_individual_corpus(sylpattern_df).transpose().to_csv(results_folder + \
                                             "/locally_normalized_sylpattern.csv")
