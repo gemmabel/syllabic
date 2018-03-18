@@ -71,6 +71,7 @@ class SyllableStatistics(Tokenizer):
         self.total_syllables = 0
 
         self.pattern_index = {}
+        self.syllable_index = {}
 
         silabicador = Silabicador()
 
@@ -102,8 +103,15 @@ class SyllableStatistics(Tokenizer):
                     for i in range(len(syllables)):
                         syllable = syllables[i]
                         pattern = patterns[i]
+
                         if syllable not in self.pattern_index.keys():
                             self.pattern_index[syllable] = pattern
+
+                        if pattern not in self.syllable_index.keys():
+                            self.syllable_index[pattern] = set([syllable])
+                        else:
+                            self.syllable_index[pattern].add(syllable)
+
                         self.syllable_freqs[syllable] = 1 + \
                                 self.syllable_freqs.get(syllable, 0)
                         self.pattern_freqs[pattern] = 1 + \
