@@ -72,6 +72,7 @@ class SyllableStatistics(Tokenizer):
 
         self.pattern_index = {}
         self.syllable_index = {}
+        self.wordpattern_index = {}
 
         silabicador = Silabicador()
 
@@ -120,6 +121,9 @@ class SyllableStatistics(Tokenizer):
                     # Register words and wordpatterns
                     word = token
                     wordpattern = "".join(patterns)
+
+                    self.wordpattern_index[word]=wordpattern
+
                     self.word_freqs[word] = 1 + \
                             self.word_freqs.get(word, 0)
                     self.wordpattern_freqs[wordpattern] = 1 + \
