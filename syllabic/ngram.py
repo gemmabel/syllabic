@@ -108,9 +108,17 @@ for corpus in os.listdir(corpora_path):
         #                               ][syllable] = probability
 
 unigram_df = pd.DataFrame.from_dict(unigram_probabilities).fillna(0)
+unigram_df["Total"] = unigram_df.sum(axis=1)
+unigram_df = unigram_df.sort_values("Total", ascending=False)
 unigram_df.to_csv(results_folder + "/unigrams.csv")
+
 bigram_df = pd.DataFrame.from_dict(bigram_probabilities).fillna(0)
+bigram_df["Total"] = bigram_df.sum(axis=1)
+bigram_df = bigram_df.sort_values("Total", ascending=False)
 bigram_df.to_csv(results_folder + "/bigrams.csv")
+
 trigram_df = pd.DataFrame.from_dict(trigram_probabilities).fillna(0)
+trigram_df["Total"] = trigram_df.sum(axis=1)
+trigram_df = trigram_df.sort_values("Total", ascending=False)
 trigram_df.to_csv(results_folder + "/trigrams.csv")
 
